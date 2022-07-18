@@ -1,0 +1,177 @@
+.TopHeader 
+{
+    min-height: 3rem;
+    /* background-color: #e29fee; */
+    background-color: #fff;
+    /* -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); */
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items:center;
+    padding: 4px;
+}
+.TopHeader .InputBox
+{
+    /* max-width: 600px; */
+    height: 36px;
+    background-color: #fff;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    flex-grow: 1;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    position: relative;
+}
+.TopHeader .InputBox input {
+    width: 100%;
+    border: 1px solid #fff;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    /* border-radius: 15px; */
+    box-shadow: #e29fee;
+}
+.TopHeader .InputBox .SearchIcon {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    padding: 0 15px;
+    cursor: pointer;
+}
+.TopHeader .InputBox .SearchIcon .fa-search {
+    color: #e29fee;
+    font-size: 19px;
+}
+.TopHeader .InputBox .SearchResult {
+    z-index:1;
+    position: absolute;
+    top: 36px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+    -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+    display: none;
+    max-height: 400px;
+    overflow-y: scroll;    
+    -ms-overflow-style: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.TopHeader .InputBox .SearchResult li {
+    list-style: none;
+    /* padding: 2px; */
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+}
+.TopHeader .InputBox .SearchResult li a {
+    text-decoration: none;
+    color: #696262;
+    padding: 10px 15px;
+    display: block;
+    width: 100%;
+}
+.TopHeader .InputBox .SearchResult li:hover {
+    background-color: #ccc;
+}
+.TopHeader .InputBox .SearchResult li .fa-search{
+    color: #afa6a6;
+}
+
+
+.btn-outline-mirror {
+    border-color: #e29fee;
+    color: #000000;
+}
+.btn-outline-mirror:hover {
+    background: #e29fee;
+    color: #fde4ff;
+}
+
+.mirror-anchor-tags {
+    color: #000000;
+}
+.mirror-anchor-tags:hover {
+    color: #e29fee;
+}
+
+.mirror-button {
+    color: #e29fee;
+}
+.mirror-button:hover {
+    color: #000000;
+}
+
+.mirror-button-back-color {
+    background: #e29fee; 
+    color: white;
+}
+.mirror-button-back-color-strong {
+    background: #000000; 
+    color: white;
+}
+.mirror-button-back-color-strong:hover {
+    background: #e29fee;
+    color: #fde4ff;
+}
+.mirror-modal-header {
+    background: #e29fee; 
+    color: white; 
+    height: 2px;
+}
+.mirror-alert {
+    background: #e29fee;
+    color: white;
+}
+.user_photo {
+    border-radius: 50%;
+    height: 21px;
+    width: 18px;
+    margin-right: 0.2rem;
+}
+
+div.timer-div {
+    display: inline-block;
+    line-height: 1;
+    /* padding: 5px;
+    margin-top: 6px; */
+    font-size: 20px; 
+    text-align: center;
+    /* margin-bottom: 15px; */
+    /* margin-top: 15px; */
+}
+div.timer-div.timer-hours,
+div.timer-div.timer-minutes,
+div.timer-div.timer-seconds {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #212529;
+}
+div.timer-div span {
+    display: block;
+    font-size: 12px;
+    color: #6c757d;
+    margin-top: 2px;
+}
+
+.section {
+    padding: 50px 150px;
+}
+@media (max-width: 768px) {
+    .section {
+        padding: 30px 5px;
+    }
+}
+
+
+#social-links ul {
+    padding: 5px;
+}
