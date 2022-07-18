@@ -1,7 +1,7 @@
-.TopHeader 
+.TopHeader
 {
     min-height: 3rem;
-    /* background-color: #e29fee; */
+    /* background-color: #078164; */
     background-color: #fff;
     /* -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); */
@@ -31,7 +31,7 @@
     outline: none;
     padding: 8px 0 8px 15px;
     /* border-radius: 15px; */
-    box-shadow: #e29fee;
+    box-shadow: #078164;
 }
 .TopHeader .InputBox .SearchIcon {
     display: -webkit-flex;
@@ -44,7 +44,7 @@
     cursor: pointer;
 }
 .TopHeader .InputBox .SearchIcon .fa-search {
-    color: #e29fee;
+    color: #078164;
     font-size: 19px;
 }
 .TopHeader .InputBox .SearchResult {
@@ -59,7 +59,7 @@
     box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
     display: none;
     max-height: 400px;
-    overflow-y: scroll;    
+    overflow-y: scroll;
     -ms-overflow-style: scroll;
     -webkit-overflow-scrolling: touch;
 }
@@ -87,48 +87,48 @@
 }
 
 
-.btn-outline-mirror {
-    border-color: #e29fee;
-    color: #000000;
+.btn-outline-archware {
+    border-color: #078164;
+    color: #040856;
 }
-.btn-outline-mirror:hover {
-    background: #e29fee;
+.btn-outline-archware:hover {
+    background: #078164;
     color: #fde4ff;
 }
 
-.mirror-anchor-tags {
-    color: #000000;
+.archware-anchor-tags {
+    color: #040856;
 }
-.mirror-anchor-tags:hover {
-    color: #e29fee;
-}
-
-.mirror-button {
-    color: #e29fee;
-}
-.mirror-button:hover {
-    color: #000000;
+.archware-anchor-tags:hover {
+    color: #078164;
 }
 
-.mirror-button-back-color {
-    background: #e29fee; 
+.archware-button {
+    color: #078164;
+}
+.archware-button:hover {
+    color: #040856;
+}
+
+.archware-button-back-color {
+    background: #078164;
     color: white;
 }
-.mirror-button-back-color-strong {
-    background: #000000; 
+.archware-button-back-color-strong {
+    background: #040856;
     color: white;
 }
-.mirror-button-back-color-strong:hover {
-    background: #e29fee;
+.archware-button-back-color-strong:hover {
+    background: #078164;
     color: #fde4ff;
 }
-.mirror-modal-header {
-    background: #e29fee; 
-    color: white; 
+.archware-modal-header {
+    background: #078164;
+    color: white;
     height: 2px;
 }
-.mirror-alert {
-    background: #e29fee;
+.archware-alert {
+    background: #078164;
     color: white;
 }
 .user_photo {
@@ -143,7 +143,7 @@ div.timer-div {
     line-height: 1;
     /* padding: 5px;
     margin-top: 6px; */
-    font-size: 20px; 
+    font-size: 20px;
     text-align: center;
     /* margin-bottom: 15px; */
     /* margin-top: 15px; */
