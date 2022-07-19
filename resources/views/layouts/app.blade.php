@@ -36,7 +36,10 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link href="{{ asset('customCSS/archware_style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('customCSS/archware_style.css') }}">
+
+    <!-- Material icon -->
+    <link href="{{ asset('css/material-icons.min.css') }}" rel="stylesheet">
 
     <script src="{{ asset('js/app.js') }}"></script>
     <script src="{{ asset('customJS/jquery.js') }}"></script>
@@ -51,7 +54,6 @@
         @yield('content')
       </div>
     </main>
-
 
     @include('inc.footer')
   </div>

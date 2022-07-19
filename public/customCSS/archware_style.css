@@ -2,7 +2,7 @@
 {
     min-height: 3rem;
     /* background-color: #078164; */
-    background-color: #fff;
+    /* background-color: #fff; */
     /* -webkit-box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); */
     display: -webkit-flex;
@@ -12,18 +12,20 @@
     -ms-align-items: center;
     align-items:center;
     padding: 4px;
+    border-radius: 5px;
 }
 .TopHeader .InputBox
 {
     /* max-width: 600px; */
     height: 36px;
-    background-color: #fff;
+    /* background-color: #fff; */
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
     flex-grow: 1;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
     position: relative;
+    border-radius: 5px;
 }
 .TopHeader .InputBox input {
     width: 100%;
@@ -32,6 +34,7 @@
     padding: 8px 0 8px 15px;
     /* border-radius: 15px; */
     box-shadow: #078164;
+    border-radius: 5px;
 }
 .TopHeader .InputBox .SearchIcon {
     display: -webkit-flex;
@@ -43,9 +46,8 @@
     padding: 0 15px;
     cursor: pointer;
 }
-.TopHeader .InputBox .SearchIcon .fa-search {
-    color: #078164;
-    font-size: 19px;
+.TopHeader .InputBox .SearchIcon .search {
+    color: white;
 }
 .TopHeader .InputBox .SearchResult {
     z-index:1;
@@ -82,7 +84,7 @@
 .TopHeader .InputBox .SearchResult li:hover {
     background-color: #ccc;
 }
-.TopHeader .InputBox .SearchResult li .fa-search{
+.TopHeader .InputBox .SearchResult li .search{
     color: #afa6a6;
 }
 
@@ -175,3 +177,66 @@ div.timer-div span {
 #social-links ul {
     padding: 5px;
 }
+
+.archware-text-dull {
+    opacity: 0.7;
+}
+
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 10px;
+    min-width: 40px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.buttonIn {
+    width: 300px;
+    position: relative;
+}
+
+input {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.inputBoxItem {
+    position: absolute;
+    top: 10px;
+    right: 850px;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 15px;
+    border: none;
+    top: 10px;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: #1e90ff;
+    transform: translateX(2px);
+}
+
