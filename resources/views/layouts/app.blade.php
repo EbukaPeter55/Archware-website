@@ -15,7 +15,7 @@
     <meta name="description" content="@yield('description')">
     <meta property="article:published_time" content="@yield('published_time')">
     <meta property="article:section" content="@yield('article:section')">
-    <link rel="icon" href="{{ asset('customImages/archware.png') }}" type="image/x-icon">
+    <link rel="icon" href="/customImages/archware.png" type="image/x-icon">
     <meta property="article:tag" content="@yield('title')" />
     <meta property="og:description" content="@yield('description')"/>
     <meta property="og:title" content="@yield('title')"/>
@@ -35,14 +35,15 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    <link rel="stylesheet" href="{{ asset('customCSS/archware_style.css') }}">
+    <link href="/css/app.css" rel="stylesheet">
+    <link href="/css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="/customCSS/archware_style.css">
 
     <!-- Material icon -->
-    <link href="{{ asset('css/material-icons.min.css') }}" rel="stylesheet">
+    <link href="/css/material-icons.min.css" rel="stylesheet">
 
-    <script src="{{ asset('js/app.js') }}"></script>
-    <script src="{{ asset('customJS/jquery.js') }}"></script>
+    <script src="/js/app.js"></script>
+    <script src="/customJS/jquery.js"></script>
 
 </head>
 <body>
