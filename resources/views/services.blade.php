@@ -11,7 +11,7 @@
 @section('content')
     <div class="">
         <div class="row justify-content-center">
-            <div class="col-md-12">
+            <div class="col-md-10">
 
                 @include('errors.error_message')
 
