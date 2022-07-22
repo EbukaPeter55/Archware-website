@@ -37,8 +37,7 @@
 
     <section>
         <div id="section3background">
-            {{-- <img id="section3-img" src="{{ asset('customImages/Macbook Pro.svg') }}"> --}}
-            <img id="section3-img" src="{{ asset('customImages/down.png') }}">
+            <img id="section3-img" src="{{ asset('customImages/Macbook Pro.svg') }}">
             <h1 id="section3-text1">About Us</h1>
             <p id="section3-text2">Archware Tech Group is a result-driven tech company in Lagos, Nigeria, established to
                 provide technological
@@ -53,8 +52,7 @@
 
     <section id="section4">
         <div>
-            {{-- <img id="section4-img" src="{{ asset('customImages/Image.svg') }}"> --}}
-            <img id="section3-img" src="{{ asset('customImages/down.png') }}">
+            <img id="section4-img" src="{{ asset('customImages/Image.svg') }}">
         </div>
         <div>
             <h1 id="section4-text1">Our Mission</h1>
@@ -129,8 +127,7 @@
         </div>
 
         <div>
-            {{-- <img id="section6-img" src="{{ asset('customImages/Background.svg') }}"> --}}
-            <img id="section3-img" src="{{ asset('customImages/down.png') }}">
+            <img id="section6-img" src="{{ asset('customImages/Background.svg') }}">
         </div>
 
         <div>
@@ -161,6 +158,7 @@
 
 
 <script type="text/javascript">
+
 
 
 </script>
