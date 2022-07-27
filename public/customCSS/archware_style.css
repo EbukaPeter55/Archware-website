@@ -395,6 +395,7 @@ top: 0px;
 left: 700px;
 }
 .section1-text{
+flex-shrink: inherit;
 padding-top: 173px;
 width: 644px;
 font-weight: 600;
@@ -424,7 +425,8 @@ background: linear-gradient(90deg, #050C8F -54.93%, #0AD147 235.21%);
 border-radius: 8px;}
 
 .section2{
-    display: inline-flex;
+    display:flex;
+    flex-wrap: wrap-reverse;
 }
 
 .section2text{

@@ -13,7 +13,7 @@
 
 
 <div id="homepage">
-    <section id="section1" class="container-fluid">
+    <section id="section1" class="col-md-6">
         <div>
             <h1 class="section1-text"><b>Excellent Tech-Based Solution For Your <br>Business</b></h1>
             <p class="section1-text2">our agile approach to problem solving helps you build a better result and achieve
@@ -24,12 +24,12 @@
         <!--<div><img id="section1-img" src="{{ asset('customImages/Beside header.svg') }}"> </div>-->
     </section>
 
-    <section class="section2" class="container-fluid">
-        <div class="container-fluid">
-            <img class="container-fluid" id="section2-img" src="{{ asset('customImages/Pictures.svg') }}">
+    <section class="section2">
+        <div>
+            <img id="section2-img" src="{{ asset('customImages/Pictures.svg') }}">
         </div>
-        <div class="section2-text" class="container-fluid">
-            <div class="section2text">We Provides Support For Public And Private Enterprise</div>
+        <div class="section2-text">
+            <div class="section2text" >We Provides Support For Public And Private Enterprise</div>
             <div class="section2text2">Archwareltd promotes the growth of small and medium
                 enterprises at the local and global business environments. Through its professionals
                 with proven experience in different fields of infrastructure, Archwareltd facilitates new markets entry and
