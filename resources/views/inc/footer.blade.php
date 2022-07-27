@@ -19,7 +19,7 @@
                                     <i class="fab fa-youtube inputBoxItem"></i>
                                     <input type="search" placeholder="Enter your email" id="SearchInput" style="background-image: linear-gradient(to right, #06377e , #06546d); color:white;">
                                     <div class="col-auto">
-                                        <button type="submit" class="btn btn-outline-light mb-4">
+                                        <button type="submit" class="btn btn-outline-light mb-4 footer_submit_button">
                                             Submit
                                         </button>
                                     </div>
