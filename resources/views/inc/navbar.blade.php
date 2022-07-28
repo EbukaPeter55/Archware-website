@@ -1,6 +1,6 @@
         <nav id="body" class="navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
-                <img class="archware_image" src="{{ asset('customImages/logo.svg') }}">
+                <img id="archware_image" src="{{ asset('customImages/logo.svg') }}">
                 <div class="navbarz">
                     <ul class="nav justify-content-center" >
                         <li class="nav-item">
