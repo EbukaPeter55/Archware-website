@@ -44,7 +44,7 @@
                     <div class="col-md-6 " style="text-align: initial;">
                         <h5 class="pb-3">
                             <a href="#" id="LoginDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="{{ asset('customImages/archware.png') }}" alt="archwareLog default profile pix" class="user__photo" style="height: 3.5rem; width: 3.8rem; margin-right: 0.2rem">
+                                <img src="{{ asset('customImages/Footer logo.svg') }}" alt="archwareLog default profile pix" class="user__photo" style="height: 4rem; width: 4.8rem; margin-right: 0.2rem">
                             </a>
                         </h5>
 
