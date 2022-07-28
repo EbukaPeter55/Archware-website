@@ -7,21 +7,21 @@
                 </button>
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a id="nav1" class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a id="nav1" class="nav-link active" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a id="nav2" class="nav-link" href="#">About us</a>
                     </li>
                     <li class="nav-item">
-                        <a id="nav3" class="nav-link" href="#">Services</a>
+                        <a id="nav3" class="nav-link" href="/services">Services</a>
                     </li>
 
                     <li class="nav-item dropdown">
-                        <a id="nav4" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a id="nav4" class="nav-link dropdown-toggle" href="/subsidiaries" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Subsidiaries
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="/subsidiaries">Subsidiaries</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
                             <li>
                                 <hr class="dropdown-divider">
