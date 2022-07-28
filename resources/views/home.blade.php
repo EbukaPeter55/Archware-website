@@ -13,15 +13,17 @@
 
 
 <div id="homepage">
-    <section id="section1" class="col-md-6">
+    <section class="section1" class="container-fluid">
         <div>
             <h1 class="section1-text"><b>Excellent Tech-Based Solution For Your <br>Business</b></h1>
             <p class="section1-text2">our agile approach to problem solving helps you build a better result and achieve
                 better result in your Business</p>
             <button class="OurServicesbtn">our services </button>
         </div>
-
-        <!--<div><img id="section1-img" src="{{ asset('customImages/Beside header.svg') }}"> </div>-->
+        <div>
+        <img class="section1-img" class="container-sm" src="{{ asset('customImages/Man.svg') }}">
+        </div>
+        
     </section>
 
     <section class="section2">
@@ -29,7 +31,7 @@
             <img id="section2-img" src="{{ asset('customImages/Pictures.svg') }}">
         </div>
         <div class="section2-text">
-            <div class="section2text" >We Provides Support For Public And Private Enterprise</div>
+            <div class="section2text">We Provides Support For Public And Private Enterprise</div>
             <div class="section2text2">Archwareltd promotes the growth of small and medium
                 enterprises at the local and global business environments. Through its professionals
                 with proven experience in different fields of infrastructure, Archwareltd facilitates new markets entry and
@@ -53,7 +55,7 @@
                             business
                             sectors in Africa.</p>
                     </div>
-                    <img class="section3-img" src="{{ asset('customImages/Macbook Pro.svg') }}">
+                    <img class="section3-img"  class="container-sm" src="{{ asset('customImages/Macbook Pro.svg') }}">
                 </div>
             </div>
         </div>
@@ -143,7 +145,7 @@
                     <div id="section6-formC">
                         <label class="section6-form5" class="f003">What can we help you with? </label>
                         <input class="section6-form6" type="text" placeholder="Your Message...">
-                        
+
                     </div>
 
                     <div class="msgbtnA">
@@ -161,21 +163,25 @@
                 </div>
 
                 <div>
-                <p><p>
+                    <p>
+                    <p>
                     <p class="phno"><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
 
-                        <b class=info_arch1B>+234709154822</b></p>
+                        <b class=info_arch1B>+234709154822</b>
+                    </p>
                     <p class="phno"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="">
                         <a id=info_arch2B>info@archwareltd.com</a>
-                    
+
                     </p>
                     <p class="phno"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="">
                         <a id=info_arch3B>3, Ayangboye Street, Anthony Village, Lagos</a>
-                    </p><p>
+                    </p>
+                    <p>
                     <p class="phno"><img id=info_arch4 src="{{ asset('customImages/White.svg') }}">
-                     <img id="info_arch5" src="{{ asset('customImages/White (1).svg') }}">
-                    <img id="info_arch6" src="{{ asset('customImages/White (2).svg') }}">
-                    <img id="info_arch7" src="{{ asset('customImages/White (3).svg') }}"></p>
+                        <img id="info_arch5" src="{{ asset('customImages/White (1).svg') }}">
+                        <img id="info_arch6" src="{{ asset('customImages/White (2).svg') }}">
+                        <img id="info_arch7" src="{{ asset('customImages/White (3).svg') }}">
+                    </p>
                 </div>
             </div>
         </div>
