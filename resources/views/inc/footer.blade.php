@@ -1,5 +1,5 @@
 <section>
-    <div class="my-5">
+    <div class="">
 
         <footer class="text-center text-white" style="background-color: #1f3f95;">
 

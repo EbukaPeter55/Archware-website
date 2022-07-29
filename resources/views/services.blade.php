@@ -28,7 +28,6 @@
                             <img class="d-block w-60 container" src="/customImages/Layer 2.svg" alt="">
                         </div>
                         <div class="col-md-9">
-                            <div class="card-block">
                                 <h3 class="pt-4"><strong>Archware training institute</strong></h3>
                                 <p style="font-size: 16px" class="pb-4">
                                     We are commited to helping you build successful careers and promote continous learning in the tech
@@ -39,7 +38,6 @@
                                     certification exams.
                                 </p>
                                 <a href="#" class="text-decoration-none archware-text-yellow"><p>View our courses and syllabus >><p></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -49,7 +47,6 @@
                         box-shadow: 0 3px 10px #e3efe6;">
                     <div class="row">
                         <div class="col-md-9">
-                            <div class="card-block">
                                 <h3 class="pt-4"><strong>Website Design & Development</strong></h3>
                                 <p style="font-size: 16px" class="pb-4">
                                     We offer excellent website design and development services for individuals by constantly evaluating <br>
@@ -57,7 +54,6 @@
                                     that will give your business the proper online visibility it needs.
                                 </p>
                                 <a href="#" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
-                            </div>
                         </div>
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Asset 3 2.svg" alt="">
@@ -73,7 +69,6 @@
                             <img class="d-block w-60 container" src="/customImages/Group.svg" alt="">
                         </div>
                         <div class="col-md-9">
-                            <div class="card-block">
                                 <h3 class="pt-4"><strong>Website Re-design</strong></h3>
                                 <p style="font-size: 16px" class="pb-4">
                                     Our team does not only build new websites for brand; we also help you revamp your old website for better<br>
@@ -81,7 +76,6 @@
                                     your page layout. We rebrand your business or upgrade your already existing website.
                                 </p>
                                 <a href="#" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -91,7 +85,6 @@
                         box-shadow: 0 3px 10px #e3efe6;">
                     <div class="row">
                         <div class="col-md-9">
-                            <div class="card-block">
                                 <h3 class="pt-4"><strong>Mobile Website Design</strong></h3>
                                 <p style="font-size: 16px" class="pb-4">
                                     Our team of experts is here to help you design a mobile website that can serve your users effectively. We unserstand <br>
@@ -99,7 +92,6 @@
                                     responsive website for mobile phones.
                                 </p>
                                 <a href="#" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
-                            </div>
                         </div>
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Asset 4 1.svg" alt="">
@@ -115,7 +107,6 @@
                             <img class="d-block w-60 container" src="/customImages/Layer 2-1.svg" alt="">
                         </div>
                         <div class="col-md-9">
-                            <div class="card-block">
                                 <h3 class="pt-4"><strong>Mobile App Development</strong></h3>
                                 <p style="font-size: 16px" class="pb-4">
                                     We are commited to developing mobile apps for iOS. Android, etc that offer an excellent user experience. <br>
@@ -123,7 +114,6 @@
                                     <strong>Android: </strong>We develop optimizez apps for all android devices, ensuring that your users enjoy the best experience.
                                 </p>
                                 <a href="#" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -133,14 +123,12 @@
                         box-shadow: 0 3px 10px #e3efe6;">
                     <div class="row">
                         <div class="col-md-9">
-                            <div class="card-block">
                                 <h3 class="pt-4"><strong>Ongoing Web Maintenance</strong></h3>
                                 <p style="font-size: 16px" class="pb-4">
                                     We carry out ongoing web maintenance for individual and business websites. We help you audit your webpage to <br>
                                     identify gaps and proffer long-lasting solutions that can help keep your website up-to-date to ensure it continually <br> performs well.
                                 </p>
                                 <a href="#" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
-                            </div>
                         </div>
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Layer 2-2.svg" alt="">
@@ -156,7 +144,6 @@
                             <img class="d-block w-60 container" src="/customImages/Group-1.svg" alt="">
                         </div>
                         <div class="col-md-9">
-                            <div class="card-block">
                                 <h3 class="pt-4"><strong>Project Management</strong></h3>
                                 <p style="font-size: 16px" class="pb-4">
                                     We offer full-service project management. Our team specializes in proper planning, coordinating and execution of <br>
@@ -164,7 +151,6 @@
                                     Let's help you take your project to another level!
                                 </p>
                                 <a href="#" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -174,7 +160,6 @@
                         box-shadow: 0 3px 10px #e3efe6;">
                     <div class="row">
                         <div class="col-md-9">
-                            <div class="card-block">
                                 <h3 class="pt-4"><strong>Ecommerce/Online Web Stores</strong></h3>
                                 <p style="font-size: 16px" class="pb-4">
                                     We will help you create a responsive e-commerce website that will enable you to connect with your customers, <br>
@@ -182,7 +167,6 @@
                                     landing pages.
                                 </p>
                                 <a href="#" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
-                            </div>
                         </div>
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Layer 2-3.svg" alt="">
@@ -198,14 +182,12 @@
                             <img class="d-block w-60 container" src="/customImages/Layer 1.svg" alt="">
                         </div>
                         <div class="col-md-9">
-                            <div class="card-block">
                                 <h3 class="pt-4"><strong>Account & Expenses Management</strong></h3>
                                 <p style="font-size: 16px" class="pb-4">
                                     With our automated expense management software, we can help you track your employees' spending to make sure all <br>
                                     expenses are accounted for and also ensure the submission of accurate reimbursement claims to prevent fraud.
                                 </p>
                                 <a href="#" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
-                            </div>
                         </div>
                     </div>
                 </div>
