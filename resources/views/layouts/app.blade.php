@@ -15,7 +15,7 @@
     <meta name="description" content="@yield('description')">
     <meta property="article:published_time" content="@yield('published_time')">
     <meta property="article:section" content="@yield('article:section')">
-    <link rel="icon" href="/customImages/archware.png" type="image/x-icon">
+    <link rel="icon" href="/customImages/Logo.svg" type="image/x-icon">
     <meta property="article:tag" content="@yield('title')" />
     <meta property="og:description" content="@yield('description')"/>
     <meta property="og:title" content="@yield('title')"/>

@@ -4,7 +4,7 @@
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
-@section('image'){{ asset('customImages/archware.png') }}@stop
+@section('image'){{ asset('customImages/Logo.svg') }}@stop
 
 @section('content')
 <div class="container">
