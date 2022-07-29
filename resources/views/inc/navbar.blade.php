@@ -15,9 +15,9 @@
 
     <div class="nav-links">
         <ul>
-            <li><a href="#" target="/">Home</a></li>
+            <li><a href="/" target="">Home</a></li>
             <li><a href="#" target="_blank">About</a></li>
-            <li><a href="#" target="/services">Services</a></li>
+            <li><a href="/services" target="">Services</a></li>
             <li class="nav-item dropdown">
                 <a id="nav4" class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Subsidiaries
@@ -33,7 +33,7 @@
             </li>
             <li><a href="#" target="_blank">Franchise</a></li>
 
-            <button class="btn">contact us</button>
+            <button class="btnnav">contact us</button>
 
         </ul>
     </div>

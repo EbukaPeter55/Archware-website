@@ -12,37 +12,41 @@
 {{-- @gbolahan --}}
 
 
-<div id="homepage">
-    <section class="section1" class="container-fluid">
-        <div>
-            <h1 class="section1-text"><b>Excellent Tech-Based Solution For Your <br>Business</b></h1>
-            <p class="section1-text2">our agile approach to problem solving helps you build a better result and achieve
-                better result in your Business</p>
-            <button class="OurServicesbtn">our services </button>
-        </div>
-        <div>
-        <img class="section1-img" class="container-sm" src="{{ asset('customImages/Man.svg') }}">
-        </div>
+<div class="container">
+    <section>
+        <div class="row justify-items-center">
+            <div class="col-md-6 pt-5 mt-5" style="color: rgba(4, 8, 86, 0.7);">
+                <h1 class="pt-4" style="font-weight: 700;font-size: 50px;"><b>Excellent Tech-Based <br>Solution For Your <br>Business</b></h1>
+                <p class="pt-4" style="font-weight: 400;font-size: 16px;">our agile approach to problem solving helps you build a better result and achieve
+                    better result in your Business</p>
+                <button class="mt-4" style="font-weight: 500;font-size: 16px;width: 161px;height: 44px; border: none;color: #ffffff;border-radius: 8px;background: #A6CE39">our services </button>
+            </div>
+            <div class="col-md-4">
+                <img src="{{ asset('customImages/Man.svg') }}">
+            </div>
+            <div>
 
     </section>
 
-    <section class="section2">
-        <div>
-            <img id="section2-img" src="{{ asset('customImages/Pictures.svg') }}">
-        </div>
-        <div class="section2-text">
-            <div class="section2text">We Provides Support For Public And Private Enterprise</div>
-            <div class="section2text2">Archwareltd promotes the growth of small and medium
-                enterprises at the local and global business environments. Through its professionals
-                with proven experience in different fields of infrastructure, Archwareltd facilitates new markets entry and
-                consolidation, minimizing time and costs in the process of expansion.</div>
+    <section class="pt-5">
+        <div class="row">
+            <div class="col-md-5">
+                <img style="width: 516px;height: 387px;" src="{{ asset('customImages/Pictures.svg') }}">
+            </div>
+            <div class="col-md-6 px-4">
+                <div class="py-2 px-2" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856"> We Provides Support For Public And Private Enterprise</div>
+                <div class="py-2 px-2" style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">Archwareltd promotes the growth of small and medium
+                    enterprises at the local and global business environments. Through its professionals
+                    with proven experience in different fields of infrastructure, Archwareltd facilitates new markets entry and
+                    consolidation, minimizing time and costs in the process of expansion.</div>
+            </div>
         </div>
 
     </section>
 
     <section>
         <div class="section3">
-            <div class="section3background">
+            <div style="padding-left: -1000px;width: 1288px;height: 446px;background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);border-radius: 21px;">
                 <div class="sec3">
                     <div>
                         <h1 class="section3-text1">About Us</h1>
@@ -55,7 +59,7 @@
                             business
                             sectors in Africa.</p>
                     </div>
-                    <img class="section3-img"  class="container-sm" src="{{ asset('customImages/Macbook Pro.svg') }}">
+                    <img class="section3-img" class="container-sm" src="{{ asset('customImages/Macbook Pro.svg') }}">
                 </div>
             </div>
         </div>
@@ -114,12 +118,6 @@
             </div>
         </div>
 
-        <!-- <div id="backgroundlines5">
-            <p id="section5-background2"></p>
-            <p id="section5-background1"></p>
-
-            <p id="section5-background3"></p>
-        </div>-->
 
     </section>
 
