@@ -4,7 +4,7 @@
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
-@section('image'){{ asset('customImages/archware.png') }}@stop
+@section('image'){{ asset('customImages/Logo.svg') }}@stop
 
 @section('content')
 
@@ -23,7 +23,7 @@
         <div>
         <img class="section1-img" class="container-sm" src="{{ asset('customImages/Man.svg') }}">
         </div>
-        
+
     </section>
 
     <section class="section2">
@@ -117,7 +117,7 @@
         <!-- <div id="backgroundlines5">
             <p id="section5-background2"></p>
             <p id="section5-background1"></p>
-           
+
             <p id="section5-background3"></p>
         </div>-->
 
