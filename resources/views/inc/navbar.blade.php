@@ -1,40 +1,36 @@
-<div class="nav">
-    <input type="checkbox" id="nav-check">
-    <div class="nav-header">
-        <div class="nav-title">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0">
+    <div class="container col-md-11">
+        <a class="navbar-brand" href="#!">
             <img src="{{ asset('customImages/Logo.svg') }}">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto" style="margin-left: 8em;">
+                <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="#!">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="#!">About Us</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="#!">Services</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="#!">Subsidiaries</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="#!">Franchise</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav d-flex flex-row mb-3" style="margin-right: 10em;">
+                <li class="nav-item me-3 me-lg-0">
+                    <button class="btnnav">Contact Us</button>
+                </li>
+            </ul>
         </div>
     </div>
-    <div class="nav-btn">
-        <label for="nav-check">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-    </div>
-
-    <div class="nav-links">
-        <ul>
-            <li><a href="/" target="">Home</a></li>
-            <li><a href="#" target="_blank">About</a></li>
-            <li><a href="/services" target="">Services</a></li>
-            <li class="nav-item dropdown">
-                <a id="nav4" class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Subsidiaries
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="/subsidiaries">Subsidiaries</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-            </li>
-            <li><a href="#" target="_blank">Franchise</a></li>
-
-            <button class="btnnav">contact us</button>
-
-        </ul>
-    </div>
-</div>
+</nav>

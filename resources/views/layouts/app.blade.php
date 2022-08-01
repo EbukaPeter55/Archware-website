@@ -36,7 +36,6 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
-    <link href="/css/app.css" rel="stylesheet">
     <link rel="stylesheet" href="/customCSS/archware_style.css">
 
     <!-- Material icon -->
@@ -50,7 +49,7 @@
   <div id="app">
     @include('inc.navbar')
 
-    <main class="py-1">
+    <main class="py-5">
       <div class="">
         @yield('content')
       </div>
