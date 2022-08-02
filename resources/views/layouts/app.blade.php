@@ -25,7 +25,7 @@
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="en_GB"/>
     {{-- <meta property="og:image" content="@yield('image')"/> --}}
-    <meta property="og:image" content="/customImages/Logo.svg"/>
+    <meta property="og:image" content="/customImages/logo.png"/>
     <meta property="og:site_name" content="Archware"/>
 
 
