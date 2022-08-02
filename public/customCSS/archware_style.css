@@ -388,6 +388,17 @@ body {
     display: inline;
 }
 
+@media screen and (max-width:900px) {
+    #greenbg{ margin-left:10%;}
+        #laptop{
+            display: none;
+        }
+    }
+    
+   
+
+
+
 .nav > .nav-header > .nav-title {
     display: inline-block;
     margin-left: 149px;

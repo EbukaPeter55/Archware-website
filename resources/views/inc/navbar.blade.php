@@ -11,16 +11,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto" style="margin-left: 8em;">
                 <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="#!">Home</a>
+                    <a class="nav-link archware-nav-title" href="/">Home</a>
                 </li>
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="#!">About Us</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="#!">Services</a>
+                    <a class="nav-link archware-nav-title" href="/services">Services</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="#!">Subsidiaries</a>
+                    <a class="nav-link archware-nav-title" href="/subsidiaries">Subsidiaries</a>
                 </li>
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="#!">Franchise</a>

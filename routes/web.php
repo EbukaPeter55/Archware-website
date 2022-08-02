@@ -26,4 +26,7 @@ Route::get('/subsidiaries', function () {
     return view('subsidiaries');
 });
 
+Route::get('/contacts', function () {
+    return view('contacts');
+});
 
