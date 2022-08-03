@@ -26,7 +26,7 @@
                     <a class="nav-link archware-nav-title" href="#!">Franchise</a>
                 </li>
             </ul>
-            <ul class="navbar-nav d-flex flex-row mb-3" style="margin-right: 10em;">
+            <ul class="navbar-nav d-flex flex-row mb-3" style="margin-right: 4%">
                 <li class="nav-item me-3 me-lg-0">
                     <button class="btnnav">Contact Us</button>
                 </li>
