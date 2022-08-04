@@ -36,6 +36,12 @@
     font-weight: 500;
 }
 
+/* Nav Dropdown styles */
+.dropdown-style li a {
+    font-weight: 300;
+    color: #1F3F95;
+    font-size: .87rem;
+}
 
 
 /* Nav test End*/
