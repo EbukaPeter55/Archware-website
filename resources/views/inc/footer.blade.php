@@ -16,12 +16,11 @@
                     <form>
                         <div class="row d-flex justify-content-center">
 
-                            <div class="TopHeader">
+                            <div class="TopHeader" style=" width:70%">
                                 <div class="InputBox">
-                                    <i class="fab fa-youtube inputBoxItem"></i>
                                     <input type="search" placeholder="Enter your email" id="SearchInput" style="background-color: #1f3f95; color:white;">
                                     <div class="col-auto">
-                                        <button type="submit" class="btn btn-outline-light mb-4 footer_submit_button">
+                                        <button type="submit" class="btn btn-outline-light mb-4 footer_submit_button" style="font-weight: 700;font-size: 13px;line-height: 16px;align-items: center;text-align: center;">
                                             Submit
                                         </button>
                                     </div>
@@ -37,7 +36,7 @@
 
             <hr>
 
-            <section class="container p-4">
+            <section class="container mt-5 p-4">
 
                 <div class="row">
 
@@ -67,7 +66,7 @@
                     </div>
 
 
-                    <div class="col-md-2" style="text-align: initial">
+                    <div class="col-md-2" style="text-align: initial; flex-direction:column">
                         <h5 class="pb-3 fw-bold">Pages</h5>
 
                         <ul class="list-unstyled mb-0 fw-lighter">
@@ -88,6 +87,7 @@
                             </li>
                         </ul>
                     </div>
+
 
 
                     <div class="col-md-2" style="text-align: initial">

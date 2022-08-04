@@ -10,15 +10,15 @@ better results for your business.',)
 
 @section('content')
 <section>
-<h1 class="row justify-content-center" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
-<div class="row justify-content-center pt-3">
-                <p   style="width: 72px;height: 5px;justify-content: center;background: #A6CE39;border-radius: 9000px;"></p>
-            </div>
+    <h1 class="row justify-content-center" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
+    <div class="row justify-content-center pt-3">
+        <p style="width: 72px;height: 5px;justify-content: center;background: #A6CE39;border-radius: 9000px;"></p>
+    </div>
 </section>
 <section class="container card mt-5">
 
     <div class="row justify-content-center">
-        <div class="col-md-7 pt-5 px-3"> 
+        <div class="col-md-7 pt-5 px-3">
             <form>
                 <div class="row">
                     <div class="col">
@@ -56,7 +56,7 @@ better results for your business.',)
             </form>
         </div>
 
-        <div class="col-md-5" style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 100%; height:inherit">
+        <div class="col-md-5" style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 160%; height:inherit">
             <div class="sec6itext">
                 <div class="mx-5 mt-5 pt-5">
                     <h1 class="mt-5 pt-4" style="font-weight: 700;font-size: 30px;color: #FFFFFF;">Contact Information<h1>
@@ -78,7 +78,6 @@ better results for your business.',)
                         <img class="px-2" src="{{ asset('customImages/White (1).svg') }}">
                         <img class="px-2" src="{{ asset('customImages/White (2).svg') }}">
                         <img class="px-2" src="{{ asset('customImages/White (3).svg') }}">
-                    <p class="mx-5 pt-5 mt-5 px-5">.</p>
                     </p>
                 </div>
             </div>

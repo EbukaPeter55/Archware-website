@@ -389,10 +389,15 @@ body {
 }
 
 @media screen and (max-width:900px) {
-    #greenbg{ margin-left:10%;}
+    #greenbg{width: 100% !important;}
+    
         #laptop{
             display: none;
         }
+    #missionstatment{margin-left:0% ;}
+    #section1-picture{
+        margin-left: 1em;
+    }
     }
     
    

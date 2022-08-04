@@ -14,9 +14,9 @@ better results for your business.',)
 {{-- @gbolahan --}}
 
 
-<div class="container-fluid">
+<div class="container-fluid" id="homepage_section1">
     <section>
-        <div class="d-flex flex-wrap justify-items-center" style="margin-left:10%;padding-top:3em;margin-top:5em ">
+        <div class="d-flex flex-wrap-reverse justify-items-center" style="margin-left:10%;padding-top:3em;margin-top:5em ">
             <div class="" style="color:#040856;">
                 <h1 class="pt-4" style="font-weight: 700;font-size: 50px;"><br><br><b>Excellent Tech-Based <br>Solution For Your
                         <br>Business</b></h1>
@@ -30,13 +30,13 @@ better results for your business.',)
                     Our Services
                 </button>
             </div>
-            <div style="margin-left:4em;">
+            <div id="section1-picture" class="mx-4 px-3">
                 <img class="img-fluid" src="{{ asset('customImages/Man.svg') }}">
             </div>
-            <div>
+        </div>
     </section>
 
-    <section class="pt-5" style="margin-left:10% ;">
+    <section class="mt-5 pt-5" style="margin-left:10% ;">
         <div class="row justify-items-center">
             <div class="col-md-5" class="w-50">
                 <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.svg') }}">
@@ -55,40 +55,40 @@ better results for your business.',)
 
     </section>
 
-    <section class="container-fluid" id="greenbg">
-        <div class="row justify-items-center">
-            <div class="mt-5" id="green-background" style="width: 1288px;height: 496px;margin-left: -74px;
+    <section class="mt-5 pt-5" >
+        <div class="row justify-items-center" >
+            <div class="mt-5" id="greenbg" style="width:85%; height: auto;;
                 background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
-                border-radius: 21px;">
+                border-top-right-radius: 21px;border-bottom-right-radius: 21px;;">
                 <div class="row justify-items-center" style="margin-left:11% ;">
-                    <div class="col-md-6">
-                        <h1 class="mt-5 pt-5" style="font-weight: 700;font-size: 50px;line-height: 61px;color: #FFFFFF;">About Us</h1>
-                        <p class="section3-text2" style="font-weight: 400;font-size: 16px;line-height: 172%;color: #FFFFFF;">
-                            Archware Tech Group is a result-driven tech company in Lagos,<br>
-                            Nigeria,established to provide technological innovations that help<br>
-                            improve the quality of work and lives of people across several<br>
-                            business sectors.
-                            We are a team of creative thinkers that render excellent services<br>
-                            that add value to you and your business. Our company comprises<br>
-                            five subsidiaries created to contribute to the technological<br>
+                    <div class="col-md-6" id="textgrn">
+                        <h1 class="mt-5 pt-2" style="font-weight: 700;font-size: 50px;line-height: 61px;color: #FFFFFF;">About Us</h1>
+                        <p class="mt-2" style="font-weight: 400;font-size: 16px;line-height: 172%;color: #FFFFFF;">
+                            Archware Tech Group is a result-driven tech company in Lagos,
+                            Nigeria,established to provide technological innovations that help
+                            improve the quality of work and lives of people across several
+                            business sectors.<br>
+                            We are a team of creative thinkers that render excellent services
+                            that add value to you and your business. Our company comprises
+                            five subsidiaries created to contribute to the technological
                             enhancement of different business sectors in Africa.</p>
                     </div>
-                    <div class="col-md-5">
-                        <img class="img-fluid" id="laptop" style="margin-top: 30%; margin-left:15em" src="{{ asset('customImages/Macbook Pro.svg') }}" >
+                    <div class="col-md-6">
+                        <img class="img-fluid" id="laptop" style="height: 300px;margin-top: 15%; margin-left:12em" src="{{ asset('customImages/Macbook Pro.svg') }}" >
                     </div>
                 </div>
             </div>
 
     </section>
 
-    <section class="container">
-        <div class="row justify-items-center">
+    <section class="container-fluid mt-5 pt-5">
+        <div class="d-flex flex-wrap justify-items-center">
             <div class="col-md-4 mt-5 mx-4">
                 <img class="img-fluid" class="section4-img" src="{{ asset('customImages/Image.svg') }}">
             </div>
-            <div class="col-md-5 mt-5 pt-5" style="margin-left:7% ;">
+            <div class="col-md-6 mt-5 pt-5" style="margin-left:7% ;" id="missionstatment">
                 <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
-                <p style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
+                <p style="font-weight: 400;font-size: 16px;;color: rgba(4, 8, 86, 0.7);">
                     We provide a technology-based innovative
                     solutions ecosystem that automates, empowers,
                     and enables the growth of businesses across
@@ -122,11 +122,11 @@ better results for your business.',)
                 <p   style="width: 72px;height: 5px;justify-content: center;background: #FFFFFF;border-radius: 9000px;"></p>
             </div>
             <div class="row justify-content-center pt-3">
-                <p  style="margin: 9px;width: 119px;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
-                <p style="margin: 9px;width: 119px;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
-                <p style="margin: 9px;width: 119px;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
-                <p style="margin: 9px;width: 119px;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
-                <p style="margin: 9px;width: 119px;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
+                <p  style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
+                <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
+                <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
+                <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
+                <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
             </div>
         </div>
 
@@ -163,7 +163,7 @@ better results for your business.',)
                 </form>
             </div>
     
-        <div class="col-md-5" style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 100%;">
+        <div class="col-md-5" style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 160%;">
             <div class="sec6itext">
                 <div class="mx-5 mt-5 pt-5">
                     <h1 style="font-weight: 700;font-size: 30px;color: #FFFFFF;">Contact Information<h1>
@@ -185,9 +185,6 @@ better results for your business.',)
                         <img class="px-2" src="{{ asset('customImages/White (1).svg') }}">
                         <img class="px-2" src="{{ asset('customImages/White (2).svg') }}">
                         <img class="px-2" src="{{ asset('customImages/White (3).svg') }}">
-                        <p class="mx-5 pt-5 mt-5 px-5">.</p>
-
-
                     </p>
                 </div>
             </div>
