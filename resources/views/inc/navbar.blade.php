@@ -1,15 +1,15 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" style="padding-top: 1.2rem">
     <div class="container col-md-11">
-        <a class="navbar-brand" href="#!" style="margin-left: 9%;">
+        <a class="navbar-brand" href="#!" style="margin-left: 7%;">
             <img src="{{ asset('customImages/Logo.svg') }}">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler hamburger-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: .5rem">
-            <ul class="navbar-nav me-auto" style="margin-left: 8%;">
+            <ul class="navbar-nav me-auto nav-links-a" style="margin-left: 8%;">
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/">Home</a>
                 </li>
@@ -35,9 +35,11 @@
                     <a class="nav-link archware-nav-title" href="#!">Franchise</a>
                 </li>
             </ul>
-            <ul class="navbar-nav d-flex flex-row mb-3" style="margin-right: 9%; margin-top: .5rem">
+            <ul class="navbar-nav d-flex flex-row mb-3 right-btn-container" style="margin-right: 9%; margin-top: .5rem">
                 <li class="nav-item me-3 me-lg-0">
+                    <a href="/contacts">
                     <button class="btnnav">Contact Us</button>
+                    </a>
                 </li>
             </ul>
         </div>
