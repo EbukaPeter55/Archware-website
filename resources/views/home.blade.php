@@ -142,8 +142,8 @@ better results for your business.',)
     </section>
     <!-- END OF SUBSIDIARIES SECTION -->
 
-
-    <section class="container card mt-5">
+    <!-- CONTACT US SECTION -->
+    <section class="container card" style="margin-top: 12%; margin-bottom: 12%">
     <div class="row justify-content-center">
             <div class="col-md-7 pt-5 px-3">
                 <h1 style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
@@ -203,6 +203,7 @@ better results for your business.',)
             </div>
         </div>
     </div>
+    <!-- END OF CONTACT US SECTION -->
     </section>
 </div>
 
