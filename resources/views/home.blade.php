@@ -32,23 +32,15 @@ better results for your business.',)
                     Our Services
                 </button>
             </div>
-<<<<<<< HEAD
-            <div id="section1-picture" class="mx-4 px-3">
-=======
             <div style="margin-left: 4%">
->>>>>>> origin/final-fixes-ui
                 <img class="img-fluid" src="{{ asset('customImages/Man.svg') }}">
             </div>
         </div>
     </section>
 <!-- END OF HERO SECTION -->
 
-<<<<<<< HEAD
-    <section class="mt-5 pt-5" style="margin-left:10% ;">
-=======
 <!-- SUPPORT SECTION -->
     <section class="" style="margin-left:10%; margin-top: 12%">
->>>>>>> origin/final-fixes-ui
         <div class="row justify-items-center">
             <div class="col-md-5" class="w-50">
                 <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.svg') }}">
@@ -68,35 +60,13 @@ better results for your business.',)
     </section>
 <!--END OF SUPPORT SECTION -->
 
-<<<<<<< HEAD
-    <section class="mt-5 pt-5" >
-        <div class="row justify-items-center" >
-            <div class="mt-5" id="greenbg" style="width:85%; height: auto;;
-=======
     <!-- ABOUT US SECTION -->
     <section class="container-fluid" id="greenbg" style="margin-top: 12%">
         <div class="row">
             <div class="mt-5" id="green-background" style="width: 1288px;height: auto; margin-left: -74px;
->>>>>>> origin/final-fixes-ui
                 background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
                 border-top-right-radius: 21px;border-bottom-right-radius: 21px;;">
                 <div class="row justify-items-center" style="margin-left:11% ;">
-<<<<<<< HEAD
-                    <div class="col-md-6" id="textgrn">
-                        <h1 class="mt-5 pt-2" style="font-weight: 700;font-size: 50px;line-height: 61px;color: #FFFFFF;">About Us</h1>
-                        <p class="mt-2" style="font-weight: 400;font-size: 16px;line-height: 172%;color: #FFFFFF;">
-                            Archware Tech Group is a result-driven tech company in Lagos,
-                            Nigeria,established to provide technological innovations that help
-                            improve the quality of work and lives of people across several
-                            business sectors.<br>
-                            We are a team of creative thinkers that render excellent services
-                            that add value to you and your business. Our company comprises
-                            five subsidiaries created to contribute to the technological
-                            enhancement of different business sectors in Africa.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img class="img-fluid" id="laptop" style="height: 300px;margin-top: 15%; margin-left:12em" src="{{ asset('customImages/Macbook Pro.svg') }}" >
-=======
                     <div class="col-md-6">
                         <h1 class="mt-5 pt-5" style="font-weight: 700;font-size: 50px;line-height: 61px;color: #FFFFFF;">About Us</h1>
                         <p class="section3-text2" style="font-weight: 400;font-size: 1rem;line-height: 179%; color: #FFFFFF;">
@@ -111,7 +81,6 @@ better results for your business.',)
                     </div>
                     <div class="col-md-5" style="width: 50%; height: auto;">
                         <img class="img-fluid" id="laptop" style="margin-left:6em; margin-top: 6.2rem; width: 100%;  "  src="{{ asset('customImages/Macbook Pro.svg') }}" >
->>>>>>> origin/final-fixes-ui
                     </div>
                 </div>
             </div>
@@ -119,14 +88,6 @@ better results for your business.',)
     </section>
     <!-- END OF ABOUT US SECTION -->
 
-<<<<<<< HEAD
-    <section class="container-fluid mt-5 pt-5">
-        <div class="d-flex flex-wrap justify-items-center">
-            <div class="col-md-4 mt-5 mx-4">
-                <img class="img-fluid" class="section4-img" src="{{ asset('customImages/Image.svg') }}">
-            </div>
-            <div class="col-md-6 mt-5 pt-5" style="margin-left:7% ;" id="missionstatment">
-=======
     <!-- MISSION AND VISION SECTION -->
     <section class="container-fluid" style="margin-top: 12%">
         <div class="row justify-content-center alignt-items-center" style="padding-left: 9%; padding-right: 9%;">
@@ -134,7 +95,6 @@ better results for your business.',)
                 <img class="img-fluid" class="section4-img" src="{{ asset('customImages/Image.svg') }}">
             </div>
             <div class="col-md-7" style="margin-top: 5%">
->>>>>>> origin/final-fixes-ui
                 <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
                 <p style="font-weight: 400;font-size: 16px;;color: rgba(4, 8, 86, 0.7);">
                     We provide a technology-based innovative
