@@ -42,7 +42,7 @@
                             <div class="card" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 34em;">
                                 <img src="/customImages/hi.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="pt-2"><strong>Youhi Media & Communications <br>Ltd.</strong></h5>
+                                    <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                     <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
                                         Established to make an impact in africa by providing innovative media and
                                         communication solutions to brands.
@@ -56,7 +56,7 @@
                             <div class="card" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 34em;">
                                 <img src="/customImages/hi.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="pt-2"><strong>Youhi Media & Communications <br>Ltd.</strong></h5>
+                                    <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                     <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
                                         Established to make an impact in africa by providing innovative media and
                                         communication solutions to brands.
@@ -70,7 +70,7 @@
                             <div class="card" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 34em;">
                                 <img src="/customImages/hi.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="pt-2"><strong>Youhi Media & Communications <br>Ltd.</strong></h5>
+                                    <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                     <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
                                         Established to make an impact in africa by providing innovative media and
                                         communication solutions to brands.
@@ -84,7 +84,7 @@
                             <div class="card" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 34em;">
                                 <img src="/customImages/Queenshield.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="pt-2"><strong>Youhi Media & Communications <br>Ltd.</strong></h5>
+                                    <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                     <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
                                         Established to make an impact in africa by providing innovative media and
                                         communication solutions to brands.
@@ -98,7 +98,7 @@
                             <div class="card" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 34em;">
                                 <img src="/customImages/hi.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="pt-2"><strong>Youhi Media & Communications <br>Ltd.</strong></h5>
+                                    <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                     <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
                                         Established to make an impact in africa by providing innovative media and
                                         communication solutions to brands.
@@ -112,7 +112,7 @@
                             <div class="card" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 34em;">
                                 <img src="/customImages/D&RM.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <h5 class="pt-2"><strong>Youhi Media & Communications <br>Ltd.</strong></h5>
+                                    <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                     <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
                                         Established to make an impact in africa by providing innovative media and
                                         communication solutions to brands.
