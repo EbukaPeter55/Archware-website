@@ -1,17 +1,25 @@
-/* Nav test Start*/
-
-
-.navbar-scroll .nav-link,
+/* Nav text Start*/
 .navbar-scroll .navbar-toggler-icon,
 .navbar-scroll .navbar-brand {
   color: #fff;
 }
+ul li a {
+    color: #1F3F95!important;
+}
 
 /* Color of the links AFTER scroll */
-.navbar-scrolled .nav-link,
+/* .navbar-scrolled .nav-link,
 .navbar-scrolled .navbar-toggler-icon,
 .navbar-scrolled .navbar-brand {
   color: #fff;
+} */
+
+/* Hide the light logo by default */
+.light-logo{
+    display: none;
+}
+.nav-link-text{
+    color: white!important;
 }
 
 /* Color of the navbar AFTER scroll */
@@ -31,9 +39,13 @@
 }
 
 .archware-nav-title{
-    color: #1F3F95 !important;
+    color: #1F3F95;
     font-size: 16px;
     font-weight: 500;
+}
+
+.navbar-trigger{
+    background: #1F3F95;
 }
 
 /* Nav Dropdown styles */
@@ -477,8 +489,23 @@ body {
     line-height: 19px;
     border: none;
     text-align: center;
-
     color: #fdfdfd;
+}
+.btnnav-two {
+    margin-left: 172px;
+    width: 134px;
+    height: 40px;
+    background: #ffff;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border: none;
+    text-align: center;
+    color: #1f3f95;
+}
+ul li a:nth-child(2) {
+    display: none;
 }
 
 .nav .nav-links ul a i {
