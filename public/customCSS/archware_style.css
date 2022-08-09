@@ -586,6 +586,9 @@ ul li a:nth-child(2) {
 .title-style{
     margin-top: 10%;
 }
+.title-style-contact{
+    margin-top: 8%;
+}
 
 /* SUBSIDIARIES STYLE */
 .card-body h5{

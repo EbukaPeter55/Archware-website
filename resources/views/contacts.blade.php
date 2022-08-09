@@ -9,13 +9,13 @@ better results for your business.',)
 @section('image'){{ asset('customImages/Logo.svg') }}@stop
 
 @section('content')
-<section>
+<section class='title-style-contact'>
 <h1 class="row justify-content-center" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
 <div class="row justify-content-center pt-3">
                 <p   style="width: 72px;height: 5px;justify-content: center;background: #A6CE39;border-radius: 9000px;"></p>
             </div>
 </section>
-<section class="container card mt-5">
+<section class="container card mt-5" style='margin-bottom: 12%;'>
 
     <div class="row justify-content-center">
         <div class="col-md-7 pt-5 px-3"> 
