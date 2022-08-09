@@ -166,25 +166,25 @@ better results for your business.',)
                     @csrf
                     <div class="row px-3">
                         <div class="col">
-                            <label name="firstname" style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
-                            <input type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
+                            <label  style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
+                            <input name="firstname" type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
                             <p>
                         </div>
                         <div class="col">
-                            <label name="lastname" style="font-weight: 500;font-size: 14px;color: #040856">Last Name</label>
-                            <input type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
+                            <label  style="font-weight: 500;font-size: 14px;color: #040856">Last Name</label>
+                            <input name="lastname" type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
                             <p>
                         </div>
                     </div>
                     <div class="px-3">
-                        <label name="email" style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
-                        <input class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="hello@dummie.com">
+                        <label  style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
+                        <input name="email" class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="hello@dummie.com">
                         <p>
                     </div>
                     <div class="px-3">
                         <label style="font-weight: 500;font-size: 14px;color: #040856">Service you are interested
                             in</label>
-                        <input class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="e.g. Web Development">
+                        <input  name="message" class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="e.g. Web Development">
                         <p>
                     </div>
                     <div class="px-3">
