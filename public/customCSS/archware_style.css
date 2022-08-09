@@ -586,3 +586,8 @@ ul li a:nth-child(2) {
 .title-style{
     margin-top: 10%;
 }
+
+/* SUBSIDIARIES STYLE */
+.card-body h5{
+    font-size: 18px;
+}

@@ -177,7 +177,7 @@
 
                 <div class="card p-4"
                     style="background: #ffffff; color:#040856; border-radius: 5px;
-                         box-shadow: 0 3px 10px #e3efe6; margin-top: 3rem;">
+                         box-shadow: 0 3px 10px #e3efe6; margin-top: 3rem;  margin-bottom: 12%;">
                     <div class="row">
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Layer 1.svg" alt="">
@@ -194,14 +194,6 @@
                 </div>
 
             </div>
-
-
-            <br>
-            <br>
-
-
-
-
 
         </div>
     </div>
