@@ -23,7 +23,7 @@
 
                 <div class="card p-4"
                     style="background: #ffffff; color:#040856; border-radius: 5px;
-                         box-shadow: 0 3px 10px #e3efe6;">
+                         box-shadow: 0 3px 10px #e3efe6; margin-top: 5rem;">
                     <div class="row">
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Layer 2.svg" alt="">
@@ -45,7 +45,7 @@
 
                 <div class="card float-left p-4"
                     style="background-image: linear-gradient(to right, #90bf3d , #5e9c48);; color:#ffffff; border-radius: 5px;
-                        box-shadow: 0 3px 10px #e3efe6;">
+                        box-shadow: 0 3px 10px #e3efe6;  margin-top: 3rem;">
                     <div class="row">
                         <div class="col-md-9">
                                 <h3 class="pt-4"><strong>Website Design & Development</strong></h3>
@@ -64,7 +64,7 @@
 
                 <div class="card p-4"
                     style="background: #ffffff; color:#040856; border-radius: 5px;
-                         box-shadow: 0 3px 10px #e3efe6;">
+                         box-shadow: 0 3px 10px #e3efe6; margin-top: 3rem;">
                     <div class="row">
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Group.svg" alt="">
@@ -83,7 +83,7 @@
 
                 <div class="card float-left p-4"
                     style="background: #1f3f95; color:#ffffff; border-radius: 5px;
-                        box-shadow: 0 3px 10px #e3efe6;">
+                        box-shadow: 0 3px 10px #e3efe6; margin-top: 3rem;">
                     <div class="row">
                         <div class="col-md-9">
                                 <h3 class="pt-4"><strong>Mobile Website Design</strong></h3>
@@ -102,7 +102,7 @@
 
                 <div class="card p-4"
                     style="background: #ffffff; color:#040856; border-radius: 5px;
-                         box-shadow: 0 3px 10px #e3efe6;">
+                         box-shadow: 0 3px 10px #e3efe6; margin-top: 3rem;">
                     <div class="row">
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Layer 2-1.svg" alt="">
@@ -121,7 +121,7 @@
 
                 <div class="card float-left p-4"
                     style="background-image: linear-gradient(to right, #90bf3d , #5e9c48);; color:#ffffff; border-radius: 5px;
-                        box-shadow: 0 3px 10px #e3efe6;">
+                        box-shadow: 0 3px 10px #e3efe6; margin-top: 3rem;">
                     <div class="row">
                         <div class="col-md-9">
                                 <h3 class="pt-4"><strong>Ongoing Web Maintenance</strong></h3>
@@ -139,7 +139,7 @@
 
                 <div class="card p-4"
                     style="background: #ffffff; color:#040856; border-radius: 5px;
-                         box-shadow: 0 3px 10px #e3efe6;">
+                         box-shadow: 0 3px 10px #e3efe6; margin-top: 3rem;">
                     <div class="row">
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Group-1.svg" alt="">
@@ -158,7 +158,7 @@
 
                 <div class="card float-left p-4"
                     style="background: #1f3f95; color:#ffffff; border-radius: 5px;
-                        box-shadow: 0 3px 10px #e3efe6;">
+                        box-shadow: 0 3px 10px #e3efe6; margin-top: 3rem;">
                     <div class="row">
                         <div class="col-md-9">
                                 <h3 class="pt-4"><strong>Ecommerce/Online Web Stores</strong></h3>
@@ -177,7 +177,7 @@
 
                 <div class="card p-4"
                     style="background: #ffffff; color:#040856; border-radius: 5px;
-                         box-shadow: 0 3px 10px #e3efe6;">
+                         box-shadow: 0 3px 10px #e3efe6; margin-top: 3rem;">
                     <div class="row">
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Layer 1.svg" alt="">
