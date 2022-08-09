@@ -71,7 +71,7 @@ better results for your business.',)
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwareltd.com</a>
                     </p>
                     <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="">
-                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayangboyes Street, Anthony Village, Lagos</a>
+                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayangboye Street, Anthony Village, Lagos</a>
                     </p>
                     <p>
                     <p class="pt-4"><img class="px-2" src="{{ asset('customImages/White.svg') }}">
