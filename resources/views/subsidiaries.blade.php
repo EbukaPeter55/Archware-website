@@ -28,8 +28,8 @@
                                 <img src="/customImages/Foremost.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Formost Eyeclinic</strong></h5>
-                                    <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
-                                        In purus at morbi magna in in maecenas. <br>
+                                    <p class="card-text my-5 archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                        In purus at morbi magna in in maecenas. 
                                         Nunc nulla magna elit, varius phasellus <br>
                                         blandit convallis.
                                     </p>

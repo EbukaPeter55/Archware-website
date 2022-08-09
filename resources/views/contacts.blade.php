@@ -20,34 +20,34 @@ better results for your business.',)
     <div class="row justify-content-center">
         <div class="col-md-7 pt-5 px-3">
             <form>
-                <div class="row">
+                <div class="row px-3">
                     <div class="col">
-                        <label style="font-weight: 500;font-size: 12px;color: #040856">First Name</label>
-                        <input class="" type="text" style="padding: 10px;opacity:70%;" placeholder="">
+                        <label style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
+                        <input class="" type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
                         <p>
                     </div>
                     <div class="col">
-                        <label style="font-weight: 500;font-size: 12px;color: #040856">Last Name</label>
-                        <input class="" type="text" style="padding: 10px;opacity:70%;" placeholder="">
+                        <label style="font-weight: 500;font-size: 14px;color: #040856">Last Name</label>
+                        <input class="" type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
                         <p>
                     </div>
                 </div>
-                <div>
-                    <label style="font-weight: 500;font-size: 12px;color: #040856">Email address</label>
-                    <input class="section6-form4" style="padding: 10px;opacity:70%;" type="email" placeholder="hello@dummie.com">
+                <div class="px-3">
+                    <label style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
+                    <input class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="hello@dummie.com">
                     <p>
                 </div>
-                <div>
-                    <label style="font-weight: 500;font-size: 12px;color: #040856">Service you are interested in</label>
-                    <input class="section6-form4" style="padding: 10px;opacity:70%;" type="email" placeholder="e.g. Web Development">
+                <div class="px-3">
+                    <label style="font-weight: 500;font-size: 14px;color: #040856">Service you are interested in</label>
+                    <input class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="e.g. Web Development">
                     <p>
                 </div>
-                <div>
-                    <label style="font-weight: 500;font-size: 12px;color: #040856">What can we help you with? </label>
-                    <input class="section6-form6" style="height: 150px;padding: 10px;opacity:70%;" type="text" placeholder="Your Message...">
+                <div class="px-3">
+                    <label style="font-weight: 500;font-size: 14px;color: #040856">What can we help you with? </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" rows="5"></textarea>
 
                 </div>
-                <div class="text-end pt-3">
+                <div class="text-end pt-3 px-3">
                     <button type="submit" class="my-4" style=" width: 155px;height: 40px;background: #A6CE39;border: none;
                         box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
                         border-radius: 8px;font-weight: 500;font-size: 12px;line-height: 12px;align-items: right;

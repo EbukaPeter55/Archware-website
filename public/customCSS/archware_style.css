@@ -17,7 +17,7 @@
 /* Color of the navbar AFTER scroll */
 .navbar-scroll,
 .navbar-scrolled {
-  background-color: #cbbcb1;
+  background-color: #bbb1cb;
 }
 
 .mask-custom {
@@ -223,9 +223,9 @@ div.timer-div span {
     margin-top: 2px;
 }
 
-.section {
-    /* padding: 50px 150px; */
-}
+/*.section {
+     padding: 50px 150px; 
+}*/
 
 
 @media (max-width: 768px) {
@@ -412,7 +412,7 @@ body {
 }
 
 @media screen and (max-width:900px) {
-    #greenbg{width: 100% !important;}
+    #greenbg{margin-left: 74px; width: 100% !important;}
 
         #laptop{
             display: none;

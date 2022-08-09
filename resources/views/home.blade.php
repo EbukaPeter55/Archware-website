@@ -149,40 +149,52 @@ better results for your business.',)
                 <h1 style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
                 <p style="font-weight: 400;font-size: 16px;color: rgba(4, 8, 86, 0.7);">We'd like to handle your business</p>
                 <form>
-                    <div>
-                        <label style="font-weight: 500;font-size: 12px;color: #040856">Name</label>
-                        <input class="" type="text" style="padding: 10px;opacity:70%;" placeholder="fullname">
+                <div class="row px-3">
+                    <div class="col">
+                        <label style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
+                        <input class="" type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
                         <p>
                     </div>
-                    <div>
-                        <label style="font-weight: 500;font-size: 12px;color: #040856">Email address</label>
-                        <input class="section6-form4" style="padding: 10px;opacity:70%;" type="email" placeholder="hello@dummie.com">
+                    <div class="col">
+                        <label style="font-weight: 500;font-size: 14px;color: #040856">Last Name</label>
+                        <input class="" type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
                         <p>
                     </div>
-                    <div>
-                        <label style="font-weight: 500;font-size: 12px;color: #040856">What can we help you with? </label>
-                        <input style="height: 150px;padding: 10px;opacity:70%;" type="text" placeholder="Your Message...">
+                </div>
+                <div class="px-3">
+                    <label style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
+                    <input class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="hello@dummie.com">
+                    <p>
+                </div>
+                <div class="px-3">
+                    <label style="font-weight: 500;font-size: 14px;color: #040856">Service you are interested in</label>
+                    <input class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="e.g. Web Development">
+                    <p>
+                </div>
+                <div class="px-3">
+                    <label style="font-weight: 500;font-size: 14px;color: #040856">What can we help you with? </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" rows="5"></textarea>
 
-                    </div>
-                    <div class="text-end pt-3">
-                        <button type="submit" class="my-4" style=" width: 155px;height: 40px;background: #A6CE39;border: none;
+                </div>
+                <div class="text-end pt-3 px-3">
+                    <button type="submit" class="my-4" style=" width: 155px;height: 40px;background: #A6CE39;border: none;
                         box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
                         border-radius: 8px;font-weight: 500;font-size: 12px;line-height: 12px;align-items: right;
                         text-align: center; color: #ffffff;">Submit</button>
-                    </div>
-                </form>
-            </div>
+                </div>
+            </form>
+        </div>
 
-        <div class="col-md-5" style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 160%;">
+        <div class="col-md-5" style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 160%; height:inherit">
             <div class="sec6itext">
                 <div class="mx-5 mt-5 pt-5">
-                    <h1 style="font-weight: 700;font-size: 30px;color: #FFFFFF;">Contact Information<h1>
+                    <h1 class="mt-5 pt-4" style="font-weight: 700;font-size: 30px;color: #FFFFFF;">Contact Information<h1>
                             <p class="pt-3" style="font-weight: 400;font-size: 16px;color: #FFFFFF;">Fill up the form and our Team will get back to you within 24
                                 hours.</p>
                 </div>
                 <div class="pt-3 mx-5">
                     <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
-                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;" >+234709154822</a>
+                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234709154822</a>
                     </p>
                     <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwareltd.com</a>
@@ -197,6 +209,8 @@ better results for your business.',)
                         <img class="px-2" src="{{ asset('customImages/White (3).svg') }}">
                     </p>
                 </div>
+            </div>
+                   
             </div>
         </div>
     </div>
