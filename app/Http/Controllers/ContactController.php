@@ -3,29 +3,47 @@
 namespace App\Http\Controllers;
 
 use App\Models\Contact;
+use App\Notifications\ContactMessage;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Notification;
+use Illuminate\Support\Facades\Validator;
 
 class ContactController extends Controller
 {
     public function store(Request $request)
     {
-        // $this->validate($request,
-        // [
-        //     'name' => 'required|string',
-        //     'email' => 'required|email',
-        //     'message' => 'required|string',
-        // ]);
-        dd($request);
 
-        $contact = new Contact();
-        $contact->name = $request->get('name');
-        $contact->email = $request->get('email');
-        $contact->message = $request->get('message');
-        $contact->save();
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'message' => 'required',
+        ]);
 
+        if ($validator->fails()) {
+            return response()->json('Error, all forms needs to be filled');
+        }
 
-        return response()->json('Message submitted');
+        $message = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'message' => $request->message,
+        ];
 
-        // return response()->json('Message submitted');
+        $notified = Notification::route('mail', 'fajendagbaj@gmail.com')->notify(new ContactMessage($message));
+
+        /*
+            $contact = new Contact();
+            $contact->name = $request->get('name');
+            $contact->email = $request->get('email');
+            $contact->message = $request->get('message');
+            $contact->save();
+        */
+
+        if ($notified) {
+            return response()->json('Message submitted');
+        }else {
+            return response()->json('Error sending mail');
+        }
+
     }
 }
