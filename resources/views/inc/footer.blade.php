@@ -5,8 +5,8 @@
 
             <div class="container p-5">
                 <div class="m-4">
-                    <h3 class="fw-bold">Newsletter</h3>
-                    <p class="pt-2">
+                    <h3 class="fw-bold" style="font-size:30px;">Newsletter</h3>
+                    <p class="pt-2" style="font-size:medium;">
                         Be the first to know about discounts, offers and events weekly <br> in your mailbox. Unsubscribe
                         whenever you like one click
                     </p>
@@ -43,12 +43,12 @@
                     <div class="col-md-6 " style="text-align: initial;">
                         <h5 class="pb-3">
                             <a href="#" id="LoginDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="{{ asset('customImages/Footer logo.svg') }}" alt="archwareLog default profile pix" class="user__photo" style="height: 4rem; width: 4.8rem; margin-right: 0.2rem">
+                                <img src="{{ asset('customImages/Footer logo.svg') }}" alt="archwareLog default profile pix" class="user__photo" style="height: 5rem; width: 5.8rem; margin-right: 0.2rem">
                             </a>
                         </h5>
 
                         <ul class="list-unstyled mb-0">
-                            <li class="pb-3">
+                            <li class="pb-3"style="font-size:medium;">
                                 We have an unrivaled reputation for quality in the services we give <br>
                                 due to our integrity and expertise in building systems to manage <br>
                                 people.
@@ -67,23 +67,23 @@
 
 
                     <div class="col-md-2" style="text-align: initial; flex-direction:column">
-                        <h5 class="pb-3 fw-bold">Pages</h5>
+                        <h5 class="pb-3 fw-bold" style="font-size: 20px;">Pages</h5>
 
                         <ul class="list-unstyled mb-0 fw-lighter">
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none">Home</a>
+                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Home</a>
                             </li>
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none">About Us</a>
+                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">About Us</a>
                             </li>
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none">Services</a>
+                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Services</a>
                             </li>
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none">Subsidiaries</a>
+                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Subsidiaries</a>
                             </li>
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none">Franchise</a>
+                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Franchise</a>
                             </li>
                         </ul>
                     </div>
@@ -91,26 +91,26 @@
 
 
                     <div class="col-md-2" style="text-align: initial">
-                        <h5 class="pb-3 fw-bold">Subsidiaries</h5>
+                        <h5 class="pb-3 fw-bold" style="font-size: 20px;">Subsidiaries</h5>
 
                         <ul class="list-unstyled mb-0 fw-lighter">
-                            <li class="pb-2">Youhi Media</li>
-                            <li class="pb-2">Formost Eyeclinic</li>
-                            <li class="pb-2">Archware Foodbank</li>
-                            <li class="pb-2">Archware Consulting</li>
-                            <li class="pb-2">Farm Management</li>
+                            <li class="pb-2" style="font-size:medium;">Youhi Media</li>
+                            <li class="pb-2" style="font-size:medium;">Formost Eyeclinic</li>
+                            <li class="pb-2" style="font-size:medium;">Archware Foodbank</li>
+                            <li class="pb-2" style="font-size:medium;">Archware Consulting</li>
+                            <li class="pb-2"style="font-size:medium;">Farm Management</li>
                         </ul>
                     </div>
 
 
                     <div class="col-md-2" style="text-align: initial">
-                        <h5 class="pb-3 fw-bold">Location</h5>
+                        <h5 class="pb-3 fw-bold" style="font-size: 20px;">Location</h5>
 
                         <ul class="list-unstyled mb-0 fw-lighter">
-                            <li class="pb-2">
+                            <li class="pb-2" style="font-size:medium;">
                                 3, Ayanboye Street,<br>Anthony Village, Lagos
                             </li>
-                            <li class="pb-2">
+                            <li class="pb-2" style="font-size:medium;">
                                 Ph: +234709154822
                             </li>
                         </ul>
