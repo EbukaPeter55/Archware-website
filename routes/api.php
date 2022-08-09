@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
-Route::post('contactus/message', [App\Http\Controllers\ContactController::class, 'store']);
+Route::post('contactus/message', [App\Http\Controllers\ContactController::class, 'store'])->name('contact.message');
