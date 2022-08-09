@@ -15,7 +15,8 @@
 
                 @include('errors.error_message')
 
-                <div class="text-center justify-content-center p-4">
+                <!-- OUR SERVICES BEGINNING SECTION -->
+                <div class="text-center justify-content-center title-style">
                     <h1 class="fw-bold archware_h1">Our Services</h1>
                     <hr class="container archware_header_underline" />
                 </div>
