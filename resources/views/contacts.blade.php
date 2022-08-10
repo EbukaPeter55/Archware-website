@@ -39,7 +39,7 @@ better results for your business.',)
                 </div>
                 <div class="px-3">
                     <label style="font-weight: 500;font-size: 14px;color: #040856">Service you are interested in</label>
-                    <input class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="e.g. Web Development">
+                    <input class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="text" placeholder="e.g. Web Development">
                     <p>
                 </div>
                 <div class="px-3">
