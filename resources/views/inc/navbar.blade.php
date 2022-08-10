@@ -17,7 +17,7 @@
                     <a class="nav-link archware-nav-title" href="/">Home</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="#!">About Us</a>
+                    <a class="nav-link archware-nav-title" style="scroll-behavior: smooth;" href="/#aboutus">About Us</a>
                 </li>
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/services">Services</a>

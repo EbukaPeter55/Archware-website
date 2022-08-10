@@ -68,7 +68,7 @@
         <!--END OF SUPPORT SECTION -->
 
         <!-- ABOUT US SECTION -->
-        <section class="container-fluid" id="greenbg" style="margin-top: 12%">
+        <section id="aboutus" class="container-fluid" id="greenbg" style="margin-top: 12%">
             <div class="row">
                 <div class="mt-5" id="green-background"
                     style="width: 1288px;height: auto; margin-left: -74px;
@@ -178,7 +178,7 @@
 
                     <form method="post" action="{{ route('contact.message') }}">
                         @csrf
-                        <div class="row px-3">
+                        <div class="row px-3 pt-2">
                             <div class="col">
                                 <label style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
                                 <input name="firstname" type="text"
@@ -190,20 +190,20 @@
                                     style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
                             </div>
                         </div>
-                        <div class="px-3">
+                        <div class="px-3 pt-2">
                             <label style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
                             <input name="email" class="section6-form4"
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email"
                                 placeholder="hello@dummie.com">
                         </div>
-                        <div class="px-3">
+                        <div class="px-3 pt-2">
                             <label style="font-weight: 500;font-size: 14px;color: #040856">Service you are interested
                                 in</label>
                             <input name="service" class="section6-form4"
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="text"
                                 placeholder="e.g. Web Development">
                         </div>
-                        <div class="px-3">
+                        <div class="px-3 pt-2">
                             <label name="helpnote" style="font-weight: 500;font-size: 14px;color: #040856">What can we
                                 help you with?
                             </label>
