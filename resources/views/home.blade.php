@@ -260,47 +260,4 @@
     </section>
     </div>
 
-
-    <script type="text/javascript">
-        const getNav = document.querySelector('#navMain');
-        const topOfNav = getNav.offsetTop;
-
-
-        const triggerNav = (event) => {
-            console.log(event);
-            if (window.scrollY >= topOfNav) {
-                //    console.log('You have passed the nav bottom!')
-                // console.log(event);
-                getNav.classList.add('navbar-trigger');
-                // console.log(navLinks);
-                const logoManipulation = document.querySelector('.light-logo');
-                const normalLogo = document.querySelector('.colored-logo');
-                const navLinks = document.querySelectorAll('.nav-link');
-                const normalButton = document.querySelector('#normal-button');
-                const changedButton = document.querySelector('#changed-button');
-
-                // Hide button on scroll
-                normalButton.style.display = 'none';
-                changedButton.style.display = 'block'
-
-                // Change the colours of the nav link text to white
-                Array.from(navLinks).map((nav) => {
-                    // console.log(nav);
-                    nav.classList.add('nav-link-text');
-                })
-
-                logoManipulation.style.display = 'block';
-                normalLogo.style.display = 'none'
-
-            } else {
-                getNav.classList.remove('navbar-trigger');
-
-                // Display normal button on a scroll to the top
-                normalButton.style.display = 'block';
-                changedButton.style.display = 'none'
-            }
-        }
-        window.addEventListener('scroll', triggerNav);
-    </script>
-
 @endsection
