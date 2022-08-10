@@ -12,20 +12,39 @@ class ContactController extends Controller
 {
     public function store(Request $request)
     {
-
         $validator = Validator::make($request->all(), [
-            'name' => 'required|string',
+            'firstname' => 'string',
+            'lastname' => 'string',
             'email' => 'required|email',
+            'service' => 'required',
             'message' => 'required',
         ]);
 
-        if ($validator->fails()) {
-            return response()->json('Error, all forms needs to be filled');
+
+        if ($validator->fails())
+        {
+            $error = $validator->errors()->toArray();
+            return response()->json([
+                'errors' => $error,
+                'data' => 'Something went wrong',
+            ], 500);
         }
 
+        // if ($validator->fails()) {
+        //     $errors = $validator->errors()->toArray();
+        //     return response()->json(
+        //         array(
+        //             'data' => 'Something went wrong',
+        //             'errors' => $errors
+        //             )
+        //     );
+        // }
+
         $message = [
-            'name' => $request->name,
+            'firstname' => $request->firstname,
+            'lastname' => $request->lastname,
             'email' => $request->email,
+            'service' => $request->service,
             'message' => $request->message,
         ];
 
