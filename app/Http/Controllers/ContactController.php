@@ -48,7 +48,12 @@ class ContactController extends Controller
             'message' => $request->message,
         ];
 
-        $notified = Notification::route('mail', 'fajendagbaj@gmail.com')->notify(new ContactMessage($message));
+        Notification::route('mail', 'fajendagbaj@gmail.com')->notify(new ContactMessage($message));
+
+        return response()->json([
+            'success' => True,
+            'data' => 'Message submitted',
+        ], 200);
 
         /*
             $contact = new Contact();
@@ -57,12 +62,6 @@ class ContactController extends Controller
             $contact->message = $request->get('message');
             $contact->save();
         */
-
-        if ($notified) {
-            return response()->json('Message submitted');
-        }else {
-            return response()->json('Error sending mail');
-        }
 
     }
 }
