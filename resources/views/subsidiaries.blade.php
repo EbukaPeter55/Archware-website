@@ -15,12 +15,13 @@
 
                 @include('errors.error_message')
 
-                <div class="text-center justify-content-center p-4">
+                <!-- SUBSIDIARIES BEGINNING SECTION -->
+                <div class="text-center justify-content-center p-4 title-style">
                     <h1 class="fw-bold archware_h1">Subsidiaries</h1>
                     <hr class="container archware_header_underline" />
                 </div>
 
-                <div class="container mx-auto mt-4">
+                <div class="container mx-auto mt-4" style='margin-bottom: 12%'>
                     <div class="row">
 
                         <div class="col-md-4">
@@ -123,15 +124,7 @@
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
-
-
-            <br>
-            <br>
-
         </div>
     </div>
 

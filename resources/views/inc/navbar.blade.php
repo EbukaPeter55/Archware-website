@@ -1,7 +1,10 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" style="padding-top: 1.2rem">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" id="navMain" style="padding-top: 1.2rem">
     <div class="container col-md-11">
-        <a class="navbar-brand" href="#!" style="margin-left: 7%;">
+        <a class="navbar-brand colored-logo" href="#!" style="margin-left: 7%;">
             <img src="{{ asset('customImages/Logo.svg') }}">
+        </a>
+        <a class="navbar-brand light-logo" href="#!" style="margin-left: 7%;">
+            <img src="{{ asset('customImages/Archware-logo-light-variation.svg') }}">
         </a>
         <button class="navbar-toggler hamburger-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +22,10 @@
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/services">Services</a>
                 </li>
-                <div class="dropdown" style="margin-top: .1rem">
+                <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="/subsidiaries">Subsidiaries</a>
+                </li>
+                <!-- <div class="dropdown" style="margin-top: .1rem">
                 <li class="btn btn-white archware-nav-title dropdown-toggle" data-bs-toggle="dropdown">
                     Subsidiaries
                 </li>
@@ -30,15 +36,18 @@
                     <li><a class="dropdown-item" href="#">Archware Consulting</a></li>
                     <li><a class="dropdown-item" href="#">Farm Management</a></li>
                 </ul>
-                </div>
+                </div> -->
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="#!">Franchise</a>
                 </li>
             </ul>
             <ul class="navbar-nav d-flex flex-row mb-3 right-btn-container" style="margin-right: 9%; margin-top: .5rem">
                 <li class="nav-item me-3 me-lg-0">
-                    <a href="/contacts">
+                    <a href="/contacts" id="normal-button">
                     <button class="btnnav">Contact Us</button>
+                    </a>
+                    <a href="/contacts" id="changed-button">
+                    <button class="btnnav-two">Contact Us</button>
                     </a>
                 </li>
             </ul>
