@@ -1,3 +1,7 @@
+* {
+    font-family: 'inter', sans-serif;
+}
+
 /* Nav text Start*/
 .navbar-scroll .navbar-toggler-icon,
 .navbar-scroll .navbar-brand {
@@ -9,7 +13,7 @@ ul li a {
 
 /* Color of the links AFTER scroll */
 /* .navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled ß.navbar-toggler-icon,
 .navbar-scrolled .navbar-brand {
   color: #fff;
 } */
@@ -599,11 +603,19 @@ ul li a:nth-child(2) {
 
 /* SUBSIDIARIES STYLE */
 .card-body h5{
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: bold;
     color: #0D2158;
 }
 /* 
 .card-body a {
     margin-top: 4rem;
+} */
+
+/* CONTACT STYLES */
+ /* .load-text {
+    display: none;
+}
+.submit-button {
+    display: inline-block;
 } */

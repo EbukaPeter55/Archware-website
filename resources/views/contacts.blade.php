@@ -19,39 +19,42 @@ better results for your business.',)
 
     <div class="row justify-content-center">
         <div class="col-md-7 pt-5 px-3">
-            <form>
+            <form id="sendData">
                 <div class="row px-3">
                     <div class="col">
                         <label style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
-                        <input class="" type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
+                        <input class="" required type="text" id="Firstname"  style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
                         <p>
                     </div>
                     <div class="col">
                         <label style="font-weight: 500;font-size: 14px;color: #040856">Last Name</label>
-                        <input class="" type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
+                        <input class="" required type="text" id="Lastname" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
                         <p>
                     </div>
                 </div>
                 <div class="px-3">
                     <label style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
-                    <input class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="hello@dummie.com">
+                    <input class="section6-form4" required id="Email" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="hello@dummie.com">
                     <p>
                 </div>
                 <div class="px-3">
                     <label style="font-weight: 500;font-size: 14px;color: #040856">Service you are interested in</label>
-                    <input class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="e.g. Web Development">
+                    <input class="section6-form4" required id="Services" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="text" placeholder="e.g. Web Development">
                     <p>
                 </div>
                 <div class="px-3">
                     <label style="font-weight: 500;font-size: 14px;color: #040856">What can we help you with? </label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" rows="5"></textarea>
+                    <textarea class="form-control" required id="Message" placeholder="Your Message" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" rows="5"></textarea>
 
                 </div>
                 <div class="text-end pt-3 px-3">
                     <button type="submit" class="my-4" style=" width: 155px;height: 40px;background: #A6CE39;border: none;
                         box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
                         border-radius: 8px;font-weight: 500;font-size: 12px;line-height: 12px;align-items: right;
-                        text-align: center; color: #ffffff;">Submit</button>
+                        text-align: center; color: #ffffff;">
+                        Submit
+                    </button>
+                   
                 </div>
             </form>
         </div>
@@ -80,12 +83,73 @@ better results for your business.',)
                         <img class="px-2" src="{{ asset('customImages/White (3).svg') }}">
                     </p>
                 </div>
-            </div>
+            </div>  
         </div>
     </div>
 </section>
 
 
-<script type="text/javascript"></script>
+<!-- <script src="contact.js">
+
+</script> -->
+
+<script type="text/javascript">
+document.getElementById('sendData').addEventListener('submit', handleSumbit);
+
+function handleSumbit(event){
+    event.preventDefault();
+    
+    // Get all the input field and store them in their unique variable each
+    let firstname = document.getElementById('Firstname').value;
+    let lastname = document.getElementById('Lastname').value;
+    let email = document.getElementById('Email').value;
+    let service = document.getElementById('Services').value;
+    let message = document.getElementById('Message').value;
+
+    let contactData = {
+         firstname,
+         lastname,
+         email,
+         service,
+         message 
+    }
+    // alert(JSON.stringify(contactData));
+    // alert(`${firstName} and ${lastName}`);
+    console.log(contactData);
+     isLoading = true;
+           fetch('http://127.0.0.1:8000/api/contactus/message', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json, text/plain, */*',
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(contactData)
+            })
+            .then((res) => res.json())           
+            .then((data) => console.log(data),
+            localStorage.setItem('email', email))           
+            .then(
+                
+                (data) => Swal.fire({                   
+                    icon: 'success',
+                    title: 'Message sent, We will get back shortly!',
+                    showConfirmButton: false,
+                    timer: 1500,
+                    
+                  }) 
+                           
+                )
+                let res = document.getElementById("sendData"); 
+                res.reset()
+                ?.catch( error => {
+                    console.warn('Something went wrong.', error)
+                    // res.reset();
+                });
+    
+    
+
+}
+
+</script>
 
 @endsection

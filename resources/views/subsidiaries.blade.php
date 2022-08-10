@@ -30,7 +30,7 @@
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Formost Eyeclinic</strong></h5>
                                     <div class="body-copy">
-                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 1rem;">
+                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 15px;">
                                             In purus at morbi magna in in maecenas. 
                                             Nunc nulla magna elit, varius phasellus <br>
                                             blandit convallis.
@@ -47,7 +47,7 @@
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                    <div class="body-copy">
-                                       <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 1rem;">
+                                       <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 15px;">
                                            Established to make an impact in africa by providing innovative media and
                                            communication solutions to brands.
                                        </p>
@@ -63,7 +63,7 @@
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                     <div class="body-copy">    
-                                    <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                    <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 15px;">
                                         Established to make an impact in africa by providing innovative media and
                                         communication solutions to brands.
                                     </p>
@@ -79,7 +79,7 @@
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                     <div class="body-copy">
-                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 15px;">
                                             Established to make an impact in africa by providing innovative media and
                                             communication solutions to brands.
                                         </p>
@@ -95,7 +95,7 @@
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                     <div class="body-copy">
-                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 15px;">
                                             Established to make an impact in africa by providing innovative media and
                                             communication solutions to brands.
                                         </p>
@@ -111,7 +111,7 @@
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                    <div class="body-copy">
-                                       <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                       <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 15px;">
                                            Established to make an impact in africa by providing innovative media and
                                            communication solutions to brands.
                                        </p>
@@ -127,7 +127,7 @@
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
                                     <div class="body-copy">
-                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 15px;">
                                             Established to make an impact in africa by providing innovative media and
                                             communication solutions to brands.
                                         </p>

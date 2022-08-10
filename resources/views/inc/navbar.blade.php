@@ -62,7 +62,7 @@
        
 
         const triggerNav = (event) => {
-            console.log(event);
+            // console.log(event);
             if(window.scrollY >= topOfNav){
             //    console.log('You have passed the nav bottom!')
             // console.log(event);
