@@ -30,12 +30,13 @@
                         Our agile approach to problem-solving and strategic planning<br>
                         helps you build a better structure and achieve better results in<br>
                         your business.</p>
+                    <a href="/services">
                     <button class="mt-3"
                         style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                                 border: none;color: #ffffff;border-radius: 8px;
                                 background: #A6CE39">
                         Our Services
-                    </button>
+                    </button></a>
                 </div>
                 <div style="margin-left: 4%">
                     <img class="img-fluid" src="{{ asset('customImages/Man.svg') }}">
@@ -170,8 +171,8 @@
         <section class="container card" style="margin-top: 12%; margin-bottom: 12%">
             <div class="row justify-content-center">
                 <div class="col-md-7 pt-5 px-3">
-                    <h1 style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
-                    <p style="font-weight: 400;font-size: 16px;color: rgba(4, 8, 86, 0.7);">We'd like to handle your
+                    <h1  class="px-3" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
+                    <p class="px-3" style="font-weight: 400;font-size: 16px;color: rgba(4, 8, 86, 0.7);">We'd like to handle your
                         business</p>
 
 
