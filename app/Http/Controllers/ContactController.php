@@ -48,7 +48,7 @@ class ContactController extends Controller
             'message' => $request->message,
         ];
 
-        Notification::route('mail', 'fajendagbaj@gmail.com')->notify(new ContactMessage($message));
+        Notification::route('mail', 'Info@arcwaretechgroup.com')->notify(new ContactMessage($message));
 
         return response()->json([
             'success' => True,
