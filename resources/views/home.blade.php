@@ -30,12 +30,13 @@
                         Our agile approach to problem-solving and strategic planning<br>
                         helps you build a better structure and achieve better results in<br>
                         your business.</p>
+                    <a href="/services">
                     <button class="mt-3"
                         style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                                 border: none;color: #ffffff;border-radius: 8px;
                                 background: #A6CE39">
                         Our Services
-                    </button>
+                    </button></a>
                 </div>
                 <div style="margin-left: 4%">
                     <img class="img-fluid" src="{{ asset('customImages/Man.svg') }}">
@@ -67,7 +68,7 @@
         <!--END OF SUPPORT SECTION -->
 
         <!-- ABOUT US SECTION -->
-        <section class="container-fluid" id="greenbg" style="margin-top: 12%">
+        <section id="aboutus" class="container-fluid" id="greenbg" style="margin-top: 12%">
             <div class="row">
                 <div class="mt-5" id="green-background"
                     style="width: 1288px;height: auto; margin-left: -74px;
@@ -170,14 +171,14 @@
         <section class="container card" style="margin-top: 12%; margin-bottom: 12%">
             <div class="row justify-content-center">
                 <div class="col-md-7 pt-5 px-3">
-                    <h1 style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
-                    <p style="font-weight: 400;font-size: 16px;color: rgba(4, 8, 86, 0.7);">We'd like to handle your
+                    <h1  class="px-3" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
+                    <p class="px-3" style="font-weight: 400;font-size: 16px;color: rgba(4, 8, 86, 0.7);">We'd like to handle your
                         business</p>
 
 
                     <form method="post" action="{{ route('contact.message') }}">
                         @csrf
-                        <div class="row px-3">
+                        <div class="row px-3 pt-2">
                             <div class="col">
                                 <label style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
                                 <input name="firstname" type="text"
@@ -189,20 +190,20 @@
                                     style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
                             </div>
                         </div>
-                        <div class="px-3">
+                        <div class="px-3 pt-2">
                             <label style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
                             <input name="email" class="section6-form4"
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email"
                                 placeholder="hello@dummie.com">
                         </div>
-                        <div class="px-3">
+                        <div class="px-3 pt-2">
                             <label style="font-weight: 500;font-size: 14px;color: #040856">Service you are interested
                                 in</label>
                             <input name="service" class="section6-form4"
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="text"
                                 placeholder="e.g. Web Development">
                         </div>
-                        <div class="px-3">
+                        <div class="px-3 pt-2">
                             <label name="helpnote" style="font-weight: 500;font-size: 14px;color: #040856">What can we
                                 help you with?
                             </label>
