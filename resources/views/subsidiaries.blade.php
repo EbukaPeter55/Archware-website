@@ -29,11 +29,13 @@
                                 <img src="/customImages/Foremost.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Formost Eyeclinic</strong></h5>
-                                    <p class="card-text my-5 archware-text-dull" style="color: #0d2158; font-size: 17px;">
-                                        In purus at morbi magna in in maecenas. 
-                                        Nunc nulla magna elit, varius phasellus <br>
-                                        blandit convallis.
-                                    </p>
+                                    <div class="body-copy">
+                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 1rem;">
+                                            In purus at morbi magna in in maecenas. 
+                                            Nunc nulla magna elit, varius phasellus <br>
+                                            blandit convallis.
+                                        </p>
+                                    </div>
                                     <a href="#" class="text-decoration-none p-1 archware-text-yellow"><strong>Visit website</strong></a>
                                 </div>
                             </div>
@@ -44,10 +46,12 @@
                                 <img src="/customImages/hi.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
-                                    <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
-                                        Established to make an impact in africa by providing innovative media and
-                                        communication solutions to brands.
-                                    </p>
+                                   <div class="body-copy">
+                                       <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 1rem;">
+                                           Established to make an impact in africa by providing innovative media and
+                                           communication solutions to brands.
+                                       </p>
+                                    </div>
                                     <a href="#" class="text-decoration-none p-1 archware-text-yellow"><strong>Visit website</strong></a>
                                 </div>
                             </div>
@@ -58,10 +62,12 @@
                                 <img src="/customImages/hi.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
-                                    <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                    <div class="body-copy">    
+                                    <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 17px;">
                                         Established to make an impact in africa by providing innovative media and
                                         communication solutions to brands.
                                     </p>
+                                </div>
                                     <a href="#" class="text-decoration-none p-1 archware-text-yellow"><strong>Visit website</strong></a>
                                 </div>
                             </div>
@@ -72,10 +78,12 @@
                                 <img src="/customImages/hi.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
-                                    <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
-                                        Established to make an impact in africa by providing innovative media and
-                                        communication solutions to brands.
-                                    </p>
+                                    <div class="body-copy">
+                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                            Established to make an impact in africa by providing innovative media and
+                                            communication solutions to brands.
+                                        </p>
+                                    </div>
                                     <a href="#" class="text-decoration-none p-1 archware-text-yellow"><strong>Visit website</strong></a>
                                 </div>
                             </div>
@@ -86,10 +94,12 @@
                                 <img src="/customImages/Queenshield.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
-                                    <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
-                                        Established to make an impact in africa by providing innovative media and
-                                        communication solutions to brands.
-                                    </p>
+                                    <div class="body-copy">
+                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                            Established to make an impact in africa by providing innovative media and
+                                            communication solutions to brands.
+                                        </p>
+                                    </div>
                                     <a href="#" class="text-decoration-none p-1 archware-text-yellow"><strong>Visit website</strong></a>
                                 </div>
                             </div>
@@ -100,10 +110,12 @@
                                 <img src="/customImages/hi.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
-                                    <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
-                                        Established to make an impact in africa by providing innovative media and
-                                        communication solutions to brands.
-                                    </p>
+                                   <div class="body-copy">
+                                       <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                           Established to make an impact in africa by providing innovative media and
+                                           communication solutions to brands.
+                                       </p>
+                                   </div>
                                     <a href="#" class="text-decoration-none p-1 archware-text-yellow"><strong>Visit website</strong></a>
                                 </div>
                             </div>
@@ -114,10 +126,12 @@
                                 <img src="/customImages/D&RM.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
-                                    <p class="card-text my-4 archware-text-dull" style="color: #0d2158; font-size: 17px;">
-                                        Established to make an impact in africa by providing innovative media and
-                                        communication solutions to brands.
-                                    </p>
+                                    <div class="body-copy">
+                                        <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 17px;">
+                                            Established to make an impact in africa by providing innovative media and
+                                            communication solutions to brands.
+                                        </p>
+                                    </div>
                                     <a href="#" class="text-decoration-none p-1 archware-text-yellow"><strong>Visit website</strong></a>
                                 </div>
                             </div>

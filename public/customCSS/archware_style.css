@@ -255,7 +255,9 @@ div.timer-div span {
 }
 
 .archware-text-dull {
+    width: auto;
     opacity: 0.7;
+    margin-top: 4%;
 }
 
 .archware-text-yellow {
@@ -421,6 +423,10 @@ body {
 
 .nav > .nav-header {
     display: inline;
+}
+
+.body-copy{
+    height: 5.4375rem;
 }
 
 @media screen and (max-width:900px) {
@@ -594,4 +600,10 @@ ul li a:nth-child(2) {
 /* SUBSIDIARIES STYLE */
 .card-body h5{
     font-size: 18px;
+    font-weight: 700;
+    color: #0D2158;
 }
+/* 
+.card-body a {
+    margin-top: 4rem;
+} */

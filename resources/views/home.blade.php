@@ -239,7 +239,7 @@ better results for your business.',)
 </div>
 
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         const getNav = document.querySelector('#navMain');
         const topOfNav = getNav.offsetTop;
        
@@ -281,6 +281,6 @@ better results for your business.',)
         window.addEventListener('scroll', triggerNav);
 
      
-    </script>
+    </script> -->
 
 @endsection
