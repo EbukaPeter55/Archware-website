@@ -174,30 +174,37 @@
                         business</p>
 
 
-                    <form method="post" action="{{ route('contact.message') }}">
-                        @csrf
+                    <form id="sendData">
                         <div class="row px-3 pt-2">
                             <div class="col">
                                 <label style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
-                                <input name="firstname" type="text"
+                                <input type="text"
+                                id="Firstname"
+                                required
                                     style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
                             </div>
                             <div class="col">
                                 <label style="font-weight: 500;font-size: 14px;color: #040856">Last Name</label>
-                                <input name="lastname" type="text"
+                                <input id="Lastname"
+                                required
+                                type="text"
                                     style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
                             </div>
                         </div>
                         <div class="px-3 pt-2">
                             <label style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
-                            <input name="email" class="section6-form4"
+                            <input id="Email"
+                            required
+                            class="section6-form4"
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email"
                                 placeholder="hello@dummie.com">
                         </div>
                         <div class="px-3 pt-2">
                             <label style="font-weight: 500;font-size: 14px;color: #040856">Service you are interested
                                 in</label>
-                            <input name="service" class="section6-form4"
+                            <input id="Services"
+                            required
+                            class="section6-form4"
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="text"
                                 placeholder="e.g. Web Development">
                         </div>
@@ -205,7 +212,9 @@
                             <label name="helpnote" style="font-weight: 500;font-size: 14px;color: #040856">What can we
                                 help you with?
                             </label>
-                            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message"
+                            <textarea id="Message"
+                            required
+                            class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message"
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" rows="5"></textarea>
 
                         </div>
@@ -257,5 +266,61 @@
     <!-- END OF CONTACT US SECTION -->
     </section>
     </div>
+
+    <script type="text/javascript">
+    document.getElementById('sendData').addEventListener('submit', handleSumbit);
+
+    function handleSumbit(event){
+        event.preventDefault();
+        
+        // Get all the input field and store them in their unique variable each
+        let firstname = document.getElementById('Firstname').value;
+        let lastname = document.getElementById('Lastname').value;
+        let email = document.getElementById('Email').value;
+        let service = document.getElementById('Services').value;
+        let message = document.getElementById('Message').value;
+
+        let contactData = {
+            firstname,
+            lastname,
+            email,
+            service,
+            message 
+        }
+        // alert(JSON.stringify(contactData));
+        // alert(`${firstName} and ${lastName}`);
+        console.log(contactData);
+        isLoading = true;
+            fetch('http://127.0.0.1:8000/api/contactus/message', {
+                    method: 'POST',
+                    headers: {
+                        'Accept': 'application/json, text/plain, */*',
+                        'content-type': 'application/json'
+                    },
+                    body: JSON.stringify(contactData)
+                })
+                .then((res) => res.json())           
+                .then((data) => console.log(data),
+                localStorage.setItem('email', email))           
+                .then(
+                    (data) => Swal.fire({                   
+                        icon: 'success',
+                        title: 'Message sent, We will get back shortly!',
+                        showConfirmButton: false,
+                        timer: 1500,
+                        
+                      })          
+                    )
+                    let res = document.getElementById("sendData"); 
+                    res.reset()
+                    ?.catch( error => {
+                        console.warn('Something went wrong.', error)
+                        // res.reset();
+                    });
+
+    }
+
+</script>
+
 
 @endsection
