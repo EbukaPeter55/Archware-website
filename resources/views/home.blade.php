@@ -291,32 +291,43 @@
         // alert(`${firstName} and ${lastName}`);
         console.log(contactData);
         isLoading = true;
-            fetch('http://127.0.0.1:8000/api/contactus/message', {
-                    method: 'POST',
-                    headers: {
-                        'Accept': 'application/json, text/plain, */*',
-                        'content-type': 'application/json'
-                    },
-                    body: JSON.stringify(contactData)
-                })
-                .then((res) => res.json())           
-                .then((data) => console.log(data),
-                localStorage.setItem('email', email))           
-                .then(
-                    (data) => Swal.fire({                   
-                        icon: 'success',
-                        title: 'Message sent, We will get back shortly!',
-                        showConfirmButton: false,
-                        timer: 1500,
-                        
-                      })          
-                    )
-                    let res = document.getElementById("sendData"); 
-                    res.reset()
-                    ?.catch( error => {
-                        console.warn('Something went wrong.', error)
-                        // res.reset();
-                    });
+           
+        function handleErrors(response) {
+        if (!response.ok) {
+            throw Error(response.statusText);
+        }
+        return response;
+        }
+        fetch("http://127.0.0.1:8000/api/contactus/messag", {
+            method: 'POST',
+                headers: {
+                    'Accept': 'application/json, text/plain, */*',
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(contactData)
+        })
+        .then(handleErrors)
+        .then(response => {console.log("ok")
+            Swal.fire({                   
+                    icon: 'success',
+                    title: 'Message sent, We will get back shortly!',
+                    showConfirmButton: false,
+                    timer: 1500,
+                    
+                  })  
+                  let res = document.getElementById("sendData"); 
+                  res.reset();
+        })
+        .catch(error => {console.log(error, 'wrong')
+            Swal.fire({                   
+                    icon: 'error',
+                    title: 'Message not sent, something went wrong!',
+                    showConfirmButton: false,
+                    timer: 1500,
+                    
+                  }) 
+                  
+        });
 
     }
 
