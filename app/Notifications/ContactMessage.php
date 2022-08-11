@@ -42,11 +42,8 @@ class ContactMessage extends Notification implements ShouldQueue
      */
     public function toMail($notifiable)
     {
-        // return (new MailMessage)
-        //     ->subject('Contact us message')
-        //     ->view('NewContentDemo', ['title' => $this->newContent['title']]);
-
         return (new MailMessage)
+                    ->from($this->message['email'], 'Sender address')
                     ->line('Contact us message.')
                     ->line($this->message);
     }
