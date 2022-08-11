@@ -129,15 +129,13 @@ function handleSumbit(event){
             .then((data) => console.log(data),
             localStorage.setItem('email', email))           
             .then(
-                
                 (data) => Swal.fire({                   
                     icon: 'success',
                     title: 'Message sent, We will get back shortly!',
                     showConfirmButton: false,
                     timer: 1500,
                     
-                  }) 
-                           
+                  })          
                 )
                 let res = document.getElementById("sendData"); 
                 res.reset()
@@ -145,8 +143,6 @@ function handleSumbit(event){
                     console.warn('Something went wrong.', error)
                     // res.reset();
                 });
-    
-    
 
 }
 
