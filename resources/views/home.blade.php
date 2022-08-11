@@ -22,7 +22,7 @@
 
             <div class="d-flex flex-row flex-wrap justify-content-center" style="padding-top:3em;margin-top:5em ">
                 <div style="color:#040856;">
-                    <h1 class="pt-4" style="font-weight: 700;font-size: 50px;"><br><br><b>Excellent Tech-Based <br>Solution
+                    <h1 class="pt-4" style="font-weight: 700;font-size: 50px;"><br><br><b>Excellent Tech-Based <br>Solutions
                             For Your
                             <br>Business</b></h1>
                     <p class="mt-3" style="font-weight: 400;font-size: 16px;
@@ -56,12 +56,9 @@
                         Provide Support For<br> Public And Private<br> Enterprise</h2>
                     <p class="px-2"
                         style="font-weight: 400; margin-top: -2rem; font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
-                        Archwareltd
-                        promotes the growth of small and medium
-                        enterprises at the local and global business environments. Through its professionals
-                        with proven experience in different fields of infrastructure, Archwareltd facilitates new markets
-                        entry and
-                        consolidation, minimizing time and costs in the process of expansion.</p>
+                        Archware promotes the growth of small and medium enterprises at the local and global business environments.
+                        Through its professionals with proven experience in different fields of infrastructure, Archware facilitates
+                        new markets entry and consolidation, minimizing time and costs in the process of  expansion.</p>
                 </div>
             </div>
         </section>
@@ -142,6 +139,7 @@
         <!-- END OF MISSION AND VISION SECTION -->
 
         <!-- SUBSIDIARIES SECTION -->
+        <!--
         <section class="container justify-content-center" style="margin-top: 12%">
             <div
                 style="height: 270px;right: 153px;top: 2576px;
@@ -164,7 +162,7 @@
                     <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- END OF SUBSIDIARIES SECTION -->
 
         <!-- CONTACT US SECTION -->
@@ -233,11 +231,11 @@
                         </div>
                         <div class="pt-3 mx-5">
                             <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
-                                <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234709154822</a>
+                                <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234-709-154-822</a>
                             </p>
                             <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}"
                                     alt="">
-                                <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwareltd.com</a>
+                                <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwaretechgroup.com</a>
                             </p>
                             <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}"
                                     alt="">
