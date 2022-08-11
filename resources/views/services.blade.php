@@ -38,7 +38,7 @@
                                     necessary skills <br> to perform excellently on a job and prepare you for professional
                                     certification exams.
                                 </p>
-                                <a href="#" class="text-decoration-none archware-text-yellow"><p>View our courses and syllabus >><p></a>
+                                <a href="/contacts" class="text-decoration-none archware-text-yellow"><p>View our courses and syllabus >><p></a>
                         </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                                     the latest trends in the development community to ensure we give you the best. We build highly optimize website <br>
                                     that will give your business the proper online visibility it needs.
                                 </p>
-                                <a href="#" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
+                                <a href="/contacts" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
                         </div>
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Asset 3 2.svg" alt="">
@@ -76,7 +76,7 @@
                                     performance in search engines. We update your content, improve navigation for better conversion, and also refresh <br>
                                     your page layout. We rebrand your business or upgrade your already existing website.
                                 </p>
-                                <a href="#" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
+                                <a href="/contacts" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                                     that most users prefer to use their smartphones to visit sites online and we are devoted to building a highly <br>
                                     responsive website for mobile phones.
                                 </p>
-                                <a href="#" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
+                                <a href="/contacts" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
                         </div>
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Asset 4 1.svg" alt="">
@@ -114,7 +114,7 @@
                                     <strong>iPhone: </strong> We build highly responsive mobile apps with an excellent UI/UX suitable for any Apple product. <br>
                                     <strong>Android: </strong>We develop optimizez apps for all android devices, ensuring that your users enjoy the best experience.
                                 </p>
-                                <a href="#" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
+                                <a href="/contacts" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
                                     We carry out ongoing web maintenance for individual and business websites. We help you audit your webpage to <br>
                                     identify gaps and proffer long-lasting solutions that can help keep your website up-to-date to ensure it continually <br> performs well.
                                 </p>
-                                <a href="#" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
+                                <a href="/contacts" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
                         </div>
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Layer 2-2.svg" alt="">
@@ -151,7 +151,7 @@
                                     projects till the end. We are here to help you allocate the right resources needed to achieve your business goals. <br>
                                     Let's help you take your project to another level!
                                 </p>
-                                <a href="#" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
+                                <a href="/contacts" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
                         </div>
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                                     process orders, and accept payments faster. We build mobile-friendly online stores with well-optimized product <br>
                                     landing pages.
                                 </p>
-                                <a href="#" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
+                                <a href="/contacts" class="text-decoration-none archware-text-light-yellow"><p>Contact us for this service >><p></a>
                         </div>
                         <div class="col-md-3">
                             <img class="d-block w-60 container" src="/customImages/Layer 2-3.svg" alt="">
@@ -188,7 +188,7 @@
                                     With our automated expense management software, we can help you track your employees' spending to make sure all <br>
                                     expenses are accounted for and also ensure the submission of accurate reimbursement claims to prevent fraud.
                                 </p>
-                                <a href="#" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
+                                <a href="/contacts" class="text-decoration-none archware-text-yellow"><p>Contact us for this service >><p></a>
                         </div>
                     </div>
                 </div>
