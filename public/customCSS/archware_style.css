@@ -626,3 +626,51 @@ ul li a:nth-child(2) {
 .submit-button {
     display: inline-block;
 } */
+
+/* WHY CHOOSE OUR TEAM STYLES */
+.team-section{
+    height: auto;
+}
+
+.team-section .team-section-right{
+    width: 552px;
+    height: 465px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 172%;
+    /* or 28px */
+    color: #FFFFFF;
+}
+
+.team-wrapper{
+    max-width: 74.375rem;
+    background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
+    height: auto;
+    margin: 0 auto;
+}
+
+.team-wrapper .team-section-right{
+    /* padding: 2rem; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-wrapper .team-section-right h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-top: 20%;
+}
+
+.team-wrapper .team-section-right p{
+    margin-top: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 172%;
+    color: #FFFFFF;
+}

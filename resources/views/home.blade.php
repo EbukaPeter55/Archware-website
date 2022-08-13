@@ -42,8 +42,38 @@
                     <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
                 </div>
             </div>
-        </section>
+        </section class="container-fluid d-flex flex-row justify-items-center">
         <!-- END OF HERO SECTION -->
+     
+        <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
+        <section class="container-fluid team-section">
+            <div class="d-flex flex-row flex-wrap justify-items-center team-wrapper">
+            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_251/v1660425506/core-values-4.svg">
+            <div class="team-section-right">
+            <h2>Why choose Archware Team</h2>
+            <p>
+            Our goal is to assist our partners to overturn challenges to their advantage.
+             We bring diverse and unique set of values and prioritise resources 
+             in view of our partners' budgets linked to their vision and project 
+              objectives as we divulge business opportunities in order to achieve 
+              sustainable profitability goals. <br>
+              Hence, we are committed to delivering scalable solutions 
+              to our partners. With over a decade of experience,  
+              we understand that platform growth and development 
+              capacity is a pain point for many clients and how software works across 
+              a multitude of industries.<br>
+              Our multidisciplinary teams, comprising tech enthusiasts such as data analysts, 
+             software developers,
+             and UI/UX designers with elite and varied development expertise, are geared towards building 
+             reliable products that service growth-focused businesses. <br>
+             We strive to deliver bespoke solutions that innovate using cutting-edge technologies and cloud software
+             at competitive and flexible rates.
+
+            </p>
+        </div>
+        </div>
+        </section>
+        <!--END OF WHY CHOOSE ARCHWARE TEAM SECTION -->
 
         <!-- SUPPORT SECTION -->
         <section style="margin-left:10%; margin-top: 12%">
