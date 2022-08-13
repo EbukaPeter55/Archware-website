@@ -20,7 +20,7 @@
 
             @include('errors.error_message')
 
-            <div class="d-flex flex-row flex-wrap justify-content-center" style="padding-top:3em;margin-top:5em ">
+            <div class="d-flex flex-row flex-wrap justify-content-center hero-section-h" style="padding-top:3em;margin-top:5em">
                 <div style="color:#040856;">
                     <h1 class="pt-4" style="font-weight: 700;font-size: 50px;"><br><br><b>Excellent Tech-Based <br>Solutions
                             For Your
@@ -31,15 +31,15 @@
                         helps you build a better structure and achieve better results in<br>
                         your business.</p>
                     <a href="/services">
-                    <button class="mt-3"
+                    <button class="mt-5"
                         style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                                 border: none;color: #ffffff;border-radius: 8px;
-                                background: #A6CE39">
+                                background: #1F3F95;">
                         Our Services
                     </button></a>
                 </div>
                 <div style="margin-left: 4%">
-                    <img class="img-fluid" src="{{ asset('customImages/Man.svg') }}">
+                    <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
                 </div>
             </div>
         </section>
@@ -298,7 +298,7 @@
         }
         return response;
         }
-        fetch("http://127.0.0.1:8000/api/contactus/messag", {
+        fetch("http://127.0.0.1:8000/api/contactus/message", {
             method: 'POST',
                 headers: {
                     'Accept': 'application/json, text/plain, */*',

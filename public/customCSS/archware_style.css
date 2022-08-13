@@ -73,6 +73,13 @@ ul li a {
 
 /* Nav test End*/
 
+/* HERO SECTION */
+.hero-section-h{
+    padding-bottom: 3rem;
+    background: #F8F8F8!important;
+    /* background: red; */
+}
+
 .TopHeader {
     min-height: 3rem;
     /* background-color: #078164; */

@@ -20,10 +20,10 @@
                     <a class="nav-link archware-nav-title" style="scroll-behavior: smooth;" href="/#aboutus">About Us</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="/services">Services</a>
+                    <a class="nav-link archware-nav-title" href="/subsidiaries">Our Team</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="/subsidiaries">Subsidiaries</a>
+                    <a class="nav-link archware-nav-title" href="/services">Services</a>
                 </li>
                 <!-- <div class="dropdown" style="margin-top: .1rem">
                 <li class="btn btn-white archware-nav-title dropdown-toggle" data-bs-toggle="dropdown">
@@ -38,7 +38,7 @@
                 </ul>
                 </div> -->
                 <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="#!">Franchise</a>
+                    <a class="nav-link archware-nav-title" href="#!">Career</a>
                 </li>
             </ul>
             <ul class="navbar-nav d-flex flex-row mb-3 right-btn-container" style="margin-right: 9%; margin-top: .5rem">
