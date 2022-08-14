@@ -56,24 +56,47 @@
              We bring diverse and unique set of values and prioritise resources 
              in view of our partners' budgets linked to their vision and project 
               objectives as we divulge business opportunities in order to achieve 
-              sustainable profitability goals. <br>
+              sustainable profitability goals.</p> 
+              <p>
               Hence, we are committed to delivering scalable solutions 
               to our partners. With over a decade of experience,  
               we understand that platform growth and development 
               capacity is a pain point for many clients and how software works across 
-              a multitude of industries.<br>
+              a multitude of industries.
+              </p>
+              <p>
               Our multidisciplinary teams, comprising tech enthusiasts such as data analysts, 
              software developers,
              and UI/UX designers with elite and varied development expertise, are geared towards building 
-             reliable products that service growth-focused businesses. <br>
+             reliable products that service growth-focused businesses.
              We strive to deliver bespoke solutions that innovate using cutting-edge technologies and cloud software
              at competitive and flexible rates.
-
-            </p>
+              </p>
         </div>
         </div>
         </section>
         <!--END OF WHY CHOOSE ARCHWARE TEAM SECTION -->
+
+        <!-- SERVICES BRIEF SECTION -->
+        <section class="container-fluid service-section">
+            <div class="d-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
+                <div class="service-section-right">
+                <h2>Mobile App Development</h2>
+                <p>
+                Over the years we have developed responsive mobile apps across
+                 industries such as Fin-tech, Banking, Medical science, and many more.
+                  Our team of experts is well skilled in different mobile app development
+                tools such as Atom, Git hub, Ninox, MobiLoud, React Native, Xcode, Ionic, Android Studio, etc. With core competence in mobile app design and development, we have developed world-class Andriod
+                </p>
+                <button type='button'
+                >Read More
+            </button>
+            </div>
+            <img class="img-fluid" 
+                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg"/>
+               </div>
+        </section>
+        <!--END OF SERVICES BRIEF SECTION -->
 
         <!-- SUPPORT SECTION -->
         <section style="margin-left:10%; margin-top: 12%">
@@ -82,17 +105,40 @@
                     <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.svg') }}">
                 </div>
                 <div class="col-md-6 px-4">
-                    <h2 class="py-5 px-2" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856"> We
-                        Provide Support For<br> Public And Private<br> Enterprise</h2>
-                    <p class="px-2"
+                    <h2 class="py-4 px-2" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
+                    Account & Expenses Management</h2>
+                    <p class="px-2 py-4"
                         style="font-weight: 400; margin-top: -2rem; font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
-                        Archware promotes the growth of small and medium enterprises at the local and global business environments.
-                        Through its professionals with proven experience in different fields of infrastructure, Archware facilitates
-                        new markets entry and consolidation, minimizing time and costs in the process of  expansion.</p>
+                        A major concern for most businesses is to ensure their money is well spent. With our automated expense management software,
+                         tracking your employees' spending is made easy.The accuracy and extensive data generated from our system 
+                         have been able to ensure that all expenses are accounted for and accurate reimbursement claims are made to prevent fraud.</p>
+                         <button type='button'
+                         class="read-more">Read More</button>
                 </div>
             </div>
         </section>
         <!--END OF SUPPORT SECTION -->
+
+ <!-- PROJECT MANAGEMENT -->
+ <section class="container-fluid service-section">
+            <div class="d-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
+                <div class="service-section-right">
+                <h2>Project Management</h2>
+                <p>
+                We collaborate with clients to apply tactics, methods, skills, knowledge, and experience to achieve specific project objectives within agreed parameters. Our team specializes in proper planning, coordination, and execution of projects that meet global standards. Using project management tools such as Jira, Slack, Trello, Basecamp, Zoho Projects, Liquid Planner, etc, we can manage multiple projects and deliver within the project timeline. 
+                We are here to help you allocate the right resources needed to achieve
+                 your business goals.
+                </p>
+                <button type='button'
+                >Read More
+            </button>
+            </div>
+            <img class="img-fluid" 
+                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_350/v1660497641/Rectangle_650.svg"/>
+               </div>
+        </section>
+        <!--END OF SERVICES BRIEF SECTION -->
+
 
         <!-- ABOUT US SECTION -->
         <section id="aboutus" class="container-fluid" id="greenbg" style="margin-top: 12%">
