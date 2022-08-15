@@ -20,9 +20,9 @@
 
             @include('errors.error_message')
 
-            <div class="d-flex flex-row flex-wrap justify-content-center hero-section-h" style="padding-top:3em;margin-top:5em">
-                <div style="color:#040856;">
-                    <h1 class="pt-4" style="font-weight: 700;font-size: 50px;"><br><br><b>Excellent Tech-Based <br>Solutions
+            <!-- <div class="d-flex flex-row flex-wrap justify-content-center align-items-center hero-section-h" style="padding-top:3em;margin-top:5em">
+                <div>
+                    <h1 class="pt-4" style="font-weight: 700; color: 040856; font-size: 50px;"><br><br><b>Excellent Tech-Based <br>Solutions
                             For Your
                             <br>Business</b></h1>
                     <p class="mt-3" style="font-weight: 400;font-size: 16px;
@@ -31,17 +31,108 @@
                         helps you build a better structure and achieve better results in<br>
                         your business.</p>
                     <a href="/services">
-                    <button class="mt-5"
+                    <button class="mt-3"
                         style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                                 border: none;color: #ffffff;border-radius: 8px;
                                 background: #1F3F95;">
                         Our Services
                     </button></a>
                 </div>
-                <div style="margin-left: 4%">
+                <div>
+                    <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
+                </div>
+            </div> -->
+
+
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner">
+           
+            <div class="carousel-item active d-flex flex-row flex-wrap justify-content-center align-items-center hero-section-h" style="padding-top:3em;margin-top:5em">
+                <div>
+                    <h1 class="pt-4" style="font-weight: 700; color: 040856; font-size: 50px;"><br><br><b>Excellent Tech-Based <br>Solutions
+                            For Your
+                            <br>Business</b></h1>
+                    <p class="mt-3" style="font-weight: 400;font-size: 16px;
+                color: rgba(4, 8, 86, 0.7);">
+                        Our agile approach to problem-solving and strategic planning<br>
+                        helps you build a better structure and achieve better results in<br>
+                        your business.</p>
+                    <a href="/services">
+                    <button class="mt-3"
+                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
+                                border: none;color: #ffffff;border-radius: 8px;
+                                background: #1F3F95;">
+                        Our Services
+                    </button></a>
+                </div>
+                <div>
                     <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
                 </div>
             </div>
+            <div class="carousel-item d-flex flex-row flex-wrap justify-content-center align-items-center hero-section-h" style="padding-top:3em;margin-top:5em">
+                <div>
+                    <img class="img-fluid" src="{{ asset('customImages/cheerful-business-woman-make-winner-gesture 1.svg') }}">
+                </div>    
+                <div>
+                    <h1 class="pt-4" style="font-weight: 700; color: 040856; font-size: 50px;"><b>Acquire Tech Skills For <br>
+                    A Borderless Career
+                        </b></h1>
+                    <p class="mt-3" style="font-weight: 400;font-size: 16px;
+                color: rgba(4, 8, 86, 0.7);">
+                       Become an expert in tech without prior knowledge and stay ahead of the global market.</p>
+                    <a href="/#">
+                    <button class="mt-3"
+                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
+                                border: none;color: #ffffff;border-radius: 8px;
+                                background: #1F3F95;">
+                        Read More
+                    </button></a>
+                </div>
+
+            </div>
+            <div class="carousel-item d-flex flex-row flex-wrap justify-content-center align-items-center hero-section-h" style="padding-top:3em;margin-top:5em">
+                <div>
+                    <h1 class="pt-4" style="font-weight: 700; color: 040856; font-size: 50px;"><br><br><b>Excellent Tech-Based <br>Solutions
+                            For Your
+                            <br>Business</b></h1>
+                    <p class="mt-3" style="font-weight: 400;font-size: 16px;
+                color: rgba(4, 8, 86, 0.7);">
+                        Our agile approach to problem-solving and strategic planning<br>
+                        helps you build a better structure and achieve better results in<br>
+                        your business.</p>
+                    <a href="/services">
+                    <button class="mt-3"
+                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
+                                border: none;color: #ffffff;border-radius: 8px;
+                                background: #1F3F95;">
+                        Our Services
+                    </button></a>
+                </div>
+                <div>
+                    <img class="img-fluid" src="{{ asset('customImages/Rectangle 651.svg') }}">
+                </div>
+            </div>
+            </div>
+
+<!-- Left and right controls/icons -->
+<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+  <span class="carousel-control-next-icon"></span>
+</button>
+</div>
+            <!-- End of test carousel -->
+
         </section class="container-fluid d-flex flex-row justify-items-center">
         <!-- END OF HERO SECTION -->
      
@@ -78,19 +169,21 @@
         <!--END OF WHY CHOOSE ARCHWARE TEAM SECTION -->
       
         <!-- PROOF OF WORK -->
-        <section class="container-fluid d-flex flex-wrap justify-content-evenly proof-of-work">
-            <div class="web">
-            <h1>25+</h1>
-            <p>Websites</p>
-            </div> 
-            <div class="web">
-            <h1>40+</h1>
-            <p>Completed Projects</p>
-            </div> 
-            <div class="customers">
-            <h1>20+</h1>
-            <p>Happy customers</p>
-            </div> 
+        <section class="container-fluid  proof-of-work">
+            <div class="d-flex flex-wrap proof-of-work-child justify-content-around">
+                <div class="web">
+                <h1>25+</h1>
+                <p>Websites</p>
+                </div> 
+                <div class="web">
+                <h1>40+</h1>
+                <p>Completed Projects</p>
+                </div> 
+                <div class="customers">
+                <h1>20+</h1>
+                <p>Happy customers</p>
+                </div> 
+            </div>
         </section>
         <!-- END OF PROOF OF WORK -->
 

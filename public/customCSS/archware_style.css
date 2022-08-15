@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+/* body {
+    margin: 0!important;
+    padding: 0!important;
+} */
+
 /* Nav text Start*/
 .navbar-scroll .navbar-toggler-icon,
 .navbar-scroll .navbar-brand {
@@ -78,7 +83,7 @@ ul li a {
 /* HERO SECTION */
 .hero-section-h{
     padding-bottom: 3rem;
-    background: #F8F8F8!important;
+    background: #F5F5F5!important;
     /* background: red; */
 }
 
@@ -694,8 +699,13 @@ ul li a:nth-child(2) {
     padding: 3rem 0 3rem 0;
     background: rgba(217, 217, 217, 0.35);
     margin-top: 12%;
-    margin-left: 0!important;
-    /* background: red!important; */
+    /* margin-left: -2%;
+    margin-right: -5%!important; */
+ }
+
+ .proof-of-work .proof-of-work-child{
+    max-width: 70%;
+    margin: 0 auto;
  }
 
  .proof-of-work .web{
