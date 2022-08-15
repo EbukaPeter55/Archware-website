@@ -241,6 +241,31 @@
         </section> -->
         <!-- END OF SUBSIDIARIES SECTION -->
 
+        <!-- BRANDS THAT TRUST US -->
+        <section class="container-fluid">
+        <div>
+            <div class="brands-heading-wrapper">
+                <div class="brands-heading-title justify-content-center text-center">
+                    <h2>Brands That Trust Us</h2>
+                    <hr class="brands-line">
+                </div>
+                <p class="text-center">
+                Made up of a dynamic and passionate team of tech enthusiasts we continuously strive to implement 
+                the very best software innovations, adapting cutting-edge technologies to suit 
+                our client's unique business needs
+                </p>
+            </div>
+            <div class="brand-logo d-flex flex-row flex-wrap justify-content-evenly">
+            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_107/v1660507527/YOUHI_Brand_Manual_4_1.svg">
+            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_141/v1660507975/Layer_1.svg">
+            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_98/v1660508122/Layer_3.svg">
+            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_108/v1660508646/Fore_1_2x_1.svg">
+            </div>
+        </div>
+        </section>
+
+        <!-- END OF BRANDS THAT TRUST US -->
+
         <!-- CONTACT US SECTION -->
         <section class="container card" style="margin-top: 12%; margin-bottom: 12%">
             <div class="row justify-content-center">
