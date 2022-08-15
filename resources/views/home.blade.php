@@ -76,6 +76,23 @@
         </div>
         </section>
         <!--END OF WHY CHOOSE ARCHWARE TEAM SECTION -->
+      
+        <!-- PROOF OF WORK -->
+        <section class="container-fluid d-flex flex-wrap justify-content-evenly proof-of-work">
+            <div class="web">
+            <h1>25+</h1>
+            <p>Websites</p>
+            </div> 
+            <div class="web">
+            <h1>40+</h1>
+            <p>Completed Projects</p>
+            </div> 
+            <div class="customers">
+            <h1>20+</h1>
+            <p>Happy customers</p>
+            </div> 
+        </section>
+        <!-- END OF PROOF OF WORK -->
 
         <!-- SERVICES BRIEF SECTION -->
         <section class="container-fluid service-section">

@@ -1,5 +1,7 @@
 * {
     font-family: 'inter', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Nav text Start*/
@@ -635,7 +637,8 @@ ul li a:nth-child(2) {
 
 .team-section .team-section-right{
     width: 552px;
-    height: 465px;
+    height: auto;
+    padding-bottom: 1rem;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -683,6 +686,49 @@ ul li a:nth-child(2) {
     line-height: 172%;
     color: #FFFFFF;
 }
+
+/* PROOF OF WORK SECTION */
+ .proof-of-work{
+    width: 100%!important;
+    height: auto;
+    padding: 3rem 0 3rem 0;
+    background: rgba(217, 217, 217, 0.35);
+    margin-top: 12%;
+    margin-left: 0!important;
+    /* background: red!important; */
+ }
+
+ .proof-of-work .web{
+    border-right: 3px solid #BDBDBD;
+    padding-right: 5rem;
+ }
+
+ .proof-of-work .customers{
+    padding-right: 5rem;
+ }
+
+ .proof-of-work .web h1,
+ .proof-of-work .customers h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+    color: #BDBDBD;
+ }
+
+ .proof-of-work .web p,
+ .proof-of-work .customers p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 172%;
+    /* identical to box height, or 38px */
+    letter-spacing: -0.01em;
+    color: #BDBDBD;
+    margin-top: -.9rem;
+ }
+/* END OF PROOF OF WORK */
 
 /* SERCICES BRIEF SECTION */
 .service-section{
