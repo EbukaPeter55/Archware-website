@@ -99,7 +99,7 @@
         <!--END OF SERVICES BRIEF SECTION -->
 
         <!-- SUPPORT SECTION -->
-        <section style="margin-left:10%; margin-top: 12%">
+        <section style="margin-left:10%; margin-top: 8%">
             <div class="row justify-items-center">
                 <div class="col-md-5" class="w-50">
                     <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.svg') }}">
@@ -120,7 +120,7 @@
         <!--END OF SUPPORT SECTION -->
 
  <!-- PROJECT MANAGEMENT -->
- <section class="container-fluid service-section">
+ <section class="container-fluid service-section" style="margin-top: 8%">
             <div class="d-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
                 <div class="service-section-right">
                 <h2>Project Management</h2>
@@ -242,7 +242,7 @@
         <!-- END OF SUBSIDIARIES SECTION -->
 
         <!-- BRANDS THAT TRUST US -->
-        <section class="container-fluid">
+        <section class="container-fluid" style="margin-top: 12%">
         <div>
             <div class="brands-heading-wrapper">
                 <div class="brands-heading-title justify-content-center text-center">
@@ -263,8 +263,37 @@
             </div>
         </div>
         </section>
-
         <!-- END OF BRANDS THAT TRUST US -->
+
+        <!-- REVIEWS SECTION -->
+        <section style="margin-top: 12%">
+        <div class="text-center justify-content-center title-style">
+            <h1 class="fw-bold archware_h1">Reviews</h1>
+            <hr class="container archware_header_underline" />
+        </div>
+        <div class="reviews-card">
+        <div class="d-flex flex-row quote-icon-wrapper">
+        <img class="img-fluid" id="laptop"
+        src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
+        </div>
+        <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
+            <p>
+            Team Archware has been quite impressive in delivering 
+            for us at Youhi Media & Communications,
+             a modern, clean, and standard website that suits our
+              business type.
+            </p>
+            <p>
+            <img class="img-fluid"
+            src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
+            style="margin-top: -.5rem">    
+        </div>
+        </div>
+        </div>
+        </section>
+        
+        <!-- END OF REVIEWS SECTION -->
+        
 
         <!-- CONTACT US SECTION -->
         <section class="container card" style="margin-top: 12%; margin-bottom: 12%">
