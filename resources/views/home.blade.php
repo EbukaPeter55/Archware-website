@@ -93,10 +93,9 @@
 
         <!-- HERO SECTION -->
         <section class="container-fluid">
-
             @include('errors.error_message')
 
-           
+            <!-- THE CAROUSEL -->
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
             <!-- Indicators/dots -->
@@ -440,7 +439,7 @@
         <!-- END OF BRANDS THAT TRUST US -->
 
         <!-- REVIEWS SECTION -->
-        <section style="margin-top: 12%">
+        <!-- <section style="margin-top: 12%">
         <div class="text-center justify-content-center title-style">
             <h1 class="fw-bold archware_h1">Reviews</h1>
             <hr class="container archware_header_underline" />
@@ -451,13 +450,62 @@
         src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
         </div>
         <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
-            <p>
-            Team Archware has been quite impressive in delivering 
-            for us at Youhi Media & Communications,
-             a modern, clean, and standard website that suits our
-              business type.
-            </p>
-            <p>
+            <div class="card-text">
+                <p>
+                Team Archware has been quite impressive in delivering 
+                for us at Youhi Media & Communications,
+                 a modern, clean, and standard website that suits our
+                  business type.
+                </p>
+                <p>
+                    Tolu Adebayo
+                </p>
+            </div>
+            <img class="img-fluid"
+            src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
+            style="margin-top: -.5rem">    
+        </div>
+        </div>
+        </div>
+        </section> -->
+
+
+        <section class="container-fluid" style="margin-top: 12%;">
+            <!-- THE CAROUSEL -->
+            <div id="carouselTwo" class="carousel slide" data-bs-ride="carousel">
+                  <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselTwo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carouselTwo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carouselTwo" data-bs-slide-to="2"></button>
+            </div>
+
+           <!-- The slideshow/carousel -->
+           <div class="carousel-inner">
+           <!-- First slide -->
+           <div class="carousel-item active">
+           <section>
+        <div class="text-center justify-content-center title-style">
+            <h1 class="fw-bold archware_h1">Reviews</h1>
+            <hr class="container archware_header_underline" />
+        </div>
+        <div class="reviews-card">
+        <div class="d-flex flex-row quote-icon-wrapper">
+        <img class="img-fluid" id="laptop"
+        src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
+        </div>
+        <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
+            <div class="card-text">
+                <p>
+                Team Archware has been quite impressive in delivering 
+                for us at Youhi Media & Communications,
+                 a modern, clean, and standard website that suits our
+                  business type.
+                </p>
+                <p>
+                    Tolu Adebayo
+                </p>
+            </div>
             <img class="img-fluid"
             src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
             style="margin-top: -.5rem">    
@@ -465,6 +513,30 @@
         </div>
         </div>
         </section>
+           </div>
+   
+           <!-- Second slide -->
+           <div class="carousel-item">
+           
+           </div>
+           <!-- Third slide -->
+           <div class="carousel-item">
+               
+   
+           </div>
+   
+           </div>
+           <!-- Left and right controls/icons -->
+           <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselTwo" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon"></span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselTwo" data-bs-slide="next">
+           <span class="carousel-control-next-icon"></span>
+           </button> -->
+           </div>
+
+        </section>
+    <!-- End of test carousel -->
         
         <!-- END OF REVIEWS SECTION -->
         
