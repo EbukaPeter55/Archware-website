@@ -14,85 +14,10 @@
     {{-- @gbolahan --}}
 
     <section class="container-fluid">
-        <!-- Second slide -->
-    <!-- <div class="d-flex flex-row flex-wrap justify-content-evenly align-items-center hero-section-h" style="padding: 3rem 9% 0 9%; width: 100%; height: auto; margin-top:5em;">
-                <div>
-                    <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_294/v1660632877/Group_63.png">
-                </div>    
-                <div>
-                    <h1 class="pt-4" style="font-weight: 700; color: #040856; font-size: 3.12rem;"><b>Acquire Tech Skills For <br>
-                    A Borderless Career
-                        </b></h1>
-                    <p class="mt-4" style="font-weight: 400;font-size: 1rem;
-                color: rgba(4, 8, 86, 0.7); max-width: 36.25rem; line-height: 155%;">
-                       Become an expert in tech without prior knowledge and stay ahead of the global market.</p>
-                    <a href="/#">
-                    <button class="mt-4"
-                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
-                                border: none;color: #ffffff;border-radius: 8px;
-                                background: #1F3F95;">
-                        Read More
-                    </button></a>
-                </div>
-            </div>
-
-    </section>
-
-    <section> -->
-        <!-- First man in the hero section (active slide) -->
-    <!-- <div class="d-flex flex-row flex-wrap justify-content-center align-items-center hero-section-h" style="padding-top:3em;margin-top:5em">
-                <div>
-                    <h1 class="pt-3" style="font-weight: 700; color: 040856; font-size: 50px;"><br><br><b>Excellent Tech-Based <br>Solutions
-                            For Your
-                            <br>Business</b></h1>
-                    <p class="mt-3" style="font-weight: 400;font-size: 16px;
-                color: rgba(4, 8, 86, 0.7);">
-                        Our agile approach to problem-solving and strategic planning<br>
-                        helps you build a better structure and achieve better results in<br>
-                        your business.</p>
-                    <a href="/services">
-                    <button class="mt-3"
-                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
-                                border: none;color: #ffffff;border-radius: 8px;
-                                background: #1F3F95; margin-bottom: 3rem;">
-                        Read more
-                    </button></a>
-                </div>
-                <div>
-                    <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
-                </div>
-            </div>
-    </section>
-
-    <section> -->
- <!-- Third slide test -->
- <!-- <div class="d-flex flex-row flex-wrap justify-content-between hero-section-h" style="padding-left: 12%;">
-                <div style="margin-top -4%">
-                    <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;"><br><br><b>Top-notch Website<br>
-                            Design And Development</b></h1>
-                    <p class="mt-4" style="font-weight: 400;font-size: 16px;
-                color: rgba(4, 8, 86, 0.7);">
-                        Get a fully optimised and responsive website design <br>that can give your 
-                        business the visibility it needs.</p>
-                    <a href="/services">
-                    <button class="mt-5"
-                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
-                                border: none;color: #ffffff;border-radius: 8px;
-                                background: #1F3F95;">
-                        Read more
-                    </button></a>
-                </div>
-                <div>
-                    <img class="img-fluid" style="" src="{{ asset('customImages/Rectangle 651.svg') }}">
-                </div>
-            </div>
-
-            </div>
-    </section> -->
-    <!-- End of test -->
+      
 
         <!-- HERO SECTION -->
-        <section class="container-fluid">
+        <section class="container-fluid hero-wrapper" style="background: #F5F5F5!important; margin-top: 5rem; height: 65vh;">
             @include('errors.error_message')
 
             <!-- THE CAROUSEL -->
@@ -109,11 +34,10 @@
             <div class="carousel-inner">
             <!-- First slide -->
             <div class="carousel-item active">
-                <div class="d-flex flex-row flex-wrap justify-content-center align-items-center hero-section-h" style="padding-top:3em;margin-top:5em">
+                <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
                     <div>
-                        <h1 class="pt-4" style="font-weight: 700; color: 040856; font-size: 50px;"><br><br><b>Excellent Tech-Based <br>Solutions
-                                For Your
-                                <br>Business</b></h1>
+                        <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem;"><br><br><b>Excellent Tech-Based <br>Solutions
+                                For Your Business</b></h1>
                         <p class="mt-3" style="font-weight: 400;font-size: 16px;
                     color: rgba(4, 8, 86, 0.7);">
                             Our agile approach to problem-solving and strategic planning<br>
@@ -127,27 +51,27 @@
                             Read More
                         </button></a>
                     </div>
-                    <div>
+                    <div style="margin-top: .8rem">
                         <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
                     </div>
                 </div>
             </div>
 
             <!-- Second slide -->
-            <div class="carousel-item">
-                <div class="d-flex flex-row flex-wrap justify-content-evenly align-items-center hero-section-h" style="padding: 3rem 9% 0 9%; width: 100%; margin-top:5em;">
+            <div class="carousel-item hide-mobile">
+                <div class="d-flex flex-row flex-wrap justify-content-evenly align-items-center" style="padding: 3rem 9% 0 9%; width: 100%;">
                     <div>
-                        <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_294/v1660632877/Group_63.png">
-                    </div>    
+                        <img class="img-fluid" style="width: 358px; height: 58.2vh;" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_294/v1660632877/Group_63.png">
+                    </div>   
                     <div>
-                        <h1 class="pt-4" style="font-weight: 700; color: #040856; font-size: 3.12rem;"><b>Acquire Tech Skills For <br>
+                        <h1 class="pt-4" style="font-weight: 700; color: #040856; font-size: 3.12rem;">Acquire Tech Skills For <br>
                         A Borderless Career
-                            </b></h1>
+                        </h1>
                         <p class="mt-4" style="font-weight: 400;font-size: 1rem;
                     color: rgba(4, 8, 86, 0.7); max-width: 36.25rem; line-height: 155%;">
                            Become an expert in tech without prior knowledge and stay ahead of the global market.</p>
                         <a href="/#">
-                        <button class="mt-4"
+                        <button class="mt-5"
                             style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                                     border: none;color: #ffffff;border-radius: 8px;
                                     background: #1F3F95;">
@@ -157,11 +81,11 @@
                 </div>
             </div>
             <!-- Third slide -->
-            <div class="carousel-item">
-                <div class="d-flex flex-row flex-wrap justify-content-between hero-section-h" style="padding-left: 12%;">
-                    <div style="margin-top -4%">
-                        <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;"><br><br><b>Top-notch Website<br>
-                                Design And Development</b></h1>
+            <div class="carousel-item hide-mobile">
+                <div class="d-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
+                    <div style="">
+                        <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;"><br><br>Top-notch Website<br>
+                                Design And Development</h1>
                         <p class="mt-4" style="font-weight: 400;font-size: 16px;
                     color: rgba(4, 8, 86, 0.7);">
                             Get a fully optimised and responsive website design <br>that can give your 
@@ -175,7 +99,7 @@
                         </button></a>
                     </div>
                     <div>
-                        <img class="img-fluid" style="" src="{{ asset('customImages/Rectangle 651.svg') }}">
+                        <img class="img-fluid" style="height: 65vh;" src="{{ asset('customImages/Rectangle 651.svg') }}">
                     </div>
                 </div>
 
@@ -183,15 +107,13 @@
 
             </div>
 
-       
-
             <!-- Left and right controls/icons -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
             <span class="carousel-control-next-icon"></span>
-            </button>
+            </button> -->
             </div>
 
             </section>

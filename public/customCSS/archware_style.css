@@ -266,7 +266,9 @@ div.timer-div span {
     .hamburger-icon{
         margin-right: 3%;
     }
-
+    .hide-mobile{
+        display: none;
+    }
 }
 
 #social-links ul {
