@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+/* body {
+    margin: 0!important;
+    padding: 0!important;
+} */
+
 /* Nav text Start*/
 .navbar-scroll .navbar-toggler-icon,
 .navbar-scroll .navbar-brand {
@@ -77,8 +82,9 @@ ul li a {
 
 /* HERO SECTION */
 .hero-section-h{
-    padding-bottom: 3rem;
-    background: #F8F8F8!important;
+    /* padding-bottom: 3rem; */
+    background: #F5F5F5!important;
+    height: 80vh;
     /* background: red; */
 }
 
@@ -694,8 +700,13 @@ ul li a:nth-child(2) {
     padding: 3rem 0 3rem 0;
     background: rgba(217, 217, 217, 0.35);
     margin-top: 12%;
-    margin-left: 0!important;
-    /* background: red!important; */
+    /* margin-left: -2%;
+    margin-right: -5%!important; */
+ }
+
+ .proof-of-work .proof-of-work-child{
+    max-width: 70%;
+    margin: 0 auto;
  }
 
  .proof-of-work .web{
@@ -865,16 +876,26 @@ ul li a:nth-child(2) {
     padding: 2.1rem 0 0 4rem;
 }
 
-.reviews-card .card-content p{
+.reviews-card .card-content .card-text{
+    margin-top: 2rem;
+}
+
+.reviews-card .card-content .card-text p:nth-child(1){
     max-width: 523px;
-    height: 140px;
     font-style: normal;
     font-weight: 400;
     font-size: 1.25rem;
     line-height: 32px;
     letter-spacing: -0.01em;
     color: #FFFFFF;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
+}
+.reviews-card .card-content .card-text p:nth-child(2){
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.625rem;
+    line-height: 31px;
+    color: #D8FF98;
 }
 /* END OF REVIEWS SECTION */
 
