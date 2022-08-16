@@ -82,8 +82,9 @@ ul li a {
 
 /* HERO SECTION */
 .hero-section-h{
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     background: #F5F5F5!important;
+    height: 80vh;
     /* background: red; */
 }
 
