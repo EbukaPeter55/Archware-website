@@ -22,6 +22,10 @@ Route::get('/services', function () {
     return view('services');
 });
 
+Route::get('/service2', function () {
+    return view('service2');
+});
+
 Route::get('/subsidiaries', function () {
     return view('subsidiaries');
 });
