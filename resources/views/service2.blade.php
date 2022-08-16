@@ -26,7 +26,7 @@
                     <button type='button'>Read More</button>
                 </div>
                 <img class="img-fluid"
-                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" />
+                    src="/customImages/side.png" />
             </div>
         </section>
 
