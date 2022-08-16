@@ -18,7 +18,7 @@
     <!-- <div class="d-flex flex-row flex-wrap justify-content-evenly align-items-center hero-section-h" style="padding: 3rem 9% 0 9%; width: 100%; height: auto; margin-top:5em;">
                 <div>
                     <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_294/v1660632877/Group_63.png">
-                </div>    
+                </div>
                 <div>
                     <h1 class="pt-4" style="font-weight: 700; color: #040856; font-size: 3.12rem;"><b>Acquire Tech Skills For <br>
                     A Borderless Career
@@ -72,7 +72,7 @@
                             Design And Development</b></h1>
                     <p class="mt-4" style="font-weight: 400;font-size: 16px;
                 color: rgba(4, 8, 86, 0.7);">
-                        Get a fully optimised and responsive website design <br>that can give your 
+                        Get a fully optimised and responsive website design <br>that can give your
                         business the visibility it needs.</p>
                     <a href="/services">
                     <button class="mt-5"
@@ -138,7 +138,7 @@
                 <div class="d-flex flex-row flex-wrap justify-content-evenly align-items-center hero-section-h" style="padding: 3rem 9% 0 9%; width: 100%; margin-top:5em;">
                     <div>
                         <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_294/v1660632877/Group_63.png">
-                    </div>    
+                    </div>
                     <div>
                         <h1 class="pt-4" style="font-weight: 700; color: #040856; font-size: 3.12rem;"><b>Acquire Tech Skills For <br>
                         A Borderless Career
@@ -164,7 +164,7 @@
                                 Design And Development</b></h1>
                         <p class="mt-4" style="font-weight: 400;font-size: 16px;
                     color: rgba(4, 8, 86, 0.7);">
-                            Get a fully optimised and responsive website design <br>that can give your 
+                            Get a fully optimised and responsive website design <br>that can give your
                             business the visibility it needs.</p>
                         <a href="/services">
                         <button class="mt-5"
@@ -183,7 +183,7 @@
 
             </div>
 
-       
+
 
             <!-- Left and right controls/icons -->
             <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -198,7 +198,7 @@
             <!-- End of test carousel -->
 
         <!-- END OF HERO SECTION -->
-     
+
         <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
         <section class="container-fluid team-section">
             <div class="d-flex flex-row flex-wrap justify-items-center team-wrapper">
@@ -207,21 +207,21 @@
             <h2>Why choose Archware Team</h2>
             <p>
             Our goal is to assist our partners to overturn challenges to their advantage.
-             We bring diverse and unique set of values and prioritise resources 
-             in view of our partners' budgets linked to their vision and project 
-              objectives as we divulge business opportunities in order to achieve 
-              sustainable profitability goals.</p> 
+             We bring diverse and unique set of values and prioritise resources
+             in view of our partners' budgets linked to their vision and project
+              objectives as we divulge business opportunities in order to achieve
+              sustainable profitability goals.</p>
               <p>
-              Hence, we are committed to delivering scalable solutions 
-              to our partners. With over a decade of experience,  
-              we understand that platform growth and development 
-              capacity is a pain point for many clients and how software works across 
+              Hence, we are committed to delivering scalable solutions
+              to our partners. With over a decade of experience,
+              we understand that platform growth and development
+              capacity is a pain point for many clients and how software works across
               a multitude of industries.
               </p>
               <p>
-              Our multidisciplinary teams, comprising tech enthusiasts such as data analysts, 
+              Our multidisciplinary teams, comprising tech enthusiasts such as data analysts,
              software developers,
-             and UI/UX designers with elite and varied development expertise, are geared towards building 
+             and UI/UX designers with elite and varied development expertise, are geared towards building
              reliable products that service growth-focused businesses.
              We strive to deliver bespoke solutions that innovate using cutting-edge technologies and cloud software
              at competitive and flexible rates.
@@ -230,22 +230,22 @@
         </div>
         </section>
         <!--END OF WHY CHOOSE ARCHWARE TEAM SECTION -->
-      
+
         <!-- PROOF OF WORK -->
         <section class="container-fluid  proof-of-work">
             <div class="d-flex flex-wrap proof-of-work-child justify-content-around">
                 <div class="web">
                 <h1>25+</h1>
                 <p>Websites</p>
-                </div> 
+                </div>
                 <div class="web">
                 <h1>40+</h1>
                 <p>Completed Projects</p>
-                </div> 
+                </div>
                 <div class="customers">
                 <h1>20+</h1>
                 <p>Happy customers</p>
-                </div> 
+                </div>
             </div>
         </section>
         <!-- END OF PROOF OF WORK -->
@@ -265,7 +265,7 @@
                 >Read More
             </button>
             </div>
-            <img class="img-fluid" 
+            <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg"/>
                </div>
         </section>
@@ -283,7 +283,7 @@
                     <p class="px-2 py-4"
                         style="font-weight: 400; margin-top: -2rem; font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
                         A major concern for most businesses is to ensure their money is well spent. With our automated expense management software,
-                         tracking your employees' spending is made easy.The accuracy and extensive data generated from our system 
+                         tracking your employees' spending is made easy.The accuracy and extensive data generated from our system
                          have been able to ensure that all expenses are accounted for and accurate reimbursement claims are made to prevent fraud.</p>
                          <button type='button'
                          class="read-more">Read More</button>
@@ -298,7 +298,7 @@
                 <div class="service-section-right">
                 <h2>Project Management</h2>
                 <p>
-                We collaborate with clients to apply tactics, methods, skills, knowledge, and experience to achieve specific project objectives within agreed parameters. Our team specializes in proper planning, coordination, and execution of projects that meet global standards. Using project management tools such as Jira, Slack, Trello, Basecamp, Zoho Projects, Liquid Planner, etc, we can manage multiple projects and deliver within the project timeline. 
+                We collaborate with clients to apply tactics, methods, skills, knowledge, and experience to achieve specific project objectives within agreed parameters. Our team specializes in proper planning, coordination, and execution of projects that meet global standards. Using project management tools such as Jira, Slack, Trello, Basecamp, Zoho Projects, Liquid Planner, etc, we can manage multiple projects and deliver within the project timeline.
                 We are here to help you allocate the right resources needed to achieve
                  your business goals.
                 </p>
@@ -306,7 +306,7 @@
                 >Read More
             </button>
             </div>
-            <img class="img-fluid" 
+            <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_350/v1660497641/Rectangle_650.svg"/>
                </div>
         </section>
@@ -423,8 +423,8 @@
                     <hr class="brands-line">
                 </div>
                 <p class="text-center">
-                Made up of a dynamic and passionate team of tech enthusiasts we continuously strive to implement 
-                the very best software innovations, adapting cutting-edge technologies to suit 
+                Made up of a dynamic and passionate team of tech enthusiasts we continuously strive to implement
+                the very best software innovations, adapting cutting-edge technologies to suit
                 our client's unique business needs
                 </p>
             </div>
@@ -452,7 +452,7 @@
         <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
             <div class="card-text">
                 <p>
-                Team Archware has been quite impressive in delivering 
+                Team Archware has been quite impressive in delivering
                 for us at Youhi Media & Communications,
                  a modern, clean, and standard website that suits our
                   business type.
@@ -463,7 +463,7 @@
             </div>
             <img class="img-fluid"
             src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-            style="margin-top: -.5rem">    
+            style="margin-top: -.5rem">
         </div>
         </div>
         </div>
@@ -497,7 +497,7 @@
         <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
             <div class="card-text">
                 <p>
-                Team Archware has been quite impressive in delivering 
+                Team Archware has been quite impressive in delivering
                 for us at Youhi Media & Communications,
                  a modern, clean, and standard website that suits our
                   business type.
@@ -508,23 +508,23 @@
             </div>
             <img class="img-fluid"
             src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-            style="margin-top: -.5rem">    
+            style="margin-top: -.5rem">
         </div>
         </div>
         </div>
         </section>
            </div>
-   
+
            <!-- Second slide -->
            <div class="carousel-item">
-           
+
            </div>
            <!-- Third slide -->
            <div class="carousel-item">
-               
-   
+
+
            </div>
-   
+
            </div>
            <!-- Left and right controls/icons -->
            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselTwo" data-bs-slide="prev">
@@ -537,9 +537,9 @@
 
         </section>
     <!-- End of test carousel -->
-        
+
         <!-- END OF REVIEWS SECTION -->
-        
+
 
         <!-- CONTACT US SECTION -->
         <section class="container card" style="margin-top: 12%; margin-bottom: 12%">
@@ -648,7 +648,7 @@
 
     function handleSumbit(event){
         event.preventDefault();
-        
+
         // Get all the input field and store them in their unique variable each
         let firstname = document.getElementById('Firstname').value;
         let lastname = document.getElementById('Lastname').value;
@@ -661,13 +661,13 @@
             lastname,
             email,
             service,
-            message 
+            message
         }
         // alert(JSON.stringify(contactData));
         // alert(`${firstName} and ${lastName}`);
         console.log(contactData);
         isLoading = true;
-           
+
         function handleErrors(response) {
         if (!response.ok) {
             throw Error(response.statusText);
@@ -684,25 +684,25 @@
         })
         .then(handleErrors)
         .then(response => {console.log("ok")
-            Swal.fire({                   
+            Swal.fire({
                     icon: 'success',
                     title: 'Message sent, We will get back shortly!',
                     showConfirmButton: false,
                     timer: 1500,
-                    
-                  })  
-                  let res = document.getElementById("sendData"); 
+
+                  })
+                  let res = document.getElementById("sendData");
                   res.reset();
         })
         .catch(error => {console.log(error, 'wrong')
-            Swal.fire({                   
+            Swal.fire({
                     icon: 'error',
                     title: 'Message not sent, something went wrong!',
                     showConfirmButton: false,
                     timer: 1500,
-                    
-                  }) 
-                  
+
+                  })
+
         });
 
     }
