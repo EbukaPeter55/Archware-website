@@ -470,7 +470,7 @@
         </section> -->
 
 
-        <section class="container-fluid" style="margin-top: 12%;">
+        <section class="container-fluid" style="">
             <!-- THE CAROUSEL -->
             <div id="carouselTwo" class="carousel slide" data-bs-ride="carousel">
                   <!-- Indicators/dots -->

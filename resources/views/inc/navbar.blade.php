@@ -22,21 +22,26 @@
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/subsidiaries">Our Team</a>
                 </li>
-                <li class="nav-item px-3">
+                <!-- <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/services">Services</a>
-                </li>
-                <!-- <div class="dropdown" style="margin-top: .1rem">
-                <li class="btn btn-white archware-nav-title dropdown-toggle" data-bs-toggle="dropdown">
-                    Subsidiaries
+                </li> -->
+                <div class="dropdown" style="margin-top: .1rem">
+                <li class="btn btn-white archware-nav-title nav-drop dropdown-toggle" data-bs-toggle="dropdown">
+                    Services
                 </li>
                 <ul class="dropdown-menu dropdown-style">
-                    <li><a class="dropdown-item" href="#">Youhi Media</a></li>
-                    <li><a class="dropdown-item" href="#">Formost Eyeclinic</a></li>
-                    <li><a class="dropdown-item" href="#">Archware Foodbank</a></li>
-                    <li><a class="dropdown-item" href="#">Archware Consulting</a></li>
+                    <li><a class="dropdown-item" href="#">Archware Training Institute</a></li>
+                    <li><a class="dropdown-item" href="#">Responsive Website Design and Development</a></li>
+                    <li><a class="dropdown-item" href="#">Website Redesign</a></li>
+                    <li><a class="dropdown-item" href="#">E-commerce/Online Web Stores</a></li>
+                    <li><a class="dropdown-item" href="#">Web Maintenance</a></li>
+                    <li><a class="dropdown-item" href="#">Mobile App Development</a></li>
+                    <li><a class="dropdown-item" href="#">Project Management System</a></li>
+                    <li><a class="dropdown-item" href="#">Account & Expenses Management System</a></li>
+                    <li><a class="dropdown-item" href="#">Food Bank</a></li>
                     <li><a class="dropdown-item" href="#">Farm Management</a></li>
                 </ul>
-                </div> -->
+                </div>
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="#!">Career</a>
                 </li>
@@ -71,6 +76,7 @@
             const logoManipulation = document.querySelector('.light-logo');
             const normalLogo = document.querySelector('.colored-logo');
             const navLinks = document.querySelectorAll('.nav-link');
+            const navDrop = document.querySelector('.nav-drop');
             const normalButton = document.querySelector('#normal-button');
             const changedButton = document.querySelector('#changed-button');
 
@@ -83,7 +89,8 @@
                 // console.log(nav);
                 nav.classList.add('nav-link-text');
             })
-              
+            navDrop.classList.add('nav-link-text');
+
             logoManipulation.style.display = 'block';
             normalLogo.style.display = 'none'
           
