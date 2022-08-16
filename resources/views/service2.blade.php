@@ -10,51 +10,26 @@
 
 @section('content')
 
-    <div style="background: #eaebec;" class="p-3 mt-5">
-        <section style="margin-left:20%;">
-            <div class="row justify-items-center">
-                <div class="col-md-6 px-4">
-                    <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;">Website Design<br>and development
-                    </h2>
-                    <p class="px-2 py-4"
-                        style="font-weight: 400;  font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
-                        Appealing Web design, development, and value added tools<br>
-                        for better ROI.
-                    </p>
-                </div>
+    <section class="container-fluid">
 
-                <div class="col-md-5" class="w-50">
-                    <img style="width: 500px; " class="img-fluid" src="/customImages/Rectangle 651.png">
+        <section class="container-fluid service-section">
+            <div class="d-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
+                <div class="service-section-right">
+                    <h2 style="font-weight: 700; font-size: 50px; line-height: 58px">Website Design<br>and development</h2>
+                    <p>
+                        Over the years we have developed responsive mobile apps across
+                        industries such as Fin-tech, Banking, Medical science, and many more.
+                        Our team of experts is well skilled in different mobile app development
+                        tools such as Atom, Git hub, Ninox, MobiLoud, React Native, Xcode, Ionic, Android Studio, etc. With
+                        core competence in mobile app design and development, we have developed world-class Andriod
+                    </p>
+                    <button type='button'>Read More</button>
                 </div>
+                <img class="img-fluid"
+                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" />
             </div>
         </section>
-    </div>
 
-    <section style="margin-left:20%;" class="mt-5">
-        <div class="row justify-items-center">
-            <div class="col-md-5" class="w-50">
-                <img style="width: 500px; " class="img-fluid" src="/customImages/Group 66.png">
-            </div>
-            <div class="col-md-6 px-4">
-                <p class="px-2 py-4"
-                    style="font-weight: 400;  font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
-                    Archware technologies provide web development solutions <br>
-                    to meet your business needs. Our skilled developers <br>
-                    incorporate distinctive functional tools into brands, <br>
-                    businesses, and enterprise websites using cutting-edge <br>
-                    technology solutions to provide consumers with a superior <br>
-                    experience.<br>
-                    We offer a complete solution for web development, so your <br>
-                    hunt for the best web development services is done. <br>
-                    As your trustworthy website building company, we promise <br>
-                    that for your company's maximum profitability, the rate of <br>
-                    your pleasure will be as high as the rate of your client <br>
-                    conversion.<br>
-                    We design and build responsive websites that can be used <br>
-                    on multiple platforms.
-                </p>
-            </div>
-        </div>
     </section>
 
     <div style="background: #f7f7f7" class="p-1">
