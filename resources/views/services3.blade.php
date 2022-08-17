@@ -10,6 +10,7 @@ better results for your business.')
 
 @section('content')
 <div>
+<<<<<<< HEAD
     <section style=" background: rgba(255, 255, 255, 0.95)" ; class="mt-5 pt-5">
         <div class="container justify-content-center">
             <div class="row">
@@ -53,8 +54,27 @@ better results for your business.')
 
 
 
+=======
+    <section class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Let's Translate Your Ideas To Mobile Apps</h1>
+                <p>We make sure that your idea is translated
+                    into a beautifully developed, user-friendly, and mobile solution across all modern platforms and devices.</p>
+
+            </div>
+            <div class="col-md-6">
+                <img src="{{ asset('customImages/Rectangle 6512.svg') }}">
+            </div>
+        </div>
+>>>>>>> 04d83cdad6fe8137c1177e1a50cc949e88320e91
     </section>
 </div>
 
 
+<<<<<<< HEAD
 @endsection
+=======
+
+@endsection
+>>>>>>> 04d83cdad6fe8137c1177e1a50cc949e88320e91
