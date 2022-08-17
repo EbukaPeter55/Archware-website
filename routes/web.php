@@ -22,7 +22,7 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/service2', function () {
+Route::get('/website-design-and-development', function () {
     return view('service2');
 });
 
