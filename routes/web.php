@@ -26,6 +26,11 @@ Route::get('/service2', function () {
     return view('service2');
 });
 
+Route::get('/service3', function () {
+    return view('service3');
+});
+
+
 
 Route::get('/subsidiaries', function () {
     return view('subsidiaries');

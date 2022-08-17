@@ -11,7 +11,7 @@ better results for your business.')
 @section('content')
 <div>
     <!--Let's Translate Your Ideas To Mobile -->
-    <section style=" background: rgba(255, 255, 255, 0.95)" ; class="mt-5 pt-5">
+    <section style=" background-image: url(../customImages/Group68.png)" ; class="mt-5 pt-5">
         <div class="container justify-content-center">
             <div class="row">
                 <div class="col-md-5 mt-2 pt-4">
@@ -49,31 +49,38 @@ better results for your business.')
 
     <!--LET’S WORK TOGETHER-->
     <section class="mt-4 pt-5">
-        <div>
-            <div style="background: #1F3F95;">
-                <div class="row justify-content-center py-5">
-                    <img class="col-md-2 pt-2 mx-5" style="width:110px; height: 78px;" src="{{ asset('customImages/Vector.png') }}" alt="">
-                    <img class="col-md-2 pt-2 mx-5" style="width:110px; height: 78px" src="{{ asset('customImages/Vector (1).png') }}" alt="">
-                    <img class="col-md-2 pt-2 mx-5" style="width:110px; height: 78px" src="{{ asset('customImages/Group 65.png') }}" alt="">
-                    <img class="col-md-2 pt-2 mx-5" style="width:110px; height: 78px" src="{{ asset('customImages/Vector (3).png') }}" alt="">
+        <div class="my-4">
+            <div style="background: #1F3F95; height: 246px;" class="mt-5 d-flex justify-content-center align-items-center flex-wrap">
+                <div style="margin-top: -70px;">
+                    <img src="/customImages/Vector.png" class="px-5">
+                    <img src="/customImages/Vector (1).png" class="px-5">
+                    <img src="/customImages/Group 65.png" class="px-5">
+                    <img src="/customImages/Vector (3).png" class="px-5">
                 </div>
             </div>
-            <div class="d-flex">
-                <div style="background: linear-gradient(95.08deg, #7CB142 16.79%, #63A148 67.93%);box-shadow: 0px -23px 50px rgba(0, 0, 0, 0.08);border-radius: 0px;">
-                    <p class="px-5 py-5" style="margin-top:-20px; font-weight: 700;font-size: 30px;line-height: 36px;color: #FFFFFF;"> Got a Project? Tell us about it!</p>
-                </div>
-                <div style="background: #040856;">
-                    <p class="pt-2" style="font-weight: 700;font-size: 39px;line-height: 36px;color: #FFFFFF;">LET’S WORK <br> TOGETHER</p>
-                </div>
+
+            <div style="background-image: linear-gradient(to right, #7CB142, #63A148); height: 137px;
+            margin-right:310px; margin-top: -50px;" class="d-flex justify-content-center align-items-center flex-wrap">
+
+                <span style="margin-left: auto; margin-right: 0; font-weight: 700; font-size: 30px; line-height: 36.31px; color: #ffffff;">Got a Project? Tell us about it!
+                <p style="font-weight: 400;font-size: 19px;line-height: 172%;color: #FFFFFF;">No matter your budget and timeline, we're available to deliver without compromising quality.</p>
+                </span>
+                
+
+                <button type="submit" class="" style="width: 291px;height: 137px;background: #040856;border: none;
+            font-weight: 700;font-size: 39px;line-height: 38px;
+            color: #ffffff; margin-left: auto; margin-right: 0;">LET'S WORK
+                    TOGETHER</button>
             </div>
         </div>
     </section>
-     <!--END OF LET’S WORK TOGETHER-->
+    <!--END OF LET’S WORK TOGETHER-->
 
     <!--services-->
     <section class="container mt-3 pt-5">
         <div class="d-flex flex-row flex-wrap justify-content-center">
-            <div class="card col-md-3 mx-3" style="box-shadow:13px 13px 13px #e0e0e0;">
+
+            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0;">
                 <img src="{{ asset('customImages/Rectangle661.png') }}" alt="" style="object-fit:cover;">
                 <div class="px-2 py-4">
                     <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
@@ -86,7 +93,7 @@ better results for your business.')
                     </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-3" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="{{ asset('customImages/Rectangle 661 (1).png') }}" alt="">
                 <div class="px-2 py-4">
                     <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
@@ -99,7 +106,7 @@ better results for your business.')
                     </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-3" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="{{ asset('customImages/Rectangle 661 (2).png') }}" alt="">
                 <div class="px-2 py-4">
                     <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
