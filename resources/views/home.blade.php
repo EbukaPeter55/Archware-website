@@ -55,8 +55,8 @@ better results for your business.',)
                 <div class="d-flex flex-row flex-wrap justify-content-evenly align-items-center" style="padding: 3rem 9% 0 9%; width: 100%;">
                 <div>
                     <img class="img-fluid" style="width: 358px; height: 58.2vh;" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_294/v1660632877/Group_63.png">
-                </div>  
-                
+                </div>
+
                 <div>
             <h1 class="pt-4" style="font-weight: 700; color: #040856; font-size: 3.12rem;">Acquire Tech Skills For <br>
             A Borderless Career
@@ -98,7 +98,7 @@ better results for your business.',)
         </div>
             <!-- End of review card -->
             </div>
-       
+
             <!-- Left and right controls/icons -->
             <!-- <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
             <span class="carousel-control-prev-icon"></span>
@@ -340,7 +340,7 @@ better results for your business.',)
     </section>
     <!-- END OF BRANDS THAT TRUST US -->
 
-       
+
 
 
         <section class="container-fluid" style="">
@@ -358,17 +358,17 @@ better results for your business.',)
         <div class="carousel-item active">
              <!-- Review card -->
              <div class="reviews-card">
-                
+
                 <div class="d-flex flex-row quote-icon-wrapper">
                 <img class="img-fluid" id="laptop"
                 src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
                 </div>
-                
+
                 <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
-                
+
                 <div class="card-text">
                     <p>
-                    Team Archware has been quite impressive in delivering 
+                    Team Archware has been quite impressive in delivering
                     for us at Youhi Media & Communications,
                      a modern, clean, and standard website that suits our
                       business type.
@@ -377,14 +377,14 @@ better results for your business.',)
                         Tosin Adebayo
                     </p>
                 </div>
-                
+
                 <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-                style="margin-top: -.5rem">    
+                style="margin-top: -.5rem">
             </div>
-    
+
             </div>
-    
+
             <!-- End of review card -->
         </div>
 
@@ -392,17 +392,17 @@ better results for your business.',)
         <div class="carousel-item">
              <!-- Review card -->
              <div class="reviews-card">
-                
+
                 <div class="d-flex flex-row quote-icon-wrapper">
                 <img class="img-fluid" id="laptop"
                 src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
                 </div>
-                
+
                 <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
-                
+
                 <div class="card-text">
                     <p>
-                    Team Archware has been quite impressive in delivering 
+                    Team Archware has been quite impressive in delivering
                     for us at Youhi Media & Communications,
                      a modern, clean, and standard website that suits our
                       business type.
@@ -411,31 +411,31 @@ better results for your business.',)
                         Mr. Peterson
                     </p>
                 </div>
-                
+
                 <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-                style="margin-top: -.5rem">    
+                style="margin-top: -.5rem">
             </div>
-    
+
             </div>
-    
+
             <!-- End of review card -->
         </div>
         <!-- Third slide -->
         <div class="carousel-item">
             <!-- Review card -->
             <div class="reviews-card">
-                
+
             <div class="d-flex flex-row quote-icon-wrapper">
             <img class="img-fluid" id="laptop"
             src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
             </div>
-            
+
             <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
-            
+
             <div class="card-text">
                 <p>
-                Team Archware has been quite impressive in delivering 
+                Team Archware has been quite impressive in delivering
                 for us at Youhi Media & Communications,
                  a modern, clean, and standard website that suits our
                   business type.
@@ -444,10 +444,10 @@ better results for your business.',)
                     Tolu Adebayo
                 </p>
             </div>
-            
+
             <img class="img-fluid"
             src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-            style="margin-top: -.5rem">    
+            style="margin-top: -.5rem">
         </div>
 
         </div>
@@ -459,20 +459,20 @@ better results for your business.',)
         <button class="carousel-control-prev" type="button" data-bs-target="#demoTwo" data-bs-slide="prev">
         <!-- <span class="carousel-control-prev-icon" style="color: blue;"></span> -->
         <img class="img-fluid"
-            src="{{ asset('customImages/Vector.svg') }}">            
+            src="{{ asset('customImages/Vector.svg') }}">
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#demoTwo" data-bs-slide="next">
         <img class="img-fluid"
-            src="{{ asset('customImages/Vector (1).svg') }}"> 
+            src="{{ asset('customImages/Vector (1).svg') }}">
         <!-- <span class="carousel-control-next-icon"></span> -->
         </button>
         </div>
 
         </section>
         <!-- End OF CAROUSEL -->
-        
+
         <!-- END OF REVIEWS SECTION -->
-       
+
 <!-- CONTACT US SECTION -->
 <section class="container card" style="margin-top: 12%; margin-bottom: 12%">
     <div class="row justify-content-center">
