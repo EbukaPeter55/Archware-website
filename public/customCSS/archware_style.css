@@ -65,8 +65,19 @@ ul li a {
     color: #1F3F95;
     font-size: .87rem;
 }
-
+.hamburger-mobile{
+    display: none;
+}
 /* Navbar responsive style */
+@media(max-width: 990px){
+    .hamburger-mobile{
+        display: block;
+    }
+    .hamburger-desktop{
+        display: none;
+    }
+}
+
 @media (max-width: 414px) {
     .nav-links-a{
         margin-left: 3%!important;
