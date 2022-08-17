@@ -26,7 +26,7 @@ Route::get('/website-design-and-development', function () {
     return view('service2');
 });
 
-Route::get('/service3', function () {
+Route::get('/mobile-app-development', function () {
     return view('service3');
 });
 

@@ -35,7 +35,7 @@
                     <li><a class="dropdown-item" href="#">Website Redesign</a></li>
                     <li><a class="dropdown-item" href="#">E-commerce/Online Web Stores</a></li>
                     <li><a class="dropdown-item" href="#">Web Maintenance</a></li>
-                    <li><a class="dropdown-item" href="#">Mobile App Development</a></li>
+                    <li><a class="dropdown-item" href="/mobile-app-development">Mobile App Development</a></li>
                     <li><a class="dropdown-item" href="#">Project Management System</a></li>
                     <li><a class="dropdown-item" href="#">Account & Expenses Management System</a></li>
                     <li><a class="dropdown-item" href="#">Food Bank</a></li>
