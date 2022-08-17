@@ -35,11 +35,11 @@
                 </li>
                 <ul class="dropdown-menu dropdown-style">
                     <li><a class="dropdown-item" href="#">Archware Training Institute</a></li>
-                    <li><a class="dropdown-item" href="#">Responsive Website Design and Development</a></li>
+                    <li><a class="dropdown-item" href="/website-design-and-development">Responsive Website Design and Development</a></li>
                     <li><a class="dropdown-item" href="#">Website Redesign</a></li>
                     <li><a class="dropdown-item" href="#">E-commerce/Online Web Stores</a></li>
                     <li><a class="dropdown-item" href="#">Web Maintenance</a></li>
-                    <li><a class="dropdown-item" href="#">Mobile App Development</a></li>
+                    <li><a class="dropdown-item" href="/mobile-app-development">Mobile App Development</a></li>
                     <li><a class="dropdown-item" href="#">Project Management System</a></li>
                     <li><a class="dropdown-item" href="#">Account & Expenses Management System</a></li>
                     <li><a class="dropdown-item" href="#">Food Bank</a></li>
@@ -68,7 +68,7 @@
 <script type="text/javascript">
         const getNav = document.querySelector('#navMain');
         const topOfNav = getNav.offsetTop;
-       
+
 
         const triggerNav = (event) => {
             // console.log(event);
@@ -97,7 +97,7 @@
 
             logoManipulation.style.display = 'block';
             normalLogo.style.display = 'none'
-          
+
             }else {
             getNav.classList.remove('navbar-trigger');
 
@@ -108,5 +108,5 @@
         }
         window.addEventListener('scroll', triggerNav);
 
-     
+
     </script>

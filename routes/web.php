@@ -22,9 +22,15 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/service2', function () {
+Route::get('/website-design-and-development', function () {
     return view('service2');
 });
+
+Route::get('/mobile-app-development', function () {
+    return view('service3');
+});
+
+
 
 Route::get('/subsidiaries', function () {
     return view('subsidiaries');

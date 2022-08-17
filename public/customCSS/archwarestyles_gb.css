@@ -1,0 +1,7 @@
+.native{
+    transition: 0.5s;
+}
+
+.native:hover{
+   scale: 1.1;
+}
