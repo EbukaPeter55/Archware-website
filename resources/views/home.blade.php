@@ -193,7 +193,7 @@ better results for your business.',)
                     Account & Expenses Management</h2>
                 <p class="px-2 py-4" style="font-weight: 400; margin-top: -2rem; font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
                     A major concern for most businesses is to ensure their money is well spent. With our automated expense management software,
-                    tracking your employees' spending is made easy.The accuracy and extensive data generated from our system
+                    tracking your operational spending is made easy.The accuracy and extensive data generated from our system
                     have been able to ensure that all expenses are accounted for and accurate reimbursement claims are made to prevent fraud.</p>
                 <button type='button' class="read-more">Read More</button>
             </div>
@@ -223,21 +223,23 @@ better results for your business.',)
     <!-- ABOUT US SECTION -->
     <section id="aboutus" class="container-fluid" id="greenbg" style="margin-top: 12%">
         <div class="row">
-            <div class="mt-5" id="green-background" style="width: 1288px;height: auto; margin-left: -74px;
+            <div class="mt-5" id="green-background" style="width: 1288px;height: auto;
                 background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
-                border-top-right-radius: 21px;border-bottom-right-radius: 21px;;">
-                <div class="row justify-items-center" style="margin-left:11% ;">
+                border-top-right-radius: 21px; padding-left: 10%; padding-bottom: 2%">
+                <div class="row justify-content-center align-items-center" style="">
                     <div class="col-md-6">
-                        <h1 class="mt-5 pt-5" style="font-weight: 700;font-size: 50px;line-height: 61px;color: #FFFFFF;">About Us</h1>
+                        <h1 class="mt-5 " style="font-weight: 700;font-size: 50px;line-height: 61px;color: #FFFFFF;">About Us</h1>
                         <p class="section3-text2" style="font-weight: 400;font-size: 1rem;line-height: 179%; color: #FFFFFF;">
-                            Archware Tech Group is a result-driven tech company in Lagos,<br>
-                            Nigeria, established to provide technological innovations that help<br>
-                            improve the quality of work and lives of people across several<br>
-                            business sectors.
-                            We are a team of creative thinkers that render excellent services<br>
-                            that add value to you and your business. Our company comprises<br>
-                            five subsidiaries created to contribute to the technological<br>
-                            enhancement of different business sectors in Africa.</p>
+                            Archware Technologies is a renowed technological solution company<br>
+                            that delivers innovative and scalable digital solutions to individuals and<br>
+                            organizations across multiple industries. We have served as a groundbreaking
+                            and trustworthy tech company for top tier businesses by simplifying technology
+                            and ensuring that our clients meet their technological objectives. Our team 
+                            of Software engineers, data scientist, designers and product managers aggregate
+                            decades of industry experience and focus extensively on developing scalable and
+                           world-class software that provides end to end solutions for our clients. At 
+                           Archware Technologies, innovation, growth and sustainability are at the core
+                           of our projects, this is why our clients trust us. </p>
                     </div>
                     <div class="col-md-5" style="width: 50%; height: auto;">
                         <img class="img-fluid" id="laptop" style="margin-left:6em; margin-top: 6.2rem; width: 100%;  " src="{{ asset('customImages/Macbook Pro.svg') }}">

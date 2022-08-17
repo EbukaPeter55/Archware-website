@@ -6,8 +6,12 @@
         <a class="navbar-brand light-logo" href="#!" style="margin-left: 7%;">
             <img src="{{ asset('customImages/Archware-logo-light-variation.svg') }}">
         </a>
-        <button class="navbar-toggler hamburger-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <button class="navbar-toggler hamburger-icon hamburger-mobile" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: white;">
             <i class="fas fa-bars"></i>
         </button>
 
@@ -46,7 +50,7 @@
                     <a class="nav-link archware-nav-title" href="#!">Career</a>
                 </li>
             </ul>
-            <ul class="navbar-nav d-flex flex-row mb-3 right-btn-container" style="margin-right: 9%; margin-top: .5rem">
+            <ul class="navbar-nav d-flex flex-row  right-btn-container" style="margin-right: 9%; margin-top: .5rem">
                 <li class="nav-item me-3 me-lg-0">
                     <a href="/contacts" id="normal-button">
                     <button class="btnnav">Contact Us</button>
