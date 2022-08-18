@@ -34,6 +34,10 @@ Route::get('/ecommerce-online-web-stores', function () {
     return view('services.ecommerce');
 });
 
+Route::get('/project-management', function () {
+    return view('services.pms');
+});
+
 Route::get('/subsidiaries', function () {
     return view('subsidiaries');
 });

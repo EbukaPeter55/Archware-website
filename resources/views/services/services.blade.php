@@ -11,11 +11,11 @@ better results for your business.',)
 @section('content')
 
 
-  <div class="">
+ <div class="">
         <div class="row justify-content-center">
             <div class="col-md-10">
 
-                @include('errors.error_message')
+                @include('errors.error_message')-->
 
 <!-- OUR SERVICES BEGINNING SECTION -->
         <div class="text-center justify-content-center title-style">
