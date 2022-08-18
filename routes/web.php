@@ -30,7 +30,9 @@ Route::get('/mobile-app-development', function () {
     return view('services.service3');
 });
 
-
+Route::get('/ecommerce-online-web-stores', function () {
+    return view('services.ecommerce');
+});
 
 Route::get('/subsidiaries', function () {
     return view('subsidiaries');
