@@ -130,7 +130,7 @@
     <section class="container-fluid team-section">
         <div class="d-flex flex-row flex-wrap justify-items-center team-wrapper">
             <img class="img-fluid"
-                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_251/v1660425506/core-values-4.svg">
+                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg">
             <div class="team-section-right">
                 <h2>Why choose Archware Team</h2>
                 <p>
@@ -185,11 +185,11 @@
             <div class="service-section-right">
                 <h2>Mobile App Development</h2>
                 <p>
-                    Over the years we have developed responsive mobile apps across
+                    Over the years, we have developed responsive mobile apps across
                     industries such as Fin-tech, Banking, Medical science, and many more.
                     Our team of experts is well skilled in different mobile app development
                     tools such as Atom, Git hub, Ninox, MobiLoud, React Native, Xcode, Ionic, Android Studio, etc. With core
-                    competence in mobile app design and development, we have developed world-class Andriod
+                    competence in mobile app design and development, we have developed world-class Android and iOs apps.
                 </p>
                 <button type='button'>Read More
                 </button>
@@ -228,7 +228,7 @@
                     We collaborate with clients to apply tactics, methods, skills, knowledge, and experience to achieve
                     specific project objectives within agreed parameters. Our team specializes in proper planning,
                     coordination, and execution of projects that meet global standards. Using project management tools such
-                    as Jira, Slack, Trello, Basecamp, Zoho Projects, Liquid Planner, etc, we can manage multiple projects
+                    as Jira, Slack, Trello, Basecamp, Zoho Projects, Liquid Planner, etc, we manage multiple projects
                     and deliver within the project timeline.
                     We are here to help you allocate the right resources needed to achieve
                     your business goals.

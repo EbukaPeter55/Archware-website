@@ -11,17 +11,17 @@ better results for your business.')
 @section('content')
 <div>
     <!--Let's Translate Your Ideas To Mobile -->
-    <section style=" background-image: url(../customImages/Group68.png)" ; class="mt-5 pt-5">
-        <div class="container justify-content-center">
-            <div class="row">
-                <div class="col-md-5 mt-2 pt-4">
-                    <h1 style="font-weight: 700;font-size: 45px;line-height: 116%;color: #040856;">Let's Translate Your Ideas To Mobile</h1>
-                    <p class="pt-3" style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">We make sure that your idea is translated
-                        into a beautifully developed, user-friendly, and mobile solution across all modern platforms and devices.
+    <section style=" background-image: url(../customImages/Group68.png); background-repeat:no-repeat;" ; class="">
+        <div class="container-fluid justify-items-center">
+            <div class="d-flex flex-row">
+                <div class="col-md-5 mt-5 pt-5 mx-5">
+                    <h1 class="mt-3 mx-5" style="font-weight: 700;font-size: 45px;line-height: 116%;color: #040856;">Mobile App Development</h1>
+                    <p class="mx-5 pt-3" style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
+                    Let’s Translate Your Ideas To Mobile Apps.
                     </p>
                 </div>
-                <div class="col-md-7 px-5">
-                    <img class="img-fluid" src="{{ asset('customImages/Rectangle 6512.svg') }}">
+                <div class="col">
+                    <p class="img-fluid"  style="width:747px; height:350px; background-image: url(../customImages/Rectangle6512.svg); background-repeat:no-repeat; background-size:118%;align-items:flex-end">
                 </div>
             </div>
         </div>
@@ -29,8 +29,8 @@ better results for your business.')
     <!--END OF Let's Translate Your Ideas To Mobile-->
 
     <!--We provide quality full-cycle services-->
-    <section class="container">
-        <div class="row">
+    <section class="container pt-5">
+        <div class="d-flex flex-row">
             <div class="col-md-6">
                 <img class="img-fluid" src="{{ asset('customImages/Rectangle 678.png') }}" alt="">
                 <img class="img-fluid px-2" src="{{ asset('customImages/Rectangle 675.png') }}" alt="">
