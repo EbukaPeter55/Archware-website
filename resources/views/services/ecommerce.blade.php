@@ -110,8 +110,7 @@ A great online store design not only helps customers trust <br> your brand but a
                         </div>
                         <p class="card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            Your website is one of the best marketing tools your business has. SEO is one of the most
-                            important marketing tools that you can use to get your business found in search engines.
+                            Your website is one of the best marketing tools your business has. A great online store design not only help customers trust your brand but also helps you stand out from the competition.
                         </p>
                     </div>
                 </div>
