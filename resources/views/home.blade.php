@@ -204,7 +204,7 @@
     <section style="margin-left:10%; margin-top: 8%">
         <div class="row justify-items-center">
             <div class="col-md-5" class="w-50">
-                <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.svg') }}">
+                <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}">
             </div>
             <div class="col-md-6 px-4">
                 <h2 class="py-4 px-2" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
