@@ -130,7 +130,7 @@
     <section class="container-fluid team-section">
         <div class="d-flex flex-row flex-wrap justify-items-center team-wrapper">
             <img class="img-fluid"
-                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_251/v1660425506/core-values-4.svg">
+                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg">
             <div class="team-section-right">
                 <h2>Why choose Archware Team</h2>
                 <p>
