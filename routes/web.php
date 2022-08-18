@@ -19,15 +19,15 @@ Route::get('/', function () {
 });
 
 Route::get('/services', function () {
-    return view('services');
+    return view('services.services');
 });
 
 Route::get('/website-design-and-development', function () {
-    return view('service2');
+    return view('services.service2');
 });
 
 Route::get('/mobile-app-development', function () {
-    return view('service3');
+    return view('services.service3');
 });
 
 
