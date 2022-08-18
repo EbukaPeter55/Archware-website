@@ -39,18 +39,13 @@
             <div class="col-md-6 px-4">
                 <p class="px-2 py-4"
                     style="font-weight: 400;  font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
-                    The design and development of an e-commerce website <br>
-                    provide your business with a platform on which to sell to <br>
-                    clients online. Being the owner of a top-notch, user-friendly <br>
-                    online store is the first step in starting a highly successful <br>
-                    online business. A great online store design not only helps <br>
-                    customers trust your brand but also helps you stand out <br>
-                    from the competition. <br>
-                    You can target your clients and reach them when they're <br>
-                    ready to shop with a well-designed and optimised <br>
-                    e-commerce website. To help your business grow, our team <br>
-                    develops websites using a variety of e-commerce platforms <br>
-                    such as Craft CMS, OpenCart, and Laravel.
+                    Social Commerce continues its meteoric rise in popularity <br>across the globe with the recent prediction putting the <br> industry at the growing rate of $1.2 trillion dollars in e-<br>commer
+                    <br>
+Being the owner of a top-notch, user-friendly online store is <br>the first step in starting a highly successful online business.<br> With the best technical consultation and development<br> plans, we unlock the potential of e-commerce platforms to<br> provide you with a robust feature that is exclusive, and <br> dependable using your preferred tools such as Drupal,<br> Magento development, WooCommerce, Shopify,<br> BigCommerce.<br>
+<br>
+Our design and development of e-commerce websites <br>provide your business with a platform that connects,<br> enriches and is responsive to all devices for unforgettable <br>customer experiences.<br>
+A great online store design not only helps customers trust <br> your brand but also helps you stand out from the  <br>competition.
+               ce purchases by 2025.<br>
                 </p>
             </div>
         </div>
