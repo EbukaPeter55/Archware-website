@@ -38,9 +38,9 @@
                     <li><a class="dropdown-item" href="/website-design-and-development">Responsive Website Design and Development</a></li>
                     <li><a class="dropdown-item" href="#">Website Redesign</a></li>
                     <li><a class="dropdown-item" href="/ecommerce-online-web-stores">E-commerce/Online Web Stores</a></li>
-                    <li><a class="dropdown-item" href="/web-maintenance">Web Maintenance</a></li>
+                    <li><a class="dropdown-item" href="#">Web Maintenance</a></li>
                     <li><a class="dropdown-item" href="/mobile-app-development">Mobile App Development</a></li>
-                    <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
+                    <li><a class="dropdown-item" href="#">Project Management System</a></li>
                     <li><a class="dropdown-item" href="#">Account & Expenses Management System</a></li>
                     <li><a class="dropdown-item" href="#">Food Bank</a></li>
                     <li><a class="dropdown-item" href="#">Farm Management</a></li>
