@@ -257,10 +257,10 @@
                             that delivers innovative and scalable digital solutions to individuals and<br>
                             organizations across multiple industries. We have served as a groundbreaking
                             and trustworthy tech company for top tier businesses by simplifying technology
-                            and ensuring that our clients meet their technological objectives. Our team 
+                            and ensuring that our clients meet their technological objectives. Our team
                             of Software engineers, data scientist, designers and product managers aggregate
                             decades of industry experience and focus extensively on developing scalable and
-                           world-class software that provides end to end solutions for our clients. At 
+                           world-class software that provides end to end solutions for our clients. At
                            Archware Technologies, innovation, growth and sustainability are at the core
                            of our projects, this is why our clients trust us. </p>
                     </div>
