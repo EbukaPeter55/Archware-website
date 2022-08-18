@@ -283,8 +283,8 @@
             <div class="col-md-7" style="margin-top: 5%">
                 <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
                 <p style="font-weight: 400;font-size: 16px;;color: rgba(4, 8, 86, 0.7);">
-                    We provide a technology-based innovative
-                    solutions ecosystem that automates, empowers,
+                    We provide technology-based innovative
+                    solutions ecosystem that automates, empowers
                     and enables the growth of businesses across
                     Africa
                 </p>
@@ -297,7 +297,7 @@
                             Value
                             Creation</b>: We believe in creating long-lasting value for our clients.</li><br>
                     <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
-                        <b>Empathy</b>: Understanding is a key to our success as a team.
+                        <b>Empathy</b>: Understanding is key to our success as a team.
                     </li><br>
                     <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
                         <b>Innovation</b>: We are more than simply a team; we are innovative thinkers that strive to
