@@ -58,6 +58,11 @@ ul li a {
 .navbar-trigger{
     background: #1F3F95;
 }
+/* Hide the mobile hero in desktop screen */
+.mobile-hero{
+    display: none;
+}
+
 
 /* Nav Dropdown styles */
 .dropdown-style li a {
@@ -69,12 +74,24 @@ ul li a {
     display: none;
 }
 /* Navbar responsive style */
+@media(max-width: 1192px){
+     .mobile-hero{
+    display: block;
+     }
+     .hero-wrapper{
+        display: none;
+     }
+}
+
 @media(max-width: 990px){
     .hamburger-mobile{
         display: block;
     }
     .hamburger-desktop{
         display: none;
+    }
+    .right-btn-container{
+        /* margin-left: -17%!important; */
     }
 }
 
@@ -518,7 +535,7 @@ body {
 }
 
 .btnnav {
-    margin-left: 172px;
+    /* margin-left: 172px; */
     width: 134px;
     height: 40px;
     background: #1f3f95;
@@ -531,7 +548,7 @@ body {
     color: #fdfdfd;
 }
 .btnnav-two {
-    margin-left: 172px;
+    /* margin-left: 172px; */
     width: 134px;
     height: 40px;
     background: #ffff;
