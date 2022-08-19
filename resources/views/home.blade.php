@@ -56,7 +56,7 @@ Software development company helping businesses and individuals take advantage o
                 <!-- The slideshow/carousel -->
                 <div class="carousel-inner" style="max-height:70vh">
                     <!-- First slide -->
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" style="height:70vh">
                         <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
                             <div>
                                 <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem; margin-top: -3rem">
@@ -77,20 +77,20 @@ Software development company helping businesses and individuals take advantage o
                                         Read More
                                     </button></a>
                             </div>
-                            <div style="margin-top: .8rem">
+                            <div style="margin-top: 5rem">
                                 <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
                             </div>
                         </div>
                     </div>
 
                     <!-- Second slide -->
-                    <div class="carousel-item hide-mobile">
+                    <div class="carousel-item hide-mobile" style="height:70vh">
                         <!-- Review card -->
                         <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center"
-                            style="padding: 3rem 9% 0 9%; width: 100%;">
+                        style="max-height:70vh">
                             <div>
                                 <img class="img-fluid"
-                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/v1660900289/Group_63_1.png">
+                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_406/v1660900289/Group_63_1.png">
                             </div>
 
                             <div>
@@ -115,7 +115,7 @@ Software development company helping businesses and individuals take advantage o
                     </div>
 
                     <!-- Third slide -->
-                    <div class="carousel-item hide-mobile">
+                    <div class="carousel-item hide-mobile" style="height:70vh">
                         <div class="d-sm-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
                             <div style="padding-botton: 2%;">
                                 <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;">
@@ -136,21 +136,23 @@ Software development company helping businesses and individuals take advantage o
                                     </button></a>
                             </div>
                             <div>
-                                <img class="img-fluid" style="height: 65vh;"
+                                <img class="img-fluid" style="height: 70vh;"
                                     src="{{ asset('customImages/Rectangle 651.svg') }}">
                             </div>
                         </div>
-                        <!-- End of review card -->
+
                     </div>
 
                     <!-- Left and right controls/icons -->
                     <!-- <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                            </button>
-                            </div> -->
+                    <img class="img-fluid" src="{{ asset('customImages/Vector.svg') }}">
+                    </button> -->
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}">
+                        <!-- <span class="carousel-control-next-icon"></span> -->
+                    </button>
+            </div>
+                    </div>
 
         </section>
     </section>
