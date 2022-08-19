@@ -17,8 +17,8 @@
 
      <!-- MOBILE HERO SECTION -->
      <div class="mobile-hero" style="">
-                        <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
-                            <div>
+                        <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
+                            <div class="mobile-copy-hero">
                                 <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
                                         For Your Business</b>
@@ -157,10 +157,10 @@
     <!-- End OF CAROUSEL -->
 
     <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
-    <section class="container-fluid team-section">
-        <div class="d-sm-flex flex-row flex-wrap justify-items-center team-wrapper">
+    <section class="container-fluid team-section" style="margin-top: 12%">
+        <div class="d-sm-flex flex-row flex-wrap justify-content-center team-wrapper">
             <img class="img-fluid"
-                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg">
+                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg"/>
             <div class="team-section-right">
                 <h2>Why choose Archware Team</h2>
                 <p>

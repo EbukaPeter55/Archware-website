@@ -108,6 +108,13 @@ ul li a {
     .right-btn-container{
         margin-left: 5%;
     }
+    .mobile-hero .mobile-hero-wrapper{
+        width: 100%!important;
+    }
+    .mobile-hero .mobile-copy-hero{
+        font-size: 3rem!important;
+        margin: 0 auto;
+         }
 
 }
 
@@ -674,11 +681,11 @@ ul li a:nth-child(2) {
 /* WHY CHOOSE OUR TEAM STYLES */
 .team-section{
     height: auto;
-    margin-top: 8%;
+    /* margin-top: 8%; */
 }
 
 .team-section .team-section-right{
-    width: 552px;
+    max-width: 34.5rem;
     height: auto;
     padding-bottom: 1rem;
     font-family: 'Inter';
@@ -706,7 +713,7 @@ ul li a:nth-child(2) {
 .team-wrapper .team-section-right h2 {
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.1875rem;
     line-height: 42px;
     color: #FFFFFF;
     margin-top: 20%;
@@ -715,7 +722,7 @@ ul li a:nth-child(2) {
 .team-wrapper .team-section-right {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 172%;
     color: #FFFFFF;
 }
@@ -724,11 +731,18 @@ ul li a:nth-child(2) {
     margin-top: 1.5rem;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 172%;
     color: #FFFFFF;
 }
 
+/* Team wrapper Responsive style */
+@media(max-width: 400px){
+    .team-wrapper{
+        width: 100%;
+    }
+}
+/* End of Team wrapper Responsive style */
 /* PROOF OF WORK SECTION */
  .proof-of-work{
     width: 100%!important;
