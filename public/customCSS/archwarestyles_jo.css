@@ -3,11 +3,27 @@
         display: flex !important;
     }
 
+    .archwarejo-width-bottom-head {
+        width: 43%;
+    }
+
+    .archwarejo-width-top-head {
+        width: 57%;
+    }
+
     .archwarejo-width-top {
         width: 41%;
     }
     .archwarejo-width-bottom {
         width: 59%;
+    }
+
+    .archwarejo-image-fully-bottom {
+        margin-bottom: -48px;
+    }
+
+    .middle-content-padding-right {
+        padding-right: 7em;
     }
 }
 
@@ -24,6 +40,24 @@
 }
 
 @media (max-width: 414px) {
+}
+
+.text-white-header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.1875rem;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-top: 20%;
+}
+
+.text-white-paragraph {
+    margin-top: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 172%;
+    color: #FFFFFF;
 }
 
 
