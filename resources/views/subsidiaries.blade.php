@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('description',
-    'Archware - Our agile approach to problem-solving and strategic planning helps you achieve
-    better results for your business.',)
+    'Archware - Africa\'s Leading Software Development Company
+Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
@@ -31,7 +31,7 @@
                                     <h5 class="pt-2"><strong>Formost Eyeclinic</strong></h5>
                                     <div class="body-copy">
                                         <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 15px;">
-                                            In purus at morbi magna in in maecenas. 
+                                            In purus at morbi magna in in maecenas.
                                             Nunc nulla magna elit, varius phasellus <br>
                                             blandit convallis.
                                         </p>
@@ -62,7 +62,7 @@
                                 <img src="/customImages/hi.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="pt-2"><strong>Youhi Media & Communications Ltd.</strong></h5>
-                                    <div class="body-copy">    
+                                    <div class="body-copy">
                                     <p class="card-text archware-text-dull" style="color: #0d2158; font-size: 15px;">
                                         Established to make an impact in africa by providing innovative media and
                                         communication solutions to brands.

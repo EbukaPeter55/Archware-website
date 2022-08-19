@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('description',
-'Archware - Our agile approach to problem-solving and strategic planning helps you achieve
-better results for your business.')
+    'Archware - Africa\'s Leading Software Development Company
+Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
@@ -65,7 +65,7 @@ better results for your business.')
                 <span style="margin-left: auto; margin-right: 0; font-weight: 700; font-size: 30px; line-height: 36.31px; color: #ffffff;">Got a Project? Tell us about it!
                 <p style="font-weight: 400;font-size: 19px;line-height: 172%;color: #FFFFFF;">No matter your budget and timeline, we're available to deliver without compromising quality.</p>
                 </span>
-                
+
 
                 <button type="submit" class="" style="width: 291px;height: 137px;background: #040856;border: none;
             font-weight: 700;font-size: 39px;line-height: 38px;

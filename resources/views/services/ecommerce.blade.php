@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('description',
-    'Archware - Our agile approach to problem-solving and strategic planning helps you achieve
-    better results for your business.')
+       'Archware - Africa\'s Leading Software Development Company
+Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
@@ -10,25 +10,23 @@
 
 @section('content')
 
-    <section style=" background-image: url(../customImages/Group68.png)" ; class="mt-5">
-        <div class="container justify-content-center">
-            <div class="row">
-                <div class="col-md-5 mt-5 pt-3">
-                    <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;">
-                        E-commerce
-                    </h2>
-                    <p class="pt-3"
-                        style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
-                        Get your products in front of your customers with our<br>
-                        e-commerce website design and development service.
-                    </p>
-                </div>
-                <div class="col-md-7 px-2" style="">
-                    <img class="img-fluid" src="{{ asset('/customImages/ecommerce list.png') }}">
-                </div>
+    <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
+        <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
+            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head">
+                <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;">
+                    E-commerce
+                </h2>
+                <p class="pt-3"
+                    style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
+                    Get your products in front of your customers with our<br>
+                    e-commerce website design and development service.
+                </p>
             </div>
-        </div>
-    </section>
+            <div class="archwarejo-width-top-head">
+                <img class="img-fluid image-width-tab" src="/customImages/ecommerce list.png">
+            </div>
+        </section>
+    </div>
 
 
     <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
@@ -56,7 +54,6 @@
             </p>
         </div>
     </section>
-
 
 
     <section class="my-3 py-3">
@@ -128,31 +125,34 @@
         </div>
     </div>
 
-
-    <section class="container-fluid team-section">
-        <div class="d-flex flex-row flex-wrap justify-items-center team-wrapper"
-            style="background: #1F3F95; border-radius: 20px 20px;">
-            <img class="img-fluid p-5" style="margin-bottom: -48px; margin-top: auto; border-radius: 70px 70px 30px 50px;"
-                src="/customImages/Our Experience.png">
-            <div class="team-section-right">
-                <h2>Our Experience</h2>
-                <p>
-                    Our team of e-commerce web design experts will help you <br>
-                    every step of the way to bring your vision to life with precise <br>
-                    planning and execution to present an attractive display of <br>
-                    your products to your customers and improve your sales.<br>
-                    Our goal is to create an e-commerce website that is fast, and <br>
-                    functional to keep your customers returning and converting <br>
-                    from their first visit. All you have to do is let us know your <br>
-                    goals, and we'll do the research for you.<br>
-                    Our job isn't finished once your site is launched. We will also <br>
-                    maintain and optimise your website, keeping it up to date <br>
-                    and functioning so that you can get the most out of your new <br>
-                    e-commerce website development.
-                </p>
-            </div>
+    <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab"
+        style="background: #1F3F95; border-radius: 20px 20px;">
+        <div class="archwarejo-width-top">
+            <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom" src="/customImages/Our Experience.png">
+        </div>
+        <div class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right">
+            <h2 class="text-white-header">Our Experience</h2>
+            <p class="text-white-paragraph">
+                Our team of e-commerce web design experts will help you
+                every step of the way to bring your vision to life with precise
+                planning and execution to present an attractive display of
+                your products to your customers and improve your sales.
+            </p>
+            <p class="text-white-paragraph">
+                Our goal is to create an e-commerce website that is fast, and
+                functional to keep your customers returning and converting
+                from their first visit. All you have to do is let us know your
+                goals, and we'll do the research for you.
+            </p>
+            <p class="text-white-paragraph">
+                Our job isn't finished once your site is launched. We will also
+                maintain and optimise your website, keeping it up to date
+                and functioning so that you can get the most out of your new
+                e-commerce website development.
+            </p>
         </div>
     </section>
+
 
     <section class="my-5 py-5">
         <div class="container justify-content-center">
