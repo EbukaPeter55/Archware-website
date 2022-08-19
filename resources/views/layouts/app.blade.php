@@ -67,7 +67,7 @@
 
   @yield('scripts')
 
-  <script src="//code.tidio.co/0upkplnmbr89fgyuhfhnzra7ntt9xfya.js" async></script>
+  <!-- <script src="//code.tidio.co/0upkplnmbr89fgyuhfhnzra7ntt9xfya.js" async></script> -->
 </body>
 </html>
 

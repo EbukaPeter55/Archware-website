@@ -1,14 +1,15 @@
 @extends('layouts.app')
 
 @section('description',
-'Archware - Our agile approach to problem-solving and strategic planning helps you achieve
-better results for your business.',)
+    'Archware - Africa\'s Leading Software Development Company
+Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
 @section('image'){{ asset('customImages/Logo.svg') }}@stop
 
 @section('content')
+
 
 
  <div class="">

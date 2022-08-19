@@ -1,0 +1,41 @@
+@media (min-width: 1198px) {
+    .block-display-tab{
+        display: flex !important;
+    }
+
+    .archwarejo-width-top {
+        width: 41%;
+    }
+    .archwarejo-width-bottom {
+        width: 59%;
+    }
+}
+
+@media (max-width: 1198px) {
+    .block-display-tab {
+        display: block !important;
+    }
+    .image-width-tab {
+        width: 100%;
+    }
+}
+
+@media (max-width: 990px) {
+}
+
+@media (max-width: 414px) {
+}
+
+
+
+.archware-text-justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.archware-content-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 172%;
+    color: rgba(4, 8, 86, 0.7);
+}

@@ -6,6 +6,7 @@
         <a class="navbar-brand light-logo" href="#!" style="margin-left: 7%;">
             <img src="{{ asset('customImages/Archware-logo-light-variation.svg') }}">
         </a>
+        <!-- HAMBURGER -->
         <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
@@ -31,23 +32,23 @@
                 </li> -->
                 <div class="dropdown" style="margin-top: .1rem">
                 <li class="btn btn-white archware-nav-title nav-drop dropdown-toggle" data-bs-toggle="dropdown">
-                    Services
+                   Our Services
                 </li>
                 <ul class="dropdown-menu dropdown-style">
                     <li><a class="dropdown-item" href="#">Archware Training Institute</a></li>
                     <li><a class="dropdown-item" href="/website-design-and-development">Responsive Website Design and Development</a></li>
-                    <li><a class="dropdown-item" href="#">Website Redesign</a></li>
+                    <li><a class="dropdown-item" href="/website-redesign">Website Redesign</a></li>
                     <li><a class="dropdown-item" href="/ecommerce-online-web-stores">E-commerce/Online Web Stores</a></li>
-                    <li><a class="dropdown-item" href="#">Web Maintenance</a></li>
+                    <li><a class="dropdown-item" href="/web-maintenance">Web Maintenance</a></li>
                     <li><a class="dropdown-item" href="/mobile-app-development">Mobile App Development</a></li>
-                    <li><a class="dropdown-item" href="#">Project Management System</a></li>
+                    <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
                     <li><a class="dropdown-item" href="#">Account & Expenses Management System</a></li>
                     <li><a class="dropdown-item" href="#">Food Bank</a></li>
                     <li><a class="dropdown-item" href="#">Farm Management</a></li>
                 </ul>
                 </div>
                 <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="#!">Career</a>
+                    <a class="nav-link archware-nav-title" href="#!">Join Us</a>
                 </li>
             </ul>
             <ul class="navbar-nav d-flex flex-row  right-btn-container" style="margin-right: 9%; margin-top: .5rem">
