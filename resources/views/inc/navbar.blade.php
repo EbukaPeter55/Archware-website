@@ -37,7 +37,7 @@
                 <ul class="dropdown-menu dropdown-style">
                     <li><a class="dropdown-item" href="#">Archware Training Institute</a></li>
                     <li><a class="dropdown-item" href="/website-design-and-development">Responsive Website Design and Development</a></li>
-                    <li><a class="dropdown-item" href="#">Website Redesign</a></li>
+                    <li><a class="dropdown-item" href="/website-redesign">Website Redesign</a></li>
                     <li><a class="dropdown-item" href="/ecommerce-online-web-stores">E-commerce/Online Web Stores</a></li>
                     <li><a class="dropdown-item" href="/web-maintenance">Web Maintenance</a></li>
                     <li><a class="dropdown-item" href="/mobile-app-development">Mobile App Development</a></li>
