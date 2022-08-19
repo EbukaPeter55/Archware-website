@@ -1,4 +1,4 @@
-<!-- @extends('layouts.app')
+@extends('layouts.app')
 
 @section('description',
     'Archware - Our agile approach to problem-solving and strategic planning helps you achieve
@@ -8,26 +8,5 @@
 @section('url', 'www.archwareltd.com')
 @section('image'){{ asset('customImages/Logo.svg') }}@stop
 
-@section('content') -->
+@section('content')
 
-<h1>Home page</h1>
-<h1>Home page</h1><h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
-<h1>Home page</h1>
