@@ -122,6 +122,10 @@ ul li a {
 /* Nav test End*/
 
 /* HERO SECTION */
+.carousel-item{
+    transition: transform 0.5s ease-in-out;
+}
+
 .hero-section-h{
     /* padding-bottom: 3rem; */
     background: #F5F5F5!important;
