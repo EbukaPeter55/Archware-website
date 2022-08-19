@@ -6,6 +6,7 @@
         <a class="navbar-brand light-logo" href="#!" style="margin-left: 7%;">
             <img src="{{ asset('customImages/Archware-logo-light-variation.svg') }}">
         </a>
+        <!-- HAMBURGER -->
         <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>

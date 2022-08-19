@@ -16,8 +16,8 @@
     <section class="container-fluid">
 
      <!-- MOBILE HERO SECTION -->
-     <div class="mobile-hero" style="background: #F5F5F5!important;">
-                        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+     <div class="mobile-hero" style="">
+                        <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
                             <div>
                                 <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
@@ -25,7 +25,7 @@
                                 </h1>
                                 <p class="mt-3"
                                     style="font-weight: 400;font-size: 1rem;
-        color: rgba(4, 8, 86, 0.7);">
+                                color: rgba(4, 8, 86, 0.7);">
                                     Our agile approach to problem-solving and strategic planning<br>
                                     helps you build a better structure and achieve better results in<br>
                                     your business.</p>
@@ -57,7 +57,7 @@
                 <div class="carousel-inner" style="max-height:70vh">
                     <!-- First slide -->
                     <div class="carousel-item active">
-                        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+                        <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
                             <div>
                                 <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
@@ -86,11 +86,11 @@
                     <!-- Second slide -->
                     <div class="carousel-item hide-mobile">
                         <!-- Review card -->
-                        <div class="d-flex flex-row flex-wrap justify-content-evenly align-items-center"
+                        <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center"
                             style="padding: 3rem 9% 0 9%; width: 100%;">
                             <div>
-                                <img class="img-fluid" style="width: 358px; height: 58.2vh;"
-                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_294/v1660632877/Group_63.png">
+                                <img class="img-fluid" 
+                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/v1660900289/Group_63_1.png">
                             </div>
 
                             <div>
@@ -116,7 +116,7 @@
 
                     <!-- Third slide -->
                     <div class="carousel-item hide-mobile">
-                        <div class="d-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
+                        <div class="d-sm-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
                             <div style="padding-botton: 2%;">
                                 <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;">
                                     <br><br>Top-notch Website<br>
@@ -158,7 +158,7 @@
 
     <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
     <section class="container-fluid team-section">
-        <div class="d-flex flex-row flex-wrap justify-items-center team-wrapper">
+        <div class="d-sm-flex flex-row flex-wrap justify-items-center team-wrapper">
             <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg">
             <div class="team-section-right">
@@ -191,7 +191,7 @@
 
     <!-- PROOF OF WORK -->
     <section class="container-fluid  proof-of-work">
-        <div class="d-flex flex-wrap proof-of-work-child justify-content-around">
+        <div class="d-sm-flex flex-wrap proof-of-work-child justify-content-around">
             <div class="web">
                 <h1 class="incrementTimer" akhi="25">0</h1>
                 <p>Websites</p>
@@ -211,7 +211,7 @@
 
     <!-- SERVICES BRIEF SECTION -->
     <section class="container-fluid service-section">
-        <div class="d-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
+        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
             <div class="service-section-right">
                 <h2>Mobile App Development</h2>
                 <p>

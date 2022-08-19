@@ -93,11 +93,17 @@ ul li a {
     .right-btn-container{
         /* margin-left: -17%!important; */
     }
+    .nav-links-a{
+        margin-left: 0!important;
+    }
+    .colored-logo, .light-logo{
+        margin-left: 0!important;
+    }
 }
 
 @media (max-width: 414px) {
     .nav-links-a{
-        margin-left: 3%!important;
+        /* margin-left: 3%!important; */
     }
     .right-btn-container{
         margin-left: 5%;
