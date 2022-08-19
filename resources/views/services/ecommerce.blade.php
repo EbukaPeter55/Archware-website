@@ -31,25 +31,33 @@
     </section>
 
 
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-md-5" class="w-50">
-                <img style="width: 500px; " class="img-fluid" src="/customImages/ecommerce target client.png">
-            </div>
-            <div class="col-md-6 px-4">
-                <p class="px-2 py-4"
-                    style="font-weight: 400;  font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
-                    Social Commerce continues its meteoric rise in popularity <br>across the globe with the recent prediction putting the <br> industry at the growing rate of $1.2 trillion dollars in e-<br>commer
-                    <br>
-Being the owner of a top-notch, user-friendly online store is <br>the first step in starting a highly successful online business.<br> With the best technical consultation and development<br> plans, we unlock the potential of e-commerce platforms to<br> provide you with a robust feature that is exclusive, and <br> dependable using your preferred tools such as Drupal,<br> Magento development, WooCommerce, Shopify,<br> BigCommerce.<br>
-<br>
-Our design and development of e-commerce websites <br>provide your business with a platform that connects,<br> enriches and is responsive to all devices for unforgettable <br>customer experiences.<br>
-A great online store design not only helps customers trust <br> your brand but also helps you stand out from the  <br>competition.
-               ce purchases by 2025.<br>
-                </p>
-            </div>
+    <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
+        <div class="archwarejo-width-top">
+            <img class="img-fluid image-width-tab" src="/customImages/ecommerce target client.png">
+        </div>
+        <div class="archware-text-justify archware-content-text archwarejo-width-bottom">
+            <p>
+                Social Commerce continues its meteoric rise in popularity across the globe with the recent prediction
+                putting the industry at the growing rate of $1.2 trillion dollars in e-commerce purchases by 2025.
+            </p>
+            <p>
+                Being the owner of a top-notch, user-friendly online store is the first step in starting a highly successful
+                online business. With the best technical consultation and development plans, we unlock the potential of
+                e-commerce platforms to provide you with a robust feature that is exclusive, and dependable using your
+                preferred tools such as Drupal, Magento development, WooCommerce, Shopify, BigCommerce.
+            </p>
+            <p>
+                Our design and development of e-commerce websites provide your business with a platform that connects,
+                enriches and is responsive to all devices for unforgettable customer experiences.
+            </p>
+            <p>
+                A great online store design not only helps customers trust your brand but also helps you stand out from the
+                competition.
+            </p>
         </div>
     </section>
+
+
 
     <section class="my-3 py-3">
         <div class="container justify-content-center">
@@ -110,7 +118,8 @@ A great online store design not only helps customers trust <br> your brand but a
                         </div>
                         <p class="card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            Your website is one of the best marketing tools your business has. A great online store design not only help customers trust your brand but also helps you stand out from the competition.
+                            Your website is one of the best marketing tools your business has. A great online store design
+                            not only help customers trust your brand but also helps you stand out from the competition.
                         </p>
                     </div>
                 </div>
