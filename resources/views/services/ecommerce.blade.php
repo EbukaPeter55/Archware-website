@@ -11,14 +11,14 @@ Software development company helping businesses and individuals take advantage o
 @section('content')
 
     <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
-        <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
-            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head">
+        <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
+            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head p-2">
                 <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;">
                     E-commerce
                 </h2>
                 <p class="pt-3"
                     style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
-                    Get your products in front of your customers with our<br>
+                    Get your products in front of your customers with our
                     e-commerce website design and development service.
                 </p>
             </div>
