@@ -38,6 +38,10 @@ Route::get('/project-management', function () {
     return view('services.pms');
 });
 
+Route::get('/web-maintenance', function () {
+    return view('services.web-maintenance');
+});
+
 Route::get('/subsidiaries', function () {
     return view('subsidiaries');
 });

@@ -36,17 +36,17 @@ better results for your business.')
             </div>
             <div class="col-md-7">
                 <p class="pt-3 px-4" style="font-weight: 400;font-size: 18px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
-                    To guarantee a quality outcome, projects must be planned, managed, and possess seamless systems of
+                    To guarantee quality outcome, projects must be planned, managed, and possess seamless systems of
                     multiple but simultaneous integrations of other facets. By leveraging our expertise across industries,
-                    markets, and geographies, we deliver result-driven tasks with clear measurable social, economic and
-                    environmental values.<br>
-                    We are hands-on on projects with critical business goals, national impact value, and reckonable
-                    economic significance that have shaped many of the world’s major businesses and systems.<br>
+                    markets and geographies, we deliver result-driven tasks with clear measurable social, economic and
+                    environmental values.<br><br>
+                    We are hands-on on projects with critical business goals, national impact value and reckonable
+                    economic significance that have shaped many of the world’s major businesses and systems.<br><br>
                     We partner with private and public owners as Development and Execution Partners; we develop tight-watered
                     project frameworks to deliver transformational results. In our commitment to serve you and to uphold
                     the legacies of the programs we manage, we are with you from the birth of your project, through the
-                    project lifecycle and beyond.<br>
-                    We are valued for completing projects and programs on schedule. Our operations take into cognisance our partner's basic principles, and budget lines as we advise, coordinate tasks, and execute operational changes that maximize values.
+                    project lifecycle and beyond.<br><br>
+                    We are valued for completing projects and programs on schedule. Our operations take into cognisance our partner's basic principles and budget lines as we advise, coordinate tasks and execute operational changes that maximize values.
 
                 </p>
             </div>

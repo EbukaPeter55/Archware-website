@@ -15,8 +15,38 @@
 
     <section class="container-fluid">
 
+     <!-- MOBILE HERO SECTION -->
+     <div class="mobile-hero" style="background: #F5F5F5!important;">
+                        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+                            <div>
+                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
+                                    <br><br><b>Excellent Tech-Based <br>Solutions
+                                        For Your Business</b>
+                                </h1>
+                                <p class="mt-3"
+                                    style="font-weight: 400;font-size: 1rem;
+        color: rgba(4, 8, 86, 0.7);">
+                                    Our agile approach to problem-solving and strategic planning<br>
+                                    helps you build a better structure and achieve better results in<br>
+                                    your business.</p>
+                                <a href="/services">
+                                    <button class="mt-3"
+                                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
+                        border: none;color: #ffffff;border-radius: 8px;
+                        background: #1F3F95;">
+                                        Read More
+                                    </button></a>
+                            </div>
+                            <div style="margin-top: .8rem">
+                                <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
+                            </div>
+                        </div>
+                    </div>
+     <!-- END OF MOBILE HERO SECTION -->
+
+
         <!-- HERO SECTION -->
-        <section class="container-fluid hero-wrapper" style="background: #F5F5F5!important; margin-top: 5rem; height: 65vh;">
+        <section class="container-fluid hero-wrapper" style="background: #F5F5F5!important; margin-top: 5rem; height: auto;">
             @include('errors.error_message')
 
 
@@ -24,7 +54,7 @@
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
                 <!-- The slideshow/carousel -->
-                <div class="carousel-inner">
+                <div class="carousel-inner" style="max-height:70vh">
                     <!-- First slide -->
                     <div class="carousel-item active">
                         <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
@@ -87,7 +117,7 @@
                     <!-- Third slide -->
                     <div class="carousel-item hide-mobile">
                         <div class="d-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
-                            <div style="">
+                            <div style="padding-botton: 2%;">
                                 <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;">
                                     <br><br>Top-notch Website<br>
                                     Design And Development
@@ -130,7 +160,7 @@
     <section class="container-fluid team-section">
         <div class="d-flex flex-row flex-wrap justify-items-center team-wrapper">
             <img class="img-fluid"
-                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_251/v1660425506/core-values-4.svg">
+                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg">
             <div class="team-section-right">
                 <h2>Why choose Archware Team</h2>
                 <p>
@@ -257,10 +287,10 @@
                             that delivers innovative and scalable digital solutions to individuals and<br>
                             organizations across multiple industries. We have served as a groundbreaking
                             and trustworthy tech company for top tier businesses by simplifying technology
-                            and ensuring that our clients meet their technological objectives. Our team 
+                            and ensuring that our clients meet their technological objectives. Our team
                             of Software engineers, data scientist, designers and product managers aggregate
                             decades of industry experience and focus extensively on developing scalable and
-                           world-class software that provides end to end solutions for our clients. At 
+                           world-class software that provides end to end solutions for our clients. At
                            Archware Technologies, innovation, growth and sustainability are at the core
                            of our projects, this is why our clients trust us. </p>
                     </div>
@@ -283,8 +313,8 @@
             <div class="col-md-7" style="margin-top: 5%">
                 <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
                 <p style="font-weight: 400;font-size: 16px;;color: rgba(4, 8, 86, 0.7);">
-                    We provide a technology-based innovative
-                    solutions ecosystem that automates, empowers,
+                    We provide technology-based innovative
+                    solutions ecosystem that automates, empowers
                     and enables the growth of businesses across
                     Africa
                 </p>
@@ -297,7 +327,7 @@
                             Value
                             Creation</b>: We believe in creating long-lasting value for our clients.</li><br>
                     <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
-                        <b>Empathy</b>: Understanding is a key to our success as a team.
+                        <b>Empathy</b>: Understanding is key to our success as a team.
                     </li><br>
                     <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
                         <b>Innovation</b>: We are more than simply a team; we are innovative thinkers that strive to
