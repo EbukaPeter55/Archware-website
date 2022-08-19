@@ -281,17 +281,17 @@
                 border-top-right-radius: 21px; padding-left: 10%; padding-bottom: 2%">
                 <div class="row justify-content-center align-items-center" style="">
                     <div class="col-md-6">
-                        <h1 class="mt-5 " style="font-weight: 700;font-size: 50px;line-height: 61px;color: #FFFFFF;">About Us</h1>
-                        <p class="section3-text2" style="font-weight: 400;font-size: 1rem;line-height: 179%; color: #FFFFFF;">
+                        <h1 class="mt-5 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
+                        <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: left; 1rem;line-height: 179%; color: #FFFFFF;">
                             Archware Technologies is a renowed technological solution company<br>
-                            that delivers innovative and scalable digital solutions to individuals and<br>
-                            organizations across multiple industries. We have served as a groundbreaking
+                            that delivers innovative and scalable digital solutions to individuals<br>
+                            and organizations across multiple industries. We have served as a groundbreaking
                             and trustworthy tech company for top tier businesses by simplifying technology
                             and ensuring that our clients meet their technological objectives. Our team
                             of Software engineers, data scientist, designers and product managers aggregate
                             decades of industry experience and focus extensively on developing scalable and
-                           world-class software that provides end to end solutions for our clients. At
-                           Archware Technologies, innovation, growth and sustainability are at the core
+                           world-class software that provides end to end solutions for our clients. At 
+                           Archware<br> Technologies, innovation, growth and sustainability are at the core<br>
                            of our projects, this is why our clients trust us. </p>
                     </div>
                     <div class="col-md-5" style="width: 50%; height: auto;">
