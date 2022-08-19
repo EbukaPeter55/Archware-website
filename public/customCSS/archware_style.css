@@ -109,7 +109,7 @@ ul li a {
         margin-left: 5%;
     }
     .mobile-hero .mobile-hero-wrapper{
-        width: 100%!important;
+        /* width: 100%!important; */
     }
     .mobile-hero .mobile-copy-hero{
         font-size: 3rem!important;

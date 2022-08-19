@@ -38,7 +38,7 @@
                                     </button></a>
                             </div>
                             <div style="margin-top: .8rem">
-                                <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
+                                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
                             </div>
                         </div>
                     </div>
@@ -59,7 +59,7 @@
                     <div class="carousel-item active">
                         <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
                             <div>
-                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
+                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem; margin-top: -3rem">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
                                         For Your Business</b>
                                 </h1>
@@ -78,7 +78,7 @@
                                     </button></a>
                             </div>
                             <div style="margin-top: .8rem">
-                                <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
+                                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
                             </div>
                         </div>
                     </div>
@@ -323,22 +323,18 @@
                     leading technology solution provider in Africa.</p>
                 <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Core Values</h1>
                 <p>
-                    <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;><b>
+                    <li style="font-weight: 600;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
                             Value
-                            Creation</b>: We believe in creating long-lasting value for our clients.</li><br>
-                    <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
-                        <b>Empathy</b>: Understanding is key to our success as a team.
+                            Creation
                     </li><br>
                     <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
-                        <b>Innovation</b>: We are more than simply a team; we are innovative thinkers that strive to
-                        provide
-                        fresh concepts.
+                        <b>Empathy</b>
                     </li><br>
                     <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
-                        <b>Resilience</b>: We do not believe in defeat. We're a team of resilient individuals who
-                        persevere
-                        through difficulties.
-                    </li>
+                        <b>Innovation</b>
+                    </li><br>
+                    <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
+                        <b>Resilience</b>
                 </p>
             </div>
         </div>
@@ -598,7 +594,7 @@
                     </div>
                     <div class="pt-3 mx-5">
                         <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
-                            <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234-709-154-822</a>
+                            <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+2347031778450, +2348121738381</a>
                         </p>
                         <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}"
                                 alt="">
