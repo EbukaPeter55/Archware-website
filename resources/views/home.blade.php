@@ -14,12 +14,11 @@ Software development company helping businesses and individuals take advantage o
     {{-- @gbolahan --}}
 
     <section class="container-fluid">
-
-     <!-- MOBILE HERO SECTION -->
-     <div class="mobile-hero" style="">
+ <!-- MOBILE HERO SECTION -->
+ <div class="mobile-hero" style="">
                         <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
                             <div class="mobile-copy-hero">
-                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
+                                <h1 class="mobile-hero-title" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
                                         For Your Business</b>
                                 </h1>
@@ -155,11 +154,12 @@ Software development company helping businesses and individuals take advantage o
                     </div>
 
         </section>
+
     </section>
     <!-- End OF CAROUSEL -->
 
-    <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
-    <section class="container-fluid team-section" style="margin-top: 12%">
+      <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
+      <section class="container-fluid team-section" style="margin-top: 12%">
         <div class="d-sm-flex flex-row flex-wrap justify-content-center team-wrapper">
             <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg"/>
