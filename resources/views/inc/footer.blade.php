@@ -49,9 +49,9 @@
 
                         <ul class="list-unstyled mb-0">
                             <li class="pb-3"style="font-size:medium;">
-                                We have an unrivaled reputation for quality in the services we give <br>
-                                due to our integrity and expertise in building systems to manage <br>
-                                people.
+                                 Archware Technologies is a result-driven tech company established<br> 
+                                 to provide technological innovations that help improve the quality<br> 
+                                 of work and lives of people across several business sectors.                    
                             </li>
                         </ul>
                         <section class="pb-3">

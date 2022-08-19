@@ -16,16 +16,16 @@ Software development company helping businesses and individuals take advantage o
     <section class="container-fluid">
 
      <!-- MOBILE HERO SECTION -->
-     <div class="mobile-hero" style="background: #F5F5F5!important;">
-                        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
-                            <div>
+     <div class="mobile-hero" style="">
+                        <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
+                            <div class="mobile-copy-hero">
                                 <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
                                         For Your Business</b>
                                 </h1>
                                 <p class="mt-3"
                                     style="font-weight: 400;font-size: 1rem;
-        color: rgba(4, 8, 86, 0.7);">
+                                color: rgba(4, 8, 86, 0.7);">
                                     Our agile approach to problem-solving and strategic planning<br>
                                     helps you build a better structure and achieve better results in<br>
                                     your business.</p>
@@ -38,7 +38,7 @@ Software development company helping businesses and individuals take advantage o
                                     </button></a>
                             </div>
                             <div style="margin-top: .8rem">
-                                <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
+                                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
                             </div>
                         </div>
                     </div>
@@ -57,9 +57,9 @@ Software development company helping businesses and individuals take advantage o
                 <div class="carousel-inner" style="max-height:70vh">
                     <!-- First slide -->
                     <div class="carousel-item active">
-                        <div class="d-flex flex-row flex-wrap justify-content-center align-items-center">
+                        <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
                             <div>
-                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
+                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem; margin-top: -3rem">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
                                         For Your Business</b>
                                 </h1>
@@ -78,7 +78,7 @@ Software development company helping businesses and individuals take advantage o
                                     </button></a>
                             </div>
                             <div style="margin-top: .8rem">
-                                <img class="img-fluid" src="{{ asset('customImages/heroImage.svg') }}">
+                                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
                             </div>
                         </div>
                     </div>
@@ -86,11 +86,11 @@ Software development company helping businesses and individuals take advantage o
                     <!-- Second slide -->
                     <div class="carousel-item hide-mobile">
                         <!-- Review card -->
-                        <div class="d-flex flex-row flex-wrap justify-content-evenly align-items-center"
+                        <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center"
                             style="padding: 3rem 9% 0 9%; width: 100%;">
                             <div>
-                                <img class="img-fluid" style="width: 358px; height: 58.2vh;"
-                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_294/v1660632877/Group_63.png">
+                                <img class="img-fluid" 
+                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/v1660900289/Group_63_1.png">
                             </div>
 
                             <div>
@@ -116,7 +116,7 @@ Software development company helping businesses and individuals take advantage o
 
                     <!-- Third slide -->
                     <div class="carousel-item hide-mobile">
-                        <div class="d-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
+                        <div class="d-sm-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
                             <div style="padding-botton: 2%;">
                                 <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;">
                                     <br><br>Top-notch Website<br>
@@ -157,10 +157,10 @@ Software development company helping businesses and individuals take advantage o
     <!-- End OF CAROUSEL -->
 
     <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
-    <section class="container-fluid team-section">
-        <div class="d-flex flex-row flex-wrap justify-items-center team-wrapper">
+    <section class="container-fluid team-section" style="margin-top: 12%">
+        <div class="d-sm-flex flex-row flex-wrap justify-content-center team-wrapper">
             <img class="img-fluid"
-                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg">
+                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg"/>
             <div class="team-section-right">
                 <h2>Why choose Archware Team</h2>
                 <p>
@@ -191,7 +191,7 @@ Software development company helping businesses and individuals take advantage o
 
     <!-- PROOF OF WORK -->
     <section class="container-fluid  proof-of-work">
-        <div class="d-flex flex-wrap proof-of-work-child justify-content-around">
+        <div class="d-sm-flex flex-wrap proof-of-work-child justify-content-around">
             <div class="web">
                 <h1 class="incrementTimer" akhi="25">0</h1>
                 <p>Websites</p>
@@ -211,7 +211,7 @@ Software development company helping businesses and individuals take advantage o
 
     <!-- SERVICES BRIEF SECTION -->
     <section class="container-fluid service-section">
-        <div class="d-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
+        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
             <div class="service-section-right">
                 <h2>Mobile App Development</h2>
                 <p>
@@ -281,17 +281,17 @@ Software development company helping businesses and individuals take advantage o
                 border-top-right-radius: 21px; padding-left: 10%; padding-bottom: 2%">
                 <div class="row justify-content-center align-items-center" style="">
                     <div class="col-md-6">
-                        <h1 class="mt-5 " style="font-weight: 700;font-size: 50px;line-height: 61px;color: #FFFFFF;">About Us</h1>
-                        <p class="section3-text2" style="font-weight: 400;font-size: 1rem;line-height: 179%; color: #FFFFFF;">
+                        <h1 class="mt-5 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
+                        <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: left; 1rem;line-height: 179%; color: #FFFFFF;">
                             Archware Technologies is a renowed technological solution company<br>
-                            that delivers innovative and scalable digital solutions to individuals and<br>
-                            organizations across multiple industries. We have served as a groundbreaking
+                            that delivers innovative and scalable digital solutions to individuals<br>
+                            and organizations across multiple industries. We have served as a groundbreaking
                             and trustworthy tech company for top tier businesses by simplifying technology
                             and ensuring that our clients meet their technological objectives. Our team
                             of Software engineers, data scientist, designers and product managers aggregate
                             decades of industry experience and focus extensively on developing scalable and
-                           world-class software that provides end to end solutions for our clients. At
-                           Archware Technologies, innovation, growth and sustainability are at the core
+                           world-class software that provides end to end solutions for our clients. At 
+                           Archware<br> Technologies, innovation, growth and sustainability are at the core<br>
                            of our projects, this is why our clients trust us. </p>
                     </div>
                     <div class="col-md-5" style="width: 50%; height: auto;">
@@ -323,22 +323,18 @@ Software development company helping businesses and individuals take advantage o
                     leading technology solution provider in Africa.</p>
                 <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Core Values</h1>
                 <p>
-                    <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;><b>
+                    <li style="font-weight: 600;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
                             Value
-                            Creation</b>: We believe in creating long-lasting value for our clients.</li><br>
-                    <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
-                        <b>Empathy</b>: Understanding is key to our success as a team.
+                            Creation
                     </li><br>
                     <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
-                        <b>Innovation</b>: We are more than simply a team; we are innovative thinkers that strive to
-                        provide
-                        fresh concepts.
+                        <b>Empathy</b>
                     </li><br>
                     <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
-                        <b>Resilience</b>: We do not believe in defeat. We're a team of resilient individuals who
-                        persevere
-                        through difficulties.
-                    </li>
+                        <b>Innovation</b>
+                    </li><br>
+                    <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
+                        <b>Resilience</b>
                 </p>
             </div>
         </div>
@@ -598,7 +594,7 @@ Software development company helping businesses and individuals take advantage o
                     </div>
                     <div class="pt-3 mx-5">
                         <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
-                            <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234-709-154-822</a>
+                            <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+2347031778450, +2348121738381</a>
                         </p>
                         <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}"
                                 alt="">
