@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('description',
-    'Archware - Africa's Leading Software Development Company
+    'Archware - Africa\'s Leading Software Development Company
 Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
@@ -54,7 +54,7 @@ Software development company helping businesses and individuals take advantage o
                         text-align: center; color: #ffffff;">
                         Submit
                     </button>
-                   
+
                 </div>
             </form>
         </div>
@@ -83,7 +83,7 @@ Software development company helping businesses and individuals take advantage o
                         <img class="px-2" src="{{ asset('customImages/White (3).svg') }}">
                     </p>
                 </div>
-            </div>  
+            </div>
         </div>
     </div>
 </section>
@@ -98,7 +98,7 @@ document.getElementById('sendData').addEventListener('submit', handleSumbit);
 
 function handleSumbit(event){
     event.preventDefault();
-    
+
     // Get all the input field and store them in their unique variable each
     let firstname = document.getElementById('Firstname').value;
     let lastname = document.getElementById('Lastname').value;
@@ -111,7 +111,7 @@ function handleSumbit(event){
          lastname,
          email,
          service,
-         message 
+         message
     }
     // alert(JSON.stringify(contactData));
     // alert(`${firstName} and ${lastName}`);
@@ -134,25 +134,25 @@ function handleSumbit(event){
         })
         .then(handleErrors)
         .then(response => {console.log("ok")
-            Swal.fire({                   
+            Swal.fire({
                     icon: 'success',
                     title: 'Message sent, We will get back shortly!',
                     showConfirmButton: false,
                     timer: 1500,
-                    
-                  })  
-                  let res = document.getElementById("sendData"); 
+
+                  })
+                  let res = document.getElementById("sendData");
                   res.reset();
         })
         .catch(error => {console.log(error, 'wrong')
-            Swal.fire({                   
+            Swal.fire({
                     icon: 'error',
                     title: 'Message not sent, something went wrong!',
                     showConfirmButton: false,
                     timer: 1500,
-                    
-                  }) 
-                  
+
+                  })
+
         });
 
 

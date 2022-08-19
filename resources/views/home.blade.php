@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('description',
-    'Archware - Africa's Leading Software Development Company
+    'Archware - Africa\'s Leading Software Development Company
 Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
@@ -89,7 +89,7 @@ Software development company helping businesses and individuals take advantage o
                         <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center"
                             style="padding: 3rem 9% 0 9%; width: 100%;">
                             <div>
-                                <img class="img-fluid" 
+                                <img class="img-fluid"
                                     src="https://res.cloudinary.com/peterdbrainy/image/upload/v1660900289/Group_63_1.png">
                             </div>
 
@@ -290,7 +290,7 @@ Software development company helping businesses and individuals take advantage o
                             and ensuring that our clients meet their technological objectives. Our team
                             of Software engineers, data scientist, designers and product managers aggregate
                             decades of industry experience and focus extensively on developing scalable and
-                           world-class software that provides end to end solutions for our clients. At 
+                           world-class software that provides end to end solutions for our clients. At
                            Archware<br> Technologies, innovation, growth and sustainability are at the core<br>
                            of our projects, this is why our clients trust us. </p>
                     </div>
