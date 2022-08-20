@@ -526,7 +526,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF REVIEWS SECTION -->
 
     <!-- CONTACT US SECTION -->
-    <section class="container contact-us card" style="margin-top: 12%; margin-bottom: 12%">
+    <section class="container contact-us card" style="margin-top: 12%; margin-bottom: 9%">
         <div class="row justify-content-center">
             <div class="col-md-7 pt-5 px-3">
                 <h1 class="px-3" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">

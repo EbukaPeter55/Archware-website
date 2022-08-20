@@ -737,8 +737,8 @@ ul li a:nth-child(2) {
 }
 
 .team-wrapper{
-    /* max-width: 74.375rem; */
-    width: 100%;
+    max-width: 74.375rem;
+    /* width: 100%; */
     background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
     height: auto;
     margin: 0 auto;
