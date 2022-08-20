@@ -130,7 +130,7 @@ ul li a {
     margin-top: 8rem!important;
    }
    /* Services brief responsive style */
-   .service-section{
+   .mobile-serv{
     margin-top: 8rem!important;
    }
    .service-wrapper img {
@@ -850,7 +850,7 @@ ul li a:nth-child(2) {
 /* SERCICES BRIEF SECTION */
 .service-section{
     height: auto;
-    margin-top: 1.2rem!important;
+    margin-top: 10%;
 }
 
 .service-section .service-wrapper .service-section-right{
@@ -923,6 +923,13 @@ ul li a:nth-child(2) {
 /* SUPPORT SECTION */
 .support-section .support-section-right{
     max-width: 40rem;
+}
+/* Responsive */
+@media(max-width: 414px){
+    .support-section{
+        margin-top: 5rem;
+    }
+
 }
 /* END OF SUPPORT SECTION */
 
