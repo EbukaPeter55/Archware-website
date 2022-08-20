@@ -58,7 +58,7 @@ Software development company helping businesses and individuals take advantage o
                     <div class="carousel-item active" style="height:70vh">
                         <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
                             <div>
-                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem; margin-top: -3rem">
+                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem; margin-top: -1rem">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
                                         For Your Business</b>
                                 </h1>
@@ -76,7 +76,7 @@ Software development company helping businesses and individuals take advantage o
                                         Read More
                                     </button></a>
                             </div>
-                            <div style="margin-top: 5rem">
+                            <div style="margin-top: 7rem">
                                 <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
                             </div>
                         </div>
@@ -87,7 +87,7 @@ Software development company helping businesses and individuals take advantage o
                         <!-- Review card -->
                         <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center"
                         style="max-height:70vh">
-                            <div>
+                            <div style="margin-top: 2rem">
                                 <img class="img-fluid"
                                     src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_406/v1660900289/Group_63_1.png">
                             </div>
@@ -212,8 +212,8 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF PROOF OF WORK -->
 
     <!-- SERVICES BRIEF SECTION -->
-    <section class="container-fluid service-section">
-        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
+    <section class="container-fluid service-section mobile-serv">
+        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
             <div class="service-section-right">
                 <h2>Mobile App Development</h2>
                 <p>
@@ -251,8 +251,8 @@ Software development company helping businesses and individuals take advantage o
     <!--END OF SUPPORT SECTION -->
 
  <!-- PROJECT MANAGEMENT -->
- <section class="container-fluid service-section" style="margin-top: 8%">
-        <div class="d-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
+ <section class="container-fluid service-section proj-man" style="margin-top: 4%">
+        <div class="d-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
             <div class="service-section-right">
                 <h2>Project Management</h2>
                 <p>
@@ -274,7 +274,7 @@ Software development company helping businesses and individuals take advantage o
     <!--END OF SERVICES BRIEF SECTION -->
 
     <!-- ABOUT US SECTION -->
-    <section id="aboutus" class="container-fluid about-us" id="greenbg" style="margin-top: 12%">
+    <section id="aboutus" class="container-fluid about-us" id="greenbg" style="margin-top: 8%">
         <div class="row">
             <div class="mt-5" id="green-background" style="width: 1288px;height: auto;
                 background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
@@ -305,7 +305,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF ABOUT US SECTION -->
 
     <!-- MISSION AND VISION SECTION -->
-    <section class="container-fluid mission" style="margin-top: 12%">
+    <section class="container-fluid mission" style="margin-top: 10%">
         <div class="row justify-content-center alignt-items-center" style="padding-left: 9%; padding-right: 9%;">
             <div class="col-md-5">
                 <img class="img-fluid" class="section4-img" src="{{ asset('customImages/Image.svg') }}">
@@ -705,7 +705,13 @@ Software development company helping businesses and individuals take advantage o
                 });
 
         }
+
     </script>
 
+
+<!-- INITIALIZE AOS ANIMATE -->
+        <!-- <script>
+        AOS.init();
+        </script> -->
 
 @endsection
