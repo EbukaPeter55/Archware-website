@@ -213,7 +213,7 @@ Software development company helping businesses and individuals take advantage o
 
     <!-- SERVICES BRIEF SECTION -->
     <section class="container-fluid service-section">
-        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
+        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
             <div class="service-section-right">
                 <h2>Mobile App Development</h2>
                 <p>
@@ -252,7 +252,7 @@ Software development company helping businesses and individuals take advantage o
 
  <!-- PROJECT MANAGEMENT -->
  <section class="container-fluid service-section" style="margin-top: 8%">
-        <div class="d-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
+        <div class="d-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
             <div class="service-section-right">
                 <h2>Project Management</h2>
                 <p>
