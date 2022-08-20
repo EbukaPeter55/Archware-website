@@ -14,12 +14,11 @@ Software development company helping businesses and individuals take advantage o
     {{-- @gbolahan --}}
 
     <section class="container-fluid">
-
-     <!-- MOBILE HERO SECTION -->
-     <div class="mobile-hero" style="">
+ <!-- MOBILE HERO SECTION -->
+ <div class="mobile-hero" style="">
                         <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
                             <div class="mobile-copy-hero">
-                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
+                                <h1 class="mobile-hero-title" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
                                         For Your Business</b>
                                 </h1>
@@ -155,11 +154,12 @@ Software development company helping businesses and individuals take advantage o
                     </div>
 
         </section>
+
     </section>
     <!-- End OF CAROUSEL -->
 
-    <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
-    <section class="container-fluid team-section" style="margin-top: 12%">
+      <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
+      <section class="container-fluid team-section" style="margin-top: 12%">
         <div class="d-sm-flex flex-row flex-wrap justify-content-center team-wrapper">
             <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg"/>
@@ -230,18 +230,17 @@ Software development company helping businesses and individuals take advantage o
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" />
         </div>
     </section>
-    <!--END OF SERVICES BRIEF SECTION -->
 
-    <!-- SUPPORT SECTION -->
-    <section style="margin-left:10%; margin-top: 8%">
-        <div class="row justify-items-center">
-            <div class="col-md-5" class="w-50">
+     <!-- SUPPORT SECTION -->
+     <section class="container-fluid support" style="margin-top: 4%">
+        <div class="d-sm-flex flex-row flex-wrap justify-content-center support-section">
+            <div class="">
                 <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}">
             </div>
-            <div class="col-md-6 px-4">
+            <div class="px-4 support-section-right">
                 <h2 class="py-4 px-2" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
                     Account & Expenses Management</h2>
-                <p class="px-2 py-4" style="font-weight: 400; margin-top: -2rem; font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
+                <p class="px-2 py-4" style="font-weight: 400; margin-top: -2rem; font-size: 1rem; line-height: 172%; color: rgba(4, 8, 86, 0.7);">
                     A major concern for most businesses is to ensure their money is well spent. With our automated expense management software,
                     tracking your operational spending is made easy.The accuracy and extensive data generated from our system
                     have been able to ensure that all expenses are accounted for and accurate reimbursement claims are made to prevent fraud.</p>
@@ -251,8 +250,8 @@ Software development company helping businesses and individuals take advantage o
     </section>
     <!--END OF SUPPORT SECTION -->
 
-    <!-- PROJECT MANAGEMENT -->
-    <section class="container-fluid service-section" style="margin-top: 8%">
+ <!-- PROJECT MANAGEMENT -->
+ <section class="container-fluid service-section" style="margin-top: 8%">
         <div class="d-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
             <div class="service-section-right">
                 <h2>Project Management</h2>
@@ -274,9 +273,8 @@ Software development company helping businesses and individuals take advantage o
     </section>
     <!--END OF SERVICES BRIEF SECTION -->
 
-
     <!-- ABOUT US SECTION -->
-    <section id="aboutus" class="container-fluid" id="greenbg" style="margin-top: 12%">
+    <section id="aboutus" class="container-fluid about-us" id="greenbg" style="margin-top: 12%">
         <div class="row">
             <div class="mt-5" id="green-background" style="width: 1288px;height: auto;
                 background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
@@ -307,7 +305,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF ABOUT US SECTION -->
 
     <!-- MISSION AND VISION SECTION -->
-    <section class="container-fluid" style="margin-top: 12%">
+    <section class="container-fluid mission" style="margin-top: 12%">
         <div class="row justify-content-center alignt-items-center" style="padding-left: 9%; padding-right: 9%;">
             <div class="col-md-5">
                 <img class="img-fluid" class="section4-img" src="{{ asset('customImages/Image.svg') }}">
@@ -371,7 +369,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF SUBSIDIARIES SECTION -->
 
     <!-- BRANDS THAT TRUST US -->
-    <section class="container-fluid" style="margin-top: 12%">
+    <section class="container-fluid brands" style="margin-top: 12%">
         <div>
             <div class="brands-heading-wrapper">
                 <div class="brands-heading-title justify-content-center text-center">
@@ -398,10 +396,8 @@ Software development company helping businesses and individuals take advantage o
     </section>
     <!-- END OF BRANDS THAT TRUST US -->
 
-
-
-
-    <section class="container-fluid" style="">
+    <!-- REVIEWS SECTION -->
+    <section class="container-fluid reviews" style="">
         <div class="text-center justify-content-center title-style">
             <h1 class="fw-bold archware_h1">Reviews</h1>
             <hr class="container archware_header_underline" />
@@ -530,7 +526,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF REVIEWS SECTION -->
 
     <!-- CONTACT US SECTION -->
-    <section class="container card" style="margin-top: 12%; margin-bottom: 12%">
+    <section class="container contact-us card" style="margin-top: 12%; margin-bottom: 9%">
         <div class="row justify-content-center">
             <div class="col-md-7 pt-5 px-3">
                 <h1 class="px-3" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">

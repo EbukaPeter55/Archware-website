@@ -99,6 +99,13 @@ ul li a {
     .colored-logo, .light-logo{
         margin-left: 0!important;
     }
+    /* Support responsive style */
+    .support{
+        margin-top: 4rem!important;
+    }
+    .support .support-section{
+        /* flex-direction: row-reverse!important; */
+    }
 }
 
 @media (max-width: 414px) {
@@ -112,10 +119,38 @@ ul li a {
         /* width: 100%!important; */
     }
     .mobile-hero .mobile-copy-hero{
-        font-size: 3rem!important;
         margin: 0 auto;
-         }
 
+    }
+    .mobile-hero .mobile-copy-hero h1{
+        font-size: 2.5rem!important;
+         }
+   /* Proof of work responsive style*/
+   .proof-of-work{
+    margin-top: 8rem!important;
+   }
+   /* Services brief responsive style */
+   .service-section{
+    margin-top: 8rem!important;
+   }
+   .service-wrapper img {
+    margin-top: 5rem!important;
+   }
+/* Mission and vision responsive style */
+   .mission{
+    margin-top: 8rem!important;
+   }
+ /* Brands that trust us */
+ .brands {
+    margin-top: 6rem!important;
+ }
+  /* Reviews section */
+  .reviews{
+    margin-top: 7rem!important;
+  }
+  .contact-us{
+    margin-top: 8rem!important;
+  }
 }
 
 
@@ -703,6 +738,7 @@ ul li a:nth-child(2) {
 
 .team-wrapper{
     max-width: 74.375rem;
+    /* width: 100%; */
     background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
     height: auto;
     margin: 0 auto;
@@ -744,6 +780,16 @@ ul li a:nth-child(2) {
 @media(max-width: 400px){
     .team-wrapper{
         width: 100%;
+    }
+    .team-wrapper img{
+        width: 100%!important;
+    }
+}
+@media(max-width: 770px){
+    .team-section{
+        width: 100%;
+        background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%); 
+        margin-top: 8rem!important;
     }
 }
 /* End of Team wrapper Responsive style */
@@ -798,16 +844,15 @@ ul li a:nth-child(2) {
 /* SERCICES BRIEF SECTION */
 .service-section{
     height: auto;
-    margin-top: 8%;
+    margin-top: 1.2rem!important;
 }
 
 .service-section .service-wrapper .service-section-right{
-    width: 552px;
+    max-width: 34.5rem;
     height: 465px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 172%;
     /* or 28px */
     color: #FFFFFF;
@@ -868,6 +913,12 @@ ul li a:nth-child(2) {
 }
 
 /* END OF SERVICES SECTION STYLE */
+
+/* SUPPORT SECTION */
+.support-section .support-section-right{
+    max-width: 40rem;
+}
+/* END OF SUPPORT SECTION */
 
 /* BRANDS THAT TRUST US STYLES */
 .brands-heading-wrapper {
