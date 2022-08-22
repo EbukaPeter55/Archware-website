@@ -47,6 +47,55 @@
     }
 }
 
+@media (max-width: 769px) {
+    .mobile-padding {
+        padding: 0.15rem !important;
+    }
+    .inner-padding {
+        padding: 0.25rem !important;
+    }
+
+    .card-height-mobile {
+        height: 34em !important;
+    }
+
+    .image-min-height-mobile {
+        height: 14em;
+    }
+}
+
+@media (max-width: 990px) {
+    .small-mobile-long-button {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .text-title-mobile {
+        font-size: 30px !important;
+        line-height: 38px !important;
+    }
+    .text-body-mobile {
+        font-size: 15px !important;
+        line-height: 20px !important;
+    }
+    .text-label-mobile {
+        font-size: 1.2em !important;
+        line-height: 38px !important;
+    }
+    .experience-body-mobile {
+        background: #1F3F95 !important;
+        padding: 0.5rem !important;
+    }
+    .experience-body-with-pix-mobile {
+        background: none !important;
+        border-radius: unset !important;
+    }
+    .image-padding-buttom {
+        padding: unset !important;
+    }
+}
+
 @media (max-width: 414px) {
 }
 
