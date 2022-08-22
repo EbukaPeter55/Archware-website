@@ -25,6 +25,10 @@
     .middle-content-padding-right {
         padding-right: 7em;
     }
+
+    .padding-left-desktop {
+        padding-left: 2em !important;
+    }
 }
 
 @media (max-width: 1198px) {

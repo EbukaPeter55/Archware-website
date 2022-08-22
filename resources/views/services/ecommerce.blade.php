@@ -33,7 +33,7 @@ Software development company helping businesses and individuals take advantage o
         <div class="archwarejo-width-top">
             <img class="img-fluid image-width-tab" src="/customImages/ecommerce target client.png">
         </div>
-        <div class="archware-text-justify archware-content-text archwarejo-width-bottom">
+        <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
             <p>
                 Social Commerce continues its meteoric rise in popularity across the globe with the recent prediction
                 putting the industry at the growing rate of $1.2 trillion dollars in e-commerce purchases by 2025.
