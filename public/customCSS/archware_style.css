@@ -102,7 +102,7 @@ ul li a {
     }
     /* Support responsive style */
     .support{
-        margin-top: 4rem!important;
+        margin-top: 4%!important;
     }
     .support .support-section{
         /* flex-direction: row-reverse!important; */
@@ -131,7 +131,7 @@ ul li a {
 
     }
     .mobile-hero .mobile-copy-hero h1{
-        font-size: 1.5rem!important;
+        font-size: 1.9rem!important;
         line-height: 2rem!important;
          }
     .mobile-hero .mobile-copy-hero p {
@@ -166,6 +166,8 @@ ul li a {
     margin-top: 8rem!important;
   }
 }
+
+
 
 
 /* Nav test End*/
@@ -713,16 +715,24 @@ ul li a:nth-child(2) {
 }
 
 /* ABOUT US SECTION STYLE */
-.about-us{
-    
-}
+
 /* Responsive */
 @media(max-width: 414px){
-.about-us .about-us-copy{
-    width: 50%!important;
-}
 
+    .about-wrapper {
+        max-width: 21.5rem!important;
+        border-top-right-radius: 0!important;
+        margin: 0 auto;
+        padding-left: 1rem!important;
+    }
+    .section3-text2{
+        text-align: justify!important;
+    }
 }
+/* .about-us .about-us-copy{
+    width: 50%!important;
+} */
+
 
 /* SUBSIDIARIES STYLE */
 .card-body h5{
@@ -904,7 +914,7 @@ ul li a:nth-child(2) {
 /* SERCICES BRIEF SECTION */
 .service-section{
     height: auto;
-    margin-top: 10%;
+    margin-top: 10%!important;
 }
 
 .service-section .service-wrapper .service-section-right{
@@ -919,6 +929,11 @@ ul li a:nth-child(2) {
 }
 
 .service-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     max-width: 74.375rem;
     /* background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%); */
     height: auto;
@@ -946,7 +961,7 @@ ul li a:nth-child(2) {
     margin-top: 1.5rem;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 172%;
     color: rgba(4, 8, 86, 0.7);
     text-align: justify;
@@ -973,19 +988,56 @@ ul li a:nth-child(2) {
     margin-top: -.5rem!important;
 }
 
+@media(max-width: 400px){
+    .service-section{
+        height: auto;
+        margin-top: 4rem!important;
+    }
+    .service-wrapper{
+        flex-direction: column-reverse!important;
+    }
+    .service-wrapper .service-section-right h2{
+        font-size: 1.9rem;
+    }
+    .service-wrapper .service-section-right p {
+        font-size: .875rem;
+    }
+    .proj-man{
+        margin-top: 4rem!important;
+    }
+}
+
 /* END OF SERVICES SECTION STYLE */
 
 /* SUPPORT SECTION */
 .support-section .support-section-right{
     max-width: 40rem;
 }
+.support-section .support-section-right{
+    font-size: 35px;
+}
 .support-section .support-section-right p{
+    font-size: 1rem;
     text-align: justify;
 }
 /* Responsive */
 @media(max-width: 414px){
+    .support {
+        margin-top: 4rem!important;
+    }
     .support-section{
-        margin-top: 5rem;
+        margin-top: 4rem;
+    }
+    .support-section .support-section-right{
+        max-width: 100%!important;
+    }
+    .support-section .support-section-right h2{
+        font-size: 1.9rem;
+        text-align: left;
+    }
+    .support-section .support-section-right p{
+        font-size: .875rem;
+        text-align: justify;
     }
 
 }
@@ -1037,12 +1089,19 @@ ul li a:nth-child(2) {
 /* Mobile Responsive style */
 @media(max-width: 414px){
     .brands-heading-wrapper{
-        padding: .4rem;
+        padding: .9rem .4rem .9rem .4rem;
     }
     .brands-heading-wrapper .brands-heading-title h2{
         font-size: 1.8rem;
     }
+    .brands-heading-wrapper .brands-heading-title p{
+        text-align: justify!important;
+    }
+    .brand-logo img{
+        width: 39%;
+    }
 }
+
 /* END OF BRANDS THAT TRUST US STYLES */
 
 /* REVIEWS SECTION STYLE */
@@ -1094,4 +1153,21 @@ ul li a:nth-child(2) {
 }
 
 /* END OF REVIEWS SECTION */
+@media(max-width: 414px){
+    .contact-form-section{
+        padding-left: 1.1rem!important;
+        padding-right: 1.1rem!important;
+    }
+    /* .contact-form-section form{
+        padding-left: 1.1rem!important;
+    } */
 
+}
+
+@media(max-width: 500px){
+   /* .footer-css{
+        display: flex!important;
+        flex-direction: row!important;
+        flex-wrap: nowrap!important;
+    }  */
+}

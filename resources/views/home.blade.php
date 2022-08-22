@@ -213,7 +213,7 @@ Software development company helping businesses and individuals take advantage o
 
     <!-- SERVICES BRIEF SECTION -->
     <section class="container-fluid service-section mobile-serv">
-        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
+        <div class="service-wrapper">
             <div class="service-section-right">
                 <h2>Mobile App Development</h2>
                 <p>
@@ -276,7 +276,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- ABOUT US SECTION -->
     <section id="aboutus" class="container-fluid about-us" id="greenbg" style="margin-top: 8%">
         <div class="row">
-            <div class="mt-5" id="green-background" style="max-width: 80.5rem;height: auto;
+            <div class="mt-5 about-wrapper" style="max-width: 80.5rem;height: auto;
                 background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
                 border-top-right-radius: 21px; padding-left: 10%; padding-bottom: 2%">
                 <div class="row justify-content-center align-items-center" style="">
@@ -526,7 +526,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF REVIEWS SECTION -->
 
     <!-- CONTACT US SECTION -->
-    <section class="container contact-us card" style="margin-top: 12%; margin-bottom: 9%">
+    <section class="container contact-form-section card" style="margin-top: 12%; margin-bottom: 9%">
         <div class="row justify-content-center">
             <div class="col-md-7 pt-5 px-3">
                 <h1 class="px-3" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">
