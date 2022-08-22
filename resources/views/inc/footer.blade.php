@@ -38,9 +38,9 @@
 
             <section class="container mt-5 p-4">
 
-                <div class="row">
+                <div class="row footer-css">
 
-                    <div class="col-md-6 " style="text-align: initial;">
+                    <div class="col-md-6 col-sm-3" style="text-align: initial;">
                         <h5 class="pb-3">
                             <a href="#" id="LoginDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="{{ asset('customImages/Footer logo.svg') }}" alt="archwareLog default profile pix" class="user__photo" style="height: 5rem; width: 5.8rem; margin-right: 0.2rem">
@@ -66,7 +66,7 @@
                     </div>
 
 
-                    <div class="col-md-2" style="text-align: initial; flex-direction:column">
+                    <div class="col-md-2 col-sm-3" style="text-align: initial; flex-direction:column">
                         <h5 class="pb-3 fw-bold" style="font-size: 20px;">Pages</h5>
 
                         <ul class="list-unstyled mb-0 fw-lighter">
@@ -90,7 +90,7 @@
 
 
 
-                    <div class="col-md-2" style="text-align: initial">
+                    <div class="col-md-2 col-sm-3" style="text-align: initial">
                         <h5 class="pb-3 fw-bold" style="font-size: 20px;">Subsidiaries</h5>
 
                         <ul class="list-unstyled mb-0 fw-lighter">
@@ -103,7 +103,7 @@
                     </div>
 
 
-                    <div class="col-md-2" style="text-align: initial">
+                    <div class="col-md-2 col-sm-3" style="text-align: initial">
                         <h5 class="pb-3 fw-bold" style="font-size: 20px;">Location</h5>
 
                         <ul class="list-unstyled mb-0 fw-lighter">
