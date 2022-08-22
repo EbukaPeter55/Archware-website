@@ -99,6 +99,13 @@ ul li a {
     .colored-logo, .light-logo{
         margin-left: 0!important;
     }
+    /* Support responsive style */
+    .support{
+        margin-top: 4rem!important;
+    }
+    .support .support-section{
+        /* flex-direction: row-reverse!important; */
+    }
 }
 
 @media (max-width: 414px) {
@@ -112,16 +119,48 @@ ul li a {
         /* width: 100%!important; */
     }
     .mobile-hero .mobile-copy-hero{
-        font-size: 3rem!important;
         margin: 0 auto;
-         }
 
+    }
+    .mobile-hero .mobile-copy-hero h1{
+        font-size: 2.5rem!important;
+         }
+   /* Proof of work responsive style*/
+   .proof-of-work{
+    margin-top: 8rem!important;
+   }
+   /* Services brief responsive style */
+   .mobile-serv{
+    margin-top: 8rem!important;
+   }
+   .service-wrapper img {
+    margin-top: 5rem!important;
+   }
+/* Mission and vision responsive style */
+   .mission{
+    margin-top: 8rem!important;
+   }
+ /* Brands that trust us */
+ .brands {
+    margin-top: 6rem!important;
+ }
+  /* Reviews section */
+  .reviews{
+    margin-top: 7rem!important;
+  }
+  .contact-us{
+    margin-top: 8rem!important;
+  }
 }
 
 
 /* Nav test End*/
 
 /* HERO SECTION */
+.carousel-item{
+    transition: transform 0.5s ease-in-out;
+}
+
 .hero-section-h{
     /* padding-bottom: 3rem; */
     background: #F5F5F5!important;
@@ -699,6 +738,7 @@ ul li a:nth-child(2) {
 
 .team-wrapper{
     max-width: 74.375rem;
+    /* width: 100%; */
     background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
     height: auto;
     margin: 0 auto;
@@ -741,7 +781,23 @@ ul li a:nth-child(2) {
     .team-wrapper{
         width: 100%;
     }
+    .team-wrapper img{
+        width: 100%!important;
+    }
 }
+@media(max-width: 770px){
+    .team-section{
+        width: 100%;
+        background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%); 
+        margin-top: 8rem!important;
+    }
+}
+/* @media only screen and (min-width: 375px) and (max-width: 820px){
+    .team-wrapper img{
+        width: 100%!important;
+        height: 80vh!important;
+    }
+} */
 /* End of Team wrapper Responsive style */
 /* PROOF OF WORK SECTION */
  .proof-of-work{
@@ -794,16 +850,15 @@ ul li a:nth-child(2) {
 /* SERCICES BRIEF SECTION */
 .service-section{
     height: auto;
-    margin-top: 8%;
+    margin-top: 10%;
 }
 
 .service-section .service-wrapper .service-section-right{
-    width: 552px;
+    max-width: 34.5rem;
     height: 465px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 172%;
     /* or 28px */
     color: #FFFFFF;
@@ -865,6 +920,19 @@ ul li a:nth-child(2) {
 
 /* END OF SERVICES SECTION STYLE */
 
+/* SUPPORT SECTION */
+.support-section .support-section-right{
+    max-width: 40rem;
+}
+/* Responsive */
+@media(max-width: 414px){
+    .support-section{
+        margin-top: 5rem;
+    }
+
+}
+/* END OF SUPPORT SECTION */
+
 /* BRANDS THAT TRUST US STYLES */
 .brands-heading-wrapper {
     max-width: 75.6rem;
@@ -908,9 +976,18 @@ ul li a:nth-child(2) {
     max-width: 60rem;
     margin: 1.5rem auto 0 auto;
 }
+/* Mobile Responsive style */
+@media(max-width: 414px){
+    .brands-heading-wrapper{
+        padding: .4rem;
+    }
+    .brands-heading-wrapper .brands-heading-title h2{
+        font-size: 1.8rem;
+    }
+}
 /* END OF BRANDS THAT TRUST US STYLES */
 
-/* REVIEWS SECTION */
+/* REVIEWS SECTION STYLE */
 .reviews-card{
     max-width: 51.5rem;
     height: auto;
@@ -947,5 +1024,16 @@ ul li a:nth-child(2) {
     line-height: 31px;
     color: #D8FF98;
 }
+
+/* Review section Responsive style */
+@media(max-width: 500px){
+    .reviews-card {
+        padding: 0 1rem 1rem 1rem;
+    }
+    .reviews-card .card-content .card-text p:nth-child(2){
+        text-align: center;
+    }
+}
+
 /* END OF REVIEWS SECTION */
 

@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('description',
-    'Archware - Africa\'s Leading Software Development Company
-Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
+    'Archware - Our agile approach to problem-solving and strategic planning helps you achieve
+    better results for your business.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
@@ -11,9 +11,7 @@ Software development company helping businesses and individuals take advantage o
 @section('content')
 
 
-    {{-- @gbolahan --}}
-
-    <section class="container-fluid">
+<section class="container-fluid">
  <!-- MOBILE HERO SECTION -->
  <div class="mobile-hero" style="">
                         <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
@@ -58,7 +56,7 @@ Software development company helping businesses and individuals take advantage o
                     <div class="carousel-item active" style="height:70vh">
                         <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
                             <div>
-                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem; margin-top: -1rem">
+                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem; margin-top: -3rem">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
                                         For Your Business</b>
                                 </h1>
@@ -76,7 +74,7 @@ Software development company helping businesses and individuals take advantage o
                                         Read More
                                     </button></a>
                             </div>
-                            <div style="margin-top: 7rem">
+                            <div style="margin-top: 5rem">
                                 <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
                             </div>
                         </div>
@@ -87,7 +85,7 @@ Software development company helping businesses and individuals take advantage o
                         <!-- Review card -->
                         <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center"
                         style="max-height:70vh">
-                            <div style="margin-top: 2rem">
+                            <div>
                                 <img class="img-fluid"
                                     src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_406/v1660900289/Group_63_1.png">
                             </div>
@@ -211,15 +209,15 @@ Software development company helping businesses and individuals take advantage o
     </section>
     <!-- END OF PROOF OF WORK -->
 
-    <!-- SERVICES BRIEF SECTION -->
-    <section class="container-fluid service-section mobile-serv">
-        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
+     <!-- SERVICES BRIEF SECTION -->
+     <section class="container-fluid service-section">
+        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
             <div class="service-section-right">
                 <h2>Mobile App Development</h2>
                 <p>
                     Over the years, we have developed responsive mobile apps across
                     industries such as Fin-tech, Banking, Medical science, and many more.
-                    Our team of experts are well skilled in different mobile app development
+                    Our team of experts is well skilled in different mobile app development
                     tools such as Atom, Git hub, Ninox, MobiLoud, React Native, Xcode, Ionic, Android Studio, etc. With core
                     competence in mobile app design and development, we have developed world-class Android and iOs apps.
                 </p>
@@ -251,8 +249,8 @@ Software development company helping businesses and individuals take advantage o
     <!--END OF SUPPORT SECTION -->
 
  <!-- PROJECT MANAGEMENT -->
- <section class="container-fluid service-section proj-man" style="margin-top: 4%">
-        <div class="d-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
+ <section class="container-fluid service-section" style="margin-top: 8%">
+        <div class="d-flex flex-row align-items-center flex-wrap justify-items-center service-wrapper">
             <div class="service-section-right">
                 <h2>Project Management</h2>
                 <p>
@@ -273,8 +271,8 @@ Software development company helping businesses and individuals take advantage o
     </section>
     <!--END OF SERVICES BRIEF SECTION -->
 
-    <!-- ABOUT US SECTION -->
-    <section id="aboutus" class="container-fluid about-us" id="greenbg" style="margin-top: 8%">
+        <!-- ABOUT US SECTION -->
+        <section id="aboutus" class="container-fluid" id="greenbg" style="margin-top: 12%">
         <div class="row">
             <div class="mt-5" id="green-background" style="width: 1288px;height: auto;
                 background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
@@ -305,7 +303,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF ABOUT US SECTION -->
 
     <!-- MISSION AND VISION SECTION -->
-    <section class="container-fluid mission" style="margin-top: 10%">
+    <section class="container-fluid" style="margin-top: 12%">
         <div class="row justify-content-center alignt-items-center" style="padding-left: 9%; padding-right: 9%;">
             <div class="col-md-5">
                 <img class="img-fluid" class="section4-img" src="{{ asset('customImages/Image.svg') }}">
@@ -369,7 +367,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF SUBSIDIARIES SECTION -->
 
     <!-- BRANDS THAT TRUST US -->
-    <section class="container-fluid brands" style="margin-top: 12%">
+    <section class="container-fluid" style="margin-top: 12%">
         <div>
             <div class="brands-heading-wrapper">
                 <div class="brands-heading-title justify-content-center text-center">
@@ -396,8 +394,10 @@ Software development company helping businesses and individuals take advantage o
     </section>
     <!-- END OF BRANDS THAT TRUST US -->
 
-    <!-- REVIEWS SECTION -->
-    <section class="container-fluid reviews" style="">
+
+
+
+    <section class="container-fluid" style="">
         <div class="text-center justify-content-center title-style">
             <h1 class="fw-bold archware_h1">Reviews</h1>
             <hr class="container archware_header_underline" />
@@ -526,7 +526,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF REVIEWS SECTION -->
 
     <!-- CONTACT US SECTION -->
-    <section class="container contact-us card" style="margin-top: 12%; margin-bottom: 9%">
+    <section class="container card" style="margin-top: 12%; margin-bottom: 12%">
         <div class="row justify-content-center">
             <div class="col-md-7 pt-5 px-3">
                 <h1 class="px-3" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">
@@ -617,8 +617,7 @@ Software development company helping businesses and individuals take advantage o
         </div>
         <!-- END OF CONTACT US SECTION -->
     </section>
-    </div>
-
+    <!-- SCRIPT FOR THE DOM  -->
     <script type="text/javascript">
         const counters = document.querySelectorAll('.incrementTimer');
         const speed = 100;
@@ -705,13 +704,4 @@ Software development company helping businesses and individuals take advantage o
                 });
 
         }
-
     </script>
-
-
-<!-- INITIALIZE AOS ANIMATE -->
-        <!-- <script>
-        AOS.init();
-        </script> -->
-
-@endsection

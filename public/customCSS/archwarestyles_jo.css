@@ -37,6 +37,14 @@
 }
 
 @media (max-width: 990px) {
+    .section-top {
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        padding: 1em;
+    }
+    .section-top > .archware-text-justify {
+        margin-right: auto;
+    }
 }
 
 @media (max-width: 414px) {
