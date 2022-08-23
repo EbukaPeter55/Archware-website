@@ -159,6 +159,7 @@ Software development company helping businesses and individuals take advantage o
         <div class="d-sm-flex flex-row flex-wrap justify-content-center team-wrapper">
             <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg"/>
+                
             <div class="team-section-right">
                 <h2>Why choose Archware Team</h2>
                 <p>
