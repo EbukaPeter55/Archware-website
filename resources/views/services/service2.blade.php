@@ -14,11 +14,11 @@
     <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
         <section
             class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
-            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head p-2">
+            <div class="archware-content-text archwarejo-width-bottom-head p-2">
                 <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
                     Website Design and development
                 </h2>
-                <p class="pt-3 text-body-mobile"
+                <p class="pt-3 text-body-mobile archware-text-justify"
                     style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
                     Appealing Web design, development, and value added tools for better ROI.
                 </p>
@@ -65,7 +65,7 @@
                         line-height: 46.4px; color: #040856;">
                 WE OFFER
             </h1>
-            <hr class="container archware_header_underline text-title-mobile" />
+            <hr class="container archware_header_underline text-title-mobile"/>
 
 
             <span class="fw-bold p-3 text-body-mobile"
@@ -114,6 +114,45 @@
         </div>
     </div>
 
+
+    <div style="background-color: #1F3F95" class="mt-5">
+        <section class="container mt-5 d-flex flex-flow flex-wrap
+                justify-content-center align-items-center block-display-tab section-top">
+            <p class="text-label-mobile py-5"
+                style="font-weight: 500;font-size: 25px;line-height: 34px;text-align: center;color: #FFFFFF;mix-blend-mode: normal;">
+                <img src="/customImages/js.png" class="px-5">
+                <img src="/customImages/php.png" class="px-5">
+                <img src="/customImages/html5.png" class="px-5">
+                <img src="/customImages/shopify.png" class="px-5">
+                <img src="/customImages/dotnet.png" class="px-5">
+                <img src="/customImages/wordpress.png" class="px-5">
+                <img src="/customImages/a logo.png" class="px-5">
+                <img src="/customImages/mysql.png" class="px-5">
+            </p>
+        </section>
+
+        <div style="background-image: linear-gradient(to right, #7CB142, #63A148); height: 137px;
+            margin-right:310px; margin-top: -50px;"
+            class="d-flex justify-content-center align-items-center flex-wrap">
+
+            <span
+                style="margin-left: auto; margin-right: 0; font-weight: 700; font-size: 30px; line-height: 36.31px; color: #ffffff;">
+                Ready to start your Web Development project?
+                <p style="font-weight: 400;font-size: 19px;line-height: 172%;color: #FFFFFF;">
+                    No matter your budget and timeline, we're available to deliver without compromising quality.
+                </p>
+            </span>
+
+            <button type="submit" class=""
+                    style="width: 160px;height: 137px;background: #040856;border: none;
+                    font-weight: 700;font-size: 39px;line-height: 38px;
+                    color: #ffffff; margin-left: auto; margin-right: 0;">
+                LET'S TALK
+            </button>
+        </div>
+    </div>
+
+    {{--
     <div class="my-4">
         <div style="background: #1F3F95; height: 246px;"
             class="mt-5 d-flex justify-content-center align-items-center flex-wrap">
@@ -148,6 +187,7 @@
                 TALK</button>
         </div>
     </div>
+    --}}
 
 
 
@@ -210,9 +250,9 @@
                 src="/customImages/Rectangle corporate.jpg">
         </div>
         <div
-            class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
+            class="archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
             <h2 class="text-white-header">Corporate Website Solutions</h2>
-            <p class="text-white-paragraph">
+            <p class="text-white-paragraph archware-text-justify">
                 When using any web development technology, including
                 wooCommerce, WordPress, Shopify, Angular, ReactJS,
                 Laravel, Lumen, PHP, MySQL, JAVA, .Net, JavaScript,

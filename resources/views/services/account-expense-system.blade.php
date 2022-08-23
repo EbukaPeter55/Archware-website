@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('description',
-    'Archware - Africa\'s Leading Software Development Company
-    Software development company helping businesses and individuals take advantage of the benefits of the global technology
-    landscape.')
+    'Archware - Africa\'s Leading Software Development Company Software development
+    company helping businesses and individuals take advantage of the benefits of
+    the global technology landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
@@ -16,15 +16,16 @@
             class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
             <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head p-2">
                 <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
-                    Web Maintenance
+                    E-commerce
                 </h2>
                 <p class="pt-3 text-body-mobile"
                     style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
-                    Optimal customer experience on your website without downtime.
+                    Get your products in front of your customers with our
+                    e-commerce website design and development service.
                 </p>
             </div>
             <div class="archwarejo-width-top-head">
-                <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/web maintenance right.png">
+                <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/ecommerce list.png">
             </div>
         </section>
     </div>
@@ -32,39 +33,40 @@
 
     <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
         <div class="archwarejo-width-top">
-            <img class="img-fluid image-width-tab" src="/customImages/web maintenance left.png">
+            <img class="img-fluid image-width-tab" src="/customImages/ecommerce target client.png">
         </div>
         <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
             <p>
-                Having a responsive website is a great deal of work that needs to be done to successfully scale your
-                business. The truth is, a website is never really complete due to the ever-evolving demands and changes
-                happening in the digital world. This is why it is important to periodically make plans to update the
-                website with fresh content to engage your growing audience. Without frequent maintenance, your website
-                will start looking stale and may develop errors due to technical environment changes.
-                We add value to your business by making sure you're not missing out on traffic and revenue growth as a
-                result of a sluggish website or website downtime. Our value in performance extends to our web
-                maintenance plan with our web maintenance team ensuring that your website is up to date regarding
-                design, content, regular backups, and protection against malicious login attempts, spam, bugs, and
-                malware.
+                Social Commerce continues its meteoric rise in popularity across the globe with the recent prediction
+                putting the industry at the growing rate of $1.2 trillion dollars in e-commerce purchases by 2025.
+            </p>
+            <p>
+                Being the owner of a top-notch, user-friendly online store is the first step in starting a highly successful
+                online business. With the best technical consultation and development plans, we unlock the potential of
+                e-commerce platforms to provide you with a robust feature that is exclusive, and dependable using your
+                preferred tools such as Drupal, Magento development, WooCommerce, Shopify, BigCommerce.
+            </p>
+            <p>
+                Our design and development of e-commerce websites provide your business with a platform that connects,
+                enriches and is responsive to all devices for unforgettable customer experiences.
+            </p>
+            <p>
+                A great online store design not only helps customers trust your brand but also helps you stand out from the
+                competition.
             </p>
         </div>
     </section>
 
+
     <section class="my-3 py-3">
         <div class="container justify-content-center">
-            <div class="row text-center justify-content-center">
+            <div class="row">
                 <a class="py-3" style="text-align:center;">
                     <button class="small-mobile-long-button"
                         style="background: #1F3F95;border-radius: 4px;border:none; width:521px; height: 56px; color:#FFFFFF">
-                        Let's Help Maintain Your Website
+                        Let's Talk About Your E-commerce Project
                     </button>
                 </a>
-                <h1 class="fw-bold archware_h1 text-title-mobile"
-                    style="font-weight: 700;  font-size: 46px;
-                        line-height: 46.4px; color: #040856;">
-                    Why do you need web maintenance?
-                </h1>
-                <hr class="container archware_header_underline text-title-mobile" />
             </div>
         </div>
     </section>
@@ -76,16 +78,16 @@
             <div class="col-md-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/site security.png" class="card-img-top" alt="...">
+                    <img src="/customImages/Broaden Your Brand.jpg" class="card-img-top" alt="...">
                     <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
                         <div class="pt-1 text-title-mobile"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
-                            Site Security
+                            Broaden Your Brand
                         </div>
                         <p class="card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            Your website's scripts, security, and platforms must be functional to make it a success. Regular
-                            updates are crucial to patch up or improve the possible vulnerabilities and security lapses.
+                            Ecommerce is an ideal way you can take your brand from a traditional store to an innovative,
+                            well-loved brand, and maintain exponential growth.
                         </p>
                     </div>
                 </div>
@@ -94,17 +96,17 @@
             <div class="col-md-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/seo.png" class="card-img-top" alt="...">
+                    <img src="/customImages/More Convenience.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
                         <div class="pt-1 text-title-mobile"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
-                            SEO
+                            More Convenience
                         </div>
                         <p class="card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            The algorithm that supports SEO is rapidly evolving with the inclusion of new techniques and
-                            tools. Maintaining your website will help it stay on top of the result page on search engines
-                            and increase visibility to relevant customers.
+                            An online store is available all day, every day meaning your customers can visit your store at
+                            all times, no matter what their schedule might be. This means you can appeal to a wider range of
+                            customers all looking for a convenient and flexible experience.
                         </p>
                     </div>
                 </div>
@@ -113,17 +115,16 @@
             <div class="col-md-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/website speed.png" class="card-img-top" alt="...">
+                    <img src="/customImages/Marketing Opportunities.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
                         <div class="pt-1 text-title-mobile"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
-                            Website Speed
+                            Marketing Opportunities
                         </div>
                         <p class="card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            Research has shown that customers are attuned to fast and easily accessible websites. Regularly
-                            improving the speed of your website yields happy customers, increases click-through rate (CTR),
-                            and encourages customers to return to your website.
+                            Your website is one of the best marketing tools your business has. A great online store design
+                            not only help customers trust your brand but also helps you stand out from the competition.
                         </p>
                     </div>
                 </div>
@@ -137,37 +138,44 @@
         style="background: #1F3F95; border-radius: 20px 20px;">
         <div class="archwarejo-width-top">
             <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom"
-                src="/customImages/effective communication.png">
+                src="/customImages/Our Experience.png">
         </div>
-        <div class="archware-text-justify archware-content-text
-                archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
-            <h2 class="text-white-header">Effective Communication</h2>
+        <div
+            class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
+            <h2 class="text-white-header">Our Experience</h2>
             <p class="text-white-paragraph">
-                There is no greater breakdown in communicating with your audience
-                than having a website that is down, stuck or stale,
-                and irrelevant.
+                Our team of e-commerce web design experts will help you
+                every step of the way to bring your vision to life with precise
+                planning and execution to present an attractive display of
+                your products to your customers and improve your sales.
             </p>
             <p class="text-white-paragraph">
-                Our team uses the best technical practices with insights into
-                customers' changing realities to deploy a responsive website
-                that helps businesses grow. As part of our ethics, we
-                consider web maintenance an essential part of our toolbox
-                to help you stay relevant and in touch with your target
-                audience.
+                Our goal is to create an e-commerce website that is fast, and
+                functional to keep your customers returning and converting
+                from their first visit. All you have to do is let us know your
+                goals, and we'll do the research for you.
+            </p>
+            <p class="text-white-paragraph">
+                Our job isn't finished once your site is launched. We will also
+                maintain and optimise your website, keeping it up to date
+                and functioning so that you can get the most out of your new
+                e-commerce website development.
             </p>
         </div>
     </section>
 
+
     <section class="my-5 py-5">
         <div class="container justify-content-center">
             <div class="row">
-                <p class="text-label-mobile" style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
-                    Get more out of your website today!
+                <p class="text-label-mobile"
+                    style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
+                    Let's create an e-commerce store as great as your products
                 </p>
                 <a class="py-3" style="text-align:center;">
                     <button class="small-mobile-long-button"
                         style="background: #1F3F95;border-radius: 4px;border:none; width:312px; height: 56px; color:#FFFFFF">
-                        Contact Us
+                        Get In Touch For a Quote
                     </button>
                 </a>
             </div>
