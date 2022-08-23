@@ -2,7 +2,8 @@
 
 @section('description',
     'Archware - Africa\'s Leading Software Development Company
-Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
+    Software development company helping businesses and individuals take advantage of the benefits of the global technology
+    landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
@@ -10,12 +11,30 @@ Software development company helping businesses and individuals take advantage o
 
 @section('content')
 
-    <section style=" background-image: url(../customImages/Group68.png)" ; class="mt-5">
+    <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
+        <section
+            class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
+            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head p-2">
+                <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
+                    Website Design and development
+                </h2>
+                <p class="pt-3 text-body-mobile"
+                    style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
+                    Appealing Web design, development, and value added tools for better ROI.
+                </p>
+            </div>
+            <div class="archwarejo-width-top-head">
+                <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/web design right.png">
+            </div>
+        </section>
+    </div>
+
+    {{-- <section style=" background-image: url(../customImages/Group68.png)" ; class="mt-5">
         <div class="container justify-content-center">
             <div class="row">
                 <div class="col-md-5 mt-5 pt-3">
                     <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;">
-                        Website Design<br>and development
+                        Website Design<br>and developmentgi
                     </h2>
                     <p class="pt-3"
                         style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
@@ -28,7 +47,7 @@ Software development company helping businesses and individuals take advantage o
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
     <section class="container mt-5">
