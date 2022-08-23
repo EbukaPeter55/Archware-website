@@ -1088,14 +1088,10 @@ body {
 /* END OF CONTACT US SECTION */
 
 /* FOOTER STYLES */
-
- /* .footer-wrapper{
-    margin-top: 5rem;
+.footer-css{
+    /* display: flex; */
 }
-.footer-category ul li{
-    list-style-type: none;
-    text-align: left;
-} */
+
 
 @media(max-width: 414px){
     .newsletter-text{
@@ -1113,5 +1109,10 @@ body {
     .footer-category h5{
       
     } */
-
+    .location{
+        margin-top: 2rem;
+    }
+    .pages{
+        margin-top: 1.8rem;
+    }
 }
