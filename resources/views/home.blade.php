@@ -282,7 +282,7 @@ Software development company helping businesses and individuals take advantage o
                 <div class="row justify-content-center align-items-center" style="">
                     <div class="col-md-6">
                         <h1 class="mt-5 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
-                        <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: left; 1rem;line-height: 179%; color: #FFFFFF;">
+                        <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: left;line-height: 179%; color: #FFFFFF;">
                             Archware Technologies is a renowed technological solution company<br>
                             that delivers innovative and scalable digital solutions to individuals<br>
                             and organizations across multiple industries. We have served as a groundbreaking
