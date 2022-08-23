@@ -48,7 +48,7 @@
                 </ul>
                 </div>
                 <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="#!">Join Us</a>
+                    <a class="nav-link archware-nav-title" href="/join-us">Join Us</a>
                 </li>
             </ul>
             <ul class="navbar-nav d-flex flex-row  right-btn-container" style="margin-right: 9%; margin-top: .5rem">

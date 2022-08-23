@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
 @section('description',
-    'Archware - Africa\'s Leading Software Development Company
-    Software development company helping businesses and individuals take advantage of the benefits of the global technology
-    landscape.')
+    'Archware - Africa\'s Leading Software Development Company Software development
+    company helping businesses and individuals take advantage of the benefits of
+    the global technology landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
@@ -14,17 +14,17 @@
     <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
         <section
             class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
-            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head p-2">
+            <div class="archware-content-text archwarejo-width-bottom-head p-2">
                 <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
-                    Web Maintenance
+                    Account & Expenses Management System
                 </h2>
-                <p class="pt-3 text-body-mobile"
+                <p class="pt-3 text-body-mobile archware-text-justify"
                     style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
-                    Optimal customer experience on your website without downtime.
+                    Enjoy a One-stop Cost Management System
                 </p>
             </div>
             <div class="archwarejo-width-top-head">
-                <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/web maintenance right.png">
+                <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/account expense right.png">
             </div>
         </section>
     </div>
@@ -32,39 +32,47 @@
 
     <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
         <div class="archwarejo-width-top">
-            <img class="img-fluid image-width-tab" src="/customImages/web maintenance left.png">
+            <img class="img-fluid image-width-tab" src="/customImages/account expence down.png">
         </div>
         <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
             <p>
-                Having a responsive website is a great deal of work that needs to be done to successfully scale your
-                business. The truth is, a website is never really complete due to the ever-evolving demands and changes
-                happening in the digital world. This is why it is important to periodically make plans to update the
-                website with fresh content to engage your growing audience. Without frequent maintenance, your website
-                will start looking stale and may develop errors due to technical environment changes.
-                We add value to your business by making sure you're not missing out on traffic and revenue growth as a
-                result of a sluggish website or website downtime. Our value in performance extends to our web
-                maintenance plan with our web maintenance team ensuring that your website is up to date regarding
-                design, content, regular backups, and protection against malicious login attempts, spam, bugs, and
-                malware.
+                Capturing your company's expenses in one location is a technique you can deploy to ensure the money set
+                aside for your business is well spent. It is becoming a trend for top-tier businesses to utilize cost
+                management software to streamline their expenditure reimbursement and reconciliation process.
+            </p>
+            <p>
+                With our automated expense management software, tracking your operational spending is made easy. We automate
+                the gathering and reconciliation of your expenses as well as the capturing of audit trails of all
+                transactions in one location, saving you time if you require further information about a certain purchase.
+            </p>
+            <p>
+                The accuracy and extensive data generated from our system have been able to ensure that all expenses are
+                accounted for and accurate reimbursement claims are made to prevent fraud. We adapt to the changing market
+                with ease, to give you the best account and expense management system experience.
+            </p>
+            <p>
+                With the aid of our software, you can quickly modify your company's regulations and change the direction of
+                your operational spending, allowing you to respond to shifting market and economic situations.
+                We develop a strong tracking, monitoring, and reporting system along with practical tools & workflows to
+                speed up your field operations app features.
             </p>
         </div>
     </section>
 
+
     <section class="my-3 py-3">
         <div class="container justify-content-center">
-            <div class="row text-center justify-content-center">
+            <div class="row">
+                <p class="text-label-mobile"
+                    style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
+                    Ready To Deploy Our Account & Expenses Management System?
+                </p>
                 <a class="py-3" style="text-align:center;">
                     <button class="small-mobile-long-button"
-                        style="background: #1F3F95;border-radius: 4px;border:none; width:521px; height: 56px; color:#FFFFFF">
-                        Let's Help Maintain Your Website
+                        style="background: #1F3F95;border-radius: 4px;border:none; width:312px; height: 56px; color:#FFFFFF">
+                        Let's Discuss
                     </button>
                 </a>
-                <h1 class="fw-bold archware_h1 text-title-mobile"
-                    style="font-weight: 700;  font-size: 46px;
-                        line-height: 46.4px; color: #040856;">
-                    Why do you need web maintenance?
-                </h1>
-                <hr class="container archware_header_underline text-title-mobile" />
             </div>
         </div>
     </section>
@@ -76,16 +84,17 @@
             <div class="col-md-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/site security.png" class="card-img-top" alt="...">
+                    <img src="/customImages/Rectangle 661 (6).png" class="card-img-top" alt="...">
                     <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
                         <div class="pt-1 text-title-mobile"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
-                            Site Security
+                            Expenses Management
                         </div>
                         <p class="card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            Your website's scripts, security, and platforms must be functional to make it a success. Regular
-                            updates are crucial to patch up or improve the possible vulnerabilities and security lapses.
+                            Our expenditure management experience can assist you in scaling and automating spending and data
+                            gathering, providing greater financial insights and improved forecasts, since operations
+                            expenses are among the most challenging to control.
                         </p>
                     </div>
                 </div>
@@ -94,17 +103,17 @@
             <div class="col-md-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/seo.png" class="card-img-top" alt="...">
+                    <img src="/customImages/analytics and reporting.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
                         <div class="pt-1 text-title-mobile"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
-                            SEO
+                            Mobile Expense System App
                         </div>
                         <p class="card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            The algorithm that supports SEO is rapidly evolving with the inclusion of new techniques and
-                            tools. Maintaining your website will help it stay on top of the result page on search engines
-                            and increase visibility to relevant customers.
+                            We can create mobile apps that can help you submit and approve staff costs in real-time. We
+                            develop the app to help you record receipts by taking a picture as expenses are incurred,
+                            allowing processing to start right away. This way, you can remain on top of staff demands.
                         </p>
                     </div>
                 </div>
@@ -113,17 +122,17 @@
             <div class="col-md-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/website speed.png" class="card-img-top" alt="...">
+                    <img src="/customImages/mobile expense system.png" class="card-img-top" alt="...">
                     <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
                         <div class="pt-1 text-title-mobile"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
-                            Website Speed
+                            Analytics & Reporting for Expenses
                         </div>
                         <p class="card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            Research has shown that customers are attuned to fast and easily accessible websites. Regularly
-                            improving the speed of your website yields happy customers, increases click-through rate (CTR),
-                            and encourages customers to return to your website.
+                            We don't only let you track your account and expenses, we also make reporting easy for you. Our
+                            software gives you accurate reports for real-time analysis, and operational indicators and this
+                            helps to reduce the rate of fraud in an organisation.
                         </p>
                     </div>
                 </div>
@@ -139,30 +148,25 @@
             <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom"
                 src="/customImages/effective communication.png">
         </div>
-        <div class="archware-text-justify archware-content-text
-                archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
-            <h2 class="text-white-header">Effective Communication</h2>
+        <div
+            class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
+            <h2 class="text-white-header">Why You Need Us</h2>
             <p class="text-white-paragraph">
-                There is no greater breakdown in communicating with your audience
-                than having a website that is down, stuck or stale,
-                and irrelevant.
-            </p>
-            <p class="text-white-paragraph">
-                Our team uses the best technical practices with insights into
-                customers' changing realities to deploy a responsive website
-                that helps businesses grow. As part of our ethics, we
-                consider web maintenance an essential part of our toolbox
-                to help you stay relevant and in touch with your target
-                audience.
+                We develop thorough expense management systems that can integrate with your current corporate
+                infrastructure. Also, our management software permits you as a manager to design rules that specify and set
+                staff spending limitations according to a clear, unambiguous control strategy. Therefore, you can easily
+                regulate transaction limits and ensure the smooth running of your business.
             </p>
         </div>
     </section>
 
+
     <section class="my-5 py-5">
         <div class="container justify-content-center">
             <div class="row">
-                <p class="text-label-mobile" style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
-                    Get more out of your website today!
+                <p class="text-label-mobile"
+                    style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
+                    Get Started With Account & Expenses Management System For Your Business
                 </p>
                 <a class="py-3" style="text-align:center;">
                     <button class="small-mobile-long-button"

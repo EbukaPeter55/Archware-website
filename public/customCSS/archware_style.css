@@ -49,8 +49,8 @@
         /* width: 80%; */
         margin: 0 auto;
     }
-    .mobile-hero .mobile-hero-wrapper{
-        /* flex-direction: row-reverse!important; */
+     .mobile-hero-wrapper{
+        /* flex-direction: column-reverse!important; */
     }
     .mobile-hero .mobile-copy-hero{
         margin: 0 auto;
@@ -62,13 +62,15 @@
          }
     .mobile-hero .mobile-copy-hero p {
         font-size: clamp(.9rem, 10vw, 2.1rem);
-        text-align: left!important;
+        text-align: justify !important;
        /* max-width: 100vw!important; */
     }
     .mobile-hero button {
         width: 8rem!important;
         font-size: .875rem;
     }
+
+
    /* Proof of work responsive style*/
    .proof-of-work{
     margin-top: 8rem!important;
@@ -845,19 +847,38 @@ body {
 
 
 /* ABOUT US SECTION STYLE */
-
+.aboutus-background{
+    max-width: 80.5rem;
+    height: auto;
+    background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
+    border-top-right-radius: 21px; 
+    padding-bottom: 2%
+}
+.aboutus-left{
+    padding-left: .2rem;
+}
+.section3-text2{
+    font-weight: 400; 
+    font-size: 1rem; 
+    text-align: justify; 
+    line-height: 179%; 
+    color: #FFFFFF;
+    max-width: 35rem;
+}
 /* Responsive */
 @media(max-width: 414px){
-
+    .aboutus-background{
+        border-top-right-radius: 0!important;
+        padding: 0 1rem 0 1rem!important;
+        /* background: blue!important; */
+    }
     .about-wrapper {
         max-width: 21.5rem!important;
         border-top-right-radius: 0!important;
         margin: 0 auto;
         /* padding-left: 1rem!important; */
     }
-    .section3-text2{
-        text-align: justify!important;
-    }
+
     .aboutus-left h1{
         font-size: 2.5rem!important;
      }
@@ -865,6 +886,7 @@ body {
         font-size: .875rem!important;
         text-align: justify!important;
      }
+    
 }
 /* END OF ABOUT US SECTION */
 
@@ -1066,6 +1088,7 @@ body {
 /* END OF CONTACT US SECTION */
 
 /* FOOTER STYLES */
+
  /* .footer-wrapper{
     margin-top: 5rem;
 }
@@ -1074,7 +1097,13 @@ body {
     text-align: left;
 } */
 
-@media(max-width: 578px){
+@media(max-width: 414px){
+    .newsletter-text{
+    font-size: .75rem!important;
+    }
+    .newsletter-head{
+        font-size: 1.3rem!important;
+    }
     /* .footer-wrapper{
         width: 100%!important;
     }

@@ -42,12 +42,20 @@ Route::get('/project-management', function () {
     return view('services.pms');
 });
 
+Route::get('/account-expense-system', function () {
+    return view('services.account-expense-system');
+});
+
 Route::get('/website-redesign', function () {
     return view('services.website-redesign');
 });
 
 Route::get('/web-maintenance', function () {
     return view('services.web-maintenance');
+});
+
+Route::get('/account-and-expenses-management-system', function () {
+    return view('services.accountsystem');
 });
 
 Route::get('/subsidiaries', function () {
@@ -58,3 +66,6 @@ Route::get('/contacts', function () {
     return view('contacts');
 });
 
+Route::get('/join-us', function () {
+    return view('joinus');
+});
