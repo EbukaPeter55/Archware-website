@@ -49,6 +49,18 @@
     .section-top > .archware-text-justify {
         margin-right: auto;
     }
+
+    .small-mobile-long-button {
+        width: 100% !important;
+    }
+    .experience-body-mobile {
+        background: #1F3F95 !important;
+        padding: 0.5rem !important;
+    }
+    .experience-body-with-pix-mobile {
+        background: none !important;
+        border-radius: unset !important;
+    }
 }
 
 @media (max-width: 769px) {
@@ -68,11 +80,6 @@
     }
 }
 
-@media (max-width: 990px) {
-    .small-mobile-long-button {
-        width: 100% !important;
-    }
-}
 
 @media (max-width: 576px) {
     .text-title-mobile {
