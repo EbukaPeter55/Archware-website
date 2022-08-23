@@ -969,11 +969,18 @@ ul li a:nth-child(2) {
         max-width: 21.5rem!important;
         border-top-right-radius: 0!important;
         margin: 0 auto;
-        padding-left: 1rem!important;
+        /* padding-left: 1rem!important; */
     }
     .section3-text2{
         text-align: justify!important;
     }
+    .aboutus-left h1{
+        font-size: 2.5rem!important;
+     }
+     .aboutus-left p {
+        font-size: .875rem!important;
+        text-align: justify!important;
+     }
 }
 /* END OF ABOUT US SECTION */
 
@@ -1074,6 +1081,9 @@ ul li a:nth-child(2) {
     .brand-logo img{
         width: 39%;
     }
+    .brand-logo .bottom-logo{
+        margin-top: 2rem!important;
+    }
 }
 
 /* END OF BRANDS THAT TRUST US STYLES */
@@ -1121,22 +1131,55 @@ ul li a:nth-child(2) {
     .reviews-card {
         padding: 0 1rem 1rem 1rem;
     }
+    .reviews-card .card-content .card-text p:nth-child(1){
+        text-align: justify!important;
+        font-size: 1rem!important;
+    }
     .reviews-card .card-content .card-text p:nth-child(2){
         text-align: center;
+        font-size: 1.4rem!important;
+    }
+    .card-content{
+        flex-direction: column-reverse!important;
     }
 }
 
 /* END OF REVIEWS SECTION */
+
+/* CONTACT US SECTION */
+.contact-form-section{
+    max-width: 75.625rem;
+    height: 669px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    margin: 0 auto;
+}
 @media(max-width: 414px){
+    .contact-us-wrapper{
+        margin-top: 8rem!important;
+        margin-bottom: 48rem!important;
+    }
     .contact-form-section{
-        padding-left: 1.1rem!important;
-        padding-right: 1.1rem!important;
+        /* max-width: 1210px;
+        height: 669px; */
+        width: 100%!important;
+        background: #FFFFFF;
+        box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
+        border-radius: 16px;
+        /* margin-left: 1rem;
+        margin-right: 1rem; */
     }
     /* .contact-form-section form{
         padding-left: 1.1rem!important;
     } */
+    /* .card{
+        margin-top: 9rem!important;
+    }
+    .row{} */
 
 }
+/* END OF CONTACT US SECTION */
 
 @media(max-width: 500px){
    /* .footer-css{

@@ -383,11 +383,14 @@ Software development company helping businesses and individuals take advantage o
                     src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_107/v1660507527/YOUHI_Brand_Manual_4_1.svg">
                 <img class="img-fluid"
                     src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_141/v1660507975/Layer_1.svg">
+                
+               <div class="bottom-logo">
                 <img class="img-fluid"
                     src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_98/v1660508122/Layer_3.svg">
                 <img class="img-fluid"
                     src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_108/v1660508646/Fore_1_2x_1.svg">
-            </div>
+                </div>
+                </div>
         </div>
     </section>
     <!-- END OF BRANDS THAT TRUST US -->
@@ -522,9 +525,9 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF REVIEWS SECTION -->
 
     <!-- CONTACT US SECTION -->
-    <section class="container contact-form-section card" style="margin-top: 12%; margin-bottom: 9%">
-        <div class="row justify-content-center">
-            <div class="col-md-7 pt-5 px-3">
+    <section class="container-fluid contact-us-wrapper" style="margin-top: 12%; margin-bottom: 9%">
+        <div class="row contact-form-section">
+            <div class="col-md-7 col-sm-6 pt-5 px-3">
                 <h1 class="px-3" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">
                     Contact Us</h1>
                 <p class="px-3" style="font-weight: 400;font-size: 16px;color: rgba(4, 8, 86, 0.7);">We'd like to handle
@@ -576,7 +579,7 @@ Software development company helping businesses and individuals take advantage o
                 </form>
             </div>
 
-            <div class="col-md-5"
+            <div class="col-md-5 col-sm-6"
                 style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 160%; height:inherit">
                 <div class="sec6itext">
                     <div class="mx-5 mt-5 pt-5">
