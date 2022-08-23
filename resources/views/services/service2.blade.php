@@ -2,7 +2,8 @@
 
 @section('description',
     'Archware - Africa\'s Leading Software Development Company
-Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
+    Software development company helping businesses and individuals take advantage of the benefits of the global technology
+    landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
@@ -10,94 +11,93 @@ Software development company helping businesses and individuals take advantage o
 
 @section('content')
 
-    <section style=" background-image: url(../customImages/Group68.png)" ; class="mt-5">
-        <div class="container justify-content-center">
-            <div class="row">
-                <div class="col-md-5 mt-5 pt-3">
-                    <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;">
-                        Website Design<br>and development
-                    </h2>
-                    <p class="pt-3"
-                        style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
-                        Appealing Web design, development, and value added tools<br>
-                        for better ROI.
-                    </p>
-                </div>
-                <div class="col-md-7 px-2" style="">
-                    <img class="img-fluid" src="{{ asset('/customImages/web design right.png') }}">
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="container mt-5">
-        <div class="row">
-            <div class="col-md-5" class="w-50">
-                <img style="width: 500px; " class="img-fluid" src="/customImages/Group 66.png">
-            </div>
-            <div class="col-md-6 px-4">
-                <p class="px-2 py-4"
-                    style="font-weight: 400;  font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
-                    Archware technologies provide web development solutions <br>
-                    to meet your business needs. Our skilled developers <br>
-                    incorporate distinctive functional tools into brands, <br>
-                    businesses, and enterprise websites using cutting-edge <br>
-                    technology solutions to provide consumers with a superior <br>
-                    experience.<br>
-                    We offer a complete solution for web development, so your <br>
-                    hunt for the best web development services is done. <br>
-                    As your trustworthy website building company, we promise <br>
-                    that for your company's maximum profitability, the rate of <br>
-                    your pleasure will be as high as the rate of your client <br>
-                    conversion.<br>
-                    We design and build responsive websites that can be used <br>
-                    on multiple platforms.
+    <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
+        <section
+            class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
+            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head p-2">
+                <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
+                    Website Design and development
+                </h2>
+                <p class="pt-3 text-body-mobile"
+                    style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
+                    Appealing Web design, development, and value added tools for better ROI.
                 </p>
             </div>
+            <div class="archwarejo-width-top-head">
+                <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/web design right.png">
+            </div>
+        </section>
+    </div>
+
+
+    <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
+        <div class="archwarejo-width-top">
+            <img class="img-fluid image-width-tab" src="/customImages/Group 66.png">
+        </div>
+        <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
+            <p>
+                Archware technologies provide web development solutions
+                to meet your business needs. Our skilled developers
+                incorporate distinctive functional tools into brands,
+                businesses, and enterprise websites using cutting-edge
+                technology solutions to provide consumers with a superior
+                experience.
+            </p>
+            <p>
+                We offer a complete solution for web development, so your
+                hunt for the best web development services is done.
+                As your trustworthy website building company, we promise
+                that for your company's maximum profitability, the rate of
+                your pleasure will be as high as the rate of your client
+                conversion.
+            </p>
+            <p>
+                We design and build responsive websites that can be used
+                on multiple platforms.
+            </p>
         </div>
     </section>
-
 
     <div style="background: #f7f7f7" class="p-1">
         <div class="text-center justify-content-center title-style">
-            <h1 class="fw-bold archware_h1"
+            <h1 class="fw-bold archware_h1 text-title-mobile"
                 style="font-weight: 700;  font-size: 46px;
-                        line-height: 46.4px; color: #040856;">WE
-                OFFER</h1>
-            <hr class="container archware_header_underline" />
+                        line-height: 46.4px; color: #040856;">
+                WE OFFER
+            </h1>
+            <hr class="container archware_header_underline text-title-mobile" />
 
 
-            <span class="fw-bold p-3"
+            <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
                 <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
                 Web App Development
             </span>
-            <span class="fw-bold p-3"
+            <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
                 <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
                 B2B & B2C Portals
             </span>
 
-            <br>
 
-            <span class="fw-bold p-3"
+
+            <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
                 <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
                 WordPress Development
             </span>
 
-            <span class="fw-bold p-3"
+            <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
                 <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
                 Ecommerce
             </span>
 
-            <span class="fw-bold p-3"
+            <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
                 <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
@@ -105,7 +105,7 @@ Software development company helping businesses and individuals take advantage o
             </span>
 
             <br>
-            <span class="fw-bold p-3"
+            <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
                 <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
@@ -149,103 +149,95 @@ Software development company helping businesses and individuals take advantage o
         </div>
     </div>
 
-    <div class="container mt-5">
-        <div class="p-5 row">
 
-            <div class="col-md-4">
-                <div class="card" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/Rectangle 661.jpg" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1" style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158;">
-                            Web App Develppment
-                        </div>
-                        <p class="card-text archware-text-dull"
-                            style="color: #0d2158; font-size: 15px; text-align: center;">
-                            Beyond design, we offer a full stack development approach to developing a massive range of
-                            solutions,
-                            most of which are customized to your business needs. Our team employs a holistic approach to
-                            ensure your
-                            website is visually appealing and easy to navigate.
-                        </p>
-                    </div>
+
+
+    <section class="container mt-3 pt-5">
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+
+            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0;">
+                <img src="/customImages/Rectangle 661.jpg" alt="" style="object-fit:cover;">
+                <div class="px-2 py-4">
+                    <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Web App Develppment
+                    </h2>
+                    <p class="py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        Beyond design, we offer a full stack development approach to developing a massive range of
+                        solutions,
+                        most of which are customized to your business needs. Our team employs a holistic approach to
+                        ensure your
+                        website is visually appealing and easy to navigate.
+                    </p>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="card" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/Rectangle Ecommerce.jpg" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1"
-                            style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158;">
-                            Ecommerce
-                        </div>
-                        <p class="card-text archware-text-dull"
-                            style="color: #0d2158; font-size: 15px; text-align: center;">
-                            Get your products in front of your customers with our e-commerce website design and development
-                            service. We offer a range of
-                            e-commerce website development packages to help your company succeed.
-                        </p>
-                    </div>
+            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+                <img src="/customImages/Rectangle Ecommerce.jpg" alt="">
+                <div class="px-2 py-4">
+                    <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Ecommerce
+                    </h2>
+                    <p class="py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        Get your products in front of your customers with our e-commerce website design and development
+                        service. We offer a range of e-commerce website development packages to help your company succeed.
+                    </p>
                 </div>
             </div>
-
-            <div class="col-md-4">
-                <div class="card" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/Rectangle b2b.jpg" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1"
-                            style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158;">
-                            B2B & B2C Portals
-                        </div>
-                        <p class="card-text archware-text-dull"
-                            style="color: #0d2158; font-size: 15px; text-align: center;">
-                            We develop B2B and B2C portals
-                            and connect your manufacturers, wholesalers, distributors, and end-users. With these highly
-                            scalable portal solutions, we will aid you in strengthening your customer relationships and
-                            streamlining operational efficiency.
-                        </p>
-                    </div>
+            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+                <img src="/customImages/Rectangle b2b.jpg" alt="">
+                <div class="px-2 py-4">
+                    <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        B2B & B2C Portals
+                    </h2>
+                    <p class="py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        We develop B2B and B2C portals
+                        and connect your manufacturers, wholesalers, distributors, and end-users. With these highly
+                        scalable portal solutions, we will aid you in strengthening your customer relationships and
+                        streamlining operational efficiency.
+                    </p>
                 </div>
             </div>
-
         </div>
-    </div>
+    </section>
 
-
-    <section class="container-fluid team-section">
-        <div class="d-flex flex-row flex-wrap justify-items-center team-wrapper"
-            style="background: #1F3F95; border-radius: 20px 20px;">
-            <img class="img-fluid p-5" style="margin-bottom: -48px; margin-top: auto; border-radius: 70px 70px 30px 50px;"
+    <section
+        class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab experience-body-with-pix-mobile"
+        style="background: #1F3F95; border-radius: 20px 20px;">
+        <div class="archwarejo-width-top">
+            <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom"
                 src="/customImages/Rectangle corporate.jpg">
-            <div class="team-section-right">
-                <h2>Corporate Website Solutions</h2>
-                <p>
-                    When using any web development technology, including <br>
-                    wooCommerce, WordPress, Shopify, Angular, ReactJS, <br>
-                    Laravel, Lumen, PHP, MySQL, JAVA, .Net, JavaScript, <br>
-                    Node.js, and HTML, our team of skilled web developers can <br>
-                    construct a great website for your company that is sure to <br>
-                    draw in new clients.
-                </p>
-            </div>
+        </div>
+        <div
+            class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
+            <h2 class="text-white-header">Corporate Website Solutions</h2>
+            <p class="text-white-paragraph">
+                When using any web development technology, including
+                wooCommerce, WordPress, Shopify, Angular, ReactJS,
+                Laravel, Lumen, PHP, MySQL, JAVA, .Net, JavaScript,
+                Node.js, and HTML, our team of skilled web developers can
+                construct a great website for your company that is sure to
+                draw in new clients.
+            </p>
         </div>
     </section>
 
     <section class="my-5 py-5">
         <div class="container justify-content-center">
             <div class="row">
-                <p style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
+                <p class="text-label-mobile"
+                    style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
                     Got a Project? Tell us about it!
                 </p>
                 <a class="py-3" style="text-align:center;">
-                    <button
-                        style="background: #1F3F95;border-radius: 4px;border:none; width:165px; height: 56px; color:#FFFFFF">
+                    <button class="small-mobile-long-button"
+                        style="background: #1F3F95;border-radius: 4px;border:none; width:312px; height: 56px; color:#FFFFFF">
                         Contact Us
                     </button>
                 </a>
             </div>
         </div>
     </section>
-
 
 @endsection

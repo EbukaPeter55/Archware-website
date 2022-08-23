@@ -16,7 +16,10 @@ Software development company helping businesses and individuals take advantage o
     <section class="container-fluid">
  <!-- MOBILE HERO SECTION -->
  <div class="mobile-hero" style="">
-                        <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
+                            <div style="margin-top: .8rem width: 100% padding-left: 1rem; padding-right: 1rem;">
+                                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
+                            </div>
+                            <div class="d-sm-flex flex-sm-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
                             <div class="mobile-copy-hero">
                                 <h1 class="mobile-hero-title" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
@@ -35,9 +38,6 @@ Software development company helping businesses and individuals take advantage o
                         background: #1F3F95;">
                                         Read More
                                     </button></a>
-                            </div>
-                            <div style="margin-top: .8rem">
-                                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
                             </div>
                         </div>
                     </div>
@@ -213,7 +213,7 @@ Software development company helping businesses and individuals take advantage o
 
     <!-- SERVICES BRIEF SECTION -->
     <section class="container-fluid service-section mobile-serv">
-        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
+        <div class="service-wrapper">
             <div class="service-section-right">
                 <h2>Mobile App Development</h2>
                 <p>
@@ -276,14 +276,19 @@ Software development company helping businesses and individuals take advantage o
     <!-- ABOUT US SECTION -->
     <section id="aboutus" class="container-fluid about-us" id="greenbg" style="margin-top: 8%">
         <div class="row">
-            <div class="mt-5" id="green-background" style="width: 1288px;height: auto;
+            <div class="mt-5 about-wrapper" style="max-width: 80.5rem;height: auto;
                 background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
                 border-top-right-radius: 21px; padding-left: 10%; padding-bottom: 2%">
                 <div class="row justify-content-center align-items-center" style="">
                     <div class="col-md-6">
                         <h1 class="mt-5 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
-                        <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: left; 1rem;line-height: 179%; color: #FFFFFF;">
+<<<<<<< HEAD
+                        <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: left;line-height: 179%; color: #FFFFFF;">
                             Archware Technologies is a renowed technological solution company<br>
+=======
+                        <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: justify; 1rem;line-height: 179%; color: #FFFFFF;">
+                            Archware Technologies is a renowned technological solution company<br>
+>>>>>>> a6573d2c39369ada23016979c1a171e826b4c8dd
                             that delivers innovative and scalable digital solutions to individuals<br>
                             and organizations across multiple industries. We have served as a groundbreaking
                             and trustworthy tech company for top tier businesses by simplifying technology
@@ -526,7 +531,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF REVIEWS SECTION -->
 
     <!-- CONTACT US SECTION -->
-    <section class="container contact-us card" style="margin-top: 12%; margin-bottom: 9%">
+    <section class="container contact-form-section card" style="margin-top: 12%; margin-bottom: 9%">
         <div class="row justify-content-center">
             <div class="col-md-7 pt-5 px-3">
                 <h1 class="px-3" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">

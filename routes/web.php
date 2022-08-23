@@ -58,3 +58,6 @@ Route::get('/contacts', function () {
     return view('contacts');
 });
 
+Route::get('/join-us', function () {
+    return view('joinus');
+});
