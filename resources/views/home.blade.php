@@ -43,15 +43,11 @@ Software development company helping businesses and individuals take advantage o
                     </div>
      <!-- END OF MOBILE HERO SECTION -->
 
-
         <!-- HERO SECTION -->
         <section class="container-fluid hero-wrapper" style="background: #F5F5F5!important; margin-top: 5rem; height: auto;">
             @include('errors.error_message')
-
-
             <!-- THE CAROUSEL -->
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
                 <!-- The slideshow/carousel -->
                 <div class="carousel-inner" style="max-height:70vh">
                     <!-- First slide -->
@@ -231,16 +227,16 @@ Software development company helping businesses and individuals take advantage o
         </div>
     </section>
 
-     <!-- SUPPORT SECTION -->
+     <!-- ACCOUNT AND EXPENSE MANAGEMENT SECTION -->
      <section class="container-fluid support" style="margin-top: 4%">
-        <div class="d-sm-flex flex-row flex-wrap justify-content-center support-section">
+        <div class="d-sm-flex flex-row flex-wrap align-items-center justify-content-evenly support-section">
             <div class="">
                 <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}">
             </div>
-            <div class="px-4 support-section-right">
-                <h2 class="py-4 px-2" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
+            <div class="support-section-right">
+                <h2 class="" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
                     Account & Expenses Management</h2>
-                <p class="px-2 py-4" style="font-weight: 400; margin-top: -2rem; font-size: 1rem; line-height: 172%; color: rgba(4, 8, 86, 0.7);">
+                <p class="" style="font-weight: 400; margin-top: -2rem; font-size: 1rem; line-height: 172%; color: rgba(4, 8, 86, 0.7);">
                     A major concern for most businesses is to ensure their money is well spent. With our automated expense management software,
                     tracking your operational spending is made easy.The accuracy and extensive data generated from our system
                     have been able to ensure that all expenses are accounted for and accurate reimbursement claims are made to prevent fraud.</p>
@@ -248,12 +244,12 @@ Software development company helping businesses and individuals take advantage o
             </div>
         </div>
     </section>
-    <!--END OF SUPPORT SECTION -->
+    <!--END OF ACCOUNT AND EXPENSE MANAGEMENT SECTION -->
 
  <!-- PROJECT MANAGEMENT -->
- <section class="container-fluid service-section proj-man" style="margin-top: 4%">
-        <div class="d-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
-            <div class="service-section-right">
+ <section class="container-fluid proj-man" style="margin-top: 4%">
+        <div class="d-flex flex-row align-items-center flex-wrap justify-content-evenly proj-wrapper">
+            <div class="proj-man-right">
                 <h2>Project Management</h2>
                 <p>
                     We collaborate with clients to apply tactics, methods, skills, knowledge, and experience to achieve
@@ -279,7 +275,7 @@ Software development company helping businesses and individuals take advantage o
             <div class="mt-5 about-wrapper" style="max-width: 80.5rem;height: auto;
                 background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
                 border-top-right-radius: 21px; padding-left: 10%; padding-bottom: 2%">
-                <div class="row justify-content-center align-items-center" style="">
+                <div class="row justify-content-center align-items-center aboutus-left" style="">
                     <div class="col-md-6">
                         <h1 class="mt-5 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
                         <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: justify; 1rem;line-height: 179%; color: #FFFFFF;">

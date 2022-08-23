@@ -1,0 +1,57 @@
+/* Nav text Start*/
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+ul li a {
+    color: #1F3F95!important;
+}
+
+/* Hide the light logo by default */
+.light-logo{
+    display: none;
+}
+
+.nav-link-text{
+    color: white!important;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #bbb1cb;
+}
+
+.navbar-trigger{
+    background: #1F3F95;
+}
+
+/* Nav Dropdown styles */
+.dropdown-style li a {
+    font-weight: 300;
+    color: #1F3F95;
+    font-size: .87rem;
+}
+.hamburger-mobile{
+    display: none;
+}
+
+/* RESPONSIVE STYLES */
+@media(max-width: 990px){
+    .hamburger-mobile{
+        display: block;
+    }
+    .hamburger-desktop{
+        display: none;
+    }
+    .right-btn-container{
+        /* margin-left: -17%!important; */
+    }
+    .nav-links-a{
+        margin-left: 0!important;
+    }
+    .colored-logo, .light-logo{
+        margin-left: 0!important;
+    }
+}
