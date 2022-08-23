@@ -42,6 +42,10 @@ Route::get('/project-management', function () {
     return view('services.pms');
 });
 
+Route::get('/account-expense-system', function () {
+    return view('services.account-expense-system');
+});
+
 Route::get('/website-redesign', function () {
     return view('services.website-redesign');
 });
