@@ -1088,21 +1088,21 @@ body {
 /* END OF CONTACT US SECTION */
 
 /* FOOTER STYLES */
-
- /* .footer-wrapper{
-    margin-top: 5rem;
+.footer-css{
+    /* display: flex; */
 }
-.footer-category ul li{
-    list-style-type: none;
-    text-align: left;
-} */
+
 
 @media(max-width: 414px){
-    .newsletter-text{
-    font-size: .75rem!important;
+    .newsletter-style{
+    font-size: 2.4rem!important;
+    }
+    .newsletter-paragraph{
+    font-size: .875rem!important;
+    /* text-align: justify!important; */
     }
     .newsletter-head{
-        font-size: 1.3rem!important;
+        font-size: 1.9rem!important;
     }
     /* .footer-wrapper{
         width: 100%!important;
@@ -1113,5 +1113,10 @@ body {
     .footer-category h5{
       
     } */
-
+    .location{
+        margin-top: 2rem;
+    }
+    .pages{
+        margin-top: 1.8rem;
+    }
 }
