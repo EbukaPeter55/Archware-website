@@ -1094,11 +1094,15 @@ body {
 
 
 @media(max-width: 414px){
-    .newsletter-text{
-    font-size: .75rem!important;
+    .newsletter-style{
+    font-size: 2.4rem!important;
+    }
+    .newsletter-paragraph{
+    font-size: .875rem!important;
+    /* text-align: justify!important; */
     }
     .newsletter-head{
-        font-size: 1.3rem!important;
+        font-size: 1.9rem!important;
     }
     /* .footer-wrapper{
         width: 100%!important;
