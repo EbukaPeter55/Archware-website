@@ -5,8 +5,8 @@
 
             <div class="container p-5">
                 <div class="m-4">
-                    <h3 class="fw-bold" style="font-size:30px;">Newsletter</h3>
-                    <p class="pt-2" style="font-size:medium;">
+                    <h3 class="fw-bold newsletter-head" style="font-size:30px;">Newsletter</h3>
+                    <p class="pt-2 newsletter-text" style="font-size:medium; text-align: center">
                         Be the first to know about discounts, offers and events weekly <br> in your mailbox. Unsubscribe
                         whenever you like one click
                     </p>

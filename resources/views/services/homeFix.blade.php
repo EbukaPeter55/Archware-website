@@ -162,7 +162,7 @@
             <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg"/>
             <div class="team-section-right">
-                <h2>Why choose Archware Team</h2>
+                <!-- <h2>Why choose Archware Team</h2> -->
                 <p>
                     Our goal is to assist our partners to overturn challenges to their advantage.
                     We bring diverse and unique set of values and prioritise resources
