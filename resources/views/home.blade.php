@@ -423,14 +423,18 @@ Software development company helping businesses and individuals take advantage o
                                     a modern, clean, and standard website that suits our
                                     business type.
                                 </p>
-                                <p>
+                                <p class="desktop-text">
                                     Tosin Adebayo
                                 </p>
                             </div>
-
-                            <img class="img-fluid"
-                                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-                                style="margin-top: -.5rem">
+                            <div>
+                                <img class="img-fluid"
+                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
+                                    style="margin-top: -.5rem">
+                                    <p class="mobile-text">
+                                    Tosin Adebayo
+                                    </p>
+                            </div>
                         </div>
 
                     </div>
@@ -457,14 +461,18 @@ Software development company helping businesses and individuals take advantage o
                                     a modern, clean, and standard website that suits our
                                     business type.
                                 </p>
-                                <p>
+                                <p class="desktop-text">
                                     Mr. Peterson
                                 </p>
                             </div>
 
-                            <img class="img-fluid"
-                                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-                                style="margin-top: -.5rem">
+                            <div>
+                                <img class="img-fluid"
+                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
+                                    style="margin-top: -.5rem">
+                                    <p class="mobile-text">
+                                    Mr. Peterson                                    </p>
+                            </div>
                         </div>
 
                     </div>
@@ -490,14 +498,18 @@ Software development company helping businesses and individuals take advantage o
                                     a modern, clean, and standard website that suits our
                                     business type.
                                 </p>
-                                <p>
+                                <p class="desktop-text">
                                     Tolu Adebayo
                                 </p>
                             </div>
 
-                            <img class="img-fluid"
-                                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-                                style="margin-top: -.5rem">
+                            <div>
+                                <img class="img-fluid"
+                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
+                                    style="margin-top: -.5rem">
+                                    <p class="mobile-text">
+                                    Tolu Adebayo                                    </p>
+                            </div>
                         </div>
 
                     </div>

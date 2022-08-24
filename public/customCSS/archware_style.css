@@ -1102,6 +1102,7 @@ body {
     line-height: 32px;
     letter-spacing: -0.01em;
     color: #FFFFFF;
+    text-align: left;
     /* margin-top: 2rem; */
 }
 .reviews-card .card-content .card-text p:nth-child(2){
@@ -1111,14 +1112,16 @@ body {
     line-height: 31px;
     color: #D8FF98;
 }
-
+.mobile-text{
+    display: none;
+}
 /* Review section Responsive style */
 @media(max-width: 500px){
     .reviews-card {
         padding: 0 1rem 1rem 1rem;
     }
     .reviews-card .card-content .card-text p:nth-child(1){
-        text-align: justify!important;
+        text-align: left!important;
         font-size: 1rem!important;
     }
     .reviews-card .card-content .card-text p:nth-child(2){
@@ -1127,6 +1130,18 @@ body {
     }
     .card-content{
         flex-direction: column-reverse!important;
+    }
+    .desktop-text{
+        display: none;
+    }
+    .mobile-text{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.625rem;
+        line-height: 31px;
+        color: #D8FF98;
+        display: block;
+        margin-top: 1rem;
     }
 }
 
