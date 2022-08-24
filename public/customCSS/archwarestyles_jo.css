@@ -91,7 +91,8 @@ ll
     }
 
     .small-mobile-long-button {
-        width: 100% !important;
+        width: unset !important;
+        padding: 0.4em !important;
     }
     .experience-body-mobile {
         background: #1f3f95 !important;
@@ -187,4 +188,29 @@ ll
     font-size: 16px;
     line-height: 172%;
     color: rgba(4, 8, 86, 0.7);
+}
+
+.small-mobile-long-button {
+    width: unset !important;
+    padding: 0.4em !important;
+}
+
+.text-label-large-screen {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 72px;
+    color: #0D2158;
+    text-align:center;
+}
+
+.archware-button-default {
+    background: #1F3F95;
+    border-radius: 4px;
+    border:none;
+    width:312px;
+    color:#FFFFFF
+}
+
+.move-left-wall {
+    padding-left: initial !important;
 }
