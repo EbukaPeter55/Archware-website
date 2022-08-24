@@ -1,5 +1,30 @@
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+}
+
+
+/*
+
+ll
+ll
+
+*/
 @media (min-width: 1198px) {
-    .block-display-tab{
+    .block-display-tab {
         display: flex !important;
     }
 
@@ -43,7 +68,7 @@
     }
 
     .experience-body-mobile {
-        background: #1F3F95 !important;
+        background: #1f3f95 !important;
         padding: 0.5rem !important;
     }
     .experience-body-with-pix-mobile {
@@ -69,7 +94,7 @@
         width: 100% !important;
     }
     .experience-body-mobile {
-        background: #1F3F95 !important;
+        background: #1f3f95 !important;
         padding: 0.5rem !important;
     }
     .experience-body-with-pix-mobile {
@@ -98,7 +123,6 @@
     }
 }
 
-
 @media (max-width: 576px) {
     .text-title-mobile {
         font-size: 30px !important;
@@ -113,7 +137,7 @@
         line-height: 38px !important;
     }
     .experience-body-mobile {
-        background: #1F3F95 !important;
+        background: #1f3f95 !important;
         padding: 0.5rem !important;
     }
     .experience-body-with-pix-mobile {
@@ -128,7 +152,7 @@
         font-size: 1.37rem !important;
     }
     .text-white-paragraph {
-        margin-top: .2em !important;
+        margin-top: 0.2em !important;
     }
 }
 
@@ -140,7 +164,7 @@
     font-weight: 700;
     font-size: 2.1875rem;
     line-height: 42px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 0.2rem;
 }
 
@@ -150,17 +174,15 @@
     font-weight: 400;
     font-size: 1rem;
     line-height: 172%;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-
-
 
 .archware-text-justify {
     text-align: justify;
     text-justify: inter-word;
 }
 
-.archware-content-text{
+.archware-content-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 172%;
