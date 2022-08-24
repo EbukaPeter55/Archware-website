@@ -28,8 +28,8 @@ Software development company helping businesses and individuals take advantage o
                                 <p class="mt-3"
                                     style="font-weight: 400;font-size: 1rem;
                                 color: rgba(4, 8, 86, 0.7);">
-                                    Our agile approach to problem-solving and strategic planning<br>
-                                    helps you build a better structure and achieve better results in<br>
+                                    Our agile approach to problem-solving and strategic planning
+                                    helps you build a better structure and achieve better results in
                                     your business.</p>
                                 <a href="/services">
                                     <button class="mt-3"
@@ -276,8 +276,8 @@ Software development company helping businesses and individuals take advantage o
                     <div class="about-left-child">
                         <h1 class="mt-3 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
                         <p class="section3-text2">
-                            Archware Technologies is a renowed technological solution company<br>
-                            that delivers innovative and scalable digital solutions to individuals<br>
+                            Archware Technologies is a renowed technological solution company
+                            that delivers innovative and scalable digital solutions to individuals
                             and organizations across multiple industries. We have served as a groundbreaking
                             and trustworthy tech company for top tier businesses by simplifying technology
                             and ensuring that our clients meet their technological objectives. Our team
@@ -299,22 +299,22 @@ Software development company helping businesses and individuals take advantage o
 
     <!-- MISSION AND VISION SECTION -->
     <section class="container-fluid mission" style="margin-top: 10%">
-        <div class="row justify-content-center alignt-items-center" style="padding-left: 9%; padding-right: 9%;">
+        <div class="row justify-content-center alignt-items-center mission-wrapper" style="padding-left: 9%; padding-right: 9%;">
             <div class="col-md-5">
-                <img class="img-fluid" class="section4-img" src="{{ asset('customImages/Image.svg') }}">
+                <img class="img-fluid section4-img" src="{{ asset('customImages/Image.svg') }}">
             </div>
             <div class="col-md-7" style="margin-top: 5%">
-                <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
+                <h1 class="mission-titles" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
                 <p style="font-weight: 400;font-size: 16px;;color: rgba(4, 8, 86, 0.7);">
                     We provide technology-based innovative
                     solutions ecosystem that automates, empowers
                     and enables the growth of businesses across
                     Africa
                 </p>
-                <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Vision</h1>
+                <h1 class="mission-titles" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Vision</h1>
                 <p style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">To become a
                     leading technology solution provider in Africa.</p>
-                <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Core Values</h1>
+                <h1 class="mission-titles" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Core Values</h1>
                 <p>
                     <li style="font-weight: 600;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
                             Value
@@ -395,7 +395,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- REVIEWS SECTION -->
     <section class="container-fluid reviews" style="">
         <div class="text-center justify-content-center title-style">
-            <h1 class="fw-bold archware_h1">Reviews</h1>
+            <h1 class="fw-bold archware_h1 reviews-heading">Reviews</h1>
             <hr class="container archware_header_underline" />
         </div>
 
@@ -548,7 +548,7 @@ Software development company helping businesses and individuals take advantage o
                     <div class="row px-3 pt-2">
                         <div class="col">
                             <label style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
-                            <input type="text" id="Firstname" required
+                            <input type="text" id="Firstname" class="input-style"  required
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
                         </div>
                         <div class="col">
@@ -588,7 +588,7 @@ Software development company helping businesses and individuals take advantage o
                 </form>
             </div>
 
-            <div class="col-md-5 col-sm-6"
+            <div class="col-md-5 col-sm-6 contact-information-colum"
                 style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 160%; height:inherit">
                 <div class="sec6itext">
                     <div class="mx-5 mt-5 pt-5">

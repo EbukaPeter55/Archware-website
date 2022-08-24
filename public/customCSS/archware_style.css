@@ -95,6 +95,18 @@
    .mission{
     margin-top: 8rem!important;
    }
+   @media(max-width: 500px){
+    .mission-wrapper{
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    .section4-img{
+        width: 100%!important;
+    }
+    .mission-titles{
+        font-size: 1.9rem!important;
+    }
+   }
  /* Brands that trust us */
  .brands {
     margin-top: 6rem!important;
@@ -954,11 +966,11 @@ body {
     }
 
     .aboutus-left h1{
-        font-size: 2.5rem!important;
+        font-size: 1.9rem!important;
      }
      .aboutus-left p {
         font-size: .875rem!important;
-        text-align: justify!important;
+        text-align: left!important;
      }
     
 }
@@ -997,7 +1009,7 @@ body {
         max-width: 100%!important;
     }
     .support-section .support-section-right h2{
-        font-size: 1.4rem;
+        font-size: 1.9rem!important;
         text-align: left;
         margin-top: 2.5rem;
     }
@@ -1056,7 +1068,7 @@ body {
 /* Mobile Responsive style */
 @media(max-width: 414px){
     .brands-heading-wrapper{
-        padding: .9rem .4rem .9rem .4rem;
+        padding: 1.2rem .5rem 1.2rem .5rem;
     }
     .brands-heading-wrapper .brands-heading-title h2{
         font-size: 1.8rem;
@@ -1069,6 +1081,7 @@ body {
     }
     .brand-logo .bottom-logo{
         margin-top: 2rem!important;
+        margin-left: auto!important;
     }
 }
 
@@ -1117,6 +1130,9 @@ body {
 }
 /* Review section Responsive style */
 @media(max-width: 500px){
+    .reviews-heading{
+        font-size: 1.9rem!important;
+    }
     .reviews-card {
         padding: 0 1rem 1rem 1rem;
     }
@@ -1157,9 +1173,12 @@ body {
     margin: 0 auto;
 }
 @media(max-width: 480px){
+    .contact-information-colum{
+        display: none;
+    }
     .contact-us-wrapper{
         margin-top: 8rem!important;
-        margin-bottom: 48rem!important;
+        margin-bottom: 6rem!important;
     }
     .contact-form-section{
         /* max-width: 1210px;
@@ -1178,6 +1197,14 @@ body {
         margin-top: 9rem!important;
     }
     .row{} */
+    .col{
+        /* display: flex!important;
+        flex-direction: column!important;
+        width: 100%!important; */
+    }
+    .input-style{
+        /* width: 100!important; */
+    }
 
 }
 /* END OF CONTACT US SECTION */
