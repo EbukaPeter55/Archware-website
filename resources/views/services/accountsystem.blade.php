@@ -12,7 +12,7 @@ Software development company helping businesses and individuals take advantage o
 
 <div style=" background-image: url(../customImages/Group6700.png); background-repeat:no-repeat" class="mt-5">
         <section class="container  d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
-            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head p-2">
+            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head pt-2">
                 <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #ffffff;" class="text-title-mobile">
                 Account & Expenses Management System
                 </h2>
@@ -33,8 +33,8 @@ Software development company helping businesses and individuals take advantage o
             <img class="img-fluid image-width-tab" src="/customImages/Group 66aca.png">
         </div>
         <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
-        <p>Capturing your company’s expenses in one location is a technique you can deploy to ensure the 
-        money set aside for your business is well spent. It is becoming a trend for top-tier businesses to 
+        <p>Capturing your company’s expenses in one location is a technique you can deploy to ensure the
+        money set aside for your business is well spent. It is becoming a trend for top-tier businesses to
         utilize cost management software to streamline their expenditure reimbursement and reconciliation process.
         <p>
         <p> With our automated expense management software, tracking your operational spending is made easy.
@@ -83,7 +83,7 @@ Software development company helping businesses and individuals take advantage o
                         <p class="card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
                             Our expenditure management experience can assist you in scaling and automating
-                            spending and data gathering, providing greater financial insights and improved forecasts, since operations 
+                            spending and data gathering, providing greater financial insights and improved forecasts, since operations
                             expenses are among the most challenging to control.
                         </p>
                     </div>
@@ -142,16 +142,14 @@ Software development company helping businesses and individuals take advantage o
         </div>
     </section>
 
-
-    <section class="my-5 py-5">
+    <section class="my-3 py-3">
         <div class="container justify-content-center">
             <div class="row">
-                <p class="text-label-mobile" style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
-                Get Started With Account & Expenses Management System <br> For Your Business
+                <p class="text-label-mobile text-label-large-screen">
+                    Get Started With Account & Expenses Management System For Your Business
                 </p>
                 <a class="py-3" style="text-align:center;">
-                    <button class="small-mobile-long-button"
-                        style="background: #1F3F95;border-radius: 4px;border:none; width:214px; height: 56px; color:#FFFFFF">
+                    <button class="small-mobile-long-button archware-button-default">
                         Contact Us
                     </button>
                 </a>

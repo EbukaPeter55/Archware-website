@@ -136,13 +136,17 @@ Software development company helping businesses and individuals take advantage o
         </div>
     </section>
 
-    <section class="my-5 py-5">
+    <section class="my-3 py-3">
         <div class="container justify-content-center">
             <div class="row">
-                <p style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
+                <p class="text-label-mobile text-label-large-screen">
                     Let's add value to your operations today
                 </p>
-                <a class="py-3" style="text-align:center;"><button style="background: #1F3F95;border-radius: 4px;border:none; width:225px; height: 56px; color:#FFFFFF">Get In Touch</button></a>
+                <a class="py-3" style="text-align:center;">
+                    <button class="small-mobile-long-button archware-button-default">
+                        Get In Touch
+                    </button>
+                </a>
             </div>
         </div>
     </section>
