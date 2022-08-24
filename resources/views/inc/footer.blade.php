@@ -134,7 +134,7 @@
 
         <footer class="text-center text-white" style="background-color: #1f3f95;">
 
-            <div class="container p-5">
+            <div class="container pt-5">
                 <div class="m-4">
                     <h3 class="fw-bold newsletter-style" style="font-size:30px;">Newsletter</h3>
                     <p class="pt-2 newsletter-paragraph text-center" style="font-size:medium;">

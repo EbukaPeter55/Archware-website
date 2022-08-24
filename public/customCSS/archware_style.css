@@ -1166,7 +1166,7 @@ body {
 /* CONTACT US SECTION */
 .contact-form-section{
     max-width: 75.625rem;
-    height: 669px;
+    /* height: 669px; */
     background: #FFFFFF;
     box-shadow: 0px 20px 27px rgba(0, 0, 0, 0.05);
     border-radius: 16px;
