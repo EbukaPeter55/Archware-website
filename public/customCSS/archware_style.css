@@ -1193,10 +1193,13 @@ body {
     .footer-category h5{
       
     } */
+
     .location{
-        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2.2rem;
     }
     .pages{
-        margin-top: 1.8rem;
+        margin-top: 2rem;
     }
 }
