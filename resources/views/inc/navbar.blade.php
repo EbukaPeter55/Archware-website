@@ -28,26 +28,18 @@
                     <a class="nav-link archware-nav-title" style="scroll-behavior: smooth;" href="/#aboutus">About
                         Us</a>
                 </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="/subsidiaries">Our Team</a>
-                </li>
-                <!-- <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="/services">Services</a>
-                </li> -->
                 <div class="dropdown" style="margin-top: .1rem">
                     <li class="btn btn-white archware-nav-title nav-drop dropdown-toggle" data-bs-toggle="dropdown">
                         Our Services
                     </li>
                     <ul class="dropdown-menu dropdown-style">
-                        <li>
+                        <li class="dropdown-submenu">
                             <a class="dropdown-toggle dropdown-item" href="#"
-                                id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
+                                id="navbarDropdownMenuLink" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
                                 Software Development
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-
-
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item dropdown-toggle" href="#">
                                         Web Development
@@ -92,6 +84,12 @@
                         <li><a class="dropdown-item" href="#">Farm Management</a></li>
                     </ul>
                 </div>
+                <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="/subsidiaries">Our Team</a>
+                </li>
+                <!-- <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="/services">Services</a>
+                </li> -->
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/join-us">Join Us</a>
                 </li>
