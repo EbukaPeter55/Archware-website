@@ -14,7 +14,7 @@
     <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
         <section
             class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
-            <div class="archware-content-text archwarejo-width-bottom-head p-2">
+            <div class="archware-content-text archwarejo-width-bottom-head pt-2">
                 <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
                     Website Design and development
                 </h2>
@@ -272,7 +272,7 @@
                 </p>
                 <a class="py-3" style="text-align:center;">
                     <button class="small-mobile-long-button"
-                        style="background: #1F3F95;border-radius: 4px;border:none; width:312px; height: 56px; color:#FFFFFF">
+                        style="background: #1F3F95;border-radius: 4px;border:none; width:312px; color:#FFFFFF">
                         Contact Us
                     </button>
                 </a>
