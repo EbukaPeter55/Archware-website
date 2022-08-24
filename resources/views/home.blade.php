@@ -546,17 +546,18 @@ Software development company helping businesses and individuals take advantage o
 
                 <form id="sendData">
                     <div class="row px-3 pt-2">
-                        <div class="col">
+                        <div class="col first-name">
                             <label style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
                             <input type="text" id="Firstname" class="input-style"  required
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
                         </div>
-                        <div class="col">
+                        <div class="col last-name">
                             <label style="font-weight: 500;font-size: 14px;color: #040856">Last Name</label>
                             <input id="Lastname" required type="text"
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
                         </div>
                     </div>
+
                     <div class="px-3 pt-2">
                         <label style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
                         <input id="Email" required class="section6-form4"
@@ -713,6 +714,12 @@ Software development company helping businesses and individuals take advantage o
                 });
 
         }
+
+        // Remove the column class on mobile screen viewport
+        
+        // let firstNameDiv = document.querySelector(.first-name);
+        // let lastNameDiv = document.querySelector(.last-name);
+        // firstNameDiv.addEventListener('click', console.log('working!'));
 
     </script>
 
