@@ -179,7 +179,7 @@
                         </h5>
 
                         <ul class="list-unstyled mb-0">
-                            <li class="pb-3"style="font-size:medium;">
+                            <li class="pb-3 footer-aboutus"style="font-size:medium;">
                                  Archware Technologies is a result-driven tech company established<br> 
                                  to provide technological innovations that help improve the quality<br> 
                                  of work and lives of people across several business sectors.                    
