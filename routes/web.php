@@ -54,6 +54,10 @@ Route::get('/web-maintenance', function () {
     return view('services.web-maintenance');
 });
 
+Route::get('/account-and-expenses-management-system', function () {
+    return view('services.accountsystem');
+});
+
 Route::get('/subsidiaries', function () {
     return view('subsidiaries');
 });

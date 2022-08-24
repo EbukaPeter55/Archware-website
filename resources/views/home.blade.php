@@ -16,10 +16,10 @@ Software development company helping businesses and individuals take advantage o
     <section class="container-fluid">
  <!-- MOBILE HERO SECTION -->
  <div class="mobile-hero" style="">
-                            <div style="margin-top: .8rem width: 100% padding-left: 1rem; padding-right: 1rem;">
+                        <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
+                            <div style="margin-top: .8rem">
                                 <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
                             </div>
-                            <div class="d-sm-flex flex-sm-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
                             <div class="mobile-copy-hero">
                                 <h1 class="mobile-hero-title" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
                                     <br><br><b>Excellent Tech-Based <br>Solutions
@@ -28,14 +28,12 @@ Software development company helping businesses and individuals take advantage o
                                 <p class="mt-3"
                                     style="font-weight: 400;font-size: 1rem;
                                 color: rgba(4, 8, 86, 0.7);">
-                                    Our agile approach to problem-solving and strategic planning<br>
-                                    helps you build a better structure and achieve better results in<br>
+                                    Our agile approach to problem-solving and strategic planning
+                                    helps you build a better structure and achieve better results in
                                     your business.</p>
                                 <a href="/services">
                                     <button class="mt-3"
-                                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
-                        border: none;color: #ffffff;border-radius: 8px;
-                        background: #1F3F95;">
+                                       >
                                         Read More
                                     </button></a>
                             </div>
@@ -43,15 +41,11 @@ Software development company helping businesses and individuals take advantage o
                     </div>
      <!-- END OF MOBILE HERO SECTION -->
 
-
         <!-- HERO SECTION -->
         <section class="container-fluid hero-wrapper" style="background: #F5F5F5!important; margin-top: 5rem; height: auto;">
             @include('errors.error_message')
-
-
             <!-- THE CAROUSEL -->
             <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
                 <!-- The slideshow/carousel -->
                 <div class="carousel-inner" style="max-height:70vh">
                     <!-- First slide -->
@@ -163,6 +157,7 @@ Software development company helping businesses and individuals take advantage o
         <div class="d-sm-flex flex-row flex-wrap justify-content-center team-wrapper">
             <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg"/>
+                
             <div class="team-section-right">
                 <h2>Why choose Archware Team</h2>
                 <p>
@@ -213,7 +208,7 @@ Software development company helping businesses and individuals take advantage o
 
     <!-- SERVICES BRIEF SECTION -->
     <section class="container-fluid service-section mobile-serv">
-        <div class="service-wrapper">
+        <div class="d-sm-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
             <div class="service-section-right">
                 <h2>Mobile App Development</h2>
                 <p>
@@ -231,16 +226,16 @@ Software development company helping businesses and individuals take advantage o
         </div>
     </section>
 
-     <!-- SUPPORT SECTION -->
+     <!-- ACCOUNT AND EXPENSE MANAGEMENT SECTION -->
      <section class="container-fluid support" style="margin-top: 4%">
-        <div class="d-sm-flex flex-row flex-wrap justify-content-center support-section">
+        <div class="d-sm-flex flex-row flex-wrap align-items-center justify-content-evenly support-section">
             <div class="">
                 <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}">
             </div>
-            <div class="px-4 support-section-right">
-                <h2 class="py-4 px-2" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
+            <div class="support-section-right">
+                <h2 class="" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
                     Account & Expenses Management</h2>
-                <p class="px-2 py-4" style="font-weight: 400; margin-top: -2rem; font-size: 1rem; line-height: 172%; color: rgba(4, 8, 86, 0.7);">
+                <p class="" style="font-weight: 400; margin-top: -2rem; font-size: 1rem; line-height: 172%; color: rgba(4, 8, 86, 0.7);">
                     A major concern for most businesses is to ensure their money is well spent. With our automated expense management software,
                     tracking your operational spending is made easy.The accuracy and extensive data generated from our system
                     have been able to ensure that all expenses are accounted for and accurate reimbursement claims are made to prevent fraud.</p>
@@ -248,12 +243,12 @@ Software development company helping businesses and individuals take advantage o
             </div>
         </div>
     </section>
-    <!--END OF SUPPORT SECTION -->
+    <!--END OF ACCOUNT AND EXPENSE MANAGEMENT SECTION -->
 
  <!-- PROJECT MANAGEMENT -->
- <section class="container-fluid service-section proj-man" style="margin-top: 4%">
-        <div class="d-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
-            <div class="service-section-right">
+ <section class="container-fluid proj-man" style="margin-top: 4%">
+        <div class="d-flex flex-row align-items-center flex-wrap justify-content-evenly proj-wrapper">
+            <div class="proj-man-right">
                 <h2>Project Management</h2>
                 <p>
                     We collaborate with clients to apply tactics, methods, skills, knowledge, and experience to achieve
@@ -276,31 +271,24 @@ Software development company helping businesses and individuals take advantage o
     <!-- ABOUT US SECTION -->
     <section id="aboutus" class="container-fluid about-us" id="greenbg" style="margin-top: 8%">
         <div class="row">
-            <div class="mt-5 about-wrapper" style="max-width: 80.5rem;height: auto;
-                background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);
-                border-top-right-radius: 21px; padding-left: 10%; padding-bottom: 2%">
-                <div class="row justify-content-center align-items-center" style="">
-                    <div class="col-md-6">
-                        <h1 class="mt-5 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
-<<<<<<< HEAD
-                        <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: left;line-height: 179%; color: #FFFFFF;">
-                            Archware Technologies is a renowed technological solution company<br>
-=======
-                        <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: justify; 1rem;line-height: 179%; color: #FFFFFF;">
-                            Archware Technologies is a renowned technological solution company<br>
->>>>>>> a6573d2c39369ada23016979c1a171e826b4c8dd
-                            that delivers innovative and scalable digital solutions to individuals<br>
+            <div class="mt-5 aboutus-background">
+                <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center aboutus-left" style="">
+                    <div class="about-left-child">
+                        <h1 class="mt-3 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
+                        <p class="section3-text2">
+                            Archware Technologies is a renowed technological solution company
+                            that delivers innovative and scalable digital solutions to individuals
                             and organizations across multiple industries. We have served as a groundbreaking
                             and trustworthy tech company for top tier businesses by simplifying technology
                             and ensuring that our clients meet their technological objectives. Our team
                             of Software engineers, data scientist, designers and product managers aggregate
                             decades of industry experience and focus extensively on developing scalable and
                            world-class software that provides end to end solutions for our clients. At
-                           Archware<br> Technologies, innovation, growth and sustainability are at the core<br>
+                           Archware Technologies, innovation, growth and sustainability are at the core
                            of our projects, this is why our clients trust us. </p>
                     </div>
-                    <div class="col-md-5" style="width: 50%; height: auto;">
-                        <img class="img-fluid" id="laptop" style="margin-left:6em; margin-top: 6.2rem; width: 100%;  "
+                    <div class="" style="width: 45%; height: auto; margin-right: -15rem">
+                        <img class="img-fluid" id="laptop" style="; margin-top: 6.2rem; width: 100%;  "
                             src="{{ asset('customImages/Macbook Pro.svg') }}">
                     </div>
                 </div>
@@ -311,22 +299,22 @@ Software development company helping businesses and individuals take advantage o
 
     <!-- MISSION AND VISION SECTION -->
     <section class="container-fluid mission" style="margin-top: 10%">
-        <div class="row justify-content-center alignt-items-center" style="padding-left: 9%; padding-right: 9%;">
+        <div class="row justify-content-center alignt-items-center mission-wrapper" style="padding-left: 9%; padding-right: 9%;">
             <div class="col-md-5">
-                <img class="img-fluid" class="section4-img" src="{{ asset('customImages/Image.svg') }}">
+                <img class="img-fluid section4-img" src="{{ asset('customImages/Image.svg') }}">
             </div>
             <div class="col-md-7" style="margin-top: 5%">
-                <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
+                <h1 class="mission-titles" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
                 <p style="font-weight: 400;font-size: 16px;;color: rgba(4, 8, 86, 0.7);">
                     We provide technology-based innovative
                     solutions ecosystem that automates, empowers
                     and enables the growth of businesses across
                     Africa
                 </p>
-                <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Vision</h1>
+                <h1 class="mission-titles" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Vision</h1>
                 <p style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">To become a
                     leading technology solution provider in Africa.</p>
-                <h1 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Core Values</h1>
+                <h1 class="mission-titles" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Core Values</h1>
                 <p>
                     <li style="font-weight: 600;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
                             Value
@@ -392,11 +380,14 @@ Software development company helping businesses and individuals take advantage o
                     src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_107/v1660507527/YOUHI_Brand_Manual_4_1.svg">
                 <img class="img-fluid"
                     src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_141/v1660507975/Layer_1.svg">
+                
+               <div class="bottom-logo">
                 <img class="img-fluid"
                     src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_98/v1660508122/Layer_3.svg">
                 <img class="img-fluid"
                     src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_108/v1660508646/Fore_1_2x_1.svg">
-            </div>
+                </div>
+                </div>
         </div>
     </section>
     <!-- END OF BRANDS THAT TRUST US -->
@@ -404,7 +395,7 @@ Software development company helping businesses and individuals take advantage o
     <!-- REVIEWS SECTION -->
     <section class="container-fluid reviews" style="">
         <div class="text-center justify-content-center title-style">
-            <h1 class="fw-bold archware_h1">Reviews</h1>
+            <h1 class="fw-bold archware_h1 reviews-heading">Reviews</h1>
             <hr class="container archware_header_underline" />
         </div>
 
@@ -432,14 +423,18 @@ Software development company helping businesses and individuals take advantage o
                                     a modern, clean, and standard website that suits our
                                     business type.
                                 </p>
-                                <p>
+                                <p class="desktop-text">
                                     Tosin Adebayo
                                 </p>
                             </div>
-
-                            <img class="img-fluid"
-                                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-                                style="margin-top: -.5rem">
+                            <div>
+                                <img class="img-fluid"
+                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
+                                    style="margin-top: -.5rem">
+                                    <p class="mobile-text">
+                                    Tosin Adebayo
+                                    </p>
+                            </div>
                         </div>
 
                     </div>
@@ -466,14 +461,18 @@ Software development company helping businesses and individuals take advantage o
                                     a modern, clean, and standard website that suits our
                                     business type.
                                 </p>
-                                <p>
+                                <p class="desktop-text">
                                     Mr. Peterson
                                 </p>
                             </div>
 
-                            <img class="img-fluid"
-                                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-                                style="margin-top: -.5rem">
+                            <div>
+                                <img class="img-fluid"
+                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
+                                    style="margin-top: -.5rem">
+                                    <p class="mobile-text">
+                                    Mr. Peterson                                    </p>
+                            </div>
                         </div>
 
                     </div>
@@ -499,14 +498,18 @@ Software development company helping businesses and individuals take advantage o
                                     a modern, clean, and standard website that suits our
                                     business type.
                                 </p>
-                                <p>
+                                <p class="desktop-text">
                                     Tolu Adebayo
                                 </p>
                             </div>
 
-                            <img class="img-fluid"
-                                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-                                style="margin-top: -.5rem">
+                            <div>
+                                <img class="img-fluid"
+                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
+                                    style="margin-top: -.5rem">
+                                    <p class="mobile-text">
+                                    Tolu Adebayo                                    </p>
+                            </div>
                         </div>
 
                     </div>
@@ -531,9 +534,9 @@ Software development company helping businesses and individuals take advantage o
     <!-- END OF REVIEWS SECTION -->
 
     <!-- CONTACT US SECTION -->
-    <section class="container contact-form-section card" style="margin-top: 12%; margin-bottom: 9%">
-        <div class="row justify-content-center">
-            <div class="col-md-7 pt-5 px-3">
+    <section class="container-fluid contact-us-wrapper" style="margin-top: 12%; margin-bottom: 9%">
+        <div class="row contact-form-section">
+            <div class="col-md-7 col-sm-6 pt-5 px-3">
                 <h1 class="px-3" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">
                     Contact Us</h1>
                 <p class="px-3" style="font-weight: 400;font-size: 16px;color: rgba(4, 8, 86, 0.7);">We'd like to handle
@@ -543,17 +546,18 @@ Software development company helping businesses and individuals take advantage o
 
                 <form id="sendData">
                     <div class="row px-3 pt-2">
-                        <div class="col">
+                        <div class="col-sm first-name">
                             <label style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
-                            <input type="text" id="Firstname" required
+                            <input type="text" id="Firstname" class="input-style"  required
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
                         </div>
-                        <div class="col">
+                        <div class="col-sm last-name">
                             <label style="font-weight: 500;font-size: 14px;color: #040856">Last Name</label>
                             <input id="Lastname" required type="text"
                                 style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
                         </div>
                     </div>
+
                     <div class="px-3 pt-2">
                         <label style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
                         <input id="Email" required class="section6-form4"
@@ -585,7 +589,7 @@ Software development company helping businesses and individuals take advantage o
                 </form>
             </div>
 
-            <div class="col-md-5"
+            <div class="col-md-5 col-sm-6 contact-information-colum"
                 style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 160%; height:inherit">
                 <div class="sec6itext">
                     <div class="mx-5 mt-5 pt-5">
@@ -710,6 +714,12 @@ Software development company helping businesses and individuals take advantage o
                 });
 
         }
+
+        // Remove the column class on mobile screen viewport
+        
+        // let firstNameDiv = document.querySelector(.first-name);
+        // let lastNameDiv = document.querySelector(.last-name);
+        // firstNameDiv.addEventListener('click', console.log('working!'));
 
     </script>
 
