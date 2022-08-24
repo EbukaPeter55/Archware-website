@@ -33,9 +33,7 @@ Software development company helping businesses and individuals take advantage o
                                     your business.</p>
                                 <a href="/services">
                                     <button class="mt-3"
-                                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
-                        border: none;color: #ffffff;border-radius: 8px;
-                        background: #1F3F95;">
+                                       >
                                         Read More
                                     </button></a>
                             </div>
