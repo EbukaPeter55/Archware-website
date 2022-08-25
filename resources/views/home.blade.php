@@ -159,7 +159,7 @@ Software development company helping businesses and individuals take advantage o
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg"/>
                 
             <div class="team-section-right">
-                <h2>Why choose Archware Team</h2>
+                <h2>Why Choose Archware Team</h2>
                 <p>
                     Our goal is to assist our partners to overturn challenges to their advantage.
                     We bring diverse and unique set of values and prioritise resources
@@ -609,7 +609,7 @@ Software development company helping businesses and individuals take advantage o
                         </p>
                         <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}"
                                 alt="">
-                            <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayangboye Street, Anthony
+                            <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayanboye Street, Anthony
                                 Village, Lagos</a>
                         </p>
                         <p>
