@@ -34,9 +34,8 @@
                     </li>
                     <ul class="dropdown-menu dropdown-style">
                         <li class="dropdown-submenu">
-                            <a class="dropdown-toggle dropdown-item" href="#"
-                                id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+                            <a class="dropdown-toggle dropdown-item" href="#" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Software Development
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -72,14 +71,12 @@
                                         Mobile App Development
                                     </a>
                                 </li>
-
-
                             </ul>
                         </li>
                         <li><a class="dropdown-item" href="#">Archware Training Institute</a></li>
-                        <li><a class="dropdown-item" href="/mobile-app-development">Mobile App Development</a></li>
                         <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
-                        <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management System</a></li>
+                        <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management
+                                System</a></li>
                         <li><a class="dropdown-item" href="#">Food Bank</a></li>
                         <li><a class="dropdown-item" href="#">Farm Management</a></li>
                     </ul>
