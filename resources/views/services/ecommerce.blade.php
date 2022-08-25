@@ -122,11 +122,11 @@ A great online store design not only helps customers trust <br> your brand but a
             <div class="col-md-4 p-3 inner-padding">
                 <div class="card card-height-mobile" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                     <img src="/customImages/Broaden Your Brand.jpg" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1 text-title-mobile" style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
+                    <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
+                        <div class="pt-1 text-title-mobile archware-card-title" style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
                             Broaden Your Brand
                         </div>
-                        <p class="card-text archware-text-dull"
+                        <p class="archware-card-paragraph-padding card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
                             Ecommerce is an ideal way you can take your brand from a traditional store to an innovative,
                             well-loved brand, and maintain exponential growth.
@@ -138,11 +138,11 @@ A great online store design not only helps customers trust <br> your brand but a
             <div class="col-md-4 p-3 inner-padding">
                 <div class="card card-height-mobile" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                     <img src="/customImages/More Convenience.png" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1 text-title-mobile" style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
+                    <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
+                        <div class="pt-1 text-title-mobile archware-card-title" style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
                             More Convenience
                         </div>
-                        <p class="card-text archware-text-dull"
+                        <p class="archware-card-paragraph-padding card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
                             An online store is available all day, every day meaning your customers can visit your store at
                             all times, no matter what their schedule might be. This means you can appeal to a wider range of
@@ -155,11 +155,11 @@ A great online store design not only helps customers trust <br> your brand but a
             <div class="col-md-4 p-3 inner-padding">
                 <div class="card card-height-mobile" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                     <img src="/customImages/Marketing Opportunities.png" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1 text-title-mobile" style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
+                    <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
+                        <div class="pt-1 text-title-mobile archware-card-title" style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
                             Marketing Opportunities
                         </div>
-                        <p class="card-text archware-text-dull"
+                        <p class="archware-card-paragraph-padding card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
 <<<<<<< HEAD
 <<<<<<< HEAD
