@@ -276,7 +276,7 @@ Software development company helping businesses and individuals take advantage o
                     <div class="about-left-child">
                         <h1 class="mt-3 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
                         <p class="section3-text2">
-                            Archware Technologies is a renowed technological solution company
+                            Archware Technologies is a renowned technological solution company
                             that delivers innovative and scalable digital solutions to individuals
                             and organizations across multiple industries. We have served as a groundbreaking
                             and trustworthy tech company for top tier businesses by simplifying technology
