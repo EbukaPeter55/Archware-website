@@ -162,7 +162,7 @@
             <img class="img-fluid"
                 src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg"/>
             <div class="team-section-right">
-                <!-- <h2>Why choose Archware Team</h2> -->
+                <!-- <h2>Why Choose Archware Team</h2> -->
                 <p>
                     Our goal is to assist our partners to overturn challenges to their advantage.
                     We bring diverse and unique set of values and prioritise resources
@@ -281,7 +281,7 @@
                     <div class="col-md-6">
                         <h1 class="mt-5 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
                         <p class="section3-text2" style="font-weight: 400; font-size: 1rem; text-align: left; 1rem;line-height: 179%; color: #FFFFFF;">
-                            Archware Technologies is a renowed technological solution company<br>
+                            Archware Technologies is a renowned technological solution company<br>
                             that delivers innovative and scalable digital solutions to individuals<br>
                             and organizations across multiple industries. We have served as a groundbreaking
                             and trustworthy tech company for top tier businesses by simplifying technology
@@ -600,7 +600,7 @@
                         </p>
                         <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}"
                                 alt="">
-                            <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayangboye Street, Anthony
+                            <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayanboye Street, Anthony
                                 Village, Lagos</a>
                         </p>
                         <p>
