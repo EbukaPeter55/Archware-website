@@ -94,14 +94,13 @@
     <!--services-->
     <section class="container mt-3 pt-5">
         <div class="d-flex flex-row flex-wrap justify-content-center">
-
-            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0;">
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
                 <img src="{{ asset('customImages/Rectangle 661 (6).png') }}" alt="" style="object-fit:cover;">
-                <div class="px-2 py-4">
-                    <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         B2B Website Redesign
                     </h2>
-                    <p class="py-2"
+                    <p class="archware-card-paragraph-padding py-2"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                         We carry out audits on your website to identify gaps that need to be bridged. We help you redesign
                         an optimized website that would rank better
@@ -109,13 +108,13 @@
                     </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="{{ asset('customImages/Rectangle 661 (7).png') }}" alt="">
-                <div class="px-2 py-4">
-                    <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         B2C Website Redesign
                     </h2>
-                    <p class="py-2"
+                    <p class="archware-card-paragraph-padding py-2"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                         The ever changing customers’ interests are some of the reasons your website should be updated from
                         time to time. We test, analyze and revamp
@@ -124,13 +123,13 @@
                     </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="{{ asset('customImages/Rectangle 661 (8).png') }}" alt="">
-                <div class="px-2 py-4">
-                    <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
-                        Ecommerce <br> Website Redesign
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Ecommerce Website Redesign
                     </h2>
-                    <p class="py-2"
+                    <p class="archware-card-paragraph-padding py-2"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                         We offer tech solutions to your e-commerce websites by revamping your website and ensuring it is
                         responsive to all devices.
