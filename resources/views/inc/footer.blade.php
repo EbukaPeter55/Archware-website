@@ -239,7 +239,7 @@
 
                         <ul class="list-unstyled mb-0 fw-lighter">
                             <li class="pb-2" style="font-size:medium;">
-                                3, Ayanboye Street,<br>Anthony Village, Lagos
+                                3, Ayanboye Street, Anthony Village, Lagos
                             </li>
                             <li class="pb-2" style="font-size:medium;">
                                 Ph: +234709154822
