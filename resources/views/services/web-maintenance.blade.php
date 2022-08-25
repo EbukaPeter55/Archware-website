@@ -70,67 +70,56 @@
     </section>
 
 
-    <div class="container mt-5">
-        <div class="p-5 row mobile-padding">
-
-            <div class="col-md-4 p-3 inner-padding">
-                <div class="card card-height-mobile"
-                    style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/site security.png" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1 text-title-mobile"
-                            style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
-                            Site Security
-                        </div>
-                        <p class="card-text archware-text-dull"
-                            style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            Your website's scripts, security, and platforms must be functional to make it a success. Regular
-                            updates are crucial to patch up or improve the possible vulnerabilities and security lapses.
-                        </p>
-                    </div>
+    <!--services-->
+    <section class="container mt-3 pt-5">
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
+                <img src="{{ asset('customImages/site security.png') }}" alt="" style="object-fit:cover;">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title"
+                        style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Site Security
+                    </h2>
+                    <p class="archware-card-paragraph-padding py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        Your website's scripts, security, and platforms must be functional to make it a success. Regular
+                        updates are crucial to patch up or improve the possible vulnerabilities and security lapses.
+                    </p>
                 </div>
             </div>
-
-            <div class="col-md-4 p-3 inner-padding">
-                <div class="card card-height-mobile"
-                    style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/seo.png" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1 text-title-mobile"
-                            style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
-                            SEO
-                        </div>
-                        <p class="card-text archware-text-dull"
-                            style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            The algorithm that supports SEO is rapidly evolving with the inclusion of new techniques and
-                            tools. Maintaining your website will help it stay on top of the result page on search engines
-                            and increase visibility to relevant customers.
-                        </p>
-                    </div>
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+                <img src="/customImages/seo.png" alt="">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title"
+                        style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        SEO
+                    </h2>
+                    <p class="archware-card-paragraph-padding py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        The algorithm that supports SEO is rapidly evolving with the inclusion of new techniques and
+                        tools. Maintaining your website will help it stay on top of the result page on search engines
+                        and increase visibility to relevant customers.
+                    </p>
                 </div>
             </div>
-
-            <div class="col-md-4 p-3 inner-padding">
-                <div class="card card-height-mobile"
-                    style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/website speed.png" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1 text-title-mobile"
-                            style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
-                            Website Speed
-                        </div>
-                        <p class="card-text archware-text-dull"
-                            style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                            Research has shown that customers are attuned to fast and easily accessible websites. Regularly
-                            improving the speed of your website yields happy customers, increases click-through rate (CTR),
-                            and encourages customers to return to your website.
-                        </p>
-                    </div>
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+                <img src="/customImages/website speed.png" alt="">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title"
+                        style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Website Speed
+                    </h2>
+                    <p class="archware-card-paragraph-padding py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        Research has shown that customers are attuned to fast and easily accessible websites. Regularly
+                        improving the speed of your website yields happy customers, increases click-through rate (CTR),
+                        and encourages customers to return to your website.
+                    </p>
                 </div>
             </div>
-
         </div>
-    </div>
+    </section>
+    <!--END OF services-->
 
     <section
         class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab experience-body-with-pix-mobile"
@@ -139,7 +128,8 @@
             <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom"
                 src="/customImages/effective communication.png">
         </div>
-        <div class="archware-text-justify archware-content-text
+        <div
+            class="archware-text-justify archware-content-text
                 archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
             <h2 class="text-white-header">Effective Communication</h2>
             <p class="text-white-paragraph">

@@ -120,6 +120,61 @@
         --}}
 
 
+
+        <!--services-->
+    <section class="container mt-3 pt-5">
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
+                <img src="{{ asset('customImages/site security.png') }}" alt="" style="object-fit:cover;">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title"
+                        style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Site Security
+                    </h2>
+                    <p class="archware-card-paragraph-padding py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        Your website's scripts, security, and platforms must be functional to make it a success. Regular
+                        updates are crucial to patch up or improve the possible vulnerabilities and security lapses.
+                    </p>
+                </div>
+            </div>
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+                <img src="/customImages/seo.png" alt="">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title"
+                        style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        SEO
+                    </h2>
+                    <p class="archware-card-paragraph-padding py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        The algorithm that supports SEO is rapidly evolving with the inclusion of new techniques and
+                        tools. Maintaining your website will help it stay on top of the result page on search engines
+                        and increase visibility to relevant customers.
+                    </p>
+                </div>
+            </div>
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+                <img src="/customImages/website speed.png" alt="">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title"
+                        style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Website Speed
+                    </h2>
+                    <p class="archware-card-paragraph-padding py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        Research has shown that customers are attuned to fast and easily accessible websites. Regularly
+                        improving the speed of your website yields happy customers, increases click-through rate (CTR),
+                        and encourages customers to return to your website.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END OF services-->
+
+
+
+
         <div class="container mt-5">
             <div class="p-5 row mobile-padding">
 
@@ -127,12 +182,12 @@
                     <div class="card card-height-mobile"
                         style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                         <img src="/customImages/Rectangle661.png" class="card-img-top" alt="...">
-                        <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                            <div class="pt-1 text-title-mobile"
+                        <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
+                            <div class="pt-1 text-title-mobile archware-card-title"
                                 style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
                                 Native Mobile App
                             </div>
-                            <p class="card-text archware-text-dull"
+                            <p class="archware-card-paragraph-padding card-text archware-text-dull"
                                 style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
                                 We build fully responsive and scalable mobile apps that can withstand the test of time.
                                 We create native Android and iOS applications that make the most of the features offered by the
@@ -146,12 +201,12 @@
                     <div class="card card-height-mobile"
                         style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                         <img src="/customImages/Rectangle 661 (1).png" class="card-img-top" alt="...">
-                        <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                            <div class="pt-1 text-title-mobile"
+                        <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
+                            <div class="pt-1 text-title-mobile archware-card-title"
                                 style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
                                 Cross Platform App Development
                             </div>
-                            <p class="card-text archware-text-dull"
+                            <p class="archware-card-paragraph-padding card-text archware-text-dull"
                                 style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
                                 We are skilled in delivering the best cross-platform app development services to our clients,
                                 including the creation of UI/UX design, wearable applications, web-based apps, and apps with AI integration.
@@ -164,12 +219,12 @@
                     <div class="card card-height-mobile"
                         style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                         <img src="/customImages/Rectangle 661 (2).png" class="card-img-top" alt="...">
-                        <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                            <div class="pt-1 text-title-mobile"
+                        <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
+                            <div class="pt-1 text-title-mobile archware-card-title"
                                 style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
                                 Hybrid App Development
                             </div>
-                            <p class="card-text archware-text-dull"
+                            <p class="archware-card-paragraph-padding card-text archware-text-dull"
                                 style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
                                 We provide specialized hybrid app development services that are built to function
                                 flawlessly across several operating systems. Our team has extensive knowledge of

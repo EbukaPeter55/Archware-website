@@ -152,56 +152,18 @@
         </div>
     </div>
 
-    {{--
-    <div class="my-4">
-        <div style="background: #1F3F95; height: 246px;"
-            class="mt-5 d-flex justify-content-center align-items-center flex-wrap">
-            <div style="margin-top: -70px;">
-                <img src="/customImages/js.png" class="px-5">
-                <img src="/customImages/php.png" class="px-5">
-                <img src="/customImages/html5.png" class="px-5">
-                <img src="/customImages/shopify.png" class="px-5">
-                <img src="/customImages/dotnet.png" class="px-5">
-                <img src="/customImages/wordpress.png" class="px-5">
-                <img src="/customImages/a logo.png" class="px-5">
-                <img src="/customImages/mysql.png" class="px-5">
-            </div>
-        </div>
-
-        <div style="background-image: linear-gradient(to right, #7CB142, #63A148); height: 137px;
-            margin-right:310px; margin-top: -50px;"
-            class="d-flex justify-content-center align-items-center flex-wrap">
-
-            <span
-                style="margin-left: auto; margin-right: 0; font-weight: 700; font-size: 30px; line-height: 36.31px; color: #ffffff;">
-                Ready to start your Web Development project?
-                <p style="font-weight: 400;font-size: 19px;line-height: 172%;color: #FFFFFF;">
-                    No matter your budget and timeline, we're available to deliver without compromising quality.
-                </p>
-            </span>
-
-            <button type="submit" class=""
-                style="width: 160px;height: 137px;background: #040856;border: none;
-            font-weight: 700;font-size: 39px;line-height: 38px;
-            color: #ffffff; margin-left: auto; margin-right: 0;">LET’S
-                TALK</button>
-        </div>
-    </div>
-    --}}
-
-
 
 
     <section class="container mt-3 pt-5">
         <div class="d-flex flex-row flex-wrap justify-content-center">
 
-            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0;">
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
                 <img src="/customImages/Rectangle 661.jpg" alt="" style="object-fit:cover;">
-                <div class="px-2 py-4">
-                    <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Web App Develppment
                     </h2>
-                    <p class="py-2"
+                    <p class="py-2 archware-card-paragraph-padding"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                         Beyond design, we offer a full stack development approach to developing a massive range of
                         solutions,
@@ -211,26 +173,26 @@
                     </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/Rectangle Ecommerce.jpg" alt="">
-                <div class="px-2 py-4">
-                    <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Ecommerce
                     </h2>
-                    <p class="py-2"
+                    <p class="py-2 archware-card-paragraph-padding"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                         Get your products in front of your customers with our e-commerce website design and development
                         service. We offer a range of e-commerce website development packages to help your company succeed.
                     </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-3 native" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/Rectangle b2b.jpg" alt="">
-                <div class="px-2 py-4">
-                    <h2 style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         B2B & B2C Portals
                     </h2>
-                    <p class="py-2"
+                    <p class="py-2 archware-card-paragraph-padding"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                         We develop B2B and B2C portals
                         and connect your manufacturers, wholesalers, distributors, and end-users. With these highly

@@ -68,14 +68,69 @@
                     Ready To Deploy Our Account & Expenses Management System?
                 </p>
                 <a class="py-3" style="text-align:center;">
-                    <button class="small-mobile-long-button"
-                        style="background: #1F3F95;border-radius: 4px;border:none; width:312px; height: 56px; color:#FFFFFF">
+                    <button class="small-mobile-long-button archware-button-default">
                         Let's Discuss
                     </button>
                 </a>
             </div>
         </div>
     </section>
+
+
+
+    <!--services-->
+    <section class="container mt-3 pt-5">
+        <div class="d-flex flex-row flex-wrap justify-content-center">
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
+                <img src="/customImages/Rectangle 661 (6).png" alt="" style="object-fit:cover;">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title"
+                        style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Expenses Management
+                    </h2>
+                    <p class="archware-card-paragraph-padding py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        Our expenditure management experience can assist you in scaling and automating spending and data
+                            gathering, providing greater financial insights and improved forecasts, since operations
+                            expenses are among the most challenging to control.
+                    </p>
+                </div>
+            </div>
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+                <img src="/customImages/analytics and reporting.png" alt="">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title"
+                        style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Mobile Expense System App
+                    </h2>
+                    <p class="archware-card-paragraph-padding py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        We can create mobile apps that can help you submit and approve staff costs in real-time. We
+                            develop the app to help you record receipts by taking a picture as expenses are incurred,
+                            allowing processing to start right away. This way, you can remain on top of staff demands.
+                    </p>
+                </div>
+            </div>
+            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+                <img src="/customImages/mobile expense system.png" alt="">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title"
+                        style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Analytics & Reporting for Expenses
+                    </h2>
+                    <p class="archware-card-paragraph-padding py-2"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        We don't only let you track your account and expenses, we also make reporting easy for you. Our
+                            software gives you accurate reports for real-time analysis, and operational indicators and this
+                            helps to reduce the rate of fraud in an organisation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END OF services-->
+
+
 
 
     <div class="container mt-5">
@@ -85,12 +140,12 @@
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                     <img src="/customImages/Rectangle 661 (6).png" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1 text-title-mobile"
+                    <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
+                        <div class="pt-1 text-title-mobile archware-card-title"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
                             Expenses Management
                         </div>
-                        <p class="card-text archware-text-dull"
+                        <p class="archware-card-paragraph-padding card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
                             Our expenditure management experience can assist you in scaling and automating spending and data
                             gathering, providing greater financial insights and improved forecasts, since operations
@@ -104,12 +159,12 @@
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                     <img src="/customImages/analytics and reporting.png" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1 text-title-mobile"
+                    <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
+                        <div class="pt-1 text-title-mobile archware-card-title"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
                             Mobile Expense System App
                         </div>
-                        <p class="card-text archware-text-dull"
+                        <p class="archware-card-paragraph-padding card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
                             We can create mobile apps that can help you submit and approve staff costs in real-time. We
                             develop the app to help you record receipts by taking a picture as expenses are incurred,
@@ -123,12 +178,12 @@
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                     <img src="/customImages/mobile expense system.png" class="card-img-top" alt="...">
-                    <div class="card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                        <div class="pt-1 text-title-mobile"
+                    <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
+                        <div class="pt-1 text-title-mobile archware-card-title"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
                             Analytics & Reporting for Expenses
                         </div>
-                        <p class="card-text archware-text-dull"
+                        <p class="archware-card-paragraph-padding card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
                             We don't only let you track your account and expenses, we also make reporting easy for you. Our
                             software gives you accurate reports for real-time analysis, and operational indicators and this
