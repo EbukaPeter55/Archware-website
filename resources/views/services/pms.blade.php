@@ -11,7 +11,7 @@ Software development company helping businesses and individuals take advantage o
 @section('content')
 <div>
     <!--Let's Translate Your Ideas To Mobile -->
-    <section style=" background-image: url(../customImages/Group68.png); background-repeat:no-repeat;" ; class="">
+    <!-- <section style=" background-image: url(../customImages/Group68.png); background-repeat:no-repeat;" ; class="">
         <div class="container-fluid justify-items-center">
             <div class="d-flex flex-row">
                 <div class="col-md-5 mt-5 pt-5 mx-5">
@@ -25,12 +25,25 @@ Software development company helping businesses and individuals take advantage o
                 </div>
             </div>
         </div>
+    </section> -->
+
+                    
+
+    <section class="container-fluid d-sm-flex flex-row 
+    justify-content-between align-items-center flex-wrap projec-hero-section">
+    <div class="proj-manage-left">
+        <h1>Project <br>Management</h1>
+        <p>We Plan. We Execute. We Manage.<p>
+    </div>
+    <div>
+        <img class="img-fluid" src="../customImages/Rectangle651pms.png" />   
+    </div>
     </section>
     <!--END OF Let's Translate Your Ideas To Mobile-->
 
     <!--We provide quality full-cycle services-->
     <section class="container pt-5">
-        <div class="d-flex flex-row">
+        <div class="row">
             <div class="col-md-5">
                 <img class="img-fluid" src="{{ asset('customImages/Rectangle 673.png') }}" alt="">
             </div>
@@ -55,7 +68,7 @@ Software development company helping businesses and individuals take advantage o
     <!--END OF We provide quality full-cycle services-->
 
     <!--LET’S WORK TOGETHER-->
-    <section class="mt-4 pt-5">
+    <section class=" mt-4 pt-5">
         <div class="my-4">
             <div style="background: #1F3F95; height: 246px;" class="mt-5 d-flex justify-content-center align-items-center flex-wrap">
                 <div style="margin-top: -70px;">
@@ -69,9 +82,10 @@ Software development company helping businesses and individuals take advantage o
             </div>
 
             <div style="text-align:center;margin-top: -47px">
-                <button type="submit" class="" style="width: 529px;height: 73px; background: linear-gradient(95.08deg, #7CB142 16.79%, #63A148 67.93%);
+                <button type="submit" class="" style="max-width: 33.0625rem; height: 73px; background: linear-gradient(95.08deg, #7CB142 16.79%, #63A148 67.93%);
             box-shadow: 0px -23px 50px rgba(0, 0, 0, 0.08);border-radius: 5px;border:none;font-weight: 500;font-size: 25px;line-height: 30px;text-align: center;
-            color: #FFFFFF;margin-left: auto; margin-right: 0;">Let’s Manage Your Project</button>
+            color: #FFFFFF;margin-left: auto; margin-right: 0; padding-left: 2rem; padding-right: 2rem;">
+            Let’s Manage Your Project</button>
             </div>
         </div>
     </section>
