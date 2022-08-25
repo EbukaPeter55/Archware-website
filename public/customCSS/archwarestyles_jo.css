@@ -1,5 +1,30 @@
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+}
+
+
+/*
+
+ll
+ll
+
+*/
 @media (min-width: 1198px) {
-    .block-display-tab{
+    .block-display-tab {
         display: flex !important;
     }
 
@@ -43,7 +68,7 @@
     }
 
     .experience-body-mobile {
-        background: #1F3F95 !important;
+        background: #1f3f95 !important;
         padding: 0.5rem !important;
     }
     .experience-body-with-pix-mobile {
@@ -66,10 +91,11 @@
     }
 
     .small-mobile-long-button {
-        width: 100% !important;
+        width: unset !important;
+        padding: 0.4em !important;
     }
     .experience-body-mobile {
-        background: #1F3F95 !important;
+        background: #1f3f95 !important;
         padding: 0.5rem !important;
     }
     .experience-body-with-pix-mobile {
@@ -98,7 +124,6 @@
     }
 }
 
-
 @media (max-width: 576px) {
     .text-title-mobile {
         font-size: 30px !important;
@@ -113,7 +138,7 @@
         line-height: 38px !important;
     }
     .experience-body-mobile {
-        background: #1F3F95 !important;
+        background: #1f3f95 !important;
         padding: 0.5rem !important;
     }
     .experience-body-with-pix-mobile {
@@ -128,7 +153,7 @@
         font-size: 1.37rem !important;
     }
     .text-white-paragraph {
-        margin-top: .2em !important;
+        margin-top: 0.2em !important;
     }
 }
 
@@ -140,7 +165,7 @@
     font-weight: 700;
     font-size: 2.1875rem;
     line-height: 42px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-top: 0.2rem;
 }
 
@@ -150,19 +175,42 @@
     font-weight: 400;
     font-size: 1rem;
     line-height: 172%;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-
-
 
 .archware-text-justify {
     text-align: justify;
     text-justify: inter-word;
 }
 
-.archware-content-text{
+.archware-content-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 172%;
     color: rgba(4, 8, 86, 0.7);
+}
+
+.small-mobile-long-button {
+    width: unset !important;
+    padding: 0.4em !important;
+}
+
+.text-label-large-screen {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 72px;
+    color: #0D2158;
+    text-align:center;
+}
+
+.archware-button-default {
+    background: #1F3F95;
+    border-radius: 4px;
+    border:none;
+    width:312px;
+    color:#FFFFFF
+}
+
+.move-left-wall {
+    padding-left: initial !important;
 }

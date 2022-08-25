@@ -28,68 +28,93 @@
                     <a class="nav-link archware-nav-title" style="scroll-behavior: smooth;" href="/#aboutus">About
                         Us</a>
                 </li>
-                <div class="dropdown" style="margin-top: .1rem">
-                    <li class="btn btn-white archware-nav-title nav-drop dropdown-toggle" data-bs-toggle="dropdown">
-                        Our Services
-                    </li>
-                    <ul class="dropdown-menu dropdown-style">
-                        <li class="dropdown-submenu">
-                            <a class="dropdown-toggle dropdown-item" href="#"
-                                id="navbarDropdownMenuLink" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                Software Development
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" href="#">
-                                        Web Development
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li>
-                                            <a class="dropdown-item" href="/website-design-and-development">
-                                                Responsive Website Design and Development
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/website-redesign">
-                                                Website Redesign
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/ecommerce-online-web-stores">
-                                                E-commerce/Online Web Stores
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="/web-maintenance">
-                                                Web Maintenance
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a class="dropdown-item" href="/mobile-app-development">
-                                        Mobile App Development
-                                    </a>
-                                </li>
-
-
-                            </ul>
-                        </li>
-                        <li><a class="dropdown-item" href="#">Archware Training Institute</a></li>
-                        <li><a class="dropdown-item" href="/mobile-app-development">Mobile App Development</a></li>
-                        <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
-                        <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management System</a></li>
-                        <li><a class="dropdown-item" href="#">Food Bank</a></li>
-                        <li><a class="dropdown-item" href="#">Farm Management</a></li>
-                    </ul>
-                </div>
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/subsidiaries">Our Team</a>
                 </li>
                 <!-- <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/services">Services</a>
                 </li> -->
+                <div class="dropdown" style="margin-top: .1rem">
+                    <li class="btn btn-white archware-nav-title nav-drop dropdown-toggle" data-bs-toggle="dropdown">
+                        Our Services
+                    </li>
+                    <ul class="dropdown-menu dropdown-style">
+                        <li>
+                            <a class="nav-link dropdown-toggle dropdown-item" href="#"
+                                id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li class="dropdown-submenu">
+                                    <a class="dropdown-item dropdown-toggle" href="http://google.com">
+                                        Google
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                Submenu
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                Submenu0
+                                            </a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                                Submenu 1
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        Subsubmenu1
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        Subsubmenu1
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a class="dropdown-item dropdown-toggle" href="#">
+                                                Submenu 2
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        Subsubmenu2
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item" href="#">
+                                                        Subsubmenu2
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Archware Training Institute</a></li>
+                        <li><a class="dropdown-item" href="/website-design-and-development">Responsive Website Design
+                                and Development</a></li>
+                        <li><a class="dropdown-item" href="/website-redesign">Website Redesign</a></li>
+                        <li><a class="dropdown-item" href="/ecommerce-online-web-stores">E-commerce/Online Web
+                                Stores</a></li>
+                        <li><a class="dropdown-item" href="/web-maintenance">Web Maintenance</a></li>
+                        <li><a class="dropdown-item" href="/mobile-app-development">Mobile App Development</a></li>
+                        <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
+                        <li><a class="dropdown-item" href="#">Account & Expenses Management System</a></li>
+                        <li><a class="dropdown-item" href="#">Food Bank</a></li>
+                        <li><a class="dropdown-item" href="#">Farm Management</a></li>
+                    </ul>
+                </div>
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/join-us">Join Us</a>
                 </li>

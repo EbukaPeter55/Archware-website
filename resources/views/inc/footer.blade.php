@@ -134,7 +134,7 @@
 
         <footer class="text-center text-white" style="background-color: #1f3f95;">
 
-            <div class="container p-5">
+            <div class="container pt-5">
                 <div class="m-4">
                     <h3 class="fw-bold newsletter-style" style="font-size:30px;">Newsletter</h3>
                     <p class="pt-2 newsletter-paragraph text-center" style="font-size:medium;">
@@ -179,7 +179,7 @@
                         </h5>
 
                         <ul class="list-unstyled mb-0">
-                            <li class="pb-3"style="font-size:medium;">
+                            <li class="pb-3 footer-aboutus"style="font-size:medium;">
                                  Archware Technologies is a result-driven tech company established<br> 
                                  to provide technological innovations that help improve the quality<br> 
                                  of work and lives of people across several business sectors.                    
