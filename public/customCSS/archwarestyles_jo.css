@@ -171,7 +171,7 @@ ll
     .remove-shadow-mobile{
         box-shadow: none !important;
         transition: none !important;
-        scale: unset !important;
+        scale: unset !important ;
     }
 
 }
