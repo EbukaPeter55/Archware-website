@@ -77,7 +77,6 @@
                             </ul>
                         </li>
                         <li><a class="dropdown-item" href="#">Archware Training Institute</a></li>
-                        <li><a class="dropdown-item" href="/mobile-app-development">Mobile App Development</a></li>
                         <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
                         <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management System</a></li>
                         <li><a class="dropdown-item" href="#">Food Bank</a></li>
