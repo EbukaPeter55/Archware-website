@@ -14,7 +14,7 @@
     <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
         <section
             class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
-            <div class="archware-content-text archwarejo-width-bottom-head p-2">
+            <div class="archware-content-text archwarejo-width-bottom-head pt-2">
                 <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
                     Account & Expenses Management System
                 </h2>
@@ -160,17 +160,14 @@
         </div>
     </section>
 
-
-    <section class="my-5 py-5">
+    <section class="my-3 py-3">
         <div class="container justify-content-center">
             <div class="row">
-                <p class="text-label-mobile"
-                    style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
+                <p class="text-label-mobile text-label-large-screen">
                     Get Started With Account & Expenses Management System For Your Business
                 </p>
                 <a class="py-3" style="text-align:center;">
-                    <button class="small-mobile-long-button"
-                        style="background: #1F3F95;border-radius: 4px;border:none; width:312px; height: 56px; color:#FFFFFF">
+                    <button class="small-mobile-long-button archware-button-default">
                         Contact Us
                     </button>
                 </a>

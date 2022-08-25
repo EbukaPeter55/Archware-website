@@ -10,9 +10,54 @@ Software development company helping businesses and individuals take advantage o
 
 @section('content')
 
+<<<<<<< HEAD
+    <section style=" background-image: url(../customImages/Group68.png)" ; class="mt-5">
+        <div class="container justify-content-center">
+            <div class="row">
+                <div class="col-md-5 mt-5 pt-3">
+                    <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;">
+                        E-commerce
+                    </h2>
+                    <p class="pt-3"
+                        style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
+                        Get your products in front of your customers with our<br>
+                        e-commerce website design and development service.
+                    </p>
+                </div>
+                <div class="col-md-7 px-2" style="">
+                    <img class="img-fluid" src="{{ asset('/customImages/ecommerce list.png') }}">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container mt-5">
+        <div class="row">
+            <div class="col-md-5" class="w-50">
+                <img style="width: 500px; " class="img-fluid" src="/customImages/ecommerce target client.png">
+            </div>
+            <div class="col-md-6 px-4">
+                <p class="px-2 py-4"
+                    style="font-weight: 400;  font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">
+<<<<<<< HEAD
+                    Social Commerce continues its meteoric rise in popularity <br>across the globe with the recent prediction putting the <br> industry at the growing rate of $1.2 trillion dollars in e-<br>commerce purchases by 2025.<br>
+=======
+                    Social Commerce continues its meteoric rise in popularity <br>across the globe with the recent prediction putting the <br> industry at the growing rate of $1.2 trillion dollars in e-<br>commer
+>>>>>>> 5118b3d33fbe97a3482ab57496007313486fdd99
+                    <br>
+Being the owner of a top-notch, user-friendly online store is <br>the first step in starting a highly successful online business.<br> With the best technical consultation and development<br> plans, we unlock the potential of e-commerce platforms to<br> provide you with a robust feature that is exclusive, and <br> dependable using your preferred tools such as Drupal,<br> Magento development, WooCommerce, Shopify,<br> BigCommerce.<br>
+<br>
+Our design and development of e-commerce websites <br>provide your business with a platform that connects,<br> enriches and is responsive to all devices for unforgettable <br>customer experiences.<br>
+A great online store design not only helps customers trust <br> your brand but also helps you stand out from the  <br>competition.
+<<<<<<< HEAD
+=======
+               ce purchases by 2025.<br>
+>>>>>>> 5118b3d33fbe97a3482ab57496007313486fdd99
+=======
     <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
         <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
-            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head p-2">
+            <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head pt-2">
                 <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
                     E-commerce
                 </h2>
@@ -20,6 +65,7 @@ Software development company helping businesses and individuals take advantage o
                     style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
                     Get your products in front of your customers with our
                     e-commerce website design and development service.
+>>>>>>> a9d9e9f7bbc2ef6d2b8ed6913556b689fbb02974
                 </p>
             </div>
             <div class="archwarejo-width-top-head">
@@ -115,8 +161,16 @@ Software development company helping businesses and individuals take advantage o
                         </div>
                         <p class="card-text archware-text-dull"
                             style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            Your website is one of the best marketing tools your business has.A great online store design not only help customers trust your brand but also helps you stand out from the competition.
+=======
+                            Your website is one of the best marketing tools your business has. A great online store design not only help customers trust your brand but also helps you stand out from the competition.
+>>>>>>> 5118b3d33fbe97a3482ab57496007313486fdd99
+=======
                             Your website is one of the best marketing tools your business has. A great online store design
                             not only help customers trust your brand but also helps you stand out from the competition.
+>>>>>>> a9d9e9f7bbc2ef6d2b8ed6913556b689fbb02974
                         </p>
                     </div>
                 </div>
@@ -153,16 +207,14 @@ Software development company helping businesses and individuals take advantage o
         </div>
     </section>
 
-
-    <section class="my-5 py-5">
+    <section class="my-3 py-3">
         <div class="container justify-content-center">
             <div class="row">
-                <p class="text-label-mobile" style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
+                <p class="text-label-mobile text-label-large-screen">
                     Let's create an e-commerce store as great as your products
                 </p>
                 <a class="py-3" style="text-align:center;">
-                    <button class="small-mobile-long-button"
-                        style="background: #1F3F95;border-radius: 4px;border:none; width:312px; height: 56px; color:#FFFFFF">
+                    <button class="small-mobile-long-button archware-button-default">
                         Get In Touch For a Quote
                     </button>
                 </a>

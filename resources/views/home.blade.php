@@ -214,7 +214,7 @@ Software development company helping businesses and individuals take advantage o
                 <p>
                     Over the years, we have developed responsive mobile apps across
                     industries such as Fin-tech, Banking, Medical science, and many more.
-                    Our team of experts is well skilled in different mobile app development
+                    Our team of experts are well skilled in different mobile app development
                     tools such as Atom, Git hub, Ninox, MobiLoud, React Native, Xcode, Ionic, Android Studio, etc. With core
                     competence in mobile app design and development, we have developed world-class Android and iOs apps.
                 </p>
