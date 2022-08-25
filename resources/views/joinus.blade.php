@@ -28,7 +28,7 @@ Software development company helping businesses and individuals take advantage o
             <img class="img-fluid" src="/customImages/Rectangle 682.png">
 
         </div>
-        <div class="col-md-7 px-3" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
+        <div class="col-md-7 px-3 pt-3" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
             We operate a culture that encourages everyone to think creatively and offer innovations that can move our Group
             forward and, by extension, our nation and continent. Collectively, we are responsible for living our corporate values
             and ethics, being the bedrock of our organisation.<br>
@@ -40,7 +40,7 @@ Software development company helping businesses and individuals take advantage o
 </section>
 <section class="container pt-5">
     <div class="d-flex flex-wrap-reverse pt-5">
-        <div class="col-md-7 " style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
+        <div class="col-md-7 pt-3" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
             All of our employees receive specialized training, coaching, and mentorship that is created with their interest in mind and in accordance
             with their peculiar individual needs. Our strong succession plan and career progression framework guarantees growth opportunities with clearly
             defined eligibility criteria, as well as a solid foundation to take on new responsibilities.<br>
@@ -68,7 +68,7 @@ Software development company helping businesses and individuals take advantage o
                 <div class="container-fluid">
                     <div class="basic-skill-sect mx-5">
                     <img src="{{ asset('customImages/quote.png') }}" style="position:absolute; margin-top:0px">
-                        <h1 class="basic-skill-text mt-1 " style="font-style: normal;font-weight: 600;font-size: 23px;line-height: 164%;text-align: justify;color: #FFFFFF;">
+                        <h1 class="basic-skill-text mt-3 pt-3 " style="font-style: normal;font-weight: 600;font-size: 23px;line-height: 164%;text-align: justify;color: #FFFFFF;">
                             Basic Skill, Ability To Work Hard, Determination And Honesty Towards The Craft Are The Four Simple Things Needed To
                             Excel At Work. You Know The Rest Of It (Which Is Quite A Lot) Just Happen To Fall In Place. At Archware Group, we
                             provide you with an enabling environment to reach your maximum potential, surrounded by intelligent forward looking
