@@ -150,6 +150,7 @@ Software development company helping businesses and individuals take advantage o
         </div>
     </section>
 
+    <!-- Add value comment -->
     <section class="my-3 py-3">
         <div class="container justify-content-center">
             <div class="row">
