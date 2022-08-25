@@ -101,7 +101,7 @@
 
                     <span
                         style="margin-left: auto; margin-right: 0; font-weight: 700; font-size: 30px; line-height: 36.31px; color: #ffffff;">
-                        Got a Project? Tell us about it!
+                        Got a Project? Tell us about it !
                         <p style="font-weight: 400;font-size: 19px;line-height: 172%;color: #FFFFFF;">No matter your budget
                             and timeline, we're available to deliver without compromising quality.</p>
                     </span>
