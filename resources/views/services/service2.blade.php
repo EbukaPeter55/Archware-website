@@ -133,7 +133,7 @@
 
         <div style="background-image: linear-gradient(to right, #7CB142, #63A148); height: 137px;
             margin-right:310px; margin-top: -50px;"
-            class="d-flex justify-content-center align-items-center flex-wrap">
+            class="d-flex justify-content-center align-items-center flex-wrap lettalk-mobile">
 
             <span
                 style="margin-left: auto; margin-right: 0; font-weight: 700; font-size: 30px; line-height: 36.31px; color: #ffffff;">
@@ -143,10 +143,7 @@
                 </p>
             </span>
 
-            <button type="submit" class=""
-                    style="width: 160px;height: 137px;background: #040856;border: none;
-                    font-weight: 700;font-size: 39px;line-height: 38px;
-                    color: #ffffff; margin-left: auto; margin-right: 0;">
+            <button type="submit" class="large-button-mobile">
                 LET'S TALK
             </button>
         </div>
