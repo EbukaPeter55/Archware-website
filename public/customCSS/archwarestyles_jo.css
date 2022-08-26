@@ -95,7 +95,7 @@ ll
         padding: 0.4em !important;
     }
     .experience-body-mobile {
-        background: #1f3f95 !important;
+        background: #08090a !important;
         padding: 0.5rem !important;
     }
     .experience-body-with-pix-mobile {
@@ -173,6 +173,23 @@ ll
         transition: none !important;
         scale: unset !important ;
     }
+    .lettalk-mobile {
+        display: table-cell !important;
+        padding: .5em;
+    }
+    .large-button-mobile {
+        background: #040856 !important;
+        border-radius: 4px !important;
+        font-weight: unset !important;
+        font-size: unset !important;
+        line-height: unset !important;
+        height: unset !important;
+        color:#FFFFFF;
+        margin-left: unset !important;
+        margin-right: unset !important;
+        width: unset !important;
+        padding: 0.4em !important;
+    }
 
 }
 
@@ -233,4 +250,17 @@ ll
 
 .move-left-wall {
     padding-left: initial !important;
+}
+
+.large-button-mobile {
+    max-width: 220px;
+    height: 137px;
+    background: #040856;
+    border: none;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 38px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: 0;
 }
