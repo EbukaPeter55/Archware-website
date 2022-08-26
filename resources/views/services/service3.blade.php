@@ -49,11 +49,11 @@
 
 
         <div style="background-color: #1F3F95" class="mt-5">
-            <section
-                class="container mt-5 d-flex flex-flow flex-wrap
+            <section class="container mt-5 d-flex flex-flow flex-wrap
                     justify-content-center align-items-center block-display-tab section-top">
                 <p class="text-label-mobile py-5"
-                    style="font-weight: 500;font-size: 25px;line-height: 34px;text-align: center;color: #FFFFFF;mix-blend-mode: normal;">
+                    style="font-weight: 500; font-size: 25px; line-height: 34px;
+                            text-align: center; color: #FFFFFF; mix-blend-mode: normal;">
                     <img src="/customImages/Vector.png" class="px-5">
                     <img src="/customImages/Vector (1).png" class="px-5">
                     <img src="/customImages/Group 65.png" class="px-5">
@@ -63,7 +63,7 @@
 
             <div style="background-image: linear-gradient(to right, #7CB142, #63A148); height: 137px;
                 margin-right:310px; margin-top: -50px;"
-                class="d-flex justify-content-center align-items-center flex-wrap">
+                class="lettalk-mobile d-flex justify-content-center align-items-center flex-wrap">
 
                 <span
                     style="margin-left: auto; margin-right: 0; font-weight: 700; font-size: 30px; line-height: 36.31px; color: #ffffff;">
@@ -73,10 +73,7 @@
                     </p>
                 </span>
 
-                <button type="submit" class=""
-                    style="width: 160px;height: 137px;background: #040856;border: none;
-                        font-weight: 700;font-size: 39px;line-height: 38px;
-                        color: #ffffff; margin-left: auto; margin-right: 0;">
+                <button type="submit" class="large-button-mobile">
                     LET'S WORK TOGETHER
                 </button>
             </div>
