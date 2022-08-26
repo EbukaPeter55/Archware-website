@@ -54,8 +54,8 @@ Route::get('/web-maintenance', function () {
     return view('services.web-maintenance');
 });
 
-Route::get('/account-and-expenses-management-system', function () {
-    return view('services.accountsystem');
+Route::get('/food-bank', function () {
+    return view('services.foodbank');
 });
 
 Route::get('/subsidiaries', function () {
