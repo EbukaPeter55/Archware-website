@@ -11,15 +11,15 @@
 
 @section('content')
 
-    <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
+    <div style=" background-image: url(../customImages/Group6700.png)" class="mt-5">
         <section
             class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
             <div class="archware-content-text archwarejo-width-bottom-head pt-2">
-                <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
+                <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #ffffff;" class="text-title-mobile">
                     Website Design and development
                 </h2>
                 <p class="pt-3 text-body-mobile archware-text-justify"
-                    style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
+                    style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
                     Appealing Web design, development, and value added tools for better ROI.
                 </p>
             </div>
@@ -143,9 +143,9 @@
                 </p>
             </span>
 
-            <button type="submit" class="large-button-mobile">
+            <a href="/contacts"><button type="submit" class="large-button-mobile">
                 LET'S TALK
-            </button>
+            </button></a>
         </div>
     </div>
 
@@ -229,7 +229,7 @@
                     style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
                     Got a Project? Tell us about it!
                 </p>
-                <a class="py-3" style="text-align:center;">
+                <a href="/contacts" class="py-3" style="text-align:center;">
                     <button class="small-mobile-long-button"
                         style="background: #1F3F95;border-radius: 4px;border:none; width:312px; color:#FFFFFF">
                         Contact Us
