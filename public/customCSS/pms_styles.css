@@ -36,3 +36,27 @@ padding-left: 11%;
     /* height: 100%;
     object-fit: cover!important; */
 }
+
+.proj-left-mobile{
+    display: none;
+}
+/* MOBILE RESPONSIVE STYLES */
+@media(max-width: 414px){
+    .projec-hero-section{
+        /* flex-direction: column-reverse; */
+        padding: 1rem;
+    }
+    .projec-hero-section .proj-manage-left h1{
+        font-size: 2rem;
+    }
+    .proj-manage-right{
+        display: none;
+    }
+
+    .proj-left-mobile{
+        display: block;
+    }
+    .proj-left-desktop{
+        display: none;
+    }
+}

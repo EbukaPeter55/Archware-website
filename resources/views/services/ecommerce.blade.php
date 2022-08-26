@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
-@section('description',
-'Archware - Africa\'s Leading Software Development Company
+@section('description','Archware - Africa\'s Leading Software Development Company
 Software development company helping businesses and individuals take advantage of the benefits of the global technology
 landscape.')
 @section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
@@ -10,9 +9,6 @@ landscape.')
 @section('image'){{ asset('customImages/Logo.svg') }}@stop
 
 @section('content')
-
-
-
 
 
 
@@ -98,6 +94,7 @@ landscape.')
                         well-loved brand, and maintain exponential growth.
                     </p>
                 </div>
+
             </div>
         </div>
 
