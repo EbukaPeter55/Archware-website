@@ -182,7 +182,7 @@
 
     const triggerNav = (event) => {
         // console.log(event);
-        if (window.scrollY >= topOfNav) {
+        if (window.scrollY >= 100) {
             //    console.log('You have passed the nav bottom!')
             // console.log(event);
             getNav.classList.add('navbar-trigger');
@@ -209,11 +209,21 @@
             normalLogo.style.display = 'none'
 
         } else {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navDrop = document.querySelector('.nav-drop');
+            const normalButton = document.querySelector('#normal-button');
+            const changedButton = document.querySelector('#changed-button');
             getNav.classList.remove('navbar-trigger');
-
-            // Display normal button on a scroll to the top
+                // Display normal button on a scroll to the top
             normalButton.style.display = 'block';
             changedButton.style.display = 'none'
+
+            // Change the colours of the nav link text to white
+            Array.from(navLinks).map((nav) => {
+                // console.log(nav);
+                nav.classList.remove('nav-link-text');
+            })
+      
         }
     }
     window.addEventListener('scroll', triggerNav);
