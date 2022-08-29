@@ -33,4 +33,25 @@
     .contact-card{
         margin: auto !important;
     }
-}
+    
+    .join-us-img{
+        width: 20rem;
+    } 
+    .large-button-mobile{
+        position:static !important;
+        background: #040856 !important;
+        border-radius: 4px !important;
+        font-weight: unset !important;
+        font-size: unset !important;
+        line-height: unset !important;
+        height: unset !important;
+        color:#FFFFFF;
+        margin-top: -50px !important;
+        margin-left: -50% !important;
+        width: 90rem !important;
+        padding: 0.4em !important;
+    }
+  
+  }
+
+

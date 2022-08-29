@@ -80,7 +80,7 @@
     <div class="container mt-5">
         <div class="p-5 row mobile-padding">
 
-            <div class="col-md-4 p-3 inner-padding">
+            <div class="col-lg-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                     <img src="/customImages/Rectangle 661 (6).png" class="card-img-top" alt="...">
@@ -99,7 +99,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 p-3 inner-padding">
+            <div class="col-lg-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                     <img src="/customImages/analytics and reporting.png" class="card-img-top" alt="...">
@@ -118,7 +118,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 p-3 inner-padding">
+            <div class="col-lg-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
                     <img src="/customImages/mobile expense system.png" class="card-img-top" alt="...">
