@@ -15,7 +15,7 @@ Software development company helping businesses and individuals take advantage o
                 <p   style="width: 72px;height: 5px;justify-content: center;background: #A6CE39;border-radius: 9000px;"></p>
             </div>
 </section>
-<section class="container card mt-5" style='margin-bottom: 12%;'>
+<section class="container card mt-5 contact-card" style='margin-bottom: 12%;'>
 
     <div class="row justify-content-center">
         <div class="col-md-7 pt-5 px-3">
@@ -68,13 +68,13 @@ Software development company helping businesses and individuals take advantage o
                 </div>
                 <div class="pt-3 mx-5">
                     <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
-                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234709154822</a>
+                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+2347031778450, +2348121738381</a>
                     </p>
                     <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="">
-                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwareltd.com</a>
+                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwaretechgroup.com</a>
                     </p>
                     <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="">
-                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayangboye Street, Anthony Village, Lagos</a>
+                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayanboye Street, Anthony Village, Lagos</a>
                     </p>
                     <p>
                     <p class="pt-4"><img class="px-2" src="{{ asset('customImages/White.svg') }}">

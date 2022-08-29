@@ -55,7 +55,7 @@ Software development company helping businesses and individuals take advantage o
     <div class="container justify-content-center">
         <div class="row">
 
-            <a class="py-3" style="text-align:center;">
+            <a href="/contacts" class="py-3" style="text-align:center;">
                 <button class="small-mobile-long-button archware-button-default" style="background: #1F3F95;border-radius: 4px;border:none; width:429px; height: 56px; color:#FFFFFF">
                     Become a partner with us today!
                 </button>
@@ -151,7 +151,7 @@ Software development company helping businesses and individuals take advantage o
             <p class="text-label-mobile text-label-large-screen">
                 Ready To Be Part of a Global Food Initiative?
             </p>
-            <a class="py-3" style="text-align:center;">
+            <a href="/contacts" class="py-3" style="text-align:center;">
                 <button class="small-mobile-long-button archware-button-default">
                     Join Us
                 </button>

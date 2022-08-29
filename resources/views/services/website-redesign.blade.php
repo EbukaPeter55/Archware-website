@@ -11,15 +11,15 @@
 
 @section('content')
 
-    <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
+    <div style=" background-image: url(../customImages/Group6700.png)" class="mt-5">
         <section
             class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
             <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head pt-2">
-                <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
+                <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #ffffff;" class="text-title-mobile">
                     Website Redesign
                 </h2>
                 <p class="pt-3 text-body-mobile"
-                    style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
+                    style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
                     Improving Business Efficiency Through Innovation
                 </p>
             </div>
@@ -67,7 +67,7 @@
                     style="font-weight: 600;font-size: 30px;line-height: 72px;color: #0D2158; text-align:center">
                     Get started with revamping your website!
                 </p>
-                <a class="py-3" style="text-align:center;"><button
+                <a href="/contacts" class="py-3" style="text-align:center;"><button
                         style="background: #1F3F95;border-radius: 4px;border:none; width:225px; color:#FFFFFF">Click
                         Here</button></a>
             </div>
@@ -148,7 +148,7 @@
                 <p class="text-label-mobile text-label-large-screen">
                     Let's talk about revamping your website
                 </p>
-                <a class="py-3" style="text-align:center;">
+                <a href="/contacts" class="py-3" style="text-align:center;">
                     <button class="small-mobile-long-button archware-button-default">
                         Get In Touch
                     </button>
