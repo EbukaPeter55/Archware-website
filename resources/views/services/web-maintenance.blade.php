@@ -11,15 +11,15 @@
 
 @section('content')
 
-    <div style=" background-image: url(../customImages/Group68.png)" class="mt-5">
+    <div style=" background-image: url(../customImages/Group6700.png)" class="mt-5">
         <section
             class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
             <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head pt-2">
-                <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #040856;" class="text-title-mobile">
+                <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #ffffff;" class="text-title-mobile">
                     Web Maintenance
                 </h2>
                 <p class="pt-3 text-body-mobile"
-                    style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: rgba(4, 8, 86, 0.7);">
+                    style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
                     Optimal customer experience on your website without downtime.
                 </p>
             </div>
@@ -53,7 +53,7 @@
     <section class="my-3 py-3">
         <div class="container justify-content-center">
             <div class="row text-center justify-content-center">
-                <a class="py-3" style="text-align:center;">
+                <a href="/contacts" class="py-3" style="text-align:center;">
                     <button class="small-mobile-long-button"
                         style="background: #1F3F95;border-radius: 4px;border:none; width:521px; color:#FFFFFF">
                         Let's Help Maintain Your Website
@@ -73,7 +73,7 @@
     <!--services-->
     <section class="container mt-3 pt-5">
         <div class="d-flex flex-row flex-wrap justify-content-center">
-            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
+            <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
                 <img src="{{ asset('customImages/site security.png') }}" alt="" style="object-fit:cover;">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title"
@@ -87,7 +87,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+            <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/seo.png" alt="">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title"
@@ -102,7 +102,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+            <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/website speed.png" alt="">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title"
@@ -154,7 +154,7 @@
                 <p class="text-label-mobile text-label-large-screen">
                     Get more out of your website today!
                 </p>
-                <a class="py-3" style="text-align:center;">
+                <a href="/contacts" class="py-3" style="text-align:center;">
                     <button class="small-mobile-long-button archware-button-default">
                         Contact Us
                     </button>

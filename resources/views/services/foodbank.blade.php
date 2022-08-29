@@ -55,7 +55,7 @@ Software development company helping businesses and individuals take advantage o
     <div class="container justify-content-center">
         <div class="row">
 
-            <a class="py-3" style="text-align:center;">
+            <a href="/contacts" class="py-3" style="text-align:center;">
                 <button class="small-mobile-long-button archware-button-default" style="background: #1F3F95;border-radius: 4px;border:none; width:429px; height: 56px; color:#FFFFFF">
                     Become a partner with us today!
                 </button>
@@ -79,10 +79,10 @@ Software development company helping businesses and individuals take advantage o
 
 
     <div class="d-flex flex-wrap mt-5">
-        <div class="image-foodbank col-md-3">
+        <div class="image-foodbank col-lg-3">
             <img  src="/customImages/Rectangle 688 (1).png" alt="" style="align-items:center ;">
         </div>
-        <div class="col-md-9">
+        <div class="col-lg-9">
             <h2 class="pt-3" style="font-weight: 700;font-size: 26px;line-height: 155%;color: #0D2158;">Food Partnership</h2>
             <p style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: justify;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                 Archware food bank is committed to fighting multi-level poverty, malnutrition, and hunger, through targeted programs
@@ -92,7 +92,7 @@ Software development company helping businesses and individuals take advantage o
     </div>
 
     <div class="d-flex flex-wrap-reverse mt-5">
-        <div class="col-md-9">
+        <div class="col-lg-9">
             <h2 class="pt-3" style="font-weight: 700;font-size: 26px;line-height: 155%;color: #0D2158;">Food Loans</h2>
             <p style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: justify;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                 Part of our initiative is to source food loans to strengthen critical supply chains and food systems across Africa.
@@ -100,16 +100,16 @@ Software development company helping businesses and individuals take advantage o
                 projects, specifically for the start-up or expansion of activities in the middle of the food supply chain.</p>
         </div>
 
-        <div class="image-foodbank col-md-3 px-4">
+        <div class="image-foodbank col-lg-3 px-4">
             <img class=""  src="/customImages/Rectangle 691.png" alt="" style="align-items:center ;">
         </div>
     </div>
 
     <div class="d-flex flex-wrap mt-5">
-        <div class="image-foodbank col-md-3">
+        <div class="image-foodbank col-lg-3">
             <img src="/customImages/Rectangle 690.png" alt="" style="align-items:center ;">
         </div>
-        <div class="col-md-9">
+        <div class="col-lg-9">
             <h2 class="pt-3" style="font-weight: 700;font-size: 26px;line-height: 155%;color: #0D2158;">Food Market</h2>
             <p style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: justify;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                 Different research has proven that Africa can feed its region's fast-growing urban population if it can expand its
@@ -151,7 +151,7 @@ Software development company helping businesses and individuals take advantage o
             <p class="text-label-mobile text-label-large-screen">
                 Ready To Be Part of a Global Food Initiative?
             </p>
-            <a class="py-3" style="text-align:center;">
+            <a href="/contacts" class="py-3" style="text-align:center;">
                 <button class="small-mobile-long-button archware-button-default">
                     Join Us
                 </button>

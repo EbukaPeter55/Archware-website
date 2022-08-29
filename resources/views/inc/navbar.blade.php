@@ -1,5 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" id="navMain"
-    style="padding-top: 1.2rem">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" id="navMain" style="padding-top: 1.2rem">
     <div class="container col-md-11">
         <a class="navbar-brand colored-logo" href="#!" style="margin-left: 7%;">
             <img src="{{ asset('customImages/Logo.svg') }}">
@@ -8,14 +7,10 @@
             <img src="{{ asset('customImages/Archware-logo-light-variation.svg') }}">
         </a>
         <!-- HAMBURGER -->
-        <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
-        <button class="navbar-toggler hamburger-icon hamburger-mobile" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation" style="background: white;">
+        <button class="navbar-toggler hamburger-icon hamburger-mobile" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: white;">
             <i class="fas fa-bars"></i>
         </button>
 
@@ -34,8 +29,7 @@
                     </li>
                     <ul class="dropdown-menu dropdown-style">
                         <li class="dropdown-submenu">
-                            <a class="dropdown-toggle dropdown-item" href="#" id="navbarDropdownMenuLink"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-drop dropdown-toggle dropdown-item" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Software Development
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -77,7 +71,7 @@
                         <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
                         <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management
                                 System</a></li>
-                        <li><a class="dropdown-item" href="#">Food Bank</a></li>
+                        <li><a class="dropdown-item" href="/food-bank">Food Bank</a></li>
                         <li><a class="dropdown-item" href="#">Farm Management</a></li>
                     </ul>
                 </div>

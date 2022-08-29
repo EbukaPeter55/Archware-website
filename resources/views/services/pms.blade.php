@@ -31,11 +31,15 @@ Software development company helping businesses and individuals take advantage o
 
     <section class="container-fluid d-sm-flex flex-row 
     justify-content-between align-items-center flex-wrap projec-hero-section">
-    <div class="proj-manage-left">
+    <div class="proj-manage-left proj-left-desktop">
         <h1>Project <br>Management</h1>
         <p>We Plan. We Execute. We Manage.<p>
     </div>
-    <div>
+    <div class="proj-manage-left proj-left-mobile">
+        <h1>Project Management</h1>
+        <p>We Plan. We Execute. We Manage.<p>
+    </div>
+    <div class="proj-manage-right">
         <img class="img-fluid" src="../customImages/Rectangle651pms.png" />   
     </div>
     </section>
