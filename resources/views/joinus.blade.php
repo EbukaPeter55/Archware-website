@@ -23,9 +23,9 @@ Software development company helping businesses and individuals take advantage o
 </section>
 
 <section class="container pt-5">
-    <div class="row pt-5">
+    <div class=" d-flex flex-row flex-wrap pt-5">
         <div class="col-md-5">
-            <img class="img-fluid" src="/customImages/Rectangle 682.png">
+            <img class="join-us-img img-fluid pt-4" src="/customImages/Rectangle 682.png">
 
         </div>
         <div class="col-md-7 px-3 pt-3" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
@@ -48,7 +48,7 @@ Software development company helping businesses and individuals take advantage o
             Our base benefits package is extremely competitive and includes full family health plans, life insurance, paid time off, competitive salaries,
             and more.
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 pt-4 px-2">
             <img class="img-fluid" src="/customImages/Rectangle 684.png" style="float:right;">
 
         </div>
@@ -109,7 +109,7 @@ Software development company helping businesses and individuals take advantage o
                     <textarea class="form-control" class="" required id="Message" placeholder="" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" rows="5"></textarea>
                 </div>
                 <div class="d-flex flex-row flex-wrap">
-                    <span class="col-md-4" style="font-weight: 600;font-size: 17px;line-height: 72px;color: #0D2158;">Upload Your CV</span>
+                    <div class="col-md-4" style="font-weight: 600;font-size: 17px;line-height: 72px;color: #0D2158;">Upload Your CV</div>
                     <div class="col-md-4 TopHeader mx-2">
                         <div class="InputBox">
                             <input type="file" placeholder="" id="SearchInput" style=" position:absolute;width:94px; height:24px; opacity:0; margin:0rem 5rem">

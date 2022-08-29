@@ -8,12 +8,14 @@
     top: 0;
     left: 100%;
     margin-top:-6px;
+    
 }
 
 /* rotate caret on hover */
 .dropdown-menu > li > a:hover:after {
     text-decoration: underline;
     transform: rotate(-90deg);
+
 }
 
 
@@ -105,6 +107,7 @@ ll
     .image-padding-buttom {
         padding: unset !important;
     }
+    
 }
 
 @media (max-width: 769px) {

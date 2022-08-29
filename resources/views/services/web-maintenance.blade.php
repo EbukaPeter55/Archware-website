@@ -73,7 +73,7 @@
     <!--services-->
     <section class="container mt-3 pt-5">
         <div class="d-flex flex-row flex-wrap justify-content-center">
-            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
+            <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
                 <img src="{{ asset('customImages/site security.png') }}" alt="" style="object-fit:cover;">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title"
@@ -87,7 +87,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+            <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/seo.png" alt="">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title"
@@ -102,7 +102,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card col-md-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+            <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/website speed.png" alt="">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title"
