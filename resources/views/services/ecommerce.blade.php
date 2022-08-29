@@ -147,7 +147,6 @@ landscape.')
 
     </div>
 </div>
-
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab experience-body-with-pix-mobile" style="background: #1F3F95; border-radius: 20px 20px;">
     <div class="archwarejo-width-top">
         <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom" src="/customImages/Our Experience.png">
