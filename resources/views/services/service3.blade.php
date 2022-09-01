@@ -50,10 +50,10 @@ landscape.')
                     justify-content-center align-items-center block-display-tab section-top">
             <p class="text-label-mobile py-5" style="font-weight: 500; font-size: 25px; line-height: 34px;
                             text-align: center; color: #FFFFFF; mix-blend-mode: normal;">
-                <img src="/customImages/Vector.png" class="px-5">
-                <img src="/customImages/Vector (1).png" class="px-5">
-                <img src="/customImages/Group 65.png" class="px-5">
-                <img src="/customImages/Vector (3).png" class="px-5">
+                <img src="/customImages/Vector.png" class="vector-apps px-4">
+                <img src="/customImages/Vector (1).png" class="vector-apps px-4">
+                <img src="/customImages/Group 65.png" class="vector-apps px-4">
+                <img src="/customImages/Vector (3).png" class="vector-apps px-4">
             </p>
         </section>
 
@@ -78,11 +78,11 @@ landscape.')
             <div class="my-4">
                 <div style="background: #1F3F95; height: 246px;"
                     class="mt-5 d-flex justify-content-center align-items-center flex-wrap">
-                    <div style="margin-top: -70px;">
-                        <img src="/customImages/Vector.png" class="px-5">
-                        <img src="/customImages/Vector (1).png" class="px-5">
-                        <img src="/customImages/Group 65.png" class="px-5">
-                        <img src="/customImages/Vector (3).png" class="px-5">
+                    <div class="vector-imgs" style="margin-top: -70px;">
+                        <img class="img-fluid" src="/customImages/Vector.png" class="px-5">
+                        <img class="img-fluid" src="/customImages/Vector (1).png" class="px-5">
+                        <img class="img-fluid" src="/customImages/Group 65.png" class="px-5">
+                        <img class="img-fluid" src="/customImages/Vector (3).png" class="px-5">
                     </div>
                 </div>
 

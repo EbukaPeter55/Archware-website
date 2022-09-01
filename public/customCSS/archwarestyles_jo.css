@@ -94,7 +94,9 @@ ll
 
     .small-mobile-long-button {
         width: unset !important;
-        padding: 0.4em !important;
+        padding: 1em !important;
+        height: fit-content !important;
+        font-size:medium !important;
     }
     .experience-body-mobile {
         background: #08090a !important;

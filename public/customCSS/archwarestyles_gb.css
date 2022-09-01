@@ -51,7 +51,21 @@
         width: 90rem !important;
         padding: 0.4em !important;
     }
-  
+
+    .vector-imgs{
+        margin: auto !important;
+    }
+    
+    .vector-apps{
+        padding-top: 5% !important;
+    }
+    .pms-hero{
+        margin-left: auto !important;
+    }
+    .text-p{
+        font-size: 1rem !important;
+        justify-content: center !important;
+    }
   }
 
 
