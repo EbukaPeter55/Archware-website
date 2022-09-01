@@ -12,14 +12,14 @@ Software development company helping businesses and individuals take advantage o
 
 
 
- <div class="">
+ <!-- <div class="">
         <div class="row justify-content-center">
             <div class="col-md-10">
 
                 @include('errors.error_message')-->
 
 <!-- OUR SERVICES BEGINNING SECTION -->
-        <div class="text-center justify-content-center title-style">
+        <!-- <div class="text-center justify-content-center title-style"> 
                     <h1 class="fw-bold archware_h1">Our Services</h1>
                     <hr class="container archware_header_underline" />
                 </div>

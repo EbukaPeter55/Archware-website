@@ -891,7 +891,7 @@ body {
         font-size: .89rem!important;
     }
     .proj-man .proj-wrapper .proj-man-right button[type="button"]{
-        padding: 1rem 1.5rem!important;
+        
         background: #1F3F95;
         border-radius: 8px;
         font-style: normal;
@@ -997,7 +997,7 @@ body {
 /* Responsive */
 @media(max-width: 990px){
     .support-section .support-section-right button[type="button"]{
-        padding: 1rem 1.5rem!important;
+        
         font-style: normal;
         font-weight: 500;
         font-size: .9rem!important;

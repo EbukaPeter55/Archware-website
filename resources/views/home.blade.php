@@ -31,7 +31,7 @@ Software development company helping businesses and individuals take advantage o
                     helps you build a better structure and achieve better results in
                     your business.</p>
                 <a href="/project-management">
-                    <button class="mt-3">
+                    <button class="small-mobile-long-button mt-3">
                         Read More
                     </button></a>
             </div>
@@ -60,7 +60,7 @@ Software development company helping businesses and individuals take advantage o
                                 helps you build a better structure and achieve better results in<br>
                                 your business.</p>
                             <a href="/project-management">
-                                <button class="mt-3" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
+                                <button class="small-mobile-long-button mt-3" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                         border: none;color: #ffffff;border-radius: 8px;
                         background: #1F3F95;">
                                     Read More
@@ -90,7 +90,7 @@ Software development company helping businesses and individuals take advantage o
                                 Become an expert in tech without prior knowledge and stay ahead of the global market.
                             </p>
                             <a href="#">
-                                <button class="mt-5" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
+                                <button class="small-mobile-long-button mt-5" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                         border: none;color: #ffffff;border-radius: 8px;
                         background: #1F3F95;">
                                     Read More
@@ -102,7 +102,7 @@ Software development company helping businesses and individuals take advantage o
                 <!-- Third slide -->
                 <div class="carousel-item hide-mobile" style="height:70vh">
                     <div class="d-sm-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
-                        <div style="padding-botton: 2%;">
+                        <div style="padding-bottom: 2%;">
                             <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;">
                                 <br><br>Top-notch Website<br>
                                 Design And Development
@@ -112,7 +112,7 @@ Software development company helping businesses and individuals take advantage o
                                 Get a fully optimised and responsive website design <br>that can give your
                                 business the visibility it needs.</p>
                             <a href="/website-design-and-development">
-                                <button class="mt-5" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
+                                <button class="small-mobile-long-button mt-5" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                         border: none;color: #ffffff;border-radius: 8px;
                         background: #1F3F95;">
                                     Read more
@@ -206,7 +206,7 @@ Software development company helping businesses and individuals take advantage o
                 tools such as Atom, Git hub, Ninox, MobiLoud, React Native, Xcode, Ionic, Android Studio, etc. With core
                 competence in mobile app design and development, we have developed world-class Android and iOs apps.
             </p>
-            <a href="/mobile-app-development"><button type='button'>Read More
+            <a href="/mobile-app-development"><button class="small-mobile-long-button" type='button'>Read More
             </button></a>
         </div>
         <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" />
@@ -214,7 +214,7 @@ Software development company helping businesses and individuals take advantage o
 </section>
 
 <!-- ACCOUNT AND EXPENSE MANAGEMENT SECTION -->
-<section class="container-fluid support" style="margin-top: 4%">
+<section class="container support" style="margin-top: 4%">
     <div class="d-sm-flex flex-row flex-wrap align-items-center justify-content-evenly support-section">
         <div class="">
             <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}">
@@ -226,7 +226,7 @@ Software development company helping businesses and individuals take advantage o
                 A major concern for most businesses is to ensure their money is well spent. With our automated expense management software,
                 tracking your operational spending is made easy.The accuracy and extensive data generated from our system
                 have been able to ensure that all expenses are accounted for and accurate reimbursement claims are made to prevent fraud.</p>
-            <a href="/account-expense-system"><button type='button' class="read-more">Read More </button> </a>  
+            <a href="/account-expense-system"><button type='button' class="read-more small-mobile-long-button">Read More </button> </a>  
         </div>
     </div>
 </section>
@@ -246,7 +246,7 @@ Software development company helping businesses and individuals take advantage o
                 We are here to help you allocate the right resources needed to achieve
                 your business goals.
             </p>
-            <a href="/project-management"><button type='button'>Read More
+            <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
             </button></a>
         </div>
         <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_350/v1660497641/Rectangle_650.svg" />
@@ -545,7 +545,7 @@ Software development company helping businesses and individuals take advantage o
 
                 </div>
                 <div class="text-end pt-3 px-3">
-                    <button type="submit" class="my-4" style=" width: 155px;height: 40px;background: #A6CE39;border: none;
+                    <button type="submit" class="small-mobile-long-button my-4" style=" width: 155px;height: 40px;background: #A6CE39;border: none;
                         box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
                         border-radius: 8px;font-weight: 500;font-size: 12px;line-height: 12px;align-items: right;
                         text-align: center; color: #ffffff;">Submit</button>

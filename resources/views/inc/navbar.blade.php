@@ -28,8 +28,8 @@
                         Our Services
                     </li>
                     <ul class="dropdown-menu dropdown-style">
-                        <li class="dropdown-submenu">
-                            <a class="nav-drop dropdown-toggle dropdown-item" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <li class="nav-item dropdown">
+                            <a class="dropdown-toggle dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Software Development
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
