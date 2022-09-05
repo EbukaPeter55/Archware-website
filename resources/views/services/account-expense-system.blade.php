@@ -11,24 +11,23 @@
 
 @section('content')
 
-    <div style=" background-image: url(../customImages/Group6700.png)" class="mt-5">
-        <section
-            class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
-            <div class="archware-content-text archwarejo-width-bottom-head pt-2">
-                <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #ffffff;" class="text-title-mobile">
-                    Account & Expenses Management System
-                </h2>
-                <p class="pt-3 text-body-mobile archware-text-justify"
-                    style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff ;">
-                    Enjoy a One-stop Cost Management System
-                </p>
-            </div>
-            <div class="archwarejo-width-top-head">
-                <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/account expense right.png">
-            </div>
-        </section>
-    </div>
 
+<div style=" background-image: url(../customImages/Group6700.png)" class="mt-5">
+    <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
+        <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head pt-2">
+            <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #ffffff;" class="text-title-mobile">
+            Account & Expenses Management System
+            </h2>
+            <p class="pt-3 text-body-mobile" style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
+            Enjoy a One-stop Cost Management System
+
+            </p>
+        </div>
+        <div class="archwarejo-width-top-head">
+            <img class="img-fluid image-width-tab image-min-height-mobile" style=" display:flex;align-items:right;" src="/customImages/account expense right.png">
+        </div>
+    </section>
+</div>
 
     <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
         <div class="archwarejo-width-top">
@@ -83,7 +82,7 @@
             <div class="col-lg-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/Rectangle 661 (6).png" class="card-img-top" alt="...">
+                    <img src="/customImages/Rectangle 661 (12).png" class="card-img-top" alt="...">
                     <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
                         <div class="pt-1 text-title-mobile archware-card-title"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
@@ -102,7 +101,7 @@
             <div class="col-lg-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/analytics and reporting.png" class="card-img-top" alt="...">
+                    <img src="/customImages/Rectangle 661 (15).png" class="card-img-top" alt="...">
                     <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
                         <div class="pt-1 text-title-mobile archware-card-title"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
@@ -121,7 +120,7 @@
             <div class="col-lg-4 p-3 inner-padding">
                 <div class="card card-height-mobile"
                     style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                    <img src="/customImages/mobile expense system.png" class="card-img-top" alt="...">
+                    <img src="/customImages/Rectangle 661 (14).png" class="card-img-top" alt="...">
                     <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
                         <div class="pt-1 text-title-mobile archware-card-title"
                             style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
@@ -145,7 +144,7 @@
         style="background: #1F3F95; border-radius: 20px 20px;">
         <div class="archwarejo-width-top">
             <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom"
-                src="/customImages/effective communication.png">
+                src="/customImages/Rectangle (3).png">
         </div>
         <div
             class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">

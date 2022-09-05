@@ -11,13 +11,14 @@ Software development company helping businesses and individuals take advantage o
 @section('content')
 
 <div style=" background-image: url(../customImages/Group6700.png)" class="mt-5">
-    <section style="margin-left:12%" class="pms-hero container-fluid mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
+    <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
         <div class="archware-text-justify archware-content-text archwarejo-width-bottom-head pt-2">
             <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #ffffff;" class="text-title-mobile">
-                Project <br> Management
+                Project Management
             </h2>
             <p class="pt-3 text-body-mobile" style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
-                We Plan. We Execute. We Manage.
+                We Plan. We Execute. We Manage
+
             </p>
         </div>
         <div class="archwarejo-width-top-head">

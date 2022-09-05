@@ -176,18 +176,20 @@ Software development company helping businesses and individuals take advantage o
 
 <!-- PROOF OF WORK -->
 <section class="container-fluid  proof-of-work">
-    <div class="d-sm-flex flex-wrap proof-of-work-child justify-content-around">
-        <div class="web">
-            <h1 class="incrementTimer" akhi="25">0</h1>
-            <p>Websites</p>
+    <div class="d-md-flex flex-wrap proof-of-work-child justify-content-around web-pow">
+        <div class="web col-md-3 pow-web" style="margin:auto; max-width:33%">
+            <h1  class="incrementTimer" akhi="25">0</h1>
+            <p class="incre pow-body px-5">Websites</p>
         </div>
-        <div class="web">
+        <div style="border: 3px solid #bdbdbd; margin-left:-53px ;background-color:#bdbdbd"></div>
+        <div class="web col-md-3 pow-web" style="margin-left:55px;margin-right:-5px ;max-width:34%">
             <h1 class="incrementTimer" akhi="40">0</h1>
-            <p>Completed Projects</p>
+            <p class="pow-body">Completed Projects</p>
         </div>
-        <div class="customers">
+        <div style="border: 3px solid #bdbdbd; background-color:#bdbdbd " ></div>
+        <div class="customers col-md-3 pow-web" style="margin:auto; max-width:33%">
             <h1 class="incrementTimer" akhi="20">0</h1>
-            <p>Happy customers</p>
+            <p class="pow-body">Happy customers</p>
         </div>
     </div>
 
@@ -195,38 +197,40 @@ Software development company helping businesses and individuals take advantage o
 <!-- END OF PROOF OF WORK -->
 
 <!-- SERVICES BRIEF SECTION -->
-<section class="container-fluid service-section mobile-serv">
-    <div class="d-sm-flex flex-row align-items-center flex-wrap justify-content-center service-wrapper">
-        <div class="service-section-right">
-            <h2>Mobile App Development</h2>
-            <p>
-                Over the years, we have developed responsive mobile apps across
-                industries such as Fin-tech, Banking, Medical science, and many more.
-                Our team of experts are well skilled in different mobile app development
-                tools such as Atom, Git hub, Ninox, MobiLoud, React Native, Xcode, Ionic, Android Studio, etc. With core
-                competence in mobile app design and development, we have developed world-class Android and iOs apps.
-            </p>
-            <a href="/mobile-app-development"><button class="small-mobile-long-button" type='button'>Read More
+</section>
+<section class="container-fluid proj-man" style="margin-top: 4%">
+<div class="d-flex flex-row align-items-center flex-wrap justify-content-evenly proj-wrapper">
+    <div class="proj-man-right text-and-pictures">
+        <h2>Mobile App Development</h2>
+        <p>
+            Over the years, we have developed responsive mobile apps across
+            industries such as Fin-tech, Banking, Medical science, and many more.
+            Our team of experts are well skilled in different mobile app development
+            tools such as Atom, Git hub, Ninox, MobiLoud, React Native, Xcode, Ionic, Android Studio, etc. With core
+            competence in mobile app design and development, we have developed world-class Android and iOs apps.
+        </p>
+        <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
             </button></a>
-        </div>
-        <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" />
     </div>
+    <img class="img-fluid" style="width:620px" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" />
+</div>
 </section>
 
+
 <!-- ACCOUNT AND EXPENSE MANAGEMENT SECTION -->
-<section class="container support" style="margin-top: 4%">
+<section class="container-fluid support" style="margin-top: 4%">
     <div class="d-sm-flex flex-row flex-wrap align-items-center justify-content-evenly support-section">
         <div class="">
-            <img style="width: 500px; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}">
+            <img style="width: 100%; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}">
         </div>
-        <div class="support-section-right">
+        <div class="support-section-right text-and-pictures">
             <h2 class="" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
                 Account & Expenses Management</h2>
             <p class="" style="font-weight: 400; margin-top: -2rem; font-size: 1rem; line-height: 172%; color: rgba(4, 8, 86, 0.7);">
                 A major concern for most businesses is to ensure their money is well spent. With our automated expense management software,
                 tracking your operational spending is made easy.The accuracy and extensive data generated from our system
                 have been able to ensure that all expenses are accounted for and accurate reimbursement claims are made to prevent fraud.</p>
-            <a href="/account-expense-system"><button type='button' class="read-more small-mobile-long-button">Read More </button> </a>  
+            <a href="/account-expense-system"><button type='button' class="read-more small-mobile-long-button">Read More </button> </a>
         </div>
     </div>
 </section>
@@ -235,7 +239,7 @@ Software development company helping businesses and individuals take advantage o
 <!-- PROJECT MANAGEMENT -->
 <section class="container-fluid proj-man" style="margin-top: 4%">
     <div class="d-flex flex-row align-items-center flex-wrap justify-content-evenly proj-wrapper">
-        <div class="proj-man-right">
+        <div class="proj-man-right text-and-pictures">
             <h2>Project Management</h2>
             <p>
                 We collaborate with clients to apply tactics, methods, skills, knowledge, and experience to achieve
@@ -247,7 +251,7 @@ Software development company helping businesses and individuals take advantage o
                 your business goals.
             </p>
             <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
-            </button></a>
+                </button></a>
         </div>
         <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_350/v1660497641/Rectangle_650.svg" />
     </div>
@@ -258,8 +262,8 @@ Software development company helping businesses and individuals take advantage o
 <section id="aboutus" class="container-fluid about-us" id="greenbg" style="margin-top: 8%">
     <div class="row">
         <div class="mt-5 aboutus-background">
-            <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center aboutus-left" style="">
-                <div class="about-left-child">
+            <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center aboutus-left" style="text-align:justify">
+                <div class="about-left-child about-us-flex">
                     <h1 class="mt-3 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
                     <p class="section3-text2">
                         Archware Technologies is a renowned technological solution company
@@ -289,30 +293,33 @@ Software development company helping businesses and individuals take advantage o
             <img class="img-fluid section4-img" src="{{ asset('customImages/Image.svg') }}">
         </div>
         <div class="col-md-7" style="margin-top: 5%">
-            <h1 class="mission-titles" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
-            <p style="font-weight: 400;font-size: 16px;;color: rgba(4, 8, 86, 0.7);">
+            <h1 class="mission-titles px-2" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
+            <p class="px-2" style="font-weight: 400;font-size: 16px;;color: rgba(4, 8, 86, 0.7);">
                 We provide technology-based innovative
                 solutions ecosystem that automates, empowers
                 and enables the growth of businesses across
                 Africa
             </p>
-            <h1 class="mission-titles" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Vision</h1>
-            <p style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">To become a
+            <h1 class="mission-titles px-2" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Vision</h1>
+            <p class="px-2" style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">To become a
                 leading technology solution provider in Africa.</p>
-            <h1 class="mission-titles" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Core Values</h1>
+            <h1 class="mission-titles px-2" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Core Values</h1>
             <p>
-                <li style="font-weight: 600;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
+            <ul>
+                <li class="vceir" style="font-weight: 600;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
                     Value
                     Creation
                 </li><br>
-                <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
+                <li class="vceir" style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
                     <b>Empathy</b>
                 </li><br>
-                <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
+                <li class="vceir" style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
                     <b>Innovation</b>
                 </li><br>
-                <li style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
+                <li class="vceir" style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7)" ;>
                     <b>Resilience</b>
+                </li>
+            </ul>
             </p>
         </div>
     </div>
@@ -374,7 +381,7 @@ Software development company helping businesses and individuals take advantage o
 <!-- END OF BRANDS THAT TRUST US -->
 
 <!-- REVIEWS SECTION -->
-<section class="container-fluid reviews" style="">
+<section class="container-fluid reviews">
     <div class="text-center justify-content-center title-style">
         <h1 class="fw-bold archware_h1 reviews-heading">Reviews</h1>
         <hr class="container archware_header_underline" />
@@ -553,7 +560,7 @@ Software development company helping businesses and individuals take advantage o
             </form>
         </div>
 
-        <div class="col-md-5 col-sm-6 contact-information-colum" style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 160%; height:inherit">
+        <div class="contact-info col-md-5 col-sm-6 contact-information-colum" style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 160%; height:inherit">
             <div class="sec6itext">
                 <div class="mx-5 mt-5 pt-5">
                     <h1 class="mt-5 pt-4" style="font-weight: 700;font-size: 30px;color: #FFFFFF;">Contact

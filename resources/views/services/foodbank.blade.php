@@ -64,6 +64,27 @@ Software development company helping businesses and individuals take advantage o
     </div>
 </section>
 
+<section class="container">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">
+            We Believe Every Home Should Have Basic Three Square Meals</h2>
+            <p class="pt-2" style="font-weight: 400;font-size: 16px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
+                That’s why, at Archware Food Bank, our initiatives are designed to cater for the needs of your home, 
+                the broader food needs of the African communities and the planet – by working to provide billion-dollar investments 
+                in sustainable storage systems to reduce produce waste, rural infrastructure, transportation and Urban access to 
+                fresh food directly from farm and more.
+            </p>
+        </div>
+        <div class="col-lg-6 d-flex">
+            <img src="{{ asset('customImages/Rectangle648.svg') }}" alt="">
+            <img src="{{ asset('customImages/Rectangle692.svg') }}" alt="">
+            <img src="{{ asset('customImages/Rectangle693.svg') }}" alt="">
+
+        </div>
+    </div>
+</section>
+
 <section class="container justify-content-center">
     <div>
         <h2 class="" style="font-weight: 600;font-size: 30px;line-height: 72px;text-align: center;color: #0D2158;">
@@ -111,12 +132,12 @@ Software development company helping businesses and individuals take advantage o
         </div>
         <div class="col-lg-9">
             <h2 class="pt-3" style="font-weight: 700;font-size: 26px;line-height: 155%;color: #0D2158;">Food Market</h2>
-            <p style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: justify;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+            <p style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: justify;color: #0D2158;mix-blend-mode: normal;opacity: 0.8;">
                 Different research has proven that Africa can feed its region's fast-growing urban population if it can expand its
                 farmer's access to more capital, electricity, a good transportation system, better technology, and irrigated land
                 to grow high-value nutritious food. Our food banking network across Africa targets the immediate short and long-term
                 needs of vulnerable communities in major regions across the continent.</p>
-            <p style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: justify;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">We are currently building a database of over 20,000 registered volunteers to help us with our work across Africa.
+            <p style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: justify;color: #0D2158;mix-blend-mode: normal;opacity: 0.8;">We are currently building a database of over 20,000 registered volunteers to help us with our work across Africa.
                 Our work also focuses on organizing entrepreneurship training and job placement programs that help our beneficiaries
                 become more self-reliant.</p>
         </div>

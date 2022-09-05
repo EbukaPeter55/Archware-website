@@ -68,7 +68,7 @@
                     Get started with revamping your website!
                 </p>
                 <a href="/contacts" class="py-3" style="text-align:center;"><button
-                        style="background: #1F3F95;border-radius: 4px;border:none; width:225px; color:#FFFFFF">Click
+                        style="background: #1F3F95;border-radius: 4px;border:none; padding:1rem 1.5rem; color:#FFFFFF">Click
                         Here</button></a>
             </div>
         </div>
