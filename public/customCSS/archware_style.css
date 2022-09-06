@@ -620,7 +620,7 @@ body {
     }
     .team-section-right p, .team-section-right p:nth-child(1) {
         text-align: justify!important;
-        font-size: .9rem!important;
+        font-size: 1.1rem !important;
     }
     .team-section-right{
         padding-left: 1rem!important;
@@ -646,7 +646,7 @@ body {
     }
     .team-section-right p, .team-section-right p:nth-child(1) {
         text-align: justify!important;
-        font-size: .9rem!important;
+        font-size: 1rem!important;
     }
     .team-section-right{
         padding-left: 1rem!important;
@@ -755,7 +755,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    max-width: 74.375rem;
+    max-width: 90.375rem;
     /* background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%); */
     height: auto;
     /* margin: 0 auto; */
@@ -976,7 +976,7 @@ body {
      }
      .aboutus-left p {
         font-size: .875rem!important;
-        text-align: left!important;
+        text-align: justify!important;
      }
     
 }

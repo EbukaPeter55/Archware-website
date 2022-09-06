@@ -35,8 +35,15 @@
     }
     
     .join-us-img{
-        width: 20rem;
-    } 
+        width: 900px !important;
+    
+    }
+    .theext{
+            padding-left: 0px !important;
+            padding-right: 0px !important;}
+    
+    .sumitbtn{padding: auto !important;
+    margin-top: 0px !important;}
     .large-button-mobile{
         position:static !important;
         background: #040856 !important;
@@ -66,6 +73,87 @@
         font-size: 1rem !important;
         justify-content: center !important;
     }
+    .incre{
+        padding: 0px !important;
+    }
+    .team-section-right{
+        max-width: 45rem !important;
+    }
+    .team-section-right > h2 {
+        margin-top: 2% !important;
+        text-align: center !important;
+    }
+    .proof-of-work-child{
+        max-width: 50rem !important;
+        margin-left: 4em !important;
+    }
+    .text-and-pictures{
+        max-width: 40rem !important;
+    }
+    .text-and-pictures > h2{
+        margin-top: 4% !important;
+    }
+    .about-us-flex{
+        flex: none;
+    }
+    .section3-text2{
+        max-width: 40rem !important;
+        text-align: justify !important;
+        flex: none;
+        margin-left: auto;
+        margin-right: -10rem !important;
+    }
+    .vceir{
+        line-height: 100% !important;
+    }
+
+    .subs-text{ 
+        margin: auto !important;
+        justify-content: center !important;}
+        
+    .web-big-font {padding-left: 9%;
+        font-size: 20px !important;}
+    .web-small-font{font-size: 15px !important;}
+    .contact-info{display: none;}
+    .contact-form-section{justify-content: center;
+    box-shadow:#000000;}
+    .aboutus-background{
+        border-top-right-radius: 0px !important;}
+    .pow-body{font-size: 16px !important;
+        width: max-content !important;
+    text-align: center !important;
+     }
+    .pow-web{ text-align: center !important;
+    justify-content: space-evenly !important;}
+    .web-pow{justify-content: space-evenly !important;}
+    .foofoot{ width:fit-content !important;}
+
+    .proof-of-work .web{
+        border-right: none !important;
+        padding-right: 5rem;
+     }
+
+    .contact-us-wrapper{
+        max-width: 100%;
+    }
+
+
+  }
+
+  @media(max-width: 500px){
+    .section3-text2{
+        margin-right: auto !important;
+        text-align: justify !important;
+    }
+    .team-section-right > p{
+        font-size: 0.9rem !important;
+        justify-content: center !important;
+    }
+    .proof-of-work-child{
+        margin: auto !important;
+    }
+    
+    .web-big-font {padding-left: 0%!important}
   }
 
 

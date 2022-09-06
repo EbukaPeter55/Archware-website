@@ -131,8 +131,9 @@
 
 <section>
     <div class="">
+        <footer>
 
-        <footer class="text-center text-white" style="background-color: #1f3f95;">
+    <footer class="text-center text-white" style="background-color: #1f3f95;">
 
             <div class="container pt-5">
                 <div class="m-4">
@@ -166,6 +167,7 @@
             </div>
 
             <hr>
+        
 
             <section class="container mt-5 p-4">
 
@@ -179,9 +181,9 @@
                         </h5>
 
                         <ul class="list-unstyled mb-0">
-                            <li class="pb-3 footer-aboutus"style="font-size:medium;">
-                                 Archware Technologies is a result-driven tech company established<br> 
-                                 to provide technological innovations that help improve the quality<br> 
+                            <li class="pb-3 footer-aboutus foofoot"style="font-size:medium; width:527px">
+                                 Archware Technologies is a result-driven tech company established
+                                 to provide technological innovations that help improve the quality 
                                  of work and lives of people across several business sectors.                    
                             </li>
                         </ul>
@@ -196,8 +198,8 @@
                         </section>
                     </div>
 
-
-                    <div class="pages" style="text-align: initial; flex-direction:column">
+                
+                    <div class="pages col-lg-2 col-md-3" style="text-align: initial; flex-direction:row">
                         <h5 class="pb-3 fw-bold" style="font-size: 20px;">Pages</h5>
 
                         <ul class="list-unstyled mb-0 fw-lighter">
@@ -221,20 +223,21 @@
 
 
 
-                    <div class="pages" style="text-align: initial">
-                        <h5 class="pb-3 fw-bold" style="font-size: 20px;">Subsidiaries</h5>
+                    <div class="pages " style="text-align: initial">
+                        <h5 class="pb-3 fw-bold" style="font-size: 20px;">Services</h5>
 
                         <ul class="list-unstyled mb-0 fw-lighter">
-                            <li class="pb-2" style="font-size:medium;">Youhi Media</li>
-                            <li class="pb-2" style="font-size:medium;">Formost Eyeclinic</li>
-                            <li class="pb-2" style="font-size:medium;">Archware Foodbank</li>
-                            <li class="pb-2" style="font-size:medium;">Archware Consulting</li>
+                            <li class="pb-2" style="font-size:medium;">Software Development</li>
+                            <li class="pb-2" style="font-size:medium;">Archware Training Institute</li>
+                            <li class="pb-2" style="font-size:medium;">Project Management System</li>
+                            <li class="pb-2" style="font-size:medium;">Account & Expenses Management System</li>
+                            <li class="pb-2"style="font-size:medium;">Food Bank</li>
                             <li class="pb-2"style="font-size:medium;">Farm Management</li>
                         </ul>
                     </div>
 
 
-                    <div class="col-md-2 col-sm-3 location" style="text-align: initial">
+                    <div class="col-lg-2 col-md-6 col-sm-3 location" style="text-align: initial">
                         <h5 class="pb-3 fw-bold" style="font-size: 20px;">Location</h5>
 
                         <ul class="list-unstyled mb-0 fw-lighter">
@@ -246,16 +249,18 @@
                             </li>
                         </ul>
                     </div>
-
+                </div>
                 </div>
 
             </section>
+            
 
-            <div class="text-center pb-5 mt-5">
+            <div class="text-center pb-5 pt-5" style="background-color: #1f3f95;color:#ffffff">
                 © Archware Technologies International Limited 2022. All Rights Reserved.
             </div>
+            
 
-        </footer>
+    </footer>
 
     </div>
 </section>

@@ -26,6 +26,11 @@ Route::get('/services', function () {
     return view('services.services');
 });
 
+Route::get('/farm-management', function () {
+    return view('services.farm-management');
+});
+
+
 Route::get('/website-design-and-development', function () {
     return view('services.service2');
 });

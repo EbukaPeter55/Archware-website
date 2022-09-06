@@ -25,6 +25,7 @@ ul li a {
 
 .navbar-trigger{
     background: #1F3F95;
+    box-shadow: 0px 5px 10px black;
 }
 
 /* Nav Dropdown styles */
