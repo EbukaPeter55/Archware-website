@@ -35,8 +35,15 @@
     }
     
     .join-us-img{
-        width: 20rem;
-    } 
+        width: 900px !important;
+    
+    }
+    .theext{
+            padding-left: 0px !important;
+            padding-right: 0px !important;}
+    
+    .sumitbtn{padding: auto !important;
+    margin-top: 0px !important;}
     .large-button-mobile{
         position:static !important;
         background: #040856 !important;
@@ -112,13 +119,24 @@
     box-shadow:#000000;}
     .aboutus-background{
         border-top-right-radius: 0px !important;}
-    .pow-body{font-size: 11px !important;
+    .pow-body{font-size: 16px !important;
+        width: max-content !important;
     text-align: center !important;
      }
     .pow-web{ text-align: center !important;
     justify-content: space-evenly !important;}
     .web-pow{justify-content: space-evenly !important;}
-    
+    .foofoot{ width:fit-content !important;}
+
+    .proof-of-work .web{
+        border-right: none !important;
+        padding-right: 5rem;
+     }
+
+    .contact-us-wrapper{
+        max-width: 100%;
+    }
+
 
   }
 
@@ -135,7 +153,7 @@
         margin: auto !important;
     }
     
-    
+    .web-big-font {padding-left: 0%!important}
   }
 
 

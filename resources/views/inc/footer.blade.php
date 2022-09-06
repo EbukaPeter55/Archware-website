@@ -180,10 +180,10 @@
                             </a>
                         </h5>
 
-                        <ul class="list-unstyled mb-0 col-lg-11 ">
-                            <li class="pb-3 footer-aboutus"style="font-size:medium;">
-                                 Archware Technologies is a result-driven tech company established<br> 
-                                 to provide technological innovations that help improve the quality<br> 
+                        <ul class="list-unstyled mb-0">
+                            <li class="pb-3 footer-aboutus foofoot"style="font-size:medium; width:527px">
+                                 Archware Technologies is a result-driven tech company established
+                                 to provide technological innovations that help improve the quality 
                                  of work and lives of people across several business sectors.                    
                             </li>
                         </ul>

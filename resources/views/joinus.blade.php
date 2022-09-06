@@ -23,12 +23,12 @@ Software development company helping businesses and individuals take advantage o
 </section>
 
 <section class="container pt-5">
-    <div class=" d-flex flex-row flex-wrap pt-5">
-        <div class="col-md-5">
-            <img class="join-us-img img-fluid pt-4" src="/customImages/Rectangle 682.png">
+    <div class=" d-flex flex-row flex-wrap justify-content-center pt-5">
+        <div class="col-lg-5 col-md-11" >
+            <img class="join-us-img img-fluid pt-4" src="/customImages/Rectangle 682.png" s>
 
         </div>
-        <div class="col-md-7 px-3 pt-3" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
+        <div class="col-lg-7 px-3 pt-3 theext" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
             We operate a culture that encourages everyone to think creatively and offer innovations that can move our Group
             forward and, by extension, our nation and continent. Collectively, we are responsible for living our corporate values
             and ethics, being the bedrock of our organisation.<br>
@@ -40,7 +40,7 @@ Software development company helping businesses and individuals take advantage o
 </section>
 <section class="container pt-5">
     <div class="d-flex flex-wrap-reverse pt-5">
-        <div class="col-md-7 pt-3" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
+        <div class="col-lg-7 pt-3" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
             All of our employees receive specialized training, coaching, and mentorship that is created with their interest in mind and in accordance
             with their peculiar individual needs. Our strong succession plan and career progression framework guarantees growth opportunities with clearly
             defined eligibility criteria, as well as a solid foundation to take on new responsibilities.<br>
@@ -48,8 +48,8 @@ Software development company helping businesses and individuals take advantage o
             Our base benefits package is extremely competitive and includes full family health plans, life insurance, paid time off, competitive salaries,
             and more.
         </div>
-        <div class="col-md-5 pt-4 px-2">
-            <img class="img-fluid" src="/customImages/Rectangle 684.png" style="float:right;">
+        <div class="col-lg-5 pt-4 px-2">
+            <img class="join-us-img img-fluid" src="/customImages/Rectangle 684.png" style="float:right;">
 
         </div>
 
@@ -61,10 +61,10 @@ Software development company helping businesses and individuals take advantage o
                 background: linear-gradient(90.18deg, #A6CE39 -27.2%, #0A655F 248.97%);border-radius:21px 0px 0px 21px
                 ">
         <div class="d-flex flex-row flex-wrap align-items-center">
-            <div class="col-md-4">
-                <img class="img-fluid" src="{{ asset('customImages/Rectangle 683.png') }}" alt="" style="width:451px; align-items:center">
+            <div class="col-lg-4">
+                <img class="img-fluid join-us-img" src="{{ asset('customImages/Rectangle 683.png') }}" alt="" style="width:451px; align-items:center">
             </div>
-            <div class=" col-md-8 pr-5">
+            <div class=" col-lg-8 pr-5">
                 <div class="container-fluid">
                     <div class="basic-skill-sect mx-5">
                     <img src="{{ asset('customImages/quote.png') }}" style="position:absolute; margin-top:0px">
@@ -84,7 +84,7 @@ Software development company helping businesses and individuals take advantage o
 </section>
 
 <section class="mt-5 pt-5">
-    <div class="container col-md-4 pt-5 px-3">
+    <div class="container col-lg-4  pt-5 px-3">
         <div>
             <p style="font-weight: 700;font-size: 40px;line-height: 60px;color: #040856;">Ready To Join Us?</p>
         </div>
@@ -127,7 +127,7 @@ Software development company helping businesses and individuals take advantage o
 
 
         </form>
-        <div class="container mt-5 pt-5">
+        <div class="container mt-5 pt-5 sumitbtn">
             <a class="py-3" style="text-align:center;">
                 <button class="small-mobile-long-button" style="display: flex;justify-content: center;align-items: center;padding: 14px 16px;gap: 4px;width: 440px;height: 52px;background: #1F3F95;border-radius: 8px; color:#FFFFFF">
                     Submit

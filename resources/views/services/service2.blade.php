@@ -136,7 +136,7 @@
             class="d-flex justify-content-center align-items-center flex-wrap lettalk-mobile">
 
             <span
-                style="margin-left: auto; margin-right: 0; font-weight: 700; font-size: 30px; line-height: 36.31px; color: #ffffff;" class="web-big-font">
+                style="margin-left: 0; margin-right: 0; font-weight: 700; font-size: 30px; line-height: 36.31px; color: #ffffff;" class="web-big-font">
                 Ready to start your Web Development project?
                 <p style="font-weight: 400;font-size: 19px;line-height: 172%;color: #FFFFFF;" class="web-small-font">
                     No matter your budget and timeline, we're available to deliver without compromising quality.

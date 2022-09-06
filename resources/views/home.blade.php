@@ -177,19 +177,19 @@ Software development company helping businesses and individuals take advantage o
 <!-- PROOF OF WORK -->
 <section class="container-fluid  proof-of-work">
     <div class="d-md-flex flex-wrap proof-of-work-child justify-content-around web-pow">
-        <div class="web col-md-3 pow-web" style="margin:auto; max-width:33%">
+        <div class="web col-md-3 pow-web">
             <h1  class="incrementTimer" akhi="25">0</h1>
-            <p class="incre pow-body px-5">Websites</p>
+            <p class="incre pow-body" style="margin-left: 17px ;">Websites</p>
         </div>
-        <div style="border: 3px solid #bdbdbd; margin-left:-53px ;background-color:#bdbdbd"></div>
-        <div class="web col-md-3 pow-web" style="margin-left:55px;margin-right:-5px ;max-width:34%">
+        
+        <div class="web col-md-3 pow-web">
             <h1 class="incrementTimer" akhi="40">0</h1>
-            <p class="pow-body">Completed Projects</p>
+            <p class="pow-body" style="margin-left: -15px; ;">Completed Projects</p>
         </div>
-        <div style="border: 3px solid #bdbdbd; background-color:#bdbdbd " ></div>
-        <div class="customers col-md-3 pow-web" style="margin:auto; max-width:33%">
+       
+        <div class="customers col-md-3 pow-web">
             <h1 class="incrementTimer" akhi="20">0</h1>
-            <p class="pow-body">Happy customers</p>
+            <p class="pow-body" style="margin-left: -10px; ;">Happy customers</p>
         </div>
     </div>
 
@@ -515,7 +515,7 @@ Software development company helping businesses and individuals take advantage o
 <!-- CONTACT US SECTION -->
 <section class="container-fluid contact-us-wrapper" style="margin-top: 12%; margin-bottom: 9%">
     <div class="row contact-form-section">
-        <div class="col-md-7 col-sm-6 pt-5 px-3">
+        <div class="col-lg-7 col-md col-sm-6 pt-5 px-3">
             <h1 class="px-3" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">
                 Contact Us</h1>
             <p class="px-3" style="font-weight: 400;font-size: 16px;color: rgba(4, 8, 86, 0.7);">We'd like to handle
