@@ -522,14 +522,14 @@ body {
     /* margin-left: 172px; */
     width: 134px;
     height: 40px;
-    background: #ffff;
+    background:  #1f3f95;
     border-radius: 8px;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     border: none;
     text-align: center;
-    color: #1f3f95;
+    color:#ffff ;
 }
 
 

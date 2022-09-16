@@ -36,24 +36,15 @@
         </div>
         <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
             <p>
-                Archware technologies provide web development solutions
-                to meet your business needs. Our skilled developers
-                incorporate distinctive functional tools into brands,
-                businesses, and enterprise websites using cutting-edge
-                technology solutions to provide consumers with a superior
-                experience.
-            </p>
-            <p>
-                We offer a complete solution for web development, so your
-                hunt for the best web development services is done.
-                As your trustworthy website building company, we promise
-                that for your company's maximum profitability, the rate of
-                your pleasure will be as high as the rate of your client
-                conversion.
-            </p>
-            <p>
-                We design and build responsive websites that can be used
-                on multiple platforms.
+            Archware technologies provide web development solutions to meet your business needs. 
+            Our skilled developers incorporate distinctive functional tools into brands, businesses, 
+            and enterprise websites using cutting-edge technology solutions to provide consumers with a 
+            superior experience.</p>
+            <p>We offer 360 degrees solutions to web development as a one-stop provider of innovative web
+                solutions. Every website designed and built by our team of professional web designers comes 
+                with a full content management system so that you can update your website when necessary. 
+                With our web development services, businesses of all sizes can get better returns from online 
+                activities.
             </p>
         </div>
     </section>
@@ -157,44 +148,42 @@
             <div class=" card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
                 <img src="/customImages/Rectangle 661.jpg" alt="" style="object-fit:cover;">
                 <div class="archware-card-padding-left px-2 py-4">
-                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                    <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Web App Develppment
                     </h2>
-                    <p class="py-2 archware-card-paragraph-padding"
+                    <p class="py-2 archware-card-paragraph-padding text-align-left-body"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
-                        Beyond design, we offer a full stack development approach to developing a massive range of
-                        solutions,
-                        most of which are customized to your business needs. Our team employs a holistic approach to
-                        ensure your
-                        website is visually appealing and easy to navigate.
+                        Beyond design, we offer a full stack development approach to developing a massive range of solutions, most of which are customized to your 
+                        business needs. Our team employs a holistic approach to ensure your website is visually appealing and easy to 
+                        navigate.
                     </p>
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/Rectangle Ecommerce.jpg" alt="">
-                <div class="archware-card-padding-left px-2 py-4">
-                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                <div class="archware-card-padding-left px-2 py-4 ">
+                    <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Ecommerce
                     </h2>
-                    <p class="py-2 archware-card-paragraph-padding"
+                    <p class="py-2 archware-card-paragraph-padding text-align-left-body"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                         Get your products in front of your customers with our e-commerce website design and development
-                        service. We offer a range of e-commerce website development packages to help your company succeed.
+                        service. With a well-designed e commerce website, you can target your customers and reach them
+                        when they’re ready to shop. We offer a range of e-commerce website development packages to help your company succeed
                     </p>
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/Rectangle b2b.jpg" alt="">
                 <div class="archware-card-padding-left px-2 py-4">
-                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                    <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         B2B & B2C Portals
                     </h2>
-                    <p class="py-2 archware-card-paragraph-padding"
+                    <p class="py-2 archware-card-paragraph-padding text-align-left-body"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
-                        We develop B2B and B2C portals
-                        and connect your manufacturers, wholesalers, distributors, and end-users. With these highly
-                        scalable portal solutions, we will aid you in strengthening your customer relationships and
-                        streamlining operational efficiency.
+                        By combining the leading edge technologies, we develop B2B and B2C portals and connect your
+                        manufacturers, wholesalers, distributors, and end-users. With these highly scalable portal solutions, we will assist 
+                        you in strengthening your customer relationships and streamlining operational efficiency.
                     </p>
                 </div>
             </div>
@@ -212,12 +201,9 @@
             class="archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
             <h2 class="text-white-header">Corporate Website Solutions</h2>
             <p class="text-white-paragraph archware-text-justify">
-                When using any web development technology, including
-                wooCommerce, WordPress, Shopify, Angular, ReactJS,
-                Laravel, Lumen, PHP, MySQL, JAVA, .Net, JavaScript,
-                Node.js, and HTML, our team of skilled web developers can
-                construct a great website for your company that is sure to
-                draw in new clients.
+            With the use of any web development technology, including wooCommerce, WordPress, Shopify, Angular, ReactJS, 
+            Laravel, Lumen, PHP, MySQL, JAVA, .Net, JavaScript, Node.js, and HTML, our team of skilled web developers can 
+            construct a great website for your company that is sure to draw in new clients.
             </p>
         </div>
     </section>

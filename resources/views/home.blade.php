@@ -51,14 +51,12 @@ Software development company helping businesses and individuals take advantage o
                     <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
                         <div>
                             <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem; margin-top: -1rem">
-                                <br><br><b>Excellent Tech-Based <br>Solutions
-                                    For Your Business</b>
+                                <br><br><b>Excellent Tech-based <br> Solutions for Businesses</b>
                             </h1>
                             <p class="mt-3" style="font-weight: 400;font-size: 16px;
         color: rgba(4, 8, 86, 0.7);">
-                                Our agile approach to problem-solving and strategic planning<br>
-                                helps you build a better structure and achieve better results in<br>
-                                your business.</p>
+                                Our agile approach to problem-solving and strategic planning helps you build 
+                                a<br> better structure and achieve better results in your business.</p>
                             <a href="/project-management">
                                 <button class="small-mobile-long-button mt-3" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                         border: none;color: #ffffff;border-radius: 8px;
@@ -81,13 +79,12 @@ Software development company helping businesses and individuals take advantage o
                         </div>
 
                         <div>
-                            <h1 class="pt-4" style="font-weight: 700; color: #040856; font-size: 3.12rem;">Acquire
-                                Tech Skills For <br>
-                                A Borderless Career
+                            <h1 class="pt-4" style="font-weight: 700; color: #040856; font-size: 3.12rem;">
+                            Acquire Tech Skills for <br> a Borderless Career
                             </h1>
                             <p class="mt-4" style="font-weight: 400;font-size: 1rem; color: rgba(4, 8, 86, 0.7);
                                             max-width: 36.25rem; line-height: 155%;">
-                                Become an expert in tech without prior knowledge and stay ahead of the global market.
+                                Become an expert in tech without prior knowledge and stay ahead of the <br> global market and competition.
                             </p>
                             <a href="#">
                                 <button class="small-mobile-long-button mt-5" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
@@ -104,13 +101,12 @@ Software development company helping businesses and individuals take advantage o
                     <div class="d-sm-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
                         <div style="padding-bottom: 2%;">
                             <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;">
-                                <br><br>Top-notch Website<br>
-                                Design And Development
+                                <br><br>Top-notch Website<br> Designs and Development
                             </h1>
                             <p class="mt-4" style="font-weight: 400;font-size: 16px;
         color: rgba(4, 8, 86, 0.7);">
-                                Get a fully optimised and responsive website design <br>that can give your
-                                business the visibility it needs.</p>
+                                Get fully optimised and responsive website designs that give your businesses the<br>
+                                 visibility it requires to compete effectively in the global market space.</p>
                             <a href="/website-design-and-development">
                                 <button class="small-mobile-long-button mt-5" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                         border: none;color: #ffffff;border-radius: 8px;
@@ -144,30 +140,22 @@ Software development company helping businesses and individuals take advantage o
 <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
 <section class="container-fluid team-section" style="margin-top: 12%">
     <div class="d-sm-flex flex-row flex-wrap justify-content-center team-wrapper">
-        <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg" />
+        <img class="col-lg-5 img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg" />
 
         <div class="team-section-right">
-            <h2>Why Choose Archware Team</h2>
+            <h2>Why Choose Archware Team?</h2>
             <p>
-                Our goal is to assist our partners to overturn challenges to their advantage.
-                We bring diverse and unique set of values and prioritise resources
-                in view of our partners' budgets linked to their vision and project
-                objectives as we divulge business opportunities in order to achieve
-                sustainable profitability goals.</p>
-            <p>
-                Hence, we are committed to delivering scalable solutions
-                to our partners. With over a decade of experience,
-                we understand that platform growth and development
-                capacity is a pain point for many clients and how software works across
-                a multitude of industries.
-            </p>
-            <p>
-                Our multidisciplinary teams, comprising tech enthusiasts such as data analysts,
-                software developers,
-                and UI/UX designers with elite and varied development expertise, are geared towards building
-                reliable products that service growth-focused businesses.
-                We strive to deliver bespoke solutions that innovate using cutting-edge technologies and cloud software
-                at competitive and flexible rates.
+            Our goal is to assist our partners in overturning challenges into an 
+            advantage. We offer a diverse and unique set of tools and prioritise resources 
+            in view of our partners' budgets linked to their vision and project objectives.</p>
+            
+            <p>Our multidisciplinary and cross-functional teams, comprising data analysts, 
+                software developers, and UI/UX designers are equipped and motivated towards 
+                building unique products that service growth-focused businesses. </p>
+            
+            <p>We offer a bouquet of services which are tailored to achieving sustainable
+                profitability goals for our clients. Hence, we are committed to delivering 
+                scalable solutions at all times.
             </p>
         </div>
     </div>
@@ -178,13 +166,13 @@ Software development company helping businesses and individuals take advantage o
 <section class="container-fluid  proof-of-work">
     <div class="d-md-flex flex-wrap proof-of-work-child justify-content-around web-pow">
         <div class="web col-md-3 pow-web">
-            <h1  class="incrementTimer" akhi="25">0</h1>
-            <p class="incre pow-body" style="margin-left: 17px ;">Websites</p>
+            <h1  class="incrementTimer website-number" akhi="25">0</h1>
+            <p class="incre pow-body website-number wee-b" style="margin-left: 40px;">Websites</p>
         </div>
         
         <div class="web col-md-3 pow-web">
-            <h1 class="incrementTimer" akhi="40">0</h1>
-            <p class="pow-body" style="margin-left: -15px; ;">Completed Projects</p>
+            <h1 class="incrementTimer website-number" akhi="40">0</h1>
+            <p class="pow-body website-number completed-p" style="margin-left: 0px ; text-align:center">Completed Projects</p>
         </div>
        
         <div class="customers col-md-3 pow-web">
@@ -203,11 +191,11 @@ Software development company helping businesses and individuals take advantage o
     <div class="proj-man-right text-and-pictures">
         <h2>Mobile App Development</h2>
         <p>
-            Over the years, we have developed responsive mobile apps across
-            industries such as Fin-tech, Banking, Medical science, and many more.
-            Our team of experts are well skilled in different mobile app development
-            tools such as Atom, Git hub, Ninox, MobiLoud, React Native, Xcode, Ionic, Android Studio, etc. With core
-            competence in mobile app design and development, we have developed world-class Android and iOs apps.
+        Over the years, we have developed responsive mobile apps across industries
+        such as Fin-tech, Banking, Health and many more. Our team of experts is well skilled in 
+        different mobile app development tools such as Atom, Github, Ninox, MobiLoud, React Native, Xcode, 
+        Ionic, Android Studio, etc. With core competence in mobile app design and development, we have developed world-class 
+        Android, and iOS apps.
         </p>
         <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
             </button></a>
@@ -225,11 +213,11 @@ Software development company helping businesses and individuals take advantage o
         </div>
         <div class="support-section-right text-and-pictures">
             <h2 class="" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
-                Account & Expenses Management</h2>
+                Account & Expenses<br> Management</h2>
             <p class="" style="font-weight: 400; margin-top: -2rem; font-size: 1rem; line-height: 172%; color: rgba(4, 8, 86, 0.7);">
-                A major concern for most businesses is to ensure their money is well spent. With our automated expense management software,
-                tracking your operational spending is made easy.The accuracy and extensive data generated from our system
-                have been able to ensure that all expenses are accounted for and accurate reimbursement claims are made to prevent fraud.</p>
+            A major concern for most businesses is to ensure they obtain value for every spend. With our automated expense management software, 
+            tracking your operational expenses is made easy. The accuracy of our system's extensive data helps ensure that all expenses are 
+            accounted for and accurate reimbursement claims are made to prevent fraud.</p>
             <a href="/account-expense-system"><button type='button' class="read-more small-mobile-long-button">Read More </button> </a>
         </div>
     </div>
@@ -242,13 +230,12 @@ Software development company helping businesses and individuals take advantage o
         <div class="proj-man-right text-and-pictures">
             <h2>Project Management</h2>
             <p>
-                We collaborate with clients to apply tactics, methods, skills, knowledge, and experience to achieve
-                specific project objectives within agreed parameters. Our team specializes in proper planning,
-                coordination, and execution of projects that meet global standards. Using project management tools such
-                as Jira, Slack, Trello, Basecamp, Zoho Projects, Liquid Planner, etc, we manage multiple projects
-                and deliver within the project timeline.
-                We are here to help you allocate the right resources needed to achieve
-                your business goals.
+            We collaborate effectively with clients to apply tactics, methods, skills, knowledge, and 
+            experience to achieve specific project objectives within agreed timelines and budgets. Our team 
+            is adept in proper planning, coordination, and execution of projects that meet global standards. 
+            Using project management tools such as Jira, Slack, Trello, Basecamp, Zoho Projects, Liquid Planner, 
+            etc, we manage multiple projects simultaneously and deliver within the project timeframe. We are always 
+            available to help you allocate the right resources needed to achieve your business goals.
             </p>
             <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
                 </button></a>
@@ -266,16 +253,15 @@ Software development company helping businesses and individuals take advantage o
                 <div class="about-left-child about-us-flex">
                     <h1 class="mt-3 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
                     <p class="section3-text2">
-                        Archware Technologies is a renowned technological solution company
-                        that delivers innovative and scalable digital solutions to individuals
-                        and organizations across multiple industries. We have served as a groundbreaking
-                        and trustworthy tech company for top tier businesses by simplifying technology
-                        and ensuring that our clients meet their technological objectives. Our team
-                        of Software engineers, data scientist, designers and product managers aggregate
-                        decades of industry experience and focus extensively on developing scalable and
-                        world-class software that provides end to end solutions for our clients. At
-                        Archware Technologies, innovation, growth and sustainability are at the core
-                        of our projects, this is why our clients trust us. </p>
+                    Archware Technologies is a renowned technologies solutions company that delivers innovative, customized and scalable
+                    digital solutions to individuals and organizations across multiple industries and platforms. 
+                    As a groundbreaking and reliable tech company for top-tier and emerging businesses, we provide critical support through 
+                    innovative technology offerings that propel our clients’ businesses on a continuous growth trajectory.
+                    Our team of software engineers, data scientists, designers, and product managers aggregate decades of industry experience 
+                    and focus extensively on developing scalable and world-class software that provides end-to-end solutions for our clients.
+                    At Archware Technologies, Innovation, efficiency, and sustainability are at the building blocks of our projects. For this, 
+                    we earned the trust of our clients as a dependable ally.
+ </p>
                 </div>
                 <div class="" style="width: 45%; height: auto; margin-right: -15rem">
                     <img class="img-fluid" id="laptop" style=" margin-top: 6.2rem; width: 100%;  " src="{{ asset('customImages/Macbook Pro.svg') }}">
@@ -295,10 +281,8 @@ Software development company helping businesses and individuals take advantage o
         <div class="col-md-7" style="margin-top: 5%">
             <h1 class="mission-titles px-2" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
             <p class="px-2" style="font-weight: 400;font-size: 16px;;color: rgba(4, 8, 86, 0.7);">
-                We provide technology-based innovative
-                solutions ecosystem that automates, empowers
-                and enables the growth of businesses across
-                Africa
+            We provide a technology-based innovative solutions ecosystem that automates, empowers, 
+            and enables the growth of businesses across Africa
             </p>
             <h1 class="mission-titles px-2" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Vision</h1>
             <p class="px-2" style="font-weight: 400;font-size: 16px;line-height: 172%;color: rgba(4, 8, 86, 0.7);">To become a
@@ -362,9 +346,8 @@ Software development company helping businesses and individuals take advantage o
                 <hr class="brands-line">
             </div>
             <p class="text-center">
-                Made up of a dynamic and passionate team of tech enthusiasts we continuously strive to implement
-                the very best software innovations, adapting cutting-edge technologies to suit
-                our client's unique business needs
+            Made up of a dynamic and passionate team of tech enthusiasts, we continuously strive to implement the
+            very best software innovations, adapting cutting-edge technologies to suit our client's unique business needs.
             </p>
         </div>
         <div class="brand-logo d-flex flex-row flex-wrap justify-content-evenly">

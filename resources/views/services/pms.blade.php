@@ -31,27 +31,21 @@ Software development company helping businesses and individuals take advantage o
 
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
     <div class="archwarejo-width-top">
-        <img class="img-fluid image-width-tab" src="/customImages/Rectangle 673.png">
+        <img class="img-fluid image-width-tab " src="/customImages/Rectangle 673.png">
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
         <p class="pt-3">
-            To guarantee a quality outcome, projects must be planned, managed, and possess seamless systems of multiple
-            but simultaneous integrations of other facets. By leveraging our expertise across industries, markets, and
-            geographies, we deliver result-driven tasks with clear measurable social, economic and environmental values.
+        By leveraging our expertise across industries, markets, and geographies, we deliver
+        result-driven tasks with clear measurable social, economic and environmental values.
         </p>
         <p>
-            We are hands-on on projects with critical business goals, national impact value, and reckonable economic
-            significance that have shaped many of the world’s major businesses and systems.
-        </p>
-        <p>
-            We partner with private and public owners as Development and Execution Partners; we develop tight-watered
-            project frameworks to deliver transformational results. In our commitment to serve you and to uphold the legacies
-            of the programs we manage, we are with you from the birth of your project, through the project lifecycle and beyond.
-        </p>
-        <p>
-            We are valued for completing projects and programs on schedule. Our operations take into cognisance our partner's
-            basic principles, and budget lines as we advise, coordinate tasks, and execute operational changes that maximize
-            values.
+        We partner with private and public business owners as Development and Execution Partners; we 
+        develop water-tight project frameworks to deliver transformational results. In our commitment to 
+        serve you and to uphold the legacies of the programs we manage, we are with you from the birth of your 
+        project, through the project lifecycle and beyond.</p>
+       <p> We are valued by our clients for completing projects and programs on schedule. Our operations take 
+        into cognisance our partner&#39;s basic principles, and budget lines as we advise, coordinate tasks, and 
+        execute operational changes that maximize values.
         </p>
     </div>
 </section>
@@ -80,58 +74,52 @@ Software development company helping businesses and individuals take advantage o
 </a>
 </div>
 
+<section class="container mt-3 pt-5">
+        <div class=" d-flex flex-row flex-wrap justify-content-center">
 
-<div class="container mt-5">
-    <div class="p-5 row mobile-padding">
-
-        <div class="col-lg-4 p-3 inner-padding">
-            <div class="card card-height-mobile" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                <img src="/customImages/Rectangle 661 (3).png" class="card-img-top" alt="...">
-                <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                    <div class="pt-1 text-title-mobile archware-card-title" style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
+            <div class=" card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
+                <img src="/customImages/Rectangle 661 (3).png" alt="" style="object-fit:cover;">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Programme And Time Management
-                    </div>
-                    <p class="archware-card-paragraph-padding card-text archware-text-dull" style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                    We integrate several tools and techniques to assist businesses to deliver successful projects
-                    at the right time. We organise and implement strategies about the deadline assigned to the project.
+                    </h2>
+                    <p class="py-2 archware-card-paragraph-padding text-align-left-body"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        We integrate several tools and techniques to assist businesses to deliver successful projects at the right time. 
+                        We organise and implement strategies to meet up with the deadline assigned to the project.
                     </p>
                 </div>
-
             </div>
-        </div>
-
-        <div class="col-lg-4 p-3 inner-padding">
-            <div class="card card-height-mobile" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                <img src="/customImages/Rectangle 661 (4).png" class="card-img-top" alt="...">
-                <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                    <div class="pt-1 text-title-mobile archware-card-title" style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
+            <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+                <img src="/customImages/Rectangle 661 (4).png" alt="">
+                <div class="archware-card-padding-left px-2 py-4 ">
+                    <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Project Management Consulting
-                    </div>
-                    <p class="archware-card-paragraph-padding card-text archware-text-dull" style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                    Our consultants have extensive knowledge and are intellectual leaders in the fields of marketing and sales for
-                    medium- and large-sized businesses. They are skilled in providing strategies that help businesses stand out.
+                    </h2>
+                    <p class="py-2 archware-card-paragraph-padding text-align-left-body"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        Our consultants have extensive knowledge and are intellectual leaders in the fields of marketing and sales for medium- and large-sized businesses. 
+                        They are skilled in providing strategies that help increase your business profitability and help businesses stand out.
                     </p>
                 </div>
             </div>
-        </div>
-
-        <div class="col-lg-4 p-3 inner-padding">
-            <div class="card card-height-mobile" style="border-radius: 20px; box-shadow: 0 5px 10px #e6e6e6; height: 37em;">
-                <img src="/customImages/Rectangle 661 (5).png" class="card-img-top" alt="...">
-                <div class="archware-card-padding-left card-body d-flex justify-content-center align-items-center flex-wrap p-4">
-                    <div class="pt-1 text-title-mobile archware-card-title" style="font-weight: 700; font-size:26px; line-height: 40.3px; color: #0D2158; text-align: center;">
+            <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
+                <img src="/customImages/Rectangle 661 (5).png" alt="">
+                <div class="archware-card-padding-left px-2 py-4">
+                    <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Project management Outsourcing
-                    </div>
-                    <p class="archware-card-paragraph-padding card-text archware-text-dull" style="color: #0d2158; font-size: 15px; text-align: center; margin-bottom: auto;">
-                    We assist businesses in strengthening their internal operations and overall performance
-                    by spotting new possibilities and enhancing output, service quality, and customer loyalty.
+                    </h2>
+                    <p class="py-2 archware-card-paragraph-padding text-align-left-body"
+                        style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                        We assist businesses in strengthening their internal operations and overall performance by spotting new possibilities and 
+                        enhancing output, service quality, and customer loyalty. We help you define the right project in response to your company’s vision.Project management Outsourcing
                     </p>
                 </div>
             </div>
         </div>
+    </section>
 
-    </div>
-</div>
+
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab experience-body-with-pix-mobile" style="background: #1F3F95; border-radius: 20px 20px;">
     <div class="archwarejo-width-top">
         <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom" src="/customImages/pmsRectangle.png">
@@ -140,11 +128,11 @@ Software development company helping businesses and individuals take advantage o
         <h2 style="font-weight: 700;font-size: 35px;line-height: 72px;color: #FFFFFF;">Why Choose Us?</h2>
         <p class="text-p" style="font-weight: 400;font-size: 20px;line-height: 36px;text-align: justify;color: #FFFFFF;
         mix-blend-mode: normal;opacity: 0.6;" >
-        Archware Tech utilizes process, discipline, and leadership to break down functional silos, engage 
-        stakeholders, and ensure your initiatives are completed within budget, scope, and schedule. We have 
-        successfully managed several groundbreaking projects from initiation to completion. If your active project 
-        is missing milestones or is lacking momentum, contact us and we will deploy project management consultants to 
-        get your project back on track.
+        Archware tech utilizes process, discipline, and leadership to break down functional silos, engage stakeholders, 
+        and ensure your initiatives are completed within budget, scope,
+        and schedule. We have successfully managed several groundbreaking projects from initiation to completion. If 
+        your active project is missing milestones or is lacking momentum, contact us and we will deploy our project 
+        management consultants to get your project back on track.
         </p>
     </div>
 </section>

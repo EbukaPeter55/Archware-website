@@ -1,10 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" id="navMain" style="padding-top: 1.2rem">
     <div class="container col-md-11">
-        <a class="navbar-brand colored-logo" href="#!" style="margin-left: 7%;">
+        <a class="navbar-brand colored-logo" href="/" style="margin-left: 7%;">
             <img src="{{ asset('customImages/Logo.svg') }}">
         </a>
-        <a class="navbar-brand light-logo" href="#!" style="margin-left: 7%;">
-            <img src="{{ asset('customImages/Archware-logo-light-variation.svg') }}">
+        <a class="navbar-brand light-logo" href="/" style="margin-left: 7%;">
+            <img src="{{ asset('customImages/Logo.svg') }}">
         </a>
         <!-- HAMBURGER -->
         <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,7 +72,7 @@
                         <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management
                                 System</a></li>
                         <li><a class="dropdown-item" href="/food-bank">Food Bank</a></li>
-                        <li><a class="dropdown-item" href="#">Farm Management</a></li>
+                        <li><a class="dropdown-item" href="/farm-management">Farm Management</a></li>
                     </ul>
                 </div>
                 <li class="nav-item px-3">

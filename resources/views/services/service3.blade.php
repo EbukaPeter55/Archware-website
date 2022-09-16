@@ -35,11 +35,12 @@ landscape.')
         </div>
         <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
             <p>
-                We provide quality full-cycle services for mobile application design, development, integration, testing,
-                maintenance, and management. Using top-of-the-line technologies, we help businesses build, manage, and
-                modernize custom applications, enabling seamless user experiences across all modern platforms
-                and devices. Our mobile apps help deliver an excellent digital experience that extends the value of
-                your services to your customers.
+            We provide quality full-cycle services for mobile application design, development, integration, testing, 
+            maintenance, and management.</p>
+            <p>Using top-of-the-line technologies, we help businesses build, manage, and modernize custom applications, 
+            enabling seamless user experiences across all modern platforms and devices.</p>
+            <p>Our mobile apps help deliver an excellent digital experience that extends the value of your services to 
+            your customers.
             </p>
         </div>
     </section>
@@ -117,39 +118,36 @@ landscape.')
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
                 <img src="/customImages/Rectangle661.png" alt="" style="object-fit:cover;">
                 <div class="archware-card-padding-left px-2 py-4">
-                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
-                        Native Mobile App
+                    <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                        Native Mobile <br> App
                     </h2>
-                    <p class="archware-card-paragraph-padding py-2" style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
-                        We build fully responsive and scalable mobile apps that can withstand the test of time.
-                        We create native Android and iOS applications that make the most of the features offered by the
-                        mobile platforms, support extensive feature sets, and have a distinctive look and feel.
+                    <p class="archware-card-paragraph-padding py-2 text-align-left-body" style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                    We build fully responsive and scalable mobile apps that can withstand the test of time. We create native Android and iOS applications that make the most of the features 
+                    offered by the mobile platforms, support extensive feature sets, and at the same time, have a distinctive look and feel.
                     </p>
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/Rectangle 661 (1).png" alt="">
                 <div class="archware-card-padding-left px-2 py-4">
-                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                    <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Cross Platform App Development
                     </h2>
-                    <p class="archware-card-paragraph-padding py-2" style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
-                        We are skilled in delivering the best cross-platform app development services to our clients,
-                        including the creation of UI/UX design, wearable applications, web-based apps, and apps with AI
-                        integration.
+                    <p class="archware-card-paragraph-padding py-2 text-align-left-body" style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                    We are skilled in delivering the best cross-platform app development services to our clients, 
+                    including the creation of UI/UX design, wearable applications, web-based apps, and apps with AI integration.  
                     </p>
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/Rectangle 661 (2).png" alt="">
                 <div class="archware-card-padding-left px-2 py-4">
-                    <h2 class="archware-card-title" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
+                    <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Hybrid App Development
                     </h2>
-                    <p class="archware-card-paragraph-padding py-2" style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
-                        We provide specialized hybrid app development services that are built to function
-                        flawlessly across several operating systems. Our team has extensive knowledge of
-                        cutting-edge mobile web development technology.
+                    <p class="archware-card-paragraph-padding py-2 text-align-left-body" style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
+                    We provide specialized hybrid app development services that are built to function flawlessly across several operating systems. Our team of competent UX designers, 
+                    visual designers, and software engineers has extensive knowledge of cutting edge mobile web development technology. 
                     </p>
                 </div>
             </div>

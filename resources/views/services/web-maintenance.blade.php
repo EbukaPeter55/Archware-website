@@ -34,18 +34,17 @@
         <div class="archwarejo-width-top">
             <img class="img-fluid image-width-tab" src="/customImages/web maintenance left.png">
         </div>
-        <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
-            <p>
-                Having a responsive website is a great deal of work that needs to be done to successfully scale your
-                business. The truth is, a website is never really complete due to the ever-evolving demands and changes
-                happening in the digital world. This is why it is important to periodically make plans to update the
-                website with fresh content to engage your growing audience. Without frequent maintenance, your website
-                will start looking stale and may develop errors due to technical environment changes.
-                We add value to your business by making sure you're not missing out on traffic and revenue growth as a
-                result of a sluggish website or website downtime. Our value in performance extends to our web
-                maintenance plan with our web maintenance team ensuring that your website is up to date regarding
-                design, content, regular backups, and protection against malicious login attempts, spam, bugs, and
-                malware.
+        <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop ">
+            <p class="col-lg-11">
+            Having a responsive website involves a great deal of work that needs to be done to successfully scale your 
+            business. The truth is: a website is never really complete due to the ever-evolving demands and changes 
+            happening in the digital world. This is why it is important to make plans to periodically update the website 
+            with fresh content to engage your growing audience. Without frequent maintenance, your website will start 
+            looking stale and may develop errors due to technical environment changes.We add value to your business by 
+            making sure you’re not missing out on traffic and revenue growth as a result of a sluggish website or website 
+            downtime. Our value in performance extends to our web maintenance plan with our web maintenance team ensuring 
+            that your website is up to date regarding design, content, regular backups, and protection against malicious 
+            login attempts, spam, bugs, and malware.
             </p>
         </div>
     </section>
@@ -59,7 +58,7 @@
                         Let's Help Maintain Your Website
                     </button>
                 </a>
-                <h1 class="fw-bold archware_h1 text-title-mobile"
+                <h1 class="fw-bold archware_h1 text-title-mobile why-font"
                     style="font-weight: 700;  font-size: 46px;
                         line-height: 46.4px; color: #040856;">
                     Why do you need web maintenance?
@@ -76,44 +75,42 @@
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
                 <img src="{{ asset('customImages/site security.png') }}" alt="" style="object-fit:cover;">
                 <div class="archware-card-padding-left px-2 py-4">
-                    <h2 class="archware-card-title"
+                    <h2 class="archware-card-title text-align-left-body"
                         style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Site Security
                     </h2>
-                    <p class="archware-card-paragraph-padding py-2"
+                    <p class="archware-card-paragraph-padding py-2 text-align-left-body"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
-                        Your website's scripts, security, and platforms must be functional to make it a success. Regular
-                        updates are crucial to patch up or improve the possible vulnerabilities and security lapses.
+                        Your website’s scripts, security, and platforms must be functional to make it a success. Regular
+                         updates are crucial to patch up or improve the possible vulnerabilities and security lapses.
                     </p>
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/seo.png" alt="">
                 <div class="archware-card-padding-left px-2 py-4">
-                    <h2 class="archware-card-title"
+                    <h2 class="archware-card-title text-align-left-body"
                         style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         SEO
                     </h2>
-                    <p class="archware-card-paragraph-padding py-2"
+                    <p class="archware-card-paragraph-padding py-2 text-align-left-body"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
-                        The algorithm that supports SEO is rapidly evolving with the inclusion of new techniques and
-                        tools. Maintaining your website will help it stay on top of the result page on search engines
-                        and increase visibility to relevant customers.
+                        The algorithm that supports SEO is rapidly evolving with the inclusion of new techniques and tools. Maintaining your website will 
+                        help it stay on top of the result page on search engines and increase visibility to relevant customers.
                     </p>
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
                 <img src="/customImages/website speed.png" alt="">
                 <div class="archware-card-padding-left px-2 py-4">
-                    <h2 class="archware-card-title"
+                    <h2 class="archware-card-title text-align-left-body"
                         style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Website Speed
                     </h2>
-                    <p class="archware-card-paragraph-padding py-2"
+                    <p class="archware-card-paragraph-padding py-2 text-align-left-body"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
-                        Research has shown that customers are attuned to fast and easily accessible websites. Regularly
-                        improving the speed of your website yields happy customers, increases click-through rate (CTR),
-                        and encourages customers to return to your website.
+                        Research has shown that customers are attuned to fast and easily accessible websites. Regularly improving the speed of your website
+                         yields happy customers, increases click-through rate (CTR), and encourages customers to return to your website.
                     </p>
                 </div>
             </div>
@@ -133,17 +130,15 @@
                 archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
             <h2 class="text-white-header">Effective Communication</h2>
             <p class="text-white-paragraph">
-                There is no greater breakdown in communicating with your audience
-                than having a website that is down, stuck or stale,
-                and irrelevant.
+            There is no greater breakdown in communicating with your audience than having a website 
+            that is down, stuck or stale, and irrelevant.
+            
             </p>
             <p class="text-white-paragraph">
-                Our team uses the best technical practices with insights into
-                customers' changing realities to deploy a responsive website
-                that helps businesses grow. As part of our ethics, we
-                consider web maintenance an essential part of our toolbox
-                to help you stay relevant and in touch with your target
-                audience.
+            Our team uses the best technical practices with insights into customers’ changing realities 
+            to deploy a responsive website that helps businesses grow. As part of our ethics, we consider web 
+            maintenance an essential part of our toolbox to help you stay relevant and in touch with your target 
+            audience.
             </p>
         </div>
     </section>
