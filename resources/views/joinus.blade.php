@@ -15,8 +15,8 @@ Software development company helping businesses and individuals take advantage o
         <div class="container col-md-8 py-5">
             <p class="px-5" style="font-style: normal;font-weight: 700;font-size: 40px;line-height: 116%;text-align: center;color: #FFFFFF;">Joining us means growth. It also means great responsibility.</p>
             <p style="font-weight: 400;font-size: 18px;line-height: 155%;text-align: center;color: #FFFFFF;">
-                We are constantly on the look out for distinctive
-                individuals with exceptional skill sets who are passionate about changing Africa through tech-based innovations and dedicated to becoming a part of the new African story.
+            We are constantly on the look out for distinctive individuals with exceptional skill sets who are passionate
+            about changing Africa through tech-based innovations and dedicated to becoming a part of the new African story.
             </p>
         </div>
     </div>
@@ -24,31 +24,34 @@ Software development company helping businesses and individuals take advantage o
 
 <section class="container pt-5">
     <div class=" d-flex flex-row flex-wrap justify-content-center pt-5">
-        <div class="col-lg-5 col-md-11" >
-            <img class="join-us-img img-fluid pt-4" src="/customImages/Rectangle 682.png" s>
+        <div class="col-lg-4 col-md-11 " >
+            <img class="join-us-img img-fluid pt-4" src="/customImages/Rectangle 682.png" >
 
         </div>
-        <div class="col-lg-7 px-3 pt-3 theext" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
-            We operate a culture that encourages everyone to think creatively and offer innovations that can move our Group
-            forward and, by extension, our nation and continent. Collectively, we are responsible for living our corporate values
-            and ethics, being the bedrock of our organisation.<br>
-            With impeccable employee development programs to support you through life's transitions, we care for our own like
-            family. We also consider our employees as investments in a better society. We respect our ties with them and keep
-            in touch as they traverse through life.
+        <div class="col-lg-8 px-3 pt-3 mt-3 px-4 theext" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
+        We are constantly on the lookout for distinctive individuals with exceptional skill sets who are
+        passionate about changing Africa through tech-based innovations and dedicated to becoming a part of the new 
+        African story.<br>
+        We operate a culture that encourages everyone to think creatively and offer innovations that can move our 
+        Group forward and, by extension, our nation and continent. Collectively, we are responsible for living our 
+        corporate values and ethics, being the bedrock of our organisation.<br>
+        With impeccable employee development programs to support you through life’s transitions, we care for our
+        own like family. We also consider our employees as investments in a better society. We respect our ties with them and keep in touch as they traverse through life.
         </div>
     </div>
 </section>
 <section class="container pt-5">
-    <div class="d-flex flex-wrap-reverse pt-5">
-        <div class="col-lg-7 pt-3" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
-            All of our employees receive specialized training, coaching, and mentorship that is created with their interest in mind and in accordance
-            with their peculiar individual needs. Our strong succession plan and career progression framework guarantees growth opportunities with clearly
-            defined eligibility criteria, as well as a solid foundation to take on new responsibilities.<br>
-            We value our employees' overall well-being, and our compensation philosophy is thorough and well-rounded, incorporating our core values.
-            Our base benefits package is extremely competitive and includes full family health plans, life insurance, paid time off, competitive salaries,
-            and more.
+    <div class="d-flex flex-wrap-reverse  pt-5">
+        <div class="col-lg-8 pt-3 mt-3 px-2 all-employees" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
+        All of our employees receive specialized training, coaching, and mentorship that is created with their interests in 
+        mind and in accordance with their peculiar individual needs. Our strong succession plan and career progression 
+        framework guarantee growth opportunities with clearly defined eligibility criteria, as well as a solid foundation to 
+        take on new responsibilities.<br>
+        We value our employees’ overall well-being, and our compensation philosophy is thorough and well-rounded, incorporating 
+        our core values. Our base benefits package is extremely competitive and includes full family health plans, life 
+        insurance, paid time off, competitive salaries, and more.
         </div>
-        <div class="col-lg-5 pt-4 px-2">
+        <div class="col-lg-4 pt-4 px-2">
             <img class="join-us-img img-fluid" src="/customImages/Rectangle 684.png" style="float:right;">
 
         </div>
@@ -69,10 +72,10 @@ Software development company helping businesses and individuals take advantage o
                     <div class="basic-skill-sect mx-5">
                     <img src="{{ asset('customImages/quote.png') }}" style="position:absolute; margin-top:0px">
                         <h1 class="basic-skill-text mt-3 pt-3 " style="font-style: normal;font-weight: 600;font-size: 23px;line-height: 164%;text-align: justify;color: #FFFFFF;">
-                            Basic Skill, Ability To Work Hard, Determination And Honesty Towards The Craft Are The Four Simple Things Needed To
-                            Excel At Work. You Know The Rest Of It (Which Is Quite A Lot) Just Happen To Fall In Place. At Archware Group, we
-                            provide you with an enabling environment to reach your maximum potential, surrounded by intelligent forward looking
-                            people who share the same passion for making impact</h1>
+                        Basic skills, ability to work hard, determination and honesty towards the craft are the four simple things needed to 
+                        excel at work. you know the rest of it (which is quite a lot) just happens to fall in place. At Archware Group, we 
+                        provide you with an enabling environment to reach your maximum potential, surrounded by intelligent forward-looking 
+                        people who share the same passion for making an impact.</h1>
                         <img src="{{ asset('customImages/quotation.png') }}" style="float:right;">
                     </div>
                 </div>
@@ -128,7 +131,7 @@ Software development company helping businesses and individuals take advantage o
 
         </form>
         <div class="container mt-5 pt-5 sumitbtn">
-            <a class="py-3" style="text-align:center;">
+            <a class="py-3" style="text-align:center;"> 
                 <button class="small-mobile-long-button" style="display: flex;justify-content: center;align-items: center;padding: 14px 16px;gap: 4px;width: 440px;height: 52px;background: #1F3F95;border-radius: 8px; color:#FFFFFF">
                     Submit
                 </button>

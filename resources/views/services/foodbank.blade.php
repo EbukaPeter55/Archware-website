@@ -11,14 +11,14 @@ Software development company helping businesses and individuals take advantage o
 @section('content')
 
 
-<div style=" background-image: url(../customImages/Group6700.png); background-repeat:repeat-x" class="mt-5">
+<div style=" background-image: url(../customImages/Group6700.png); background-repeat:repeat-x; background-size:cover" class="mt-5">
     <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
         <div class="archware-content-text archwarejo-width-bottom-head pt-2">
-            <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #ffffff;" class="text-title-mobile">
+            <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #ffffff; margin:auto" class="text-title-mobile">
                 Food Bank
             </h2>
             <p class="pt-3 text-body-mobile archware-text-justify" style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
-                Enjoy a One-stop Cost Management System
+                Connect for a bigger impact
             </p>
         </div>
         <div class="archwarejo-width-top-head">
@@ -35,18 +35,21 @@ Software development company helping businesses and individuals take advantage o
         <img class="img-fluid image-width-tab" src="/customImages/Group 74 (1).png">
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
-        <p>Maslow, in his hierarchy of needs, categorizes the need for food as a basic physiological need that is very critical
-            or crucial to human existence. A hungry man or woman, for instance, cannot think of entrepreneurship or education, or
-            national development until that basic need is met.</p>
-        <p>All over the world, an estimated 821 million people struggle with habitual hunger. That's 44 million further than the
-            expected projection despite the relinquishment of the sustainable development goals to end hunger by 2030.</p>
-        <p>Multi-dimensional poverty and hunger are intertwined. Multi-dimensional poverty is significant in all the major
-            regions across Africa.</p>
-        <p>This calls for rapid action by food bank organisations across the world to intensify efforts in pulling Africa out of
-            multi-dimensional poverty and hunger. We strongly believe Food is essential to human existence, which is why we are
-            determined to create tech-based platforms that will allow food to get to those that need it.</p>
-        <p>Our tech-based food bank seeks to alleviate hunger and combat aspects of multi-dimensional poverty by delivering food
-            savings, partnerships, loans, and markets.</p>
+        <p>Maslow, in his hierarchy of needs, categorizes the need for food as the most basic physiological need critical
+            or crucial to human existence. Suffice it to say that a hungry man or woman, for instance, cannot think of
+            entrepreneurship or education, or national development until that basic need is met.</p>
+
+           <p> All over the world, an estimated 821 million people struggle with habitual hunger. That’s 44 million further
+            than the expected projection despite the relinquishment of the sustainable development goals to end hunger by
+            2030. Multidimensional poverty and hunger are intertwined. Multidimensional poverty is significant in all the
+            major regions across Africa.</p>
+
+            <p>This calls for rapid action by food bank organisations across the world to intensify efforts in pulling Africa
+            out of multidimensional poverty and hunger. We strongly believe Food is essential to human existence, which is
+            why we are determined to create tech-based platforms that will allow food to get to those that need it.</p>
+
+            <p>Our tech-based food bank seeks to alleviate hunger and combat aspects of
+            multidimensional poverty by delivering food savings, partnerships, loans, and markets.</p>
 
     </div>
 </section>
@@ -65,21 +68,19 @@ Software development company helping businesses and individuals take advantage o
 </section>
 
 <section class="container">
-    <div class="row">
-        <div class="col-lg-6">
+    <div class="row row-reverse">
+        <div class="col-lg-6 mt-4">
             <h2 style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">
-            We Believe Every Home Should Have Basic Three Square Meals</h2>
-            <p class="pt-2" style="font-weight: 400;font-size: 16px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
-                That’s why, at Archware Food Bank, our initiatives are designed to cater for the needs of your home, 
-                the broader food needs of the African communities and the planet – by working to provide billion-dollar investments 
-                in sustainable storage systems to reduce produce waste, rural infrastructure, transportation and Urban access to 
+                We Believe Every Home Should Have Basic Three Square Meals</h2>
+            <p class="pt-2 " style="font-weight: 400;font-size: 16px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
+                That’s why, at Archware Food Bank, our initiatives are designed to cater for the needs of your home,
+                the broader food needs of the African communities and the planet – by working to provide billion-dollar investments
+                in sustainable storage systems to reduce produce waste, rural infrastructure, transportation and Urban access to
                 fresh food directly from farm and more.
             </p>
         </div>
         <div class="col-lg-6 d-flex">
-            <img src="{{ asset('customImages/Rectangle648.svg') }}" alt="">
-            <img src="{{ asset('customImages/Rectangle692.svg') }}" alt="">
-            <img src="{{ asset('customImages/Rectangle693.svg') }}" alt="">
+            <img class="img-fluid" src="/customImages/Group 76.png">
 
         </div>
     </div>
@@ -101,7 +102,7 @@ Software development company helping businesses and individuals take advantage o
 
     <div class="d-flex flex-wrap mt-5">
         <div class="image-foodbank col-lg-3">
-            <img  src="/customImages/Rectangle 688 (1).png" alt="" style="align-items:center ;">
+            <img src="/customImages/Rectangle 688 (1).png" alt="" style="align-items:center ;">
         </div>
         <div class="col-lg-9">
             <h2 class="pt-3" style="font-weight: 700;font-size: 26px;line-height: 155%;color: #0D2158;">Food Partnership</h2>
@@ -122,7 +123,7 @@ Software development company helping businesses and individuals take advantage o
         </div>
 
         <div class="image-foodbank col-lg-3 px-4">
-            <img class=""  src="/customImages/Rectangle 691.png" alt="" style="align-items:center ;">
+            <img class="" src="/customImages/Rectangle 691.png" alt="" style="align-items:center ;">
         </div>
     </div>
 
@@ -147,24 +148,24 @@ Software development company helping businesses and individuals take advantage o
 
 
 
-    <section class="container mt-5 pt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab experience-body-with-pix-mobile" style="background: #1F3F95; border-radius: 20px 20px;">
+<section class="container mt-5 pt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab experience-body-with-pix-mobile" style="background: #1F3F95; border-radius: 20px 20px;">
 
-        <div class="archwarejo-width-top">
-            <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom" src="/customImages/Rectangle (2).png">
-        </div>
-        <div class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
-            <h2 class="tech-based-solution" style="font-weight: 700;font-size: 35px;line-height: 72px;color: #FFFFFF;">Tech-Based Food Solutions</h2>
-            <p class="tech-based-solution2 px-3" style="font-weight: 400;font-size: 20px;line-height: 36px;text-align: justify;color: #FFFFFF;mix-blend-mode: normal;opacity: 0.6;">
-                With the going global warming and constant mutating pandemic outbreaks, the need for healthy, convenient, minimally processed,
-                and varied food products are increasingly on the rise. Our food innovation service is targeted at using robots, GPS technology,
-                and Smartphone apps to improve food production processes. To assist farmers to maximize their capacity, we introduce Moisture
-                and temperature sensors which help monitor the soil for farmers to make the best decisions on planting and watering.
-                We also help with the use of aerial images to monitor the health of the crops from above to find areas of concern for
-                a quick fix.
-            </p>
-        </div>
+    <div class="archwarejo-width-top">
+        <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom" src="/customImages/Rectangle (2).png">
+    </div>
+    <div class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
+        <h2 class="tech-based-solution" style="font-weight: 700;font-size: 35px;line-height: 72px;color: #FFFFFF;">Tech-Based Food Solutions</h2>
+        <p class="tech-based-solution2 px-3" style="font-weight: 400;font-size: 20px;line-height: 36px;text-align: justify;color: #FFFFFF;mix-blend-mode: normal;opacity: 0.6;">
+            With the going global warming and constant mutating pandemic outbreaks, the need for healthy, convenient, minimally processed,
+            and varied food products are increasingly on the rise. Our food innovation service is targeted at using robots, GPS technology,
+            and Smartphone apps to improve food production processes. To assist farmers to maximize their capacity, we introduce Moisture
+            and temperature sensors which help monitor the soil for farmers to make the best decisions on planting and watering.
+            We also help with the use of aerial images to monitor the health of the crops from above to find areas of concern for
+            a quick fix.
+        </p>
+    </div>
 
-    </section>
+</section>
 </div>
 <section class="my-3 py-3">
     <div class="container justify-content-center">
