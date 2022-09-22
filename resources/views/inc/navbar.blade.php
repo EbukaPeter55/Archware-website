@@ -67,7 +67,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a class="dropdown-item" href="#">Archware Training Institute</a></li>
+                        {{-- <li><a class="dropdown-item" href="#">Archware Training Institute</a></li> --}}
                         <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
                         <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management
                                 System</a></li>
@@ -75,9 +75,9 @@
                         <li><a class="dropdown-item" href="/farm-management">Farm Management</a></li>
                     </ul>
                 </div>
-                <li class="nav-item px-3">
+                {{-- <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/subsidiaries">Our Team</a>
-                </li>
+                </li> --}}
                 <!-- <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/services">Services</a>
                 </li> -->
