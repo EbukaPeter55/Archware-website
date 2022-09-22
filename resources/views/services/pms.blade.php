@@ -22,7 +22,7 @@ Software development company helping businesses and individuals take advantage o
             </p>
         </div>
         <div class="archwarejo-width-top-head">
-            <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/Rectangle651pms.png">
+            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/Rectangle651pms.png">
         </div>
     </section>
 </div>

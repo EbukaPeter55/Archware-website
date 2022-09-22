@@ -25,7 +25,7 @@ landscape.')
             </p>
         </div>
         <div class="archwarejo-width-top-head">
-            <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/ecommerce list.png">
+            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/ecommerce list.png">
         </div>
     </section>
 </div>

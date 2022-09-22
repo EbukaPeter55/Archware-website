@@ -15,7 +15,8 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: .5rem">
-            <ul class="navbar-nav me-auto nav-links-a" style="margin-left: 8%;">
+            <ul class="navbar-nav me-auto nav-links-a" style="margin-left: 12%;">
+            <!-- Remember to change the margin-left back to 8% when we want to host our team -->
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/">Home</a>
                 </li>
@@ -29,12 +30,12 @@
                     </li>
                     <ul class="dropdown-menu dropdown-style">
                         <li class="nav-item dropdown">
-                            <a class="dropdown-toggle dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="dropdown-toggle dropdown-item nohover" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Software Development
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" href="#">
+                                    <a class="dropdown-item dropdown-toggle nohover" href="#">
                                         Web Development
                                     </a>
                                     <ul class="dropdown-menu">
@@ -67,7 +68,7 @@
                                 </li>
                             </ul>
                         </li>
-                        {{-- <li><a class="dropdown-item" href="#">Archware Training Institute</a></li> --}}
+                        <!--<li><a class="dropdown-item" href="#">Archware Training Institute</a></li>-->
                         <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
                         <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management
                                 System</a></li>
@@ -75,9 +76,9 @@
                         <li><a class="dropdown-item" href="/farm-management">Farm Management</a></li>
                     </ul>
                 </div>
-                {{-- <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="/subsidiaries">Our Team</a>
-                </li> --}}
+                <li class="nav-item px-3">
+                    <!--<a class="nav-link archware-nav-title" href="/">Our Team</a>-->
+                </li>
                 <!-- <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/services">Services</a>
                 </li> -->

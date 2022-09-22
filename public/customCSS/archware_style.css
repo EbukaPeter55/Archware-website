@@ -494,7 +494,12 @@ body {
     height: 5.4375rem;
 }
 
+.float-to-end{margin-left: 14%;}
+
+
+
 @media screen and (max-width:900px) {
+    .float-to-end{margin: auto !important;}
     #greenbg{margin-left: 74px; width: 100% !important;}
 
         #laptop{
@@ -503,6 +508,7 @@ body {
         .dropdown-style{
             width: 40%!important;
         }
+
     }
 
 .btnnav {
