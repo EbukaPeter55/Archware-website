@@ -30,12 +30,12 @@
                     </li>
                     <ul class="dropdown-menu dropdown-style">
                         <li class="nav-item dropdown">
-                            <a class="dropdown-toggle dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="dropdown-toggle dropdown-item nohover" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Software Development
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li class="dropdown-submenu">
-                                    <a class="dropdown-item dropdown-toggle" href="#">
+                                    <a class="dropdown-item dropdown-toggle nohover" href="#">
                                         Web Development
                                     </a>
                                     <ul class="dropdown-menu">
