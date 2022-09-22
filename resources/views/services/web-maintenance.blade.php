@@ -24,7 +24,7 @@
                 </p>
             </div>
             <div class="archwarejo-width-top-head">
-                <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/web maintenance right.png">
+                <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/web maintenance right.png">
             </div>
         </section>
     </div>

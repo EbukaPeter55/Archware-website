@@ -23,7 +23,7 @@ landscape.')
                 </p>
             </div>
             <div class="archwarejo-width-top-head">
-                <img class="img-fluid image-width-tab image-min-height-mobile" src="/customImages/mobile-app.png">
+                <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/mobile-app.png">
             </div>
         </section>
     </div>
@@ -119,7 +119,7 @@ landscape.')
                 <img src="/customImages/Rectangle661.png" alt="" style="object-fit:cover;">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
-                        Native Mobile <br> App
+                        Native Mobile App
                     </h2>
                     <p class="archware-card-paragraph-padding py-2 text-align-left-body" style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                     We build fully responsive and scalable mobile apps that can withstand the test of time. We create native Android and iOS applications that make the most of the features 

@@ -24,7 +24,7 @@ the global technology landscape.')
             </p>
         </div>
         <div class="archwarejo-width-top-head">
-            <img class="img-fluid image-width-tab image-min-height-mobile" style=" display:flex;align-items:right;" src="/customImages/account expense right.png">
+            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" style=" display:flex;align-items:right;" src="/customImages/account expense right.png">
         </div>
     </section>
 </div>
