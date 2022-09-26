@@ -18,7 +18,7 @@ Software development company helping businesses and individuals take advantage o
                 </h2>
                 <p class="pt-3 text-body-mobile"
                     style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color: #ffffff;">
-                    Enjoy a One-stop Cost Management System
+                    Enjoy a one-stop cost management system
                 </p>
             </div>
             <div class="archwarejo-width-top-head ">
