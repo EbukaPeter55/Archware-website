@@ -74,3 +74,7 @@ Route::get('/contacts', function () {
 Route::get('/join-us', function () {
     return view('joinus');
 });
+
+Route::get('/software_development', function () {
+    return view('software_development');
+});
