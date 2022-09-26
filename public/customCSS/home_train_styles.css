@@ -59,5 +59,51 @@ top: 619px;
 
 background: #F8F8F8;
 border-radius: 7px;
-text-align: center;
+margin: 100px;
+justify-content: center;
+display: flex;
+;
+
+
+}
+.ik-sst{
+align-items: center;
+margin: 0;
+}
+.ik-train-h1{
+ font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 52px;
+
+letter-spacing: 0.2px;
+
+color: #0D2158;
+
+}
+.ik-acc{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+
+
+letter-spacing: 0.2px;
+
+color: #0D2158;
+
+}.ik-acc2{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 36px;
+
+
+color: #0D2158;
+
+mix-blend-mode: normal;
+opacity: 0.6;
 }
