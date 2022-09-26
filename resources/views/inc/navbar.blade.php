@@ -106,7 +106,7 @@
     </div>
 </nav>
 
-<nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+{{-- <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
     <a class="navbar-brand" href="#">Brand</a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
         data-target="#navbar1">
@@ -161,23 +161,24 @@
             </li>
         </ul>
     </div>
-</nav>
+</nav> --}}
 
 
 <!-- THE SCRIPT TO CONTROL THE STATE OF THE NAVBAR -->
 <script type="text/javascript">
 
-    $('.dropdown-submenu > a').on("click", function(e) {
-        var submenu = $(this);
-        $('.dropdown-submenu .dropdown-menu').removeClass('show');
-        submenu.next('.dropdown-menu').addClass('show');
-        e.stopPropagation();
-    });
+    // The code commented out is for the the navbar dropdown
+    // $('.dropdown-submenu > a').on("click", function(e) {
+    //     var submenu = $(this);
+    //     $('.dropdown-submenu .dropdown-menu').removeClass('show');
+    //     submenu.next('.dropdown-menu').addClass('show');
+    //     e.stopPropagation();
+    // });
 
-    $('.dropdown').on("hidden.bs.dropdown", function() {
-        // hide any open menus when parent closes
-        $('.dropdown-menu.show').removeClass('show');
-    });
+    // $('.dropdown').on("hidden.bs.dropdown", function() {
+    //     // hide any open menus when parent closes
+    //     $('.dropdown-menu.show').removeClass('show');
+    // });
 
 
     const getNav = document.querySelector('#navMain');
