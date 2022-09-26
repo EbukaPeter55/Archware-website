@@ -18,7 +18,7 @@ landscape.')
                 Website Redesign
             </h2>
             <p class="pt-3 text-body-mobile" style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
-                Improving Business Efficiency Through Innovation
+                Improving business efficiency through innovation
             </p>
         </div>
         <div class="archwarejo-width-top-head">
@@ -34,7 +34,7 @@ landscape.')
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
         <p>
-            You need the best tech company for your website makeover.We adopt a systematic approach to website
+            You need the best tech company for your website makeover. We adopt a systematic approach to website
             upgrades with meticulous attention to site performance indices. In addition to design and content, we
             provide search engine optimization, database integration, e-commerce functionality, and more.
 

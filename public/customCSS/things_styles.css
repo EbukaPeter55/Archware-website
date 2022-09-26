@@ -1,0 +1,63 @@
+.ik_hgfvg{
+    margin: 0;
+    padding: 0;
+}
+.ik_stir{
+    color: blue;
+    
+}
+.hero-section{
+    background-image: url("../customImages/Group 162.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    padding: 11rem 0 10rem 5rem;
+   
+   }
+   .hero-section-copy{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-section-copy h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 58px;
+line-height: 62px;
+
+
+text-align: center;
+letter-spacing: -1px;
+
+color: #FFFFFF;
+
+    
+}
+
+.hero-section-copy p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 36px;
+    
+    
+    text-align: center;
+    
+    color: #F5FFD8;
+    
+    mix-blend-mode: normal;
+}
+.ik-search{
+width: 444px;
+height: 48px;
+left: 534px;
+top: 619px;
+
+background: #F8F8F8;
+border-radius: 7px;
+text-align: center;
+}
