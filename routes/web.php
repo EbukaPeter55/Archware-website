@@ -74,6 +74,9 @@ Route::get('/contacts', function () {
 Route::get('/join-us', function () {
     return view('joinus');
 });
+Route::get('/home-train', function () {
+    return view('services.home-train');
+});
 
 Route::get('/software_development', function () {
     return view('software_development');

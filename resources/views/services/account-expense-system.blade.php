@@ -19,7 +19,7 @@ the global technology landscape.')
                 Account & Expenses Management System
             </h2>
             <p class="pt-3 text-body-mobile" style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
-                Enjoy a One-stop Cost Management System
+                Enjoy a one-stop cost management system
 
             </p>
         </div>
@@ -31,7 +31,7 @@ the global technology landscape.')
 
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
     <div class="archwarejo-width-top">
-        <img class="img-fluid image-width-tab" src="/customImages/account expence down.png">
+        <img class="img-fluid image-width-tab" src="/customImages/account-expense down.png">
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
         <p>

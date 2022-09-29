@@ -19,7 +19,7 @@ landscape.')
                     Mobile App Development
                 </h2>
                 <p class="pt-3 text-body-mobile" style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
-                    Let's Translate Your Ideas To Mobile Apps.
+                    Let's translate your ideas to mobile apps.
                 </p>
             </div>
             <div class="archwarejo-width-top-head">

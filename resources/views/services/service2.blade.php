@@ -20,7 +20,7 @@
                 </h2>
                 <p class="pt-3 text-body-mobile archware-text-justify"
                     style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
-                    Appealing Web design, development, and value added tools for better ROI.
+                    Appealing web design, development, and value added tools for better ROI.
                 </p>
             </div>
             <div class="archwarejo-width-top-head">
@@ -169,7 +169,7 @@
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                         Get your products in front of your customers with our e-commerce website design and development
                         service. With a well-designed e commerce website, you can target your customers and reach them
-                        when they’re ready to shop. We offer a range of e-commerce website development packages to help your company succeed
+                        when they’re ready to shop. We offer a range of e-commerce website development packages to help your company succeed.
                     </p>
                 </div>
             </div>

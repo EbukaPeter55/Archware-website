@@ -19,7 +19,7 @@ landscape.')
                 E-commerce
             </h2>
             <p class="pt-3 text-body-mobile" style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
-                Get your products in front of your customers with our
+                Get your products in front of your customers with our <br>
                 e-commerce website design and development service.
 
             </p>

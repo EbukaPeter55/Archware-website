@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" id="navMain" style="padding-top: 1.2rem">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" id="navMain"
+    style="padding-top: 1.2rem">
     <div class="container col-md-11">
         <a class="navbar-brand colored-logo" href="/" style="margin-left: 7%;">
             <img src="{{ asset('customImages/Logo.svg') }}">
@@ -7,16 +8,20 @@
             <img src="{{ asset('customImages/Logo.svg') }}">
         </a>
         <!-- HAMBURGER -->
-        <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
-        <button class="navbar-toggler hamburger-icon hamburger-mobile" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: white;">
+        <button class="navbar-toggler hamburger-icon hamburger-mobile" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation" style="background: white;">
             <i class="fas fa-bars"></i>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: .5rem">
             <ul class="navbar-nav me-auto nav-links-a" style="margin-left: 12%;">
-            <!-- Remember to change the margin-left back to 8% when we want to host our team -->
+                <!-- Remember to change the margin-left back to 8% when we want to host our team -->
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/">Home</a>
                 </li>
@@ -30,7 +35,8 @@
                     </li>
                     <ul class="dropdown-menu dropdown-style">
                         <li class="nav-item dropdown">
-                            <a class="dropdown-toggle dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="dropdown-toggle dropdown-item nohover" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Software Development
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -100,9 +106,80 @@
     </div>
 </nav>
 
+<nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="#">Brand</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-target="#navbar1">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" id="menu" data-bs-toggle="dropdown" class="nav-link dropdown-toggle"
+                    data-display="static">Dropdown</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-item dropdown-submenu">
+                        <a href="#" data-bs-toggle="dropdown" class="dropdown-toggle">Submenu-1</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a href="#">Item-1</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Item-2</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Item-3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-item dropdown-submenu">
+                        <a href="#" data-bs-toggle="dropdown" class="dropdown-toggle">Submenu-2</a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">
+                                <a href="#">Item-1</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Item-2</a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a href="#">Item-3</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
 
 <!-- THE SCRIPT TO CONTROL THE STATE OF THE NAVBAR -->
 <script type="text/javascript">
+
+    $('.dropdown-submenu > a').on("click", function(e) {
+        var submenu = $(this);
+        $('.dropdown-submenu .dropdown-menu').removeClass('show');
+        submenu.next('.dropdown-menu').addClass('show');
+        e.stopPropagation();
+    });
+
+    $('.dropdown').on("hidden.bs.dropdown", function() {
+        // hide any open menus when parent closes
+        $('.dropdown-menu.show').removeClass('show');
+    });
+
+
     const getNav = document.querySelector('#navMain');
     const topOfNav = getNav.offsetTop;
 
