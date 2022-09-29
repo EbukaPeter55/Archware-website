@@ -140,7 +140,7 @@
                     <h3 class="fw-bold newsletter-style" style="font-size:30px;">Newsletter</h3>
                     <p class="pt-2 newsletter-paragraph text-center" style="font-size:medium;">
                         Be the first to know about discounts, offers and events weekly <br> in your mailbox. Unsubscribe
-                        whenever you like with one click
+                        whenever you like with one click.
                     </p>
                 </div>
 
@@ -182,9 +182,9 @@
 
                         <ul class="list-unstyled mb-0">
                             <li class="pb-3 footer-aboutus foofoot"style="font-size:medium; width:527px">
-                                 Archware Technologies is a result-driven tech company established
-                                 to provide technological innovations that help improve the quality 
-                                 of work and lives of people across several business sectors.                    
+                                 Archware Technologies is a result-driven tech <br> company  established
+                                 to provide technological <br> innovations that help improve the quality 
+                                 of <br> work and lives of people across several business sectors.                    
                             </li>
                         </ul>
                         <section class="pb-3">

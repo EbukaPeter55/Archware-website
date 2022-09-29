@@ -42,8 +42,7 @@
     <link rel="stylesheet" href="/customCSS/archwarestyles_jo.css">
     <link rel="stylesheet" href="/customCSS/navbar_styles.css">
     <link rel="stylesheet" href="/customCSS/pms_styles.css">
-    <link rel="stylesheet" href="/customCSS/archware_insistitute_style.css">
-
+    <link rel="stylesheet" href="/customCSS/home_train_styles.css">
 
 
     <!-- Material icon -->

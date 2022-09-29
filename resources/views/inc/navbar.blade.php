@@ -100,7 +100,12 @@
     </div>
 </nav>
 
-
+{{-- <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+    <a class="navbar-brand" href="#">Brand</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+        data-target="#navbar1">
+        <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbar1">
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
@@ -151,32 +156,24 @@
             </li>
 
     </div>
-
-
-<script>
-$(document).ready(function(){
-  $('.dropdown-submenu a.test').on("click", function(e){
-    $(this).next('ul').toggle();
-    e.stopPropagation();
-    e.preventDefault();
-  });
-});
-</script>
+</nav> --}}
 
 
 <!-- THE SCRIPT TO CONTROL THE STATE OF THE NAVBAR -->
 <script type="text/javascript">
-    $('.dropdown-submenu > a').on("click", function(e) {
-        var submenu = $(this);
-        $('.dropdown-submenu .dropdown-menu').removeClass('show');
-        submenu.next('.dropdown-menu').addClass('show');
-        e.stopPropagation();
-    });
 
-    $('.dropdown').on("hidden.bs.dropdown", function() {
-        // hide any open menus when parent closes
-        $('.dropdown-menu.show').removeClass('show');
-    });
+    // The code commented out is for the the navbar dropdown
+    // $('.dropdown-submenu > a').on("click", function(e) {
+    //     var submenu = $(this);
+    //     $('.dropdown-submenu .dropdown-menu').removeClass('show');
+    //     submenu.next('.dropdown-menu').addClass('show');
+    //     e.stopPropagation();
+    // });
+
+    // $('.dropdown').on("hidden.bs.dropdown", function() {
+    //     // hide any open menus when parent closes
+    //     $('.dropdown-menu.show').removeClass('show');
+    // });
 
 
     const getNav = document.querySelector('#navMain');
