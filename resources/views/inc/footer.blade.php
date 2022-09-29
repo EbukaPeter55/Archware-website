@@ -140,7 +140,7 @@
                     <h3 class="fw-bold newsletter-style" style="font-size:30px;">Newsletter</h3>
                     <p class="pt-2 newsletter-paragraph text-center" style="font-size:medium;">
                         Be the first to know about discounts, offers and events weekly <br> in your mailbox. Unsubscribe
-                        whenever you like with one click
+                        whenever you like with one click.
                     </p>
                 </div>
 
