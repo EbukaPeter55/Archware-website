@@ -68,7 +68,7 @@ Software development company helping businesses and individuals take advantage o
                 </div>
                 <div class="pt-3 mx-5">
                     <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
-                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+2347031778450, +2348121738381</a>
+                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234-807-266-3033,</a>
                     </p>
                     <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwaretechgroup.com</a>

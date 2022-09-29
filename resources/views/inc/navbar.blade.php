@@ -1,5 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" id="navMain"
-    style="padding-top: 1.2rem">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" id="navMain" style="padding-top: 1.2rem">
     <div class="container col-md-11">
         <a class="navbar-brand colored-logo" href="/" style="margin-left: 7%;">
             <img src="{{ asset('customImages/Logo.svg') }}">
@@ -8,14 +7,10 @@
             <img src="{{ asset('customImages/Logo.svg') }}">
         </a>
         <!-- HAMBURGER -->
-        <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
         </button>
-        <button class="navbar-toggler hamburger-icon hamburger-mobile" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation" style="background: white;">
+        <button class="navbar-toggler hamburger-icon hamburger-mobile" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: white;">
             <i class="fas fa-bars"></i>
         </button>
 
@@ -35,8 +30,7 @@
                     </li>
                     <ul class="dropdown-menu dropdown-style">
                         <li class="nav-item dropdown">
-                            <a class="dropdown-toggle dropdown-item nohover" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="dropdown-toggle dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Software Development
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -106,67 +100,72 @@
     </div>
 </nav>
 
-<nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
-    <a class="navbar-brand" href="#">Brand</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
-        data-target="#navbar1">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+
     <div class="collapse navbar-collapse" id="navbar1">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Link</a>
-            </li>
             <li class="nav-item dropdown">
-                <a href="#" id="menu" data-bs-toggle="dropdown" class="nav-link dropdown-toggle"
-                    data-display="static">Dropdown</a>
+                <a href="#" id="menu" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" data-display="static">Our Services</a>
                 <ul class="dropdown-menu">
                     <li class="dropdown-item dropdown-submenu">
-                        <a href="#" data-bs-toggle="dropdown" class="dropdown-toggle">Submenu-1</a>
+                        <a data-bs-toggle="dropdown" class="dropdown-toggle">Software Development</a>
                         <ul class="dropdown-menu">
-                            <li class="dropdown-item">
-                                <a href="#">Item-1</a>
+                            <li class="dropdown-item dropdown-submenu">
+                                <a data-bs-toggle="dropdown" class="dropdown-toggle test">Web Development</a>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item">
+                                        <a href="#">Responsive Website Design and Development</a>
+
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Website Redesign</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">E-commerce/Online Web Stores</a>
+
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Web Maintenance</a>
+                                    </li>
+
+                                </ul>
                             </li>
                             <li class="dropdown-item">
-                                <a href="#">Item-2</a>
+                                <a href="#">Mobile App Development</a>
                             </li>
-                            <li class="dropdown-item">
-                                <a href="#">Item-3</a>
-                            </li>
+
                         </ul>
                     </li>
                     <li class="dropdown-item dropdown-submenu">
-                        <a href="#" data-bs-toggle="dropdown" class="dropdown-toggle">Submenu-2</a>
-                        <ul class="dropdown-menu">
-                            <li class="dropdown-item">
-                                <a href="#">Item-1</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="#">Item-2</a>
-                            </li>
-                            <li class="dropdown-item">
-                                <a href="#">Item-3</a>
-                            </li>
-                        </ul>
+                        <a href="#" data-bs-toggle="dropdown" class="">Project Management System</a>
+                    </li>
+                    <li class="dropdown-item dropdown-submenu">
+                        <a href="#" data-bs-toggle="dropdown" class="">Account & Expenses Management System</a>
+                    </li>
+                    <li class="dropdown-item dropdown-submenu">
+                        <a href="#" data-bs-toggle="dropdown" class="">Food Bank</a>
+                    </li>
+                    <li class="dropdown-item dropdown-submenu">
+                        <a href="#" data-bs-toggle="dropdown" class="">Farm Management</a>
                     </li>
                 </ul>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-        </ul>
+
     </div>
-</nav>
+
+
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
 
 
 <!-- THE SCRIPT TO CONTROL THE STATE OF THE NAVBAR -->
 <script type="text/javascript">
-
     $('.dropdown-submenu > a').on("click", function(e) {
         var submenu = $(this);
         $('.dropdown-submenu .dropdown-menu').removeClass('show');

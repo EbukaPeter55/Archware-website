@@ -245,7 +245,7 @@
                                 3, Ayanboye Street, Anthony Village, Lagos
                             </li>
                             <li class="pb-2" style="font-size:medium;">
-                                Ph: +234709154822
+                                Ph: +234-807-266-3033
                             </li>
                         </ul>
                     </div>

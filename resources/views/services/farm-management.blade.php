@@ -17,7 +17,7 @@ Software development company helping businesses and individuals take advantage o
             Farm <br> Management
             </h2>
             <p class="pt-3 text-body-mobile" style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
-            Tech-based farm management for profitable and sustainable <br> crop production.
+            Tech-based farm management for profitable and sustainable crop production.
 
             </p>
         </div>
