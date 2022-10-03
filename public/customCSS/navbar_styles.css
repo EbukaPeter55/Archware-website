@@ -163,7 +163,7 @@ ul li a:nth-child(2) {
 }
 
 .l-list:hover {
-	background-color: #95B4CA;
+	/* background-color: #95B4CA; */
 }
 
 .parent-nav .l-list:hover {
@@ -180,6 +180,9 @@ ul li a:nth-child(2) {
     display: none;
 }
 
+.e-about{
+    z-index: 1000
+}
 @media(max-width: 700px){
     .drop-wrapper{
         left: 1.5%;
@@ -197,6 +200,9 @@ ul li a:nth-child(2) {
     }
     .e-drop-mobile{
         display: block;
+    }
+    .e-about{
+        z-index: unset;
     }
 }
 
