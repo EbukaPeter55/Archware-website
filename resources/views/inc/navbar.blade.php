@@ -267,7 +267,7 @@
                 // console.log(nav);
                 nav.classList.remove('nav-link-text');
             })
-      
+
         }
     }
     window.addEventListener('scroll', triggerNav);
