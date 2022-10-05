@@ -1,5 +1,8 @@
 @extends('layouts.app')
-
+ {{-- The loading spinner --}}
+ <div class="loader-container">
+    <div class="spinner"></div>
+  </div>
 @section('description',
     'Archware - Africa\'s Leading Software Development Company
 Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
@@ -9,6 +12,7 @@ Software development company helping businesses and individuals take advantage o
 @section('image'){{ asset('customImages/Logo.svg') }}@stop
 
 @section('content')
+  
 <section class='title-style-contact'>
 <h1 class="row justify-content-center" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
 <div class="row justify-content-center pt-3">
@@ -94,10 +98,21 @@ Software development company helping businesses and individuals take advantage o
 </script> -->
 
 <script type="text/javascript">
+ // Hide and show a loader logic
+    const loaderContainer = document.querySelector('.loader-container');
+
+    const displayLoading = () => {
+    loaderContainer.style.display = 'block';
+    };
+
+    const hideLoading = () => {
+        loaderContainer.style.display = 'none';
+    };
 document.getElementById('sendData').addEventListener('submit', handleSumbit);
 
 function handleSumbit(event){
     event.preventDefault();
+    displayLoading();
 
     // Get all the input field and store them in their unique variable each
     let firstname = document.getElementById('Firstname').value;
@@ -134,6 +149,7 @@ function handleSumbit(event){
         })
         .then(handleErrors)
         .then(response => {console.log("ok")
+        hideLoading();
             Swal.fire({
                     icon: 'success',
                     title: 'Message sent, We will get back shortly!',
@@ -145,6 +161,7 @@ function handleSumbit(event){
                   res.reset();
         })
         .catch(error => {console.log(error, 'wrong')
+        hideLoading();
             Swal.fire({
                     icon: 'error',
                     title: 'Message not sent, something went wrong!',

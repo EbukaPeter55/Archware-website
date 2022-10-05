@@ -188,13 +188,16 @@
                             </li>
                         </ul>
                         <section class="pb-3">
-                            <a class="m-1 btn btn-outline-light" href="#!" role="button"><i class="fab fa-facebook"></i></a>
+                            <a class="m-1 btn btn-outline-light" href="https://twitter.com/ArchwareTech" target="_blank" role="button">
+                                <i class="fab fa-twitter"></i></a>
 
-                            <a class="m-1 btn btn-outline-light" href="#!" role="button"><i class="fab fa-youtube"></i></a>
+                            <a class="m-1 btn btn-outline-light" href="https://www.linkedin.com/company/archware-technologies-ltd/"
+                             target="_blank" role="button"><i class="fab fa-linkedin"></i></a>
 
-                            <a class="m-1 btn btn-outline-light" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                            <a class="m-1 btn btn-outline-light" target="_blank"
+                             href="https://www.instagram.com/archwaretech/" role="button"><i class="fab fa-instagram"></i></a>
 
-                            <a class="m-1 btn btn-outline-light" href="#!" role="button"><i class="fab fa-whatsapp"></i></a>
+                            {{-- <a class="m-1 btn btn-outline-light" href="#!" role="button"><i class="fab fa-whatsapp"></i></a> --}}
                         </section>
                     </div>
 

@@ -272,3 +272,5 @@
     }
     window.addEventListener('scroll', triggerNav);
 </script>
+
+@include('analytics')
