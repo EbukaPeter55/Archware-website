@@ -8,7 +8,7 @@
         </a>
         <!-- HAMBURGER -->
         <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars "></i>
         </button>
         <button class="navbar-toggler hamburger-icon hamburger-mobile" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: white;">
             <i class="fas fa-bars"></i>
@@ -267,7 +267,7 @@
                 // console.log(nav);
                 nav.classList.remove('nav-link-text');
             })
-      
+
         }
     }
     window.addEventListener('scroll', triggerNav);
