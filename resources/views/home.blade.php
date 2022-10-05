@@ -1,5 +1,8 @@
 @extends('layouts.app')
-
+ {{-- The loading spinner --}}
+ <div class="loader-container">
+    <div class="spinner"></div>
+  </div>
 @section('description',
 'Archware - Africa\'s Leading Software Development Company
 Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
@@ -599,12 +602,23 @@ Software development company helping businesses and individuals take advantage o
         animate();
     });
 
+    // Hide and show a loader logic
+    const loaderContainer = document.querySelector('.loader-container');
 
+    const displayLoading = () => {
+    loaderContainer.style.display = 'block';
+    };
+
+    const hideLoading = () => {
+        loaderContainer.style.display = 'none';
+    };
 
     document.getElementById('sendData').addEventListener('submit', handleSumbit);
 
     function handleSumbit(event) {
         event.preventDefault();
+        displayLoading();
+
 
         // Get all the input field and store them in their unique variable each
         let firstname = document.getElementById('Firstname').value;
@@ -642,6 +656,8 @@ Software development company helping businesses and individuals take advantage o
             .then(handleErrors)
             .then(response => {
                 console.log("ok")
+            hideLoading();
+
                 Swal.fire({
                     icon: 'success',
                     title: 'Message sent, We will get back shortly!',
@@ -653,6 +669,7 @@ Software development company helping businesses and individuals take advantage o
                 res.reset();
             })
             .catch(error => {
+            hideLoading();
                 console.log(error, 'wrong')
                 Swal.fire({
                     icon: 'error',
