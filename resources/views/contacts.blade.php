@@ -131,7 +131,6 @@ function handleSumbit(event){
     // alert(JSON.stringify(contactData));
     // alert(`${firstName} and ${lastName}`);
     console.log(contactData);
-     isLoading = true;
 
         function handleErrors(response) {
         if (!response.ok) {
