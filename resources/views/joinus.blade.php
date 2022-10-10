@@ -95,7 +95,7 @@ Software development company helping businesses and individuals take advantage o
             <p style="font-weight: 700;font-size: 40px;line-height: 60px;color: #040856;">Ready To Join Us?</p>
         </div>
         <div class="pt-2" style="width: 54px; height: 5px; background: #A6CE39; border-radius: 9000px;"></div>
-        <form id="joinusData">
+        <form id="joinusData" enctype="mutipart/form-data">
             <div class="pt-5">
                 <input class="pt-3" required type="text" id="fullname" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="Your Full Name">
             </div>
@@ -118,21 +118,6 @@ Software development company helping businesses and individuals take advantage o
             <div>
                 <input type="file" id="resume_directory">
             </div>
-            {{-- <div class="d-flex flex-row flex-wrap">
-                <div class="col-md-4" style="font-weight: 600;font-size: 17px;line-height: 72px;color: #0D2158;">Upload Your CV</div>
-                <div class="col-md-4 TopHeader mx-2">
-                    <div class="InputBox">
-                        <input type="file" required placeholder="" id="resume_directory" style=" position:absolute;width:94px; height:24px; opacity:0; margin:0rem 5rem">
-                        <div style="margin-left: 4rem;">
-                        <p class="btn btn-outline-light my-1 mx-3" style="padding: 0px 9px 3px 8px;font-weight: 500;font-size: 11px;align-items:center;text-align:center; line-height: 26px;background: #1F3F95;border-radius: 6px; width: 83px;height: 30px;">
-                            Choose File
-                        </p></div>
-
-                        <ul class="SearchResult" id="SearchResult"></ul>
-                    </div>
-                </div>
-
-            </div> --}}
 
             <div class="container mt-5 pt-5 sumitbtn">
                 <a class="py-3" style="text-align:center;"> 
@@ -181,20 +166,10 @@ function handleJoinus(event){
     formData.append("position", position);
     formData.append("brief_info", brief_info);
 
-    console.log(fileData.files);
-    formData.append("fileData", fileData.files[0]);
+    console.log(fileData.files[0]);
+    // console.log(formData);
+    formData.append("resume_directory", fileData.files[0]);
 
-   
-
-    // img.addEventListener('change', )
-
-    // data.append('resume_directory', resume_directory);
-    // console.log(data);
-
-
-    // alert(JSON.stringify(contactData));
-    // alert(`${firstName} and ${lastName}`);
-    // console.log(joinData);
 
         function handleErrors(response) {
         if (!response.ok) {
@@ -207,7 +182,7 @@ function handleJoinus(event){
                 // headers: {
                 //     'Accept': 'application/json, text/plain, */*',
                 // },
-                body: formData
+                body: formData 
         })
         .then(handleErrors)
         .then(response => {
@@ -215,7 +190,7 @@ function handleJoinus(event){
         hideLoading();
             Swal.fire({
                     icon: 'success',
-                    title: 'Application received, We will get back shortly!',
+                    title: 'Application received, We will get back if we think you are a great fit',
                     showConfirmButton: false,
                     timer: 1500,
 
