@@ -109,19 +109,24 @@ Software development company helping businesses and individuals take advantage o
                 <p>
             </div>
             <div class="pt-3">
-                <label style="font-weight: 400;font-size: 16px;line-height: 155%;color: #A6A0A0;">Why should we choose you? </label>
-
-                <div class="pt-3">
-                    <textarea class="form-control" class="" required id="brief_info" placeholder="" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" rows="5"></textarea>
-                </div>
+                <label style="font-weight: 400;font-size: 16px;line-height: 155%;color: #A6A0A0;"> </label>
             </div>
-            <div>
+
+            <div class="">
+                <textarea class="form-control" class="" required id="brief_info" placeholder="Why should we choose you?" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" rows="5"></textarea>
+            </div>
+            <div class="pt-3">
+                <label 
+                 style="font-weight: 400;font-size: 16px;line-height: 155%;color: #A6A0A0;">Upload resume</label><br>
                 <input type="file" id="resume_directory">
             </div>
 
-            <div class="container mt-5 pt-5 sumitbtn">
+            <div class="container mt-2 sumitbtn">
                 <a class="py-3" style="text-align:center;"> 
-                    <button type="submit" class="small-mobile-long-button" style="display: flex;justify-content: center;align-items: center;padding: 14px 16px;gap: 4px;width: 440px;height: 52px;background: #1F3F95;border-radius: 8px; color:#FFFFFF">
+                    <button type="submit" class="small-mobile-long-button" style="display: flex;justify-content: center;
+                    align-items: center; gap: 4px;width: 440px;height: 52px;
+                    border: none;
+                    background: #1F3F95;border-radius: 8px; color:#FFFFFF">
                         Submit
                     </button>
                 </a>
@@ -195,7 +200,7 @@ function handleJoinus(event){
                     timer: 1500,
 
                   })
-                //   res.reset();
+                  res.reset();
         })
         .catch(error => {console.log(error, 'wrong')
         hideLoading();
@@ -204,9 +209,8 @@ function handleJoinus(event){
                     title: 'Message not sent, something went wrong!',
                     showConfirmButton: false,
                     timer: 1500,
-
                   })
-
+                  res.reset();
         });
 
 
