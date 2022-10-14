@@ -22,7 +22,8 @@ Software development company helping businesses and individuals take advantage o
             </p>
         </div>
         <div class="archwarejo-width-top-head">
-            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/Rectangle 651fn.png">
+            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/Rectangle 651fn.png"
+            alt="Farm management hero section image">
         </div>
     </section>
 </div>
@@ -33,7 +34,7 @@ Software development company helping businesses and individuals take advantage o
 
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
     <div class="archwarejo-width-top">
-        <img class="img-fluid image-width-tab" src="/customImages/Group 66 (1).png">
+        <img class="img-fluid image-width-tab" src="/customImages/Group 66 (1).png" alt="A farm field image"/>
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
         <p class="pt-1">
@@ -64,7 +65,7 @@ Software development company helping businesses and individuals take advantage o
         <div class=" d-flex flex-row flex-wrap justify-content-center">
 
             <div class=" card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
-                <img src="/customImages/Rectangle 661 (9).png" alt="" style="object-fit:cover;">
+                <img src="/customImages/Rectangle 661 (9).png" alt="Risk management image" style="object-fit:cover;">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Risk Management
@@ -78,7 +79,7 @@ Software development company helping businesses and individuals take advantage o
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-                <img src="/customImages/Rectangle 661 (10).png" alt="">
+                <img src="/customImages/Rectangle 661 (10).png" alt="Crop management image"/>
                 <div class="archware-card-padding-left px-2 py-4 ">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Crop Management
@@ -92,7 +93,7 @@ Software development company helping businesses and individuals take advantage o
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-                <img src="/customImages/Rectangle 661 (11).png" alt="">
+                <img src="/customImages/Rectangle 661 (11).png" alt="Tool management image"/>
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Tool Management System

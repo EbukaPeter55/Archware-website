@@ -23,7 +23,7 @@ landscape.')
                 </p>
             </div>
             <div class="archwarejo-width-top-head">
-                <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/mobile-app.png">
+                <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/mobile-app.png" alt="Mobile phone image">
             </div>
         </section>
     </div>
@@ -31,7 +31,7 @@ landscape.')
 
     <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
         <div class="archwarejo-width-top">
-            <img class="img-fluid image-width-tab" src="/customImages/Rectangle 675.png">
+            <img class="img-fluid image-width-tab" src="/customImages/Rectangle 675.png" alt="working laptop and coffee image">
         </div>
         <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
             <p>
@@ -51,10 +51,10 @@ landscape.')
                     justify-content-center align-items-center block-display-tab section-top">
             <p class="text-label-mobile py-5" style="font-weight: 500; font-size: 25px; line-height: 34px;
                             text-align: center; color: #FFFFFF; mix-blend-mode: normal;">
-                <img src="/customImages/Vector.png" class="vector-apps px-4">
-                <img src="/customImages/Vector (1).png" class="vector-apps px-4">
-                <img src="/customImages/Group 65.png" class="vector-apps px-4">
-                <img src="/customImages/Vector (3).png" class="vector-apps px-4">
+                <img src="/customImages/Vector.png" class="vector-apps px-4" alt="React">
+                <img src="/customImages/Vector (1).png" class="vector-apps px-4" alt="tool">
+                <img src="/customImages/Group 65.png" class="vector-apps px-4" alt="tool">
+                <img src="/customImages/Vector (3).png" class="vector-apps px-4" alt="tool">
             </p>
         </section>
 
@@ -116,7 +116,7 @@ landscape.')
     <section class="container mt-3 pt-5">
         <div class="d-flex flex-row flex-wrap justify-content-center">
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
-                <img src="/customImages/Rectangle661.png" alt="" style="object-fit:cover;">
+                <img src="/customImages/Rectangle661.png" alt="Native mobile app" style="object-fit:cover;">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Native Mobile App
@@ -128,7 +128,7 @@ landscape.')
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-                <img src="/customImages/Rectangle 661 (1).png" alt="">
+                <img src="/customImages/Rectangle 661 (1).png" alt="Cross platform app development">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Cross Platform App Development
@@ -140,7 +140,7 @@ landscape.')
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-                <img src="/customImages/Rectangle 661 (2).png" alt="">
+                <img src="/customImages/Rectangle 661 (2).png" alt="Hybrid app development">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Hybrid App Development

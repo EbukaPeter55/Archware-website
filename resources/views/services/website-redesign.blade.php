@@ -22,7 +22,7 @@ landscape.')
             </p>
         </div>
         <div class="archwarejo-width-top-head">
-            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/webRectangle651.png">
+            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/webRectangle651.png" alt="website redesign image">
         </div>
     </section>
 </div>
@@ -30,7 +30,7 @@ landscape.')
 
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
     <div class="archwarejo-width-top">
-        <img class="img-fluid image-width-tab" src="/customImages/Rectangle 674.png">
+        <img class="img-fluid image-width-tab" src="/customImages/Rectangle 674.png" alt="image of a lady on her computer"/>
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
         <p>
@@ -89,7 +89,7 @@ landscape.')
 <section class="container mt-3 pt-5">
     <div class="d-flex flex-row flex-wrap justify-content-center">
         <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
-            <img src="{{ asset('customImages/Rectangle 661 (6).png') }}" alt="" style="object-fit:cover;">
+            <img src="{{ asset('customImages/Rectangle 661 (6).png') }}" alt="B2B website redesign" style="object-fit:cover;">
             <div class="archware-card-padding-left px-2 py-4">
                 <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     B2B Website Redesign
@@ -102,7 +102,7 @@ landscape.')
             </div>
         </div>
         <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-            <img src="{{ asset('customImages/Rectangle 661 (7).png') }}" alt="">
+            <img src="{{ asset('customImages/Rectangle 661 (7).png') }}" alt="B2C website redesign image">
             <div class="archware-card-padding-left px-2 py-4">
                 <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     B2C Website Redesign
@@ -115,7 +115,7 @@ landscape.')
             </div>
         </div>
         <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-            <img src="{{ asset('customImages/Rectangle 661 (8).png') }}" alt="">
+            <img src="{{ asset('customImages/Rectangle 661 (8).png') }}" alt="E-commerce website redesign">
             <div class="archware-card-padding-left px-2 py-4">
                 <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Ecommerce Website Redesign

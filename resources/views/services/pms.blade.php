@@ -22,7 +22,7 @@ Software development company helping businesses and individuals take advantage o
             </p>
         </div>
         <div class="archwarejo-width-top-head">
-            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/Rectangle651pms.png">
+            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/Rectangle651pms.png" alt="a man typing. Project management image">
         </div>
     </section>
 </div>
@@ -31,7 +31,7 @@ Software development company helping businesses and individuals take advantage o
 
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
     <div class="archwarejo-width-top">
-        <img class="img-fluid image-width-tab " src="/customImages/Rectangle 673.png">
+        <img class="img-fluid image-width-tab " src="/customImages/Rectangle 673.png" alt="laptop and notepad">
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
         <p class="pt-3">
@@ -55,12 +55,12 @@ Software development company helping businesses and individuals take advantage o
                     justify-content-center align-items-center section-top">
         <p class="text-label-mobile py-5" style="font-weight: 500; font-size: 25px; line-height: 34px;
                             text-align: center; color: #FFFFFF; mix-blend-mode: normal;">
-            <img src="/customImages/pmsVector.png" class="vector-apps px-5">
-            <img src="/customImages/pmsVector (2).png" class="vector-apps px-5">
-            <img src="/customImages/pmsVector (3).png" class="vector-apps px-5">
-            <img src="/customImages/pmsVector (4).png" class="vector-apps px-5">
-            <img src="/customImages/pmsVector (5).png" class="vector-apps px-5">
-            <img src="/customImages/pmsVector (6).png" class="vector-apps px-5">
+            <img src="/customImages/pmsVector.png" class="vector-apps px-5" alt="tools">
+            <img src="/customImages/pmsVector (2).png" class="vector-apps px-5" alt="tools">
+            <img src="/customImages/pmsVector (3).png" class="vector-apps px-5" alt="technology">
+            <img src="/customImages/pmsVector (4).png" class="vector-apps px-5" alt="technology">
+            <img src="/customImages/pmsVector (5).png" class="vector-apps px-5" alt="technology">
+            <img src="/customImages/pmsVector (6).png" class="vector-apps px-5" alt="technology">
         </p>
     </section>
 </div>
@@ -78,7 +78,7 @@ Software development company helping businesses and individuals take advantage o
         <div class=" d-flex flex-row flex-wrap justify-content-center">
 
             <div class=" card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
-                <img src="/customImages/Rectangle 661 (3).png" alt="" style="object-fit:cover;">
+                <img src="/customImages/Rectangle 661 (3).png" alt="" style="object-fit:cover;" alt="program and time management image">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Programme And Time Management
@@ -91,7 +91,7 @@ Software development company helping businesses and individuals take advantage o
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-                <img src="/customImages/Rectangle 661 (4).png" alt="">
+                <img src="/customImages/Rectangle 661 (4).png" alt="Project management consulting.">
                 <div class="archware-card-padding-left px-2 py-4 ">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Project Management Consulting
@@ -104,7 +104,7 @@ Software development company helping businesses and individuals take advantage o
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-                <img src="/customImages/Rectangle 661 (5).png" alt="">
+                <img src="/customImages/Rectangle 661 (5).png" alt="Project management outsourcing">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Project management Outsourcing
@@ -122,7 +122,8 @@ Software development company helping businesses and individuals take advantage o
 
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab experience-body-with-pix-mobile" style="background: #1F3F95; border-radius: 20px 20px;">
     <div class="archwarejo-width-top">
-        <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom" src="/customImages/pmsRectangle.png">
+        <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom" src="/customImages/pmsRectangle.png"
+        alt="why choose us image. ">
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
         <h2 style="font-weight: 700;font-size: 35px;line-height: 72px;color: #FFFFFF;">Why Choose Us?</h2>
