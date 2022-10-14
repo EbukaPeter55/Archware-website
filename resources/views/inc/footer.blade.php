@@ -207,19 +207,19 @@
 
                         <ul class="list-unstyled mb-0 fw-lighter">
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Home</a>
+                                <a href="/" class="text-white text-decoration-none" style="font-size:medium;">Home</a>
                             </li>
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">About Us</a>
+                                <a href="/#aboutus" class="text-white text-decoration-none" style="font-size:medium;">About Us</a>
                             </li>
                             <li class="pb-2">
                                 <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Services</a>
                             </li>
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Subsidiaries</a>
+                                <a href="/join-us" class="text-white text-decoration-none" style="font-size:medium;">Join us</a>
                             </li>
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Franchise</a>
+                                <a href="/contacts" class="text-white text-decoration-none" style="font-size:medium;">Contact us</a>
                             </li>
                         </ul>
                     </div>
