@@ -4,8 +4,11 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\Application;
+use App\Notifications\Recruitment;
+use App\Notifications\RecruitmentNotification;
 use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
 
@@ -56,7 +59,7 @@ class RecruitmentController extends Controller
                     'fullname' => 'required|string',
                     'email' => 'required|email',
                     'position' => 'required|string',
-                    'brief_info' => 'required|required',
+                    'brief_info' => 'required',
                     'resume_directory'   => 'required|max:5000|mimes:doc,pdf,docx,zip',
                 ]
             );
@@ -79,7 +82,7 @@ class RecruitmentController extends Controller
                 $resume_directory = "noresume.pdf";
             }
 
-            $application = Application::create([
+            Application::create([
                 'resume_directory'  => $resume_directory,
                 'fullname' => $request->fullname,
                 'position' => $request->position,
@@ -87,17 +90,17 @@ class RecruitmentController extends Controller
                 'brief_info' => $request->brief_info,
             ]);
 
-            /*
-                $message = [
-                    'fullname' => $request->fullname,
-                    'position' => $request->position,
-                    'email' => $request->email,
-                    'brief_info' => $request->brief_info,
-                    'resume_directory' => $request->resume_directory,
-                ];
 
-                Notification::route('mail', 'Info@arcwaretechgroup.com')->notify(new ContactMessage($message));
-            */
+            $data = [
+                'fullname' => $request->fullname,
+                'position' => $request->position,
+                'email' => $request->email,
+                'brief_info' => $request->brief_info,
+                'resume_directory' => $request->resume_directory,
+            ];
+
+            Notification::route('mail', 'archwaretechnologies@gmail.com')->notify(new Recruitment($data));
+
 
             return response()->json([
                 'success' => True,
