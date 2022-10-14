@@ -3,10 +3,7 @@
  <div class="loader-container">
     <div class="spinner"></div>
   </div>
-@section('description',
-'Archware - Africa\'s Leading Software Development Company
-Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
-@section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
+
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
 @section('image'){{ asset('customImages/Logo.svg') }}@stop
@@ -21,7 +18,7 @@ Software development company helping businesses and individuals take advantage o
     <div class="mobile-hero" style="">
         <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
             <div style="margin-top: .8rem">
-                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
+                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png" alt="hero image">
             </div>
             <div class="mobile-copy-hero">
                 <h1 class="mobile-hero-title" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
@@ -68,7 +65,7 @@ Software development company helping businesses and individuals take advantage o
                                 </button></a>
                         </div>
                         <div style="margin-top: 7rem">
-                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
+                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png" alt="hero section middle image">
                         </div>
                     </div>
                 </div>
@@ -78,7 +75,7 @@ Software development company helping businesses and individuals take advantage o
                     <!-- Review card -->
                     <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center" style="max-height:70vh">
                         <div style="margin-top: 2rem">
-                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_406/v1660900289/Group_63_1.png">
+                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_406/v1660900289/Group_63_1.png" alt="hero section second image">
                         </div>
 
                         <div>
@@ -118,7 +115,7 @@ Software development company helping businesses and individuals take advantage o
                                 </button></a>
                         </div>
                         <div>
-                            <img class="img-fluid" style="height: 70vh;" src="{{ asset('customImages/Rectangle 651.svg') }}">
+                            <img class="img-fluid" style="height: 70vh;" src="{{ asset('customImages/Rectangle 651.svg') }}" alt="hero section third slide" alt="hero section third slide">
                         </div>
                     </div>
 
@@ -129,7 +126,7 @@ Software development company helping businesses and individuals take advantage o
                     <img class="img-fluid" src="{{ asset('customImages/Vector.svg') }}">
                     </button> -->
                 <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}">
+                    <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}" alt="left and right control slider image">
                     <!-- <span class="carousel-control-next-icon"></span> -->
                 </button>
             </div>
@@ -143,7 +140,7 @@ Software development company helping businesses and individuals take advantage o
 <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
 <section class="container-fluid team-section" style="margin-top: 12%">
     <div class="d-sm-flex flex-row flex-wrap justify-content-center team-wrapper">
-        <img class="col-lg-5 img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg" />
+        <img class="col-lg-5 img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg" alt="why choose archware team"/>
 
         <div class="team-section-right">
             <h2>Why Choose Archware Team?</h2>
@@ -203,7 +200,7 @@ Software development company helping businesses and individuals take advantage o
             <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
                 </button></a>
         </div>
-        <img class="img-fluid" style="width:620px" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" />
+        <img class="img-fluid" style="width:620px" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" alt="over the years image"/>
     </div>
 </section>
 
@@ -212,7 +209,7 @@ Software development company helping businesses and individuals take advantage o
 <section class="container-fluid support" style="margin-top: 4%">
     <div class="d-sm-flex flex-row flex-wrap align-items-center justify-content-evenly support-section">
         <div class="">
-            <img style="width: 100%; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}">
+            <img style="width: 100%; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}" alt="account and expense image /">
         </div>
         <div class="support-section-right text-and-pictures">
             <h2 class="" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
@@ -243,7 +240,7 @@ Software development company helping businesses and individuals take advantage o
             <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
                 </button></a>
         </div>
-        <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_350/v1660497641/Rectangle_650.svg" />
+        <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_350/v1660497641/Rectangle_650.svg" alt="project management image"/>
     </div>
 </section>
 <!--END OF SERVICES BRIEF SECTION -->
@@ -267,7 +264,7 @@ Software development company helping businesses and individuals take advantage o
                     </p>
                 </div>
                 <div class="" style="width: 45%; height: auto; margin-right: -15rem">
-                    <img class="img-fluid" id="laptop" style=" margin-top: 6.2rem; width: 100%;  " src="{{ asset('customImages/Macbook Pro.svg') }}">
+                    <img class="img-fluid" id="laptop" style=" margin-top: 6.2rem; width: 100%;  " src="{{ asset('customImages/Macbook Pro.svg') }}" alt="about us image">
                 </div>
             </div>
         </div>
@@ -279,7 +276,7 @@ Software development company helping businesses and individuals take advantage o
 <section class="container-fluid mission" style="margin-top: 10%">
     <div class="row justify-content-center alignt-items-center mission-wrapper" style="padding-left: 9%; padding-right: 9%;">
         <div class="col-md-5">
-            <img class="img-fluid section4-img" src="{{ asset('customImages/Image.svg') }}">
+            <img class="img-fluid section4-img" src="{{ asset('customImages/Image.svg') }}" alt="mission and vision image">
         </div>
         <div class="col-md-7" style="margin-top: 5%">
             <h1 class="mission-titles px-2" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
@@ -354,12 +351,12 @@ Software development company helping businesses and individuals take advantage o
             </p>
         </div>
         <div class="brand-logo d-flex flex-row flex-wrap justify-content-evenly">
-            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_107/v1660507527/YOUHI_Brand_Manual_4_1.svg">
-            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_141/v1660507975/Layer_1.svg">
+            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_107/v1660507527/YOUHI_Brand_Manual_4_1.svg" alt="brands that trust us image "/>
+            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_141/v1660507975/Layer_1.svg" alt="brands that trust us image "/>
 
             <div class="bottom-logo">
-                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_98/v1660508122/Layer_3.svg">
-                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_108/v1660508646/Fore_1_2x_1.svg">
+                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_98/v1660508122/Layer_3.svg" alt="brands that trust us image ">
+                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_108/v1660508646/Fore_1_2x_1.svg" alt="brands that trust us image ">
             </div>
         </div>
     </div>
@@ -384,7 +381,7 @@ Software development company helping businesses and individuals take advantage o
                 <div class="reviews-card">
 
                     <div class="d-flex flex-row quote-icon-wrapper">
-                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
+                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}" alt="review section image">
                     </div>
 
                     <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
@@ -401,7 +398,7 @@ Software development company helping businesses and individuals take advantage o
                             </p>
                         </div>
                         <div>
-                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem">
+                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem" alt="avatar image /">
                             <p class="mobile-text">
                                 Tosin Adebayo
                             </p>
@@ -437,7 +434,7 @@ Software development company helping businesses and individuals take advantage o
                         </div>
 
                         <div>
-                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem">
+                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem" alt="avatar image">
                             <p class="mobile-text">
                                 Mr. Peterson </p>
                         </div>
@@ -453,7 +450,7 @@ Software development company helping businesses and individuals take advantage o
                 <div class="reviews-card">
 
                     <div class="d-flex flex-row quote-icon-wrapper">
-                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
+                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}" alt="review image">
                     </div>
 
                     <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
@@ -471,7 +468,7 @@ Software development company helping businesses and individuals take advantage o
                         </div>
 
                         <div>
-                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem">
+                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem" alt="avatar image">
                             <p class="mobile-text">
                                 Tolu Adebayo </p>
                         </div>
@@ -485,10 +482,10 @@ Software development company helping businesses and individuals take advantage o
             <!-- Left and right controls/icons -->
             <button class="carousel-control-prev" type="button" data-bs-target="#demoTwo" data-bs-slide="prev">
                 <!-- <span class="carousel-control-prev-icon" style="color: blue;"></span> -->
-                <img class="img-fluid" src="{{ asset('customImages/Vector.svg') }}">
+                <img class="img-fluid" src="{{ asset('customImages/Vector.svg') }}" alt="left control image">
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#demoTwo" data-bs-slide="next">
-                <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}">
+                <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}" alt="Right control image">
                 <!-- <span class="carousel-control-next-icon"></span> -->
             </button>
         </div>
@@ -556,21 +553,21 @@ Software development company helping businesses and individuals take advantage o
                                 hours.</p>
                 </div>
                 <div class="pt-3 mx-5">
-                    <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
+                    <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="phone icon image">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234-807-266-3033, +234-912-207-4233</a>
                     </p>
-                    <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="">
+                    <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="image icon">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwaretechgroup.com</a>
                     </p>
-                    <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="">
+                    <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="address icon">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayanboye Street, Anthony
                             Village, Lagos</a>
                     </p>
                     <p>
-                    <p class="pt-4"><img class="px-2" src="{{ asset('customImages/White.svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (1).svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (2).svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (3).svg') }}">
+                    <p class="pt-4"><img class="px-2" src="{{ asset('customImages/White.svg') }}" alt="social icon"/>
+                        <img class="px-2" src="{{ asset('customImages/White (1).svg') }}" alt="social icon"/>
+                        <img class="px-2" src="{{ asset('customImages/White (2).svg') }}" alt="social icon"/>
+                        <img class="px-2" src="{{ asset('customImages/White (3).svg') }}" alt="social icon"/>
                     </p>
                 </div>
             </div>
