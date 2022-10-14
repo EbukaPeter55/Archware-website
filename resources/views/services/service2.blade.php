@@ -24,7 +24,8 @@
                 </p>
             </div>
             <div class="archwarejo-width-top-head">
-                <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/web design right.png">
+                <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/web design right.png"
+                alt="website design image">
             </div>
         </section>
     </div>
@@ -32,7 +33,7 @@
 
     <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
         <div class="archwarejo-width-top">
-            <img class="img-fluid image-width-tab" src="/customImages/Group 66.png">
+            <img class="img-fluid image-width-tab" src="/customImages/Group 66.png" alt="website design image"/>
         </div>
         <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
             <p>
@@ -62,13 +63,13 @@
             <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
-                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
+                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;" alt="web development">
                 Web App Development
             </span>
             <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
-                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
+                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;" alt="B2B and B2C">
                 B2B & B2C Portals
             </span>
 
@@ -77,21 +78,21 @@
             <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
-                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
+                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;" alt="wordpress development">
                 WordPress Development
             </span>
 
             <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
-                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
+                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;" alt="e-commerce dev">
                 Ecommerce
             </span>
 
             <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
-                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
+                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;" alt="Single page application">
                 Single Page Application
             </span>
 
@@ -99,7 +100,7 @@
             <span class="fw-bold p-3 text-body-mobile"
                 style="font-weight: 400;  font-size: 26px;
                         line-height: 40.3px; color: #040856;">
-                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;">
+                <img src="/customImages/radio.svg" style="width: 12px; height: 12px;" alt="CMS">
                 Content Management System (CMS) Website
             </span>
         </div>
@@ -111,14 +112,14 @@
                 justify-content-center align-items-center block-display-tab section-top">
             <p class="text-label-mobile py-5"
                 style="font-weight: 500;font-size: 25px;line-height: 34px;text-align: center;color: #FFFFFF;mix-blend-mode: normal;">
-                <img src="/customImages/js.png" class="px-5">
-                <img src="/customImages/php.png" class="px-5">
-                <img src="/customImages/html5.png" class="px-5">
-                <img src="/customImages/shopify.png" class="px-5">
-                <img src="/customImages/dotnet.png" class="px-5">
-                <img src="/customImages/wordpress.png" class="px-5">
-                <img src="/customImages/a logo.png" class="px-5">
-                <img src="/customImages/mysql.png" class="px-5">
+                <img src="/customImages/js.png" class="px-5" alt="Javascript">
+                <img src="/customImages/php.png" class="px-5" alt="PHP">
+                <img src="/customImages/html5.png" class="px-5" alt="HTML">
+                <img src="/customImages/shopify.png" class="px-5" alt="S">
+                <img src="/customImages/dotnet.png" class="px-5" alt=".Net">
+                <img src="/customImages/wordpress.png" class="px-5" alt="Wordpress">
+                <img src="/customImages/a logo.png" class="px-5" alt="A">
+                <img src="/customImages/mysql.png" class="px-5" alt="Mysql">
             </p>
         </section>
 
@@ -146,7 +147,7 @@
         <div class=" d-flex flex-row flex-wrap justify-content-center">
 
             <div class=" card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
-                <img src="/customImages/Rectangle 661.jpg" alt="" style="object-fit:cover;">
+                <img src="/customImages/Rectangle 661.jpg" alt="" style="object-fit:cover;" alt="web development">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Web App Develppment
@@ -160,7 +161,7 @@
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-                <img src="/customImages/Rectangle Ecommerce.jpg" alt="">
+                <img src="/customImages/Rectangle Ecommerce.jpg" alt="E-commerce">
                 <div class="archware-card-padding-left px-2 py-4 ">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         Ecommerce
@@ -174,7 +175,7 @@
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-                <img src="/customImages/Rectangle b2b.jpg" alt="">
+                <img src="/customImages/Rectangle b2b.jpg" alt="B2B & B2C portals">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                         B2B & B2C Portals
@@ -195,7 +196,7 @@
         style="background: #1F3F95; border-radius: 20px 20px;">
         <div class="archwarejo-width-top">
             <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom"
-                src="/customImages/Rectangle corporate.jpg">
+                src="/customImages/Rectangle corporate.jpg" alt="Corporate website solution">
         </div>
         <div
             class="archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
