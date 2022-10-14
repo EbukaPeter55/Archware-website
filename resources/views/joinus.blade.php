@@ -28,7 +28,7 @@ Software development company helping businesses and individuals take advantage o
 <section class="container pt-5">
     <div class=" d-flex flex-row flex-wrap justify-content-center pt-5">
         <div class="col-lg-4 col-md-11 " >
-            <img class="join-us-img img-fluid pt-4" src="/customImages/Rectangle 682.png" >
+            <img class="join-us-img img-fluid pt-4" src="/customImages/Rectangle 682.png" alt="corporate lady typing"/>
 
         </div>
         <div class="col-lg-8 px-3 pt-3 mt-3 px-4 theext" style="font-weight: 400;font-size: 18px;line-height: 172%;text-align: justify;color: rgba(4, 8, 86, 0.7);">
@@ -55,7 +55,7 @@ Software development company helping businesses and individuals take advantage o
         insurance, paid time off, competitive salaries, and more.
         </div>
         <div class="col-lg-4 pt-4 px-2">
-            <img class="join-us-img img-fluid" src="/customImages/Rectangle 684.png" style="float:right;">
+            <img class="join-us-img img-fluid" src="/customImages/Rectangle 684.png" style="float:right;" alt="employees training image"/>
 
         </div>
 
@@ -73,8 +73,8 @@ Software development company helping businesses and individuals take advantage o
             <div class=" col-lg-8 pr-5">
                 <div class="container-fluid">
                     <div class="basic-skill-sect mx-5">
-                    <img src="{{ asset('customImages/quote.png') }}" style="position:absolute; margin-top:0px">
-                        <h1 class="basic-skill-text mt-3 pt-3 " style="font-style: normal;font-weight: 600;font-size: 23px;line-height: 164%;text-align: justify;color: #FFFFFF;">
+                    <img src="{{ asset('customImages/quote.png') }}" style="position:absolute; margin-top:0px" alt="Basic skills and ability image"/>
+                        <h1 class="basic-skill-text mt-3 pt-3 " style="font-style: normal;font-weight: 600;font-size: 23px;line-height: 164%;text-align: justify;color: #FFFFFF;" >
                         Basic skills, ability to work hard, determination and honesty towards the craft are the four simple things needed to 
                         excel at work. you know the rest of it (which is quite a lot) just happens to fall in place. At Archware Group, we 
                         provide you with an enabling environment to reach your maximum potential, surrounded by intelligent forward-looking 
