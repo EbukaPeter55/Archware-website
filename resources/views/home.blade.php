@@ -416,7 +416,7 @@
                 <div class="reviews-card">
 
                     <div class="d-flex flex-row quote-icon-wrapper">
-                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
+                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}" alt="laptop image">
                     </div>
 
                     <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
