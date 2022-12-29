@@ -24,13 +24,56 @@
                     <a class="nav-link archware-nav-title" style="scroll-behavior: smooth;" href="/#aboutus">About
                         Us</a>
                 </li>
-                <div class="dropdown" style="margin-top: .1rem">
+                <!-- navbar -->
+                <div class="">
+                    <h1 class=""></h1>
+                    <div class="dropdown">
+                        <a style="font-weight: 500;font-size: 16px;line-height: 19px;color: #1F3F95; text-decoration:none" 
+                        class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Services </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+
+                            <li class="dropdown dropend">
+                                <a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Software Development</a>
+                                <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu1 ">
+
+                                    <li class="dropdown dropend web-dev-card">
+                                        <a class="dropdown-item dropdown-toggle " href="#" id="multilevelDropdownMenu1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web Development</a>
+                                        <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu2">
+                                            <li><a class="dropdown-item" href="#">Responsive Website Design and Development</a></li>
+                                            <li><a class="dropdown-item" href="#">Website Redesign</a></li>
+                                            <li><a class="dropdown-item" href="#">E-commerce/Online Web Stores</a></li>
+                                            <li><a class="dropdown-item" href="#">Web Maintenance</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="dropdown-item web-dev-card" href="#">Mobile App Development</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Project Management System</a></li>
+                            <li><a class="dropdown-item" href="#">Account & Expenses Management System</a></li>
+                            <li><a class="dropdown-item" href="#">Food Bank</a> </li>
+                            <li><a class="dropdown-item" href="#">Farm Management</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    let dropdowns = document.querySelectorAll('.dropdown-toggle')
+                    dropdowns.forEach((dd) => {
+                        dd.addEventListener('click', function(e) {
+                            var el = this.nextElementSibling
+                            el.style.display = el.style.display === 'block' ? 'none' : 'block'
+                        })
+                    })
+                </script>
+                <!-- navbar -->
+
+                <!--<div class="dropdown" style="margin-top: .1rem">
                     <li class="btn btn-white archware-nav-title nav-drop dropdown-toggle" data-bs-toggle="dropdown">
                         Our Services
                     </li>
                     <ul class="dropdown-menu dropdown-style">
                         <li class="nav-item dropdown">
-                            <a class="dropdown-toggle dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="dropdown-toggle dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="multilevelDropdownMenu1">
                                 Software Development
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -69,13 +112,13 @@
                             </ul>
                         </li>
                         <!--<li><a class="dropdown-item" href="#">Archware Training Institute</a></li>-->
-                        <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
+                <!-- <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
                         <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management
                                 System</a></li>
                         <li><a class="dropdown-item" href="/food-bank">Food Bank</a></li>
                         <li><a class="dropdown-item" href="/farm-management">Farm Management</a></li>
                     </ul>
-                </div>
+                </div>-->
                 <li class="nav-item px-3">
                     <!--<a class="nav-link archware-nav-title" href="/">Our Team</a>-->
                 </li>
@@ -106,7 +149,7 @@
         data-target="#navbar1">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbar1">
+    <!--<div class="collapse navbar-collapse" id="navbar1">
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
                 <a href="#" id="menu" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" data-display="static">Our Services</a>
@@ -119,7 +162,6 @@
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item">
                                         <a href="#">Responsive Website Design and Development</a>
-
                                     </li>
                                     <li class="dropdown-item">
                                         <a href="#">Website Redesign</a>
@@ -155,13 +197,14 @@
                 </ul>
             </li>
 
-    </div>
+    </div>-->
 </nav> --}}
+
+<!-- navbar -->
 
 
 <!-- THE SCRIPT TO CONTROL THE STATE OF THE NAVBAR -->
 <script type="text/javascript">
-
     // The code commented out is for the the navbar dropdown
     // $('.dropdown-submenu > a').on("click", function(e) {
     //     var submenu = $(this);

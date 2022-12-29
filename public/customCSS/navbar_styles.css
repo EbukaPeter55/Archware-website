@@ -178,3 +178,9 @@ ul li a:nth-child(2) {
         width: 100%!important;
     }
 }
+
+.web-dev-card{
+   
+    position: relative !important;
+}
+
