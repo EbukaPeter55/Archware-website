@@ -25,7 +25,7 @@ landscape.')
             </p>
         </div>
         <div class="archwarejo-width-top-head">
-            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/ecommerce list.png">
+            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/ecommerce list.png" alt="E-commerce web image">
         </div>
     </section>
 </div>
@@ -34,7 +34,7 @@ landscape.')
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
 
     <div class="archwarejo-width-top ">
-        <img class="img-fluid image-width-tab " src="/customImages/ecommerce target client.png">
+        <img class="img-fluid image-width-tab " src="/customImages/ecommerce target client.png" alt="social e-commerce">
     </div>
 
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
@@ -72,7 +72,7 @@ landscape.')
         <div class=" d-flex flex-row flex-wrap justify-content-center">
 
             <div class=" card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0;">
-                <img src="/customImages/Broaden Your Brand.jpg" alt="" style="object-fit:cover;">
+                <img src="/customImages/Broaden Your Brand.jpg" alt="Broadedn your brand image" style="object-fit:cover;">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Broaden Your Brand
@@ -85,7 +85,7 @@ landscape.')
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-                <img src="/customImages/More Convenience.png" alt="">
+                <img src="/customImages/More Convenience.png" alt="More convenience image">
                 <div class="archware-card-padding-left px-2 py-4 ">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     More Convenience
@@ -98,7 +98,7 @@ landscape.')
                 </div>
             </div>
             <div class="card col-lg-3 mx-3 native remove-shadow-mobile" style="box-shadow:13px 13px 13px #e0e0e0 ;">
-                <img src="/customImages/Marketing Opportunities.png" alt="">
+                <img src="/customImages/Marketing Opportunities.png" alt="Marketing opportunities image">
                 <div class="archware-card-padding-left px-2 py-4">
                     <h2 class="archware-card-title text-align-left-body" style="font-weight: 700;font-size: 26px;line-height: 155%;text-align: center;color: #0D2158;">
                     Marketing Opportunities
@@ -115,7 +115,7 @@ landscape.')
 
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab experience-body-with-pix-mobile" style="background: #1F3F95; border-radius: 20px 20px;">
     <div class="archwarejo-width-top">
-        <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom" src="/customImages/Our Experience.png">
+        <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom" src="/customImages/Our Experience.png" alt="our experience image">
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
         <h2 class="text-white-header">Our Experience</h2>

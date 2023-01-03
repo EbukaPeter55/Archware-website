@@ -1,10 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" id="navMain" style="padding-top: 1.2rem">
     <div class="container col-md-11">
         <a class="navbar-brand colored-logo" href="/" style="margin-left: 7%;">
-            <img src="{{ asset('customImages/Logo.svg') }}">
+            <img src="{{ asset('customImages/Logo.svg') }}" alt="logo">
         </a>
         <a class="navbar-brand light-logo" href="/" style="margin-left: 7%;">
-            <img src="{{ asset('customImages/Logo.svg') }}">
+            <img src="{{ asset('customImages/Logo.svg') }}" alt="logo image">
         </a>
         <!-- HAMBURGER -->
         <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -127,8 +127,13 @@
                     <a class="nav-link archware-nav-title" href="/services">Services</a>
                 </li> -->
                 <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="/#faq">FAQ</a>
+                </li>
+                
+                <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/join-us">Join Us</a>
                 </li>
+
             </ul>
             <ul class="navbar-nav d-flex flex-row  right-btn-container" style="margin-right: 9%; margin-top: .5rem">
                 <li class="nav-item me-3 me-lg-0">

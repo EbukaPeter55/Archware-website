@@ -3,10 +3,6 @@
  <div class="loader-container">
     <div class="spinner"></div>
   </div>
-@section('description',
-    'Archware - Africa\'s Leading Software Development Company
-Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
-@section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
 @section('image'){{ asset('customImages/Logo.svg') }}@stop
@@ -71,20 +67,20 @@ Software development company helping businesses and individuals take advantage o
                                 hours.</p>
                 </div>
                 <div class="pt-3 mx-5">
-                    <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
+                    <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="phone">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234-807-266-3033,</a>
                     </p>
-                    <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="">
+                    <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="email icon">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwaretechgroup.com</a>
                     </p>
-                    <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="">
+                    <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="address icon">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayanboye Street, Anthony Village, Lagos</a>
                     </p>
                     <p>
-                    <p class="pt-4"><img class="px-2" src="{{ asset('customImages/White.svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (1).svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (2).svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (3).svg') }}">
+                    <p class="pt-4"><img class="px-2" src="{{ asset('customImages/White.svg') }}" alt="globe icon">
+                        <img class="px-2" src="{{ asset('customImages/White (1).svg') }}" alt="social-icon">
+                        <img class="px-2" src="{{ asset('customImages/White (2).svg') }}" alt="social-icon">
+                        <img class="px-2" src="{{ asset('customImages/White (3).svg') }}" alt="social-icon">
                     </p>
                 </div>
             </div>

@@ -1,3 +1,7 @@
+@section('description',
+'A software development company that assists both individuals and businesses in utilising the advantages of the global technology landscape.')
+@section('title', 'Archware - Africa\'s Leading Software Development Company')
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
