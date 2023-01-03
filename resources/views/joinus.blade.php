@@ -115,7 +115,8 @@
             <div class="pt-3">
                 <label 
                  style="font-weight: 400;font-size: 16px;line-height: 155%;color: #A6A0A0;">Upload resume</label><br>
-                <input type="file" id="resume_directory">
+                <input type="file" id="resume_directory"
+                required>
             </div>
 
             <div class="container mt-2 sumitbtn">
