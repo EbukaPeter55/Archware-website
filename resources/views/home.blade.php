@@ -1,6 +1,6 @@
 @extends('layouts.app')
-{{-- The loading spinner --}}
-<div class="loader-container">
+ {{-- The loading spinner --}}
+ <div class="loader-container">
     <div class="spinner"></div>
   </div>
 
@@ -11,7 +11,7 @@
 @section('content')
 
 
-    {{-- @gbolahan --}}
+{{-- @gbolahan --}}
 
 <section class="container-fluid">
     <!-- MOBILE HERO SECTION -->
@@ -27,42 +27,38 @@
                 </h1>
                 <p class="mt-3" style="font-weight: 400;font-size: 1rem;
                                 color: rgba(4, 8, 86, 0.7);">
-                        Our agile approach to problem-solving and strategic planning
-                        helps you build a better structure and achieve better results in
-                        your business.</p>
-                    <a href="/project-management">
-                        <button class="small-mobile-long-button mt-3">
-                            Read More
-                        </button></a>
-                </div>
+                    Our agile approach to problem-solving and strategic planning
+                    helps you build a better structure and achieve better results in
+                    your business.</p>
+                <a href="/project-management">
+                    <button class="small-mobile-long-button mt-3">
+                        Read More
+                    </button></a>
             </div>
         </div>
-        <!-- END OF MOBILE HERO SECTION -->
+    </div>
+    <!-- END OF MOBILE HERO SECTION -->
 
-        <!-- HERO SECTION -->
-        <section class="container-fluid hero-wrapper"
-            style="background: #F5F5F5!important; margin-top: 5rem; height: auto;">
-            @include('errors.error_message')
-            <!-- THE CAROUSEL -->
-            <div id="demo" class="carousel slide" data-bs-ride="carousel">
-                <!-- The slideshow/carousel -->
-                <div class="carousel-inner" style="max-height:70vh">
-                    <!-- First slide -->
-                    <div class="carousel-item active" style="height:70vh">
-                        <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
-                            <div>
-                                <h1 class=""
-                                    style="font-weight: 700; color: #040856; font-size: 3.125rem; margin-top: -1rem">
-                                    <br><br><b>Excellent Tech-based <br> Solutions for Businesses</b>
-                                </h1>
-                                <p class="mt-3"
-                                    style="font-weight: 400;font-size: 16px;
+    <!-- HERO SECTION -->
+    <section class="container-fluid hero-wrapper" style="background: #F5F5F5!important; margin-top: 5rem; height: auto;">
+        @include('errors.error_message')
+        <!-- THE CAROUSEL -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner" style="max-height:70vh">
+                <!-- First slide -->
+                <div class="carousel-item active" style="height:70vh">
+                    <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center">
+                        <div>
+                            <h1 class="" style="font-weight: 700; color: #040856; font-size: 3.125rem; margin-top: -1rem">
+                                <br><br><b>Excellent Tech-based <br> Solutions for Businesses</b>
+                            </h1>
+                            <p class="mt-3" style="font-weight: 400;font-size: 16px;
         color: rgba(4, 8, 86, 0.7);">
-                                    Our agile approach to problem-solving and strategic planning helps you build
-                                    a<br> better structure and achieve better results in your business.</p>
-                                <a href="/project-management">
-                                    <button class="small-mobile-long-button mt-3"
-                                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
+                                Our agile approach to problem-solving and strategic planning helps you build
+                                a<br> better structure and achieve better results in your business.</p>
+                            <a href="/project-management">
+                                <button class="small-mobile-long-button mt-3" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                         border: none;color: #ffffff;border-radius: 8px;
                         background: #1F3F95;">
                                     Read More
@@ -72,6 +68,7 @@
                             <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png" alt="hero section middle image">
                         </div>
                     </div>
+                </div>
 
                 <!-- Second slide -->
                 <div class="carousel-item hide-mobile" style="height:70vh">
@@ -81,42 +78,37 @@
                             <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_406/v1660900289/Group_63_1.png" alt="hero section second image">
                         </div>
 
-                            <div>
-                                <h1 class="pt-4" style="font-weight: 700; color: #040856; font-size: 3.12rem;">
-                                    Acquire Tech Skills for <br> a Borderless Career
-                                </h1>
-                                <p class="mt-4"
-                                    style="font-weight: 400;font-size: 1rem; color: rgba(4, 8, 86, 0.7);
+                        <div>
+                            <h1 class="pt-4" style="font-weight: 700; color: #040856; font-size: 3.12rem;">
+                                Acquire Tech Skills for <br> a Borderless Career
+                            </h1>
+                            <p class="mt-4" style="font-weight: 400;font-size: 1rem; color: rgba(4, 8, 86, 0.7);
                                             max-width: 36.25rem; line-height: 155%;">
-                                    Become an expert in tech without prior knowledge and stay ahead of the <br> global
-                                    market and competition.
-                                </p>
-                                <a href="#">
-                                    <button class="small-mobile-long-button mt-5"
-                                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
+                                Become an expert in tech without prior knowledge and stay ahead of the <br> global market and competition.
+                            </p>
+                            <a href="#">
+                                <button class="small-mobile-long-button mt-5" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                         border: none;color: #ffffff;border-radius: 8px;
                         background: #1F3F95;">
-                                        Read More
-                                    </button></a>
-                            </div>
+                                    Read More
+                                </button></a>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Third slide -->
-                    <div class="carousel-item hide-mobile" style="height:70vh">
-                        <div class="d-sm-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
-                            <div style="padding-bottom: 2%;">
-                                <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;">
-                                    <br><br>Top-notch Website<br> Designs and Development
-                                </h1>
-                                <p class="mt-4"
-                                    style="font-weight: 400;font-size: 16px;
+                <!-- Third slide -->
+                <div class="carousel-item hide-mobile" style="height:70vh">
+                    <div class="d-sm-flex flex-row flex-wrap justify-content-between" style="padding-left: 12%;">
+                        <div style="padding-bottom: 2%;">
+                            <h1 class="" style="font-weight: 700; color: #040856; font-size: 50px;">
+                                <br><br>Top-notch Website<br> Designs and Development
+                            </h1>
+                            <p class="mt-4" style="font-weight: 400;font-size: 16px;
         color: rgba(4, 8, 86, 0.7);">
-                                    Get fully optimised and responsive website designs that give your businesses the<br>
-                                    visibility it requires to compete effectively in the global market space.</p>
-                                <a href="/website-design-and-development">
-                                    <button class="small-mobile-long-button mt-5"
-                                        style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
+                                Get fully optimised and responsive website designs that give your businesses the<br>
+                                visibility it requires to compete effectively in the global market space.</p>
+                            <a href="/website-design-and-development">
+                                <button class="small-mobile-long-button mt-5" style="font-weight: 500;font-size: 16px; width: 161px; height: 44px;
                         border: none;color: #ffffff;border-radius: 8px;
                         background: #1F3F95;">
                                     Read more
@@ -125,19 +117,9 @@
                         <div>
                             <img class="img-fluid" style="height: 70vh;" src="{{ asset('customImages/Rectangle 651.svg') }}" alt="hero section third slide" alt="hero section third slide">
                         </div>
-
                     </div>
 
-                    <!-- Left and right controls/icons -->
-                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                        <img class="img-fluid" src="{{ asset('customImages/Vector.svg') }}">
-                        </button> -->
-                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                        <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}">
-                        <!-- <span class="carousel-control-next-icon"></span> -->
-                    </button>
                 </div>
-            </div>
 
                 <!-- Left and right controls/icons -->
                 <!-- <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -149,16 +131,8 @@
                 </button>
             </div>
         </div>
-    </section>
-    <!--END OF WHY CHOOSE ARCHWARE TEAM SECTION -->
 
-    <!-- PROOF OF WORK -->
-    <section class="container-fluid  proof-of-work">
-        <div class="d-md-flex flex-wrap proof-of-work-child justify-content-around web-pow">
-            <div class="web col-md-3 pow-web">
-                <h1 class="incrementTimer website-number" akhi="25">0</h1>
-                <p class="incre pow-body website-number wee-b" style="margin-left: 40px;">Websites</p>
-            </div>
+    </section>
 
 </section>
 <!-- End OF CAROUSEL -->
@@ -196,34 +170,35 @@
             <p class="incre pow-body website-number wee-b" style="margin-left: 40px;">Websites</p>
         </div>
 
-            <div class="customers col-md-3 pow-web">
-                <h1 class="incrementTimer" akhi="20">0</h1>
-                <p class="pow-body" style="margin-left: -10px; ;">Happy customers</p>
-            </div>
+        <div class="web col-md-3 pow-web">
+            <h1 class="incrementTimer website-number" akhi="40">0</h1>
+            <p class="pow-body website-number completed-p" style="margin-left: 0px ; text-align:center">Completed Projects</p>
         </div>
 
-    </section>
-    <!-- END OF PROOF OF WORK -->
+        <div class="customers col-md-3 pow-web">
+            <h1 class="incrementTimer" akhi="20">0</h1>
+            <p class="pow-body" style="margin-left: -10px; ;">Happy customers</p>
+        </div>
+    </div>
 
-    <!-- SERVICES BRIEF SECTION -->
-    </section>
-    <section class="container-fluid proj-man" style="margin-top: 4%">
-        <div class="d-flex flex-row align-items-center flex-wrap justify-content-evenly proj-wrapper">
-            <div class="proj-man-right text-and-pictures">
-                <h2>Mobile App Development</h2>
-                <p>
-                    Over the years, we have developed responsive mobile apps across industries
-                    such as Fin-tech, Banking, Health and many more. Our team of experts is well skilled in
-                    different mobile app development tools such as Atom, Github, Ninox, MobiLoud, React Native, Xcode,
-                    Ionic, Android Studio, etc. With core competence in mobile app design and development, we have developed
-                    world-class
-                    Android, and iOS apps.
-                </p>
-                <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
-                    </button></a>
-            </div>
-            <img class="img-fluid" style="width:620px"
-                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" />
+</section>
+<!-- END OF PROOF OF WORK -->
+
+<!-- SERVICES BRIEF SECTION -->
+</section>
+<section class="container-fluid proj-man" style="margin-top: 4%">
+    <div class="d-flex flex-row align-items-center flex-wrap justify-content-evenly proj-wrapper">
+        <div class="proj-man-right text-and-pictures">
+            <h2>Mobile App Development</h2>
+            <p>
+                Over the years, we have developed responsive mobile apps across industries
+                such as Fin-tech, Banking, Health and many more. Our team of experts is well skilled in
+                different mobile app development tools such as Atom, Github, Ninox, MobiLoud, React Native, Xcode,
+                Ionic, Android Studio, etc. With core competence in mobile app design and development, we have developed world-class
+                Android, and iOS apps.
+            </p>
+            <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
+                </button></a>
         </div>
         <img class="img-fluid" style="width:620px" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" alt="over the years image"/>
     </div>
@@ -245,27 +220,25 @@
                 accounted for and accurate reimbursement claims are made to prevent fraud.</p>
             <a href="/account-expense-system"><button type='button' class="read-more small-mobile-long-button">Read More </button> </a>
         </div>
-    </section>
-    <!--END OF ACCOUNT AND EXPENSE MANAGEMENT SECTION -->
+    </div>
+</section>
+<!--END OF ACCOUNT AND EXPENSE MANAGEMENT SECTION -->
 
-    <!-- PROJECT MANAGEMENT -->
-    <section class="container-fluid proj-man" style="margin-top: 4%">
-        <div class="d-flex flex-row align-items-center flex-wrap justify-content-evenly proj-wrapper">
-            <div class="proj-man-right text-and-pictures">
-                <h2>Project Management</h2>
-                <p>
-                    We collaborate effectively with clients to apply tactics, methods, skills, knowledge, and
-                    experience to achieve specific project objectives within agreed timelines and budgets. Our team
-                    is adept in proper planning, coordination, and execution of projects that meet global standards.
-                    Using project management tools such as Jira, Slack, Trello, Basecamp, Zoho Projects, Liquid Planner,
-                    etc, we manage multiple projects simultaneously and deliver within the project timeframe. We are always
-                    available to help you allocate the right resources needed to achieve your business goals.
-                </p>
-                <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
-                    </button></a>
-            </div>
-            <img class="img-fluid"
-                src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_350/v1660497641/Rectangle_650.svg" />
+<!-- PROJECT MANAGEMENT -->
+<section class="container-fluid proj-man" style="margin-top: 4%">
+    <div class="d-flex flex-row align-items-center flex-wrap justify-content-evenly proj-wrapper">
+        <div class="proj-man-right text-and-pictures">
+            <h2>Project Management</h2>
+            <p>
+                We collaborate effectively with clients to apply tactics, methods, skills, knowledge, and
+                experience to achieve specific project objectives within agreed timelines and budgets. Our team
+                is adept in proper planning, coordination, and execution of projects that meet global standards.
+                Using project management tools such as Jira, Slack, Trello, Basecamp, Zoho Projects, Liquid Planner,
+                etc, we manage multiple projects simultaneously and deliver within the project timeframe. We are always
+                available to help you allocate the right resources needed to achieve your business goals.
+            </p>
+            <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
+                </button></a>
         </div>
         <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_350/v1660497641/Rectangle_650.svg" alt="project management image"/>
     </div>
@@ -294,6 +267,7 @@
                     <img class="img-fluid" id="laptop" style=" margin-top: 6.2rem; width: 100%;  " src="{{ asset('customImages/Macbook Pro.svg') }}" alt="about us image">
                 </div>
             </div>
+        </div>
 
 </section>
 <!-- END OF ABOUT US SECTION -->
@@ -332,49 +306,44 @@
             </ul>
             </p>
         </div>
-    </section>
-    <!-- END OF MISSION AND VISION SECTION -->
+    </div>
+</section>
+<!-- END OF MISSION AND VISION SECTION -->
 
-    <!-- SUBSIDIARIES SECTION -->
-    <!--
-                            <section class="container justify-content-center" style="margin-top: 12%">
-                                <div
-                                    style="height: 270px;right: 153px;top: 2576px;
+<!-- SUBSIDIARIES SECTION -->
+<!--
+                        <section class="container justify-content-center" style="margin-top: 12%">
+                            <div
+                                style="height: 270px;right: 153px;top: 2576px;
         background: linear-gradient(180deg, #063480 0%, #076567 100%);
         border-radius: 21px;">
-                                    <div>
-                                        <h1 class="row justify-content-center pt-5"
-                                            style="font-weight: 700;font-size: 35px; line-height: 116%;text-align: center;color: #FFFFFF;">
-                                            Subsidiaries</h1>
-                                    </div>
-                                    <div class="row justify-content-center pt-3">
-                                        <p style="width: 72px;height: 5px;justify-content: center;background: #FFFFFF;border-radius: 9000px;">
-                                        </p>
-                                    </div>
-                                    <div class="row justify-content-center pt-3">
-                                        <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
-                                        <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
-                                        <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
-                                        <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
-                                        <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
-                                    </div>
+                                <div>
+                                    <h1 class="row justify-content-center pt-5"
+                                        style="font-weight: 700;font-size: 35px; line-height: 116%;text-align: center;color: #FFFFFF;">
+                                        Subsidiaries</h1>
                                 </div>
-                            </section> -->
-    <!-- END OF SUBSIDIARIES SECTION -->
+                                <div class="row justify-content-center pt-3">
+                                    <p style="width: 72px;height: 5px;justify-content: center;background: #FFFFFF;border-radius: 9000px;">
+                                    </p>
+                                </div>
+                                <div class="row justify-content-center pt-3">
+                                    <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
+                                    <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
+                                    <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
+                                    <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
+                                    <p style="margin: 9px;width: 11%;height: 41px;background: #FFFFFF;border-radius: 6px;"></p>
+                                </div>
+                            </div>
+                        </section> -->
+<!-- END OF SUBSIDIARIES SECTION -->
 
-    <!-- BRANDS THAT TRUST US -->
-    <section class="container-fluid brands" style="margin-top: 12%">
-        <div>
-            <div class="brands-heading-wrapper">
-                <div class="brands-heading-title justify-content-center text-center">
-                    <h2>Brands That Trust Us</h2>
-                    <hr class="brands-line">
-                </div>
-                <p class="text-center">
-                    Made up of a dynamic and passionate team of tech enthusiasts, we continuously strive to implement the
-                    very best software innovations, adapting cutting-edge technologies to suit our client's unique business
-                    needs.
-                </p>
+<!-- BRANDS THAT TRUST US -->
+<section class="container-fluid brands" style="margin-top: 12%">
+    <div>
+        <div class="brands-heading-wrapper">
+            <div class="brands-heading-title justify-content-center text-center">
+                <h2>Brands That Trust Us</h2>
+                <hr class="brands-line">
             </div>
             <p class="text-center">
                 Made up of a dynamic and passionate team of tech enthusiasts, we continuously strive to implement the
@@ -390,26 +359,43 @@
                 <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_108/v1660508646/Fore_1_2x_1.svg" alt="brands that trust us image ">
             </div>
         </div>
-    </section>
-    <!-- END OF BRANDS THAT TRUST US -->
+    </div>
+</section>
+<!-- END OF BRANDS THAT TRUST US -->
 
-    <!-- REVIEWS SECTION -->
-    <section class="container-fluid reviews">
-        <div class="text-center justify-content-center title-style">
-            <h1 class="fw-bold archware_h1 reviews-heading">Reviews</h1>
-            <hr class="container archware_header_underline" />
-        </div>
+<!-- REVIEWS SECTION -->
+<section class="container-fluid reviews">
+    <div class="text-center justify-content-center title-style">
+        <h1 class="fw-bold archware_h1 reviews-heading">Reviews</h1>
+        <hr class="container archware_header_underline" />
+    </div>
 
-        <!-- THE CAROUSEL -->
-        <div id="demoTwo" class="carousel slide" data-bs-ride="carousel">
+    <!-- THE CAROUSEL -->
+    <div id="demoTwo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <!-- First slide -->
+            <div class="carousel-item active">
+                <!-- Review card -->
+                <div class="reviews-card">
 
                     <div class="d-flex flex-row quote-icon-wrapper">
                         <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}" alt="review section image">
                     </div>
 
-                        <div class="d-flex flex-row quote-icon-wrapper">
-                            <img class="img-fluid" id="laptop"
-                                src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
+                    <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
+
+                        <div class="card-text">
+                            <p>
+                                Team Archware has been quite impressive in delivering
+                                for us at Youhi Media & Communications,
+                                a modern, clean, and standard website that suits our
+                                business type.
+                            </p>
+                            <p class="desktop-text">
+                                Tosin Adebayo
+                            </p>
                         </div>
                         <div>
                             <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem" alt="avatar image /">
@@ -417,33 +403,34 @@
                                 Tosin Adebayo
                             </p>
                         </div>
-
                     </div>
 
-                    <!-- End of review card -->
                 </div>
 
-                <!-- Second slide -->
-                <div class="carousel-item">
-                    <!-- Review card -->
-                    <div class="reviews-card">
+                <!-- End of review card -->
+            </div>
 
-                        <div class="d-flex flex-row quote-icon-wrapper">
-                            <img class="img-fluid" id="laptop"
-                                src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
-                        </div>
+            <!-- Second slide -->
+            <div class="carousel-item">
+                <!-- Review card -->
+                <div class="reviews-card">
 
                     <div class="d-flex flex-row quote-icon-wrapper">
                         <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}" alt="laptop image">
                     </div>
 
-                            <div>
-                                <img class="img-fluid"
-                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-                                    style="margin-top: -.5rem">
-                                <p class="mobile-text">
-                                    Mr. Peterson </p>
-                            </div>
+                    <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
+
+                        <div class="card-text">
+                            <p>
+                                Team Archware has been quite impressive in delivering
+                                for us at Youhi Media & Communications,
+                                a modern, clean, and standard website that suits our
+                                business type.
+                            </p>
+                            <p class="desktop-text">
+                                Mr. Peterson
+                            </p>
                         </div>
 
                         <div>
@@ -453,29 +440,31 @@
                         </div>
                     </div>
 
-                    <!-- End of review card -->
                 </div>
-                <!-- Third slide -->
-                <div class="carousel-item">
-                    <!-- Review card -->
-                    <div class="reviews-card">
 
-                        <div class="d-flex flex-row quote-icon-wrapper">
-                            <img class="img-fluid" id="laptop"
-                                src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
-                        </div>
+                <!-- End of review card -->
+            </div>
+            <!-- Third slide -->
+            <div class="carousel-item">
+                <!-- Review card -->
+                <div class="reviews-card">
 
                     <div class="d-flex flex-row quote-icon-wrapper">
                         <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}" alt="review image">
                     </div>
 
-                            <div>
-                                <img class="img-fluid"
-                                    src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg"
-                                    style="margin-top: -.5rem">
-                                <p class="mobile-text">
-                                    Tolu Adebayo </p>
-                            </div>
+                    <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
+
+                        <div class="card-text">
+                            <p>
+                                Team Archware has been quite impressive in delivering
+                                for us at Youhi Media & Communications,
+                                a modern, clean, and standard website that suits our
+                                business type.
+                            </p>
+                            <p class="desktop-text">
+                                Tolu Adebayo
+                            </p>
                         </div>
 
                         <div>
@@ -485,18 +474,9 @@
                         </div>
                     </div>
 
-                    <!-- End of review card -->
                 </div>
 
-                <!-- Left and right controls/icons -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#demoTwo" data-bs-slide="prev">
-                    <!-- <span class="carousel-control-prev-icon" style="color: blue;"></span> -->
-                    <img class="img-fluid" src="{{ asset('customImages/Vector.svg') }}">
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#demoTwo" data-bs-slide="next">
-                    <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}">
-                    <!-- <span class="carousel-control-next-icon"></span> -->
-                </button>
+                <!-- End of review card -->
             </div>
 
             <!-- Left and right controls/icons -->
@@ -526,36 +506,42 @@
                 business</p>
 
 
-                    <div class="px-3 pt-2">
-                        <label style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
-                        <input id="Email" required class="section6-form4"
-                            style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email"
-                            placeholder="hello@dummie.com">
+            <form id="sendData">
+                <div class="row px-3 pt-2">
+                    <div class="col-sm first-name">
+                        <label style="font-weight: 500;font-size: 14px;color: #040856 ">First Name</label>
+                        <input type="text" id="Firstname" class="input-style" required style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA;" placeholder="">
                     </div>
-                    <div class="px-3 pt-2">
-                        <label style="font-weight: 500;font-size: 14px;color: #040856">Service you are interested
-                            in</label>
-                        <input id="Services" required class="section6-form4"
-                            style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="text"
-                            placeholder="e.g. Web Development">
+                    <div class="col-sm last-name">
+                        <label style="font-weight: 500;font-size: 14px;color: #040856">Last Name</label>
+                        <input id="Lastname" required type="text" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" placeholder="">
                     </div>
-                    <div class="px-3 pt-2">
-                        <label name="helpnote" style="font-weight: 500;font-size: 14px;color: #040856">What can we
-                            help you with?
-                        </label>
-                        <textarea id="Message" required class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message"
-                            style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" rows="5"></textarea>
+                </div>
 
-                    </div>
-                    <div class="text-end pt-3 px-3">
-                        <button type="submit" class="small-mobile-long-button my-4"
-                            style=" width: 155px;height: 40px;background: #A6CE39;border: none;
+                <div class="px-3 pt-2">
+                    <label style="font-weight: 500;font-size: 14px;color: #040856">Email address</label>
+                    <input id="Email" required class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="email" placeholder="hello@dummie.com">
+                </div>
+                <div class="px-3 pt-2">
+                    <label style="font-weight: 500;font-size: 14px;color: #040856">Service you are interested
+                        in</label>
+                    <input id="Services" required class="section6-form4" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" type="text" placeholder="e.g. Web Development">
+                </div>
+                <div class="px-3 pt-2">
+                    <label name="helpnote" style="font-weight: 500;font-size: 14px;color: #040856">What can we
+                        help you with?
+                    </label>
+                    <textarea id="Message" required class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message" style="padding: 10px;opacity:70%;border: 1px solid #D2D6DA" rows="5"></textarea>
+
+                </div>
+                <div class="text-end pt-3 px-3">
+                    <button type="submit" class="small-mobile-long-button my-4" style=" width: 155px;height: 40px;background: #A6CE39;border: none;
                         box-shadow: 0px 4px 7px -1px rgba(0, 0, 0, 0.11), 0px 2px 4px -1px rgba(0, 0, 0, 0.07);
                         border-radius: 8px;font-weight: 500;font-size: 12px;line-height: 12px;align-items: right;
                         text-align: center; color: #ffffff;">Submit</button>
-                    </div>
-                </form>
-            </div>
+                </div>
+            </form>
+        </div>
 
         <div class="contact-info col-md-5 col-sm-6 contact-information-colum" style=" background-image: url(../customImages/Backgroundcard.svg);  background-repeat: no-repeat; background-size: 160%; height:inherit">
             <div class="sec6itext">
@@ -584,12 +570,9 @@
                         <img class="px-2" src="{{ asset('customImages/White (3).svg') }}" alt="social icon"/>
                     </p>
                 </div>
-
             </div>
+
         </div>
-        </div>
-        <!-- END OF CONTACT US SECTION -->
-    </section>
     </div>
     </div>
     <!-- END OF CONTACT US SECTION -->
@@ -801,118 +784,118 @@
 </section>
 {{-- </div> --}}
 
-    <script type="text/javascript">
-        const counters = document.querySelectorAll('.incrementTimer');
-        const speed = 100;
+<script type="text/javascript">
+    const counters = document.querySelectorAll('.incrementTimer');
+    const speed = 100;
 
-        counters.forEach(counter => {
-            const animate = () => {
-                const value = +counter.getAttribute('akhi');
-                const data = +counter.innerText;
+    counters.forEach(counter => {
+        const animate = () => {
+            const value = +counter.getAttribute('akhi');
+            const data = +counter.innerText;
 
-                const time = value / speed;
-                if (data < value) {
-                    counter.innerText = Math.ceil(data + time);
-                    setTimeout(animate, 200);
-                } else {
-                    counter.innerText = value + '+';
-                }
+            const time = value / speed;
+            if (data < value) {
+                counter.innerText = Math.ceil(data + time);
+                setTimeout(animate, 200);
+            } else {
+                counter.innerText = value + '+';
             }
-            animate();
-        });
-
-        // Hide and show a loader logic
-        const loaderContainer = document.querySelector('.loader-container');
-
-        const displayLoading = () => {
-            loaderContainer.style.display = 'block';
-        };
-
-        const hideLoading = () => {
-            loaderContainer.style.display = 'none';
-        };
-
-        document.getElementById('sendData').addEventListener('submit', handleSumbit);
-
-        function handleSumbit(event) {
-            event.preventDefault();
-            displayLoading();
-
-
-            // Get all the input field and store them in their unique variable each
-            let firstname = document.getElementById('Firstname').value;
-            let lastname = document.getElementById('Lastname').value;
-            let email = document.getElementById('Email').value;
-            let service = document.getElementById('Services').value;
-            let message = document.getElementById('Message').value;
-
-            let contactData = {
-                firstname,
-                lastname,
-                email,
-                service,
-                message
-            }
-            // alert(JSON.stringify(contactData));
-            // alert(`${firstName} and ${lastName}`);
-            console.log(contactData);
-            isLoading = true;
-
-            function handleErrors(response) {
-                if (!response.ok) {
-                    throw Error(response.statusText);
-                }
-                return response;
-            }
-            fetch("http://127.0.0.1:8000/api/contactus/message", {
-                    method: 'POST',
-                    headers: {
-                        'Accept': 'application/json, text/plain, */*',
-                        'content-type': 'application/json'
-                    },
-                    body: JSON.stringify(contactData)
-                })
-                .then(handleErrors)
-                .then(response => {
-                    console.log("ok")
-                    hideLoading();
-
-                    Swal.fire({
-                        icon: 'success',
-                        title: 'Message sent, We will get back shortly!',
-                        showConfirmButton: false,
-                        timer: 1500,
-
-                    })
-                    let res = document.getElementById("sendData");
-                    res.reset();
-                })
-                .catch(error => {
-                    hideLoading();
-                    console.log(error, 'wrong')
-                    Swal.fire({
-                        icon: 'error',
-                        title: 'Message not sent, something went wrong!',
-                        showConfirmButton: false,
-                        timer: 1500,
-
-                    })
-
-                });
-
         }
+        animate();
+    });
 
-        // Remove the column class on mobile screen viewport
+    // Hide and show a loader logic
+    const loaderContainer = document.querySelector('.loader-container');
 
-        // let firstNameDiv = document.querySelector(.first-name);
-        // let lastNameDiv = document.querySelector(.last-name);
-        // firstNameDiv.addEventListener('click', console.log('working!'));
-    </script>
+    const displayLoading = () => {
+    loaderContainer.style.display = 'block';
+    };
+
+    const hideLoading = () => {
+        loaderContainer.style.display = 'none';
+    };
+
+    document.getElementById('sendData').addEventListener('submit', handleSumbit);
+
+    function handleSumbit(event) {
+        event.preventDefault();
+        displayLoading();
 
 
-    <!-- INITIALIZE AOS ANIMATE -->
-    <!-- <script>
+        // Get all the input field and store them in their unique variable each
+        let firstname = document.getElementById('Firstname').value;
+        let lastname = document.getElementById('Lastname').value;
+        let email = document.getElementById('Email').value;
+        let service = document.getElementById('Services').value;
+        let message = document.getElementById('Message').value;
+
+        let contactData = {
+            firstname,
+            lastname,
+            email,
+            service,
+            message
+        }
+        // alert(JSON.stringify(contactData));
+        // alert(`${firstName} and ${lastName}`);
+        console.log(contactData);
+        isLoading = true;
+
+        function handleErrors(response) {
+            if (!response.ok) {
+                throw Error(response.statusText);
+            }
+            return response;
+        }
+        fetch("http://127.0.0.1:8000/api/contactus/message", {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json, text/plain, */*',
+                    'content-type': 'application/json'
+                },
+                body: JSON.stringify(contactData)
+            })
+            .then(handleErrors)
+            .then(response => {
+                console.log("ok")
+            hideLoading();
+
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Message sent, We will get back shortly!',
+                    showConfirmButton: false,
+                    timer: 1500,
+
+                })
+                let res = document.getElementById("sendData");
+                res.reset();
+            })
+            .catch(error => {
+            hideLoading();
+                console.log(error, 'wrong')
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Message not sent, something went wrong!',
+                    showConfirmButton: false,
+                    timer: 1500,
+
+                })
+
+            });
+
+    }
+
+    // Remove the column class on mobile screen viewport
+
+    // let firstNameDiv = document.querySelector(.first-name);
+    // let lastNameDiv = document.querySelector(.last-name);
+    // firstNameDiv.addEventListener('click', console.log('working!'));
+</script>
+
+
+<!-- INITIALIZE AOS ANIMATE -->
+<!-- <script>
         AOS.init();
-    </script> -->
+        </script> -->
 
 @endsection
