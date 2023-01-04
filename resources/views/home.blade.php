@@ -253,14 +253,14 @@
                 <div class="about-left-child about-us-flex">
                     <h1 class="mt-3 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
                     <p class="section3-text2">
-                        Archware Technologies is a renowned technologies solutions company that delivers innovative, customized and scalable
+                        Archware Technologies is a renowned technologies company that delivers innovative, customized and scalable
                         digital solutions to individuals and organizations across multiple industries and platforms.
                         As a groundbreaking and reliable tech company for top-tier and emerging businesses, we provide critical support through
                         innovative technology offerings that propel our clients’ businesses on a continuous growth trajectory.
-                        Our team of software engineers, data scientists, designers, and product managers aggregate decades of industry experience
-                        and focus extensively on developing scalable and world-class software that provides end-to-end solutions for our clients.
-                        At Archware Technologies, Innovation, efficiency, and sustainability are at the building blocks of our projects. For this,
-                        we earned the trust of our clients as a dependable ally.
+                        Our team (software engineers, data scientists, designers, and product managers) aggregates decades of industry experience
+                        and focuses extensively on developing scalable and world-class software that provides end-to-end solutions for our clients.
+                        At Archware Technologies, innovation, efficiency, ease of use, and sustainability are the building blocks of our solutions.
+                        For these, we earned the trust of our clients as a dependable ally.
                     </p>
                 </div>
                 <div class="" style="width: 45%; height: auto; margin-right: -15rem">
