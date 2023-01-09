@@ -1,21 +1,21 @@
 @extends('layouts.app')
-
-@section('description',
-    'Archware - Africa\'s Leading Software Development Company
-Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
-@section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
+ {{-- The loading spinner --}}
+ <div class="loader-container">
+    <div class="spinner"></div>
+  </div>
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
 @section('image'){{ asset('customImages/Logo.svg') }}@stop
 
 @section('content')
+  
 <section class='title-style-contact'>
 <h1 class="row justify-content-center" style="font-weight: 700;font-size: 35px;letter-spacing: -0.02222em;color: #040856;">Contact Us</h1>
 <div class="row justify-content-center pt-3">
                 <p   style="width: 72px;height: 5px;justify-content: center;background: #A6CE39;border-radius: 9000px;"></p>
             </div>
 </section>
-<section class="container card mt-5" style='margin-bottom: 12%;'>
+<section class="container card mt-5 contact-card" style='margin-bottom: 12%;'>
 
     <div class="row justify-content-center">
         <div class="col-md-7 pt-5 px-3">
@@ -67,20 +67,20 @@ Software development company helping businesses and individuals take advantage o
                                 hours.</p>
                 </div>
                 <div class="pt-3 mx-5">
-                    <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
-                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234709154822</a>
+                    <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="phone">
+                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234-807-266-3033,</a>
                     </p>
-                    <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="">
-                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwareltd.com</a>
+                    <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="email icon">
+                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwaretechgroup.com</a>
                     </p>
-                    <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="">
-                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayangboye Street, Anthony Village, Lagos</a>
+                    <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="address icon">
+                        <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayanboye Street, Anthony Village, Lagos</a>
                     </p>
                     <p>
-                    <p class="pt-4"><img class="px-2" src="{{ asset('customImages/White.svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (1).svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (2).svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (3).svg') }}">
+                    <p class="pt-4"><img class="px-2" src="{{ asset('customImages/White.svg') }}" alt="globe icon">
+                        <img class="px-2" src="{{ asset('customImages/White (1).svg') }}" alt="social-icon">
+                        <img class="px-2" src="{{ asset('customImages/White (2).svg') }}" alt="social-icon">
+                        <img class="px-2" src="{{ asset('customImages/White (3).svg') }}" alt="social-icon">
                     </p>
                 </div>
             </div>
@@ -94,10 +94,21 @@ Software development company helping businesses and individuals take advantage o
 </script> -->
 
 <script type="text/javascript">
+ // Hide and show a loader logic
+    const loaderContainer = document.querySelector('.loader-container');
+
+    const displayLoading = () => {
+    loaderContainer.style.display = 'block';
+    };
+
+    const hideLoading = () => {
+        loaderContainer.style.display = 'none';
+    };
 document.getElementById('sendData').addEventListener('submit', handleSumbit);
 
 function handleSumbit(event){
     event.preventDefault();
+    displayLoading();
 
     // Get all the input field and store them in their unique variable each
     let firstname = document.getElementById('Firstname').value;
@@ -116,7 +127,6 @@ function handleSumbit(event){
     // alert(JSON.stringify(contactData));
     // alert(`${firstName} and ${lastName}`);
     console.log(contactData);
-     isLoading = true;
 
         function handleErrors(response) {
         if (!response.ok) {
@@ -134,6 +144,7 @@ function handleSumbit(event){
         })
         .then(handleErrors)
         .then(response => {console.log("ok")
+        hideLoading();
             Swal.fire({
                     icon: 'success',
                     title: 'Message sent, We will get back shortly!',
@@ -145,6 +156,7 @@ function handleSumbit(event){
                   res.reset();
         })
         .catch(error => {console.log(error, 'wrong')
+        hideLoading();
             Swal.fire({
                     icon: 'error',
                     title: 'Message not sent, something went wrong!',

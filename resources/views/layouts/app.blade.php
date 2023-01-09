@@ -1,3 +1,7 @@
+@section('description',
+'A software development company that assists both individuals and businesses in utilising the advantages of the global technology landscape.')
+@section('title', 'Archware - Africa\'s Leading Software Development Company')
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -41,6 +45,9 @@
     <link rel="stylesheet" href="/customCSS/archwarestyles_gb.css">
     <link rel="stylesheet" href="/customCSS/archwarestyles_jo.css">
     <link rel="stylesheet" href="/customCSS/navbar_styles.css">
+    <link rel="stylesheet" href="/customCSS/pms_styles.css">
+    <link rel="stylesheet" href="/customCSS/home_train_styles.css">
+
 
     <!-- Material icon -->
     <link href="/css/material-icons.min.css" rel="stylesheet">

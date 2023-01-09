@@ -1,0 +1,71 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Archware ApplicationAPI",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/recruit-store": {
+            "post": {
+                "tags": [
+                    "Storerecruit"
+                ],
+                "summary": "Save a potential employees credentials in the system",
+                "description": "Save a potential employees credentials in the system\n     * saves the resume in doc,pdf,docx or zip format",
+                "operationId": "recruitstore",
+                "requestBody": {
+                    "content": {
+                        "multipart/form-data": {
+                            "schema": {
+                                "required": [
+                                    "fullname",
+                                    "email",
+                                    "position"
+                                ],
+                                "properties": {
+                                    "fullname": {
+                                        "type": "text"
+                                    },
+                                    "email": {
+                                        "type": "email"
+                                    },
+                                    "position": {
+                                        "type": "text"
+                                    },
+                                    "brief_info": {
+                                        "type": "text"
+                                    },
+                                    "resume_directory": {
+                                        "type": "file"
+                                    }
+                                },
+                                "type": "object"
+                            }
+                        },
+                        "application/json": {
+                            "schema": {}
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Resume submitted",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Error occured: error_detail",
+                        "content": {
+                            "application/json": {
+                                "schema": {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\RecruitmentController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -19,3 +20,6 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::post('contactus/message', [App\Http\Controllers\ContactController::class, 'store'])->name('contact.message');
+
+// Recruitment API
+Route::post('/recruit-store', [RecruitmentController::class, 'store'])->name('recruit.store');
