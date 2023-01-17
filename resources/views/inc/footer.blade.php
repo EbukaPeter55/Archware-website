@@ -188,13 +188,16 @@
                             </li>
                         </ul>
                         <section class="pb-3">
-                            <a class="m-1 btn btn-outline-light" href="#!" role="button"><i class="fab fa-facebook"></i></a>
+                            <a class="m-1 btn btn-outline-light" href="https://twitter.com/ArchwareTech" target="_blank" role="button">
+                                <i class="fab fa-twitter"></i></a>
 
-                            <a class="m-1 btn btn-outline-light" href="#!" role="button"><i class="fab fa-youtube"></i></a>
+                            <a class="m-1 btn btn-outline-light" href="https://www.linkedin.com/company/archware-technologies-ltd/"
+                             target="_blank" role="button"><i class="fab fa-linkedin"></i></a>
 
-                            <a class="m-1 btn btn-outline-light" href="#!" role="button"><i class="fab fa-instagram"></i></a>
+                            <a class="m-1 btn btn-outline-light" target="_blank"
+                             href="https://www.instagram.com/archwaretech/" role="button"><i class="fab fa-instagram"></i></a>
 
-                            <a class="m-1 btn btn-outline-light" href="#!" role="button"><i class="fab fa-whatsapp"></i></a>
+                            {{-- <a class="m-1 btn btn-outline-light" href="#!" role="button"><i class="fab fa-whatsapp"></i></a> --}}
                         </section>
                     </div>
 
@@ -204,19 +207,19 @@
 
                         <ul class="list-unstyled mb-0 fw-lighter">
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Home</a>
+                                <a href="/" class="text-white text-decoration-none" style="font-size:medium;">Home</a>
                             </li>
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">About Us</a>
+                                <a href="/#aboutus" class="text-white text-decoration-none" style="font-size:medium;">About Us</a>
                             </li>
                             <li class="pb-2">
                                 <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Services</a>
                             </li>
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Subsidiaries</a>
+                                <a href="/join-us" class="text-white text-decoration-none" style="font-size:medium;">Join us</a>
                             </li>
                             <li class="pb-2">
-                                <a href="#!" class="text-white text-decoration-none" style="font-size:medium;">Franchise</a>
+                                <a href="/contacts" class="text-white text-decoration-none" style="font-size:medium;">Contact us</a>
                             </li>
                         </ul>
                     </div>

@@ -22,7 +22,8 @@ Software development company helping businesses and individuals take advantage o
             </p>
         </div>
         <div class="archwarejo-width-top-head">
-            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/Rectangle 651k.png">
+            <img class="img-fluid image-width-tab image-min-height-mobile float-to-end" src="/customImages/Rectangle 651k.png"
+            alt="Food bank hero section"/>
         </div>
     </section>
 </div>
@@ -32,7 +33,7 @@ Software development company helping businesses and individuals take advantage o
 
 <section class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab">
     <div class="archwarejo-width-top">
-        <img class="img-fluid image-width-tab" src="/customImages/Group 74 (1).png">
+        <img class="img-fluid image-width-tab" src="/customImages/Group 74 (1).png" alt="raw food images"/>
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom padding-left-desktop">
         <p>Maslow, in his hierarchy of needs, categorizes the need for food as the most basic physiological need critical
@@ -80,7 +81,7 @@ Software development company helping businesses and individuals take advantage o
             </p>
         </div>
         <div class="col-lg-6 d-flex">
-            <img class="img-fluid" src="/customImages/Group 76.png">
+            <img class="img-fluid" src="/customImages/Group 76.png" alt="Home and family images"/>
 
         </div>
     </div>
@@ -102,7 +103,7 @@ Software development company helping businesses and individuals take advantage o
 
     <div class="d-flex flex-wrap mt-5">
         <div class="image-foodbank col-lg-3">
-            <img src="/customImages/Rectangle 688 (1).png" alt="" style="align-items:center ;">
+            <img src="/customImages/Rectangle 688 (1).png" alt="Food partnership" style="align-items:center ;"/>
         </div>
         <div class="col-lg-9">
             <h2 class="pt-3" style="font-weight: 700;font-size: 26px;line-height: 155%;color: #0D2158;">Food Partnership</h2>
@@ -123,13 +124,13 @@ Software development company helping businesses and individuals take advantage o
         </div>
 
         <div class="image-foodbank col-lg-3 px-4">
-            <img class="" src="/customImages/Rectangle 691.png" alt="" style="align-items:center ;">
+            <img class="" src="/customImages/Rectangle 691.png" alt="Food loans image" style="align-items:center ;">
         </div>
     </div>
 
     <div class="d-flex flex-wrap mt-5">
         <div class="image-foodbank col-lg-3">
-            <img src="/customImages/Rectangle 690.png" alt="" style="align-items:center ;">
+            <img src="/customImages/Rectangle 690.png" alt="Food market images" style="align-items:center ;">
         </div>
         <div class="col-lg-9">
             <h2 class="pt-3" style="font-weight: 700;font-size: 26px;line-height: 155%;color: #0D2158;">Food Market</h2>
@@ -151,7 +152,8 @@ Software development company helping businesses and individuals take advantage o
 <section class="container mt-5 pt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab experience-body-with-pix-mobile" style="background: #1F3F95; border-radius: 20px 20px;">
 
     <div class="archwarejo-width-top">
-        <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom" src="/customImages/Rectangle (2).png">
+        <img class="img-fluid image-width-tab p-5 archwarejo-image-fully-bottom image-padding-buttom" src="/customImages/Rectangle (2).png"
+        alt="Tech based food image">
     </div>
     <div class="archware-text-justify archware-content-text archwarejo-width-bottom middle-content-padding-right experience-body-mobile">
         <h2 class="tech-based-solution" style="font-weight: 700;font-size: 35px;line-height: 72px;color: #FFFFFF;">Tech-Based Food Solutions</h2>

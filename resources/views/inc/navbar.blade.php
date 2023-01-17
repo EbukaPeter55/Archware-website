@@ -1,73 +1,26 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top mask-custom shadow-0" id="navMain" style="padding-top: 1.2rem">
     <div class="container col-md-11">
         <a class="navbar-brand colored-logo" href="/" style="margin-left: 7%;">
-            <img src="{{ asset('customImages/Logo.svg') }}">
+            <img src="{{ asset('customImages/Logo.svg') }}" alt="logo">
         </a>
         <a class="navbar-brand light-logo" href="/" style="margin-left: 7%;">
-            <img src="{{ asset('customImages/Logo.svg') }}">
+            <img src="{{ asset('customImages/Logo.svg') }}" alt="logo image">
         </a>
         <!-- HAMBURGER -->
         <button class="navbar-toggler hamburger-icon hamburger-desktop" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+            <i class="fas fa-bars "></i>
         </button>
         <button class="navbar-toggler hamburger-icon hamburger-mobile" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: white;">
             <i class="fas fa-bars"></i>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-top: .5rem">
-            <ul class="navbar-nav me-auto nav-links-a" style="margin-left: 12%;">
+        <div class="collapse nav-postion  navbar-collapse" id="navbarSupportedContent" style="margin-top: .5rem">
+            <ul class="navbar-nav me-auto nav-links-a" style="margin-left: 16%;">
                 <!-- Remember to change the margin-left back to 8% when we want to host our team -->
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/">Home</a>
                 </li>
-                <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" style="scroll-behavior: smooth;" href="/#aboutus">About
-                        Us</a>
-                </li>
-                <!-- navbar -->
-                <div class="">
-                    <h1 class=""></h1>
-                    <div class="dropdown">
-                        <a style="font-weight: 500;font-size: 16px;line-height: 19px;color: #1F3F95; text-decoration:none" 
-                        class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                            Our Services </a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-
-                            <li class="dropdown dropend">
-                                <a class="dropdown-item dropdown-toggle" href="#" id="multilevelDropdownMenu1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Software Development</a>
-                                <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu1 ">
-
-                                    <li class="dropdown dropend web-dev-card">
-                                        <a class="dropdown-item dropdown-toggle " href="#" id="multilevelDropdownMenu1" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Web Development</a>
-                                        <ul class="dropdown-menu" aria-labelledby="multilevelDropdownMenu2">
-                                            <li><a class="dropdown-item" href="#">Responsive Website Design and Development</a></li>
-                                            <li><a class="dropdown-item" href="#">Website Redesign</a></li>
-                                            <li><a class="dropdown-item" href="#">E-commerce/Online Web Stores</a></li>
-                                            <li><a class="dropdown-item" href="#">Web Maintenance</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a class="dropdown-item web-dev-card" href="#">Mobile App Development</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="dropdown-item" href="#">Project Management System</a></li>
-                            <li><a class="dropdown-item" href="#">Account & Expenses Management System</a></li>
-                            <li><a class="dropdown-item" href="#">Food Bank</a> </li>
-                            <li><a class="dropdown-item" href="#">Farm Management</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <script>
-                    let dropdowns = document.querySelectorAll('.dropdown-toggle')
-                    dropdowns.forEach((dd) => {
-                        dd.addEventListener('click', function(e) {
-                            var el = this.nextElementSibling
-                            el.style.display = el.style.display === 'block' ? 'none' : 'block'
-                        })
-                    })
-                </script>
-                <!-- navbar -->
-
-                <!--<div class="dropdown" style="margin-top: .1rem">
+                {{-- <div class="dropdown" style="margin-top: .1rem">
                     <li class="btn btn-white archware-nav-title nav-drop dropdown-toggle" data-bs-toggle="dropdown">
                         Our Services
                     </li>
@@ -118,7 +71,55 @@
                         <li><a class="dropdown-item" href="/food-bank">Food Bank</a></li>
                         <li><a class="dropdown-item" href="/farm-management">Farm Management</a></li>
                     </ul>
-                </div>-->
+                </div> --}}
+
+                {{-- Dropdown --}}
+                {{-- <div> --}}
+                <div id="menu" class="u-list drop-wrapper e-drop-desktop" style="margin-top: .3rem;">
+                    <li class="parent-nav l-list top-level-width"><a href="#">Our Services</a>
+                        <ul class="child-nav u-list">
+                            <li class="parent-nav l-list"><a href="#">Software development <span class="expand">»</span></a>
+                                <ul class="child-nav u-list">
+                                    <li class="parent-nav l-list top-level-width"><a href="#">Web development <span class="expand">»</span></a>
+                                        <ul class="child-nav u-list top-level-width-long">
+                                            <li class="l-list"><a href="/website-design-and-development"> Responsive Website Design and Development</a></li>
+                                            <li class="l-list"><a href="/website-redesign"> Website Redesign</a></li>
+                                            <li class="l-list"><a href="/ecommerce-online-web-stores"> E-commerce/Online Web Stores</a></li>
+                                            <li class="l-list"><a href="/web-maintenance"> Web Maintenance</a></li>
+                                        </ul></li>
+                                    <li class="l-list"><a href="/mobile-app-development">Mobile development</a></li>
+                                </ul></li>
+                            <li class="l-list"><a href="#">Archware Training Institute</a></li>
+                            <li class="l-list"><a href="/project-management">Project Management System</a></li>
+                            <li class="l-list"><a href="/account-expense-system">Account & Expenses Management</a></li>
+                            <li class="l-list"><a href="/food-bank">Food Bank</a></li>
+                            <li class="l-list"><a href="/farm-management">Farm Management</a></li>
+
+                        </ul></li>
+                    </div>
+                {{-- </div> --}}
+
+                {{-- Dropdown mobile --}}
+                <div id="menu" class="u-list drop-wrapper e-drop-mobile" style="margin-top: .3rem;">
+                    <li class="parent-nav l-list top-level-width"><a href="#">Our Services</a>
+                        <ul class="child-nav u-list">
+                                <li class="l-list"><a href="/website-design-and-development"> Responsive web Development</a></li>
+                                <li class="l-list"><a href="/website-redesign"> Website Redesign</a></li>
+                                <li class="l-list"><a href="/web-maintenance"> Web Maintenance</a></li>
+                                <li class="l-list"><a href="/ecommerce-online-web-stores"> E-commerce/Online Web Stores</a></li>
+                                <li class="l-list"><a href="#">Archware Training Institute</a></li>
+                                <li class="l-list"><a href="/project-management">Project Management System</a></li>
+                                <li class="l-list"><a href="/account-expense-system">Account & Expenses Management</a></li>
+                                <li class="l-list"><a href="/food-bank">Food Bank</a></li>
+                                <li class="l-list"><a href="/farm-management">Farm Management</a></li>
+                        </ul></li>
+                    </div>
+                {{-- End of dropdown --}}
+                <li class="nav-item e-about">
+                    <a class="nav-link archware-nav-title" style="scroll-behavior: smooth;" href="/#aboutus">About
+                        Us</a>
+                </li>
+
                 <li class="nav-item px-3">
                     <!--<a class="nav-link archware-nav-title" href="/">Our Team</a>-->
                 </li>
@@ -126,8 +127,13 @@
                     <a class="nav-link archware-nav-title" href="/services">Services</a>
                 </li> -->
                 <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="/#faq">FAQ</a>
+                </li>
+                
+                <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/join-us">Join Us</a>
                 </li>
+
             </ul>
             <ul class="navbar-nav d-flex flex-row  right-btn-container" style="margin-right: 9%; margin-top: .5rem">
                 <li class="nav-item me-3 me-lg-0">
@@ -225,7 +231,7 @@
 
     const triggerNav = (event) => {
         // console.log(event);
-        if (window.scrollY >= topOfNav) {
+        if (window.scrollY >= 20) {
             //    console.log('You have passed the nav bottom!')
             // console.log(event);
             getNav.classList.add('navbar-trigger');
@@ -252,12 +258,24 @@
             normalLogo.style.display = 'none'
 
         } else {
+            const navLinks = document.querySelectorAll('.nav-link');
+            const navDrop = document.querySelector('.nav-drop');
+            const normalButton = document.querySelector('#normal-button');
+            const changedButton = document.querySelector('#changed-button');
             getNav.classList.remove('navbar-trigger');
-
-            // Display normal button on a scroll to the top
+                // Display normal button on a scroll to the top
             normalButton.style.display = 'block';
             changedButton.style.display = 'none'
+
+            // Change the colours of the nav link text to white
+            Array.from(navLinks).map((nav) => {
+                // console.log(nav);
+                nav.classList.remove('nav-link-text');
+            })
+
         }
     }
     window.addEventListener('scroll', triggerNav);
 </script>
+
+@include('analytics')

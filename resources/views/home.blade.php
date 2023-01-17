@@ -1,9 +1,9 @@
 @extends('layouts.app')
+ {{-- The loading spinner --}}
+ <div class="loader-container">
+    <div class="spinner"></div>
+  </div>
 
-@section('description',
-'Archware - Africa\'s Leading Software Development Company
-Software development company helping businesses and individuals take advantage of the benefits of the global technology landscape.')
-@section('title', 'Archware - Excellent Tech-based Solutions For Your Business')
 @section('article:section', 'Home')
 @section('url', 'www.archwareltd.com')
 @section('image'){{ asset('customImages/Logo.svg') }}@stop
@@ -18,7 +18,7 @@ Software development company helping businesses and individuals take advantage o
     <div class="mobile-hero" style="">
         <div class="d-sm-flex flex-row flex-wrap justify-content-center align-items-center mobile-hero-wrapper">
             <div style="margin-top: .8rem">
-                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
+                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png" alt="hero image">
             </div>
             <div class="mobile-copy-hero">
                 <h1 class="mobile-hero-title" style="font-weight: 700; color: #040856; font-size: 3.125rem;">
@@ -65,7 +65,7 @@ Software development company helping businesses and individuals take advantage o
                                 </button></a>
                         </div>
                         <div style="margin-top: 7rem">
-                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png">
+                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_374/v1660914041/Frame_44.png" alt="hero section middle image">
                         </div>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ Software development company helping businesses and individuals take advantage o
                     <!-- Review card -->
                     <div class="d-sm-flex flex-row flex-wrap justify-content-evenly align-items-center" style="max-height:70vh">
                         <div style="margin-top: 2rem">
-                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_406/v1660900289/Group_63_1.png">
+                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,w_406/v1660900289/Group_63_1.png" alt="hero section second image">
                         </div>
 
                         <div>
@@ -115,7 +115,7 @@ Software development company helping businesses and individuals take advantage o
                                 </button></a>
                         </div>
                         <div>
-                            <img class="img-fluid" style="height: 70vh;" src="{{ asset('customImages/Rectangle 651.svg') }}">
+                            <img class="img-fluid" style="height: 70vh;" src="{{ asset('customImages/Rectangle 651.svg') }}" alt="hero section third slide" alt="hero section third slide">
                         </div>
                     </div>
 
@@ -126,7 +126,7 @@ Software development company helping businesses and individuals take advantage o
                     <img class="img-fluid" src="{{ asset('customImages/Vector.svg') }}">
                     </button> -->
                 <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                    <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}">
+                    <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}" alt="left and right control slider image">
                     <!-- <span class="carousel-control-next-icon"></span> -->
                 </button>
             </div>
@@ -140,7 +140,7 @@ Software development company helping businesses and individuals take advantage o
 <!-- WHY CHOOSE ARCHWARE TEAM SECTION -->
 <section class="container-fluid team-section" style="margin-top: 12%">
     <div class="d-sm-flex flex-row flex-wrap justify-content-center team-wrapper">
-        <img class="col-lg-5 img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg" />
+        <img class="col-lg-5 img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_347/v1660830314/core-values-4_1.svg" alt="why choose archware team"/>
 
         <div class="team-section-right">
             <h2>Why Choose Archware Team?</h2>
@@ -200,7 +200,7 @@ Software development company helping businesses and individuals take advantage o
             <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
                 </button></a>
         </div>
-        <img class="img-fluid" style="width:620px" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" />
+        <img class="img-fluid" style="width:620px" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_371/v1660455795/Rectangle_648.svg" alt="over the years image"/>
     </div>
 </section>
 
@@ -209,7 +209,7 @@ Software development company helping businesses and individuals take advantage o
 <section class="container-fluid support" style="margin-top: 4%">
     <div class="d-sm-flex flex-row flex-wrap align-items-center justify-content-evenly support-section">
         <div class="">
-            <img style="width: 100%; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}">
+            <img style="width: 100%; " class="img-fluid" src="{{ asset('customImages/Pictures.png') }}" alt="account and expense image /">
         </div>
         <div class="support-section-right text-and-pictures">
             <h2 class="" style="font-weight: 700; font-size: 35px;line-height: 42px;color: #040856">
@@ -240,7 +240,7 @@ Software development company helping businesses and individuals take advantage o
             <a href="/project-management"><button class="small-mobile-long-button" type='button'>Read More
                 </button></a>
         </div>
-        <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_350/v1660497641/Rectangle_650.svg" />
+        <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_350/v1660497641/Rectangle_650.svg" alt="project management image"/>
     </div>
 </section>
 <!--END OF SERVICES BRIEF SECTION -->
@@ -264,7 +264,7 @@ Software development company helping businesses and individuals take advantage o
                     </p>
                 </div>
                 <div class="" style="width: 45%; height: auto; margin-right: -15rem">
-                    <img class="img-fluid" id="laptop" style=" margin-top: 6.2rem; width: 100%;  " src="{{ asset('customImages/Macbook Pro.svg') }}">
+                    <img class="img-fluid" id="laptop" style=" margin-top: 6.2rem; width: 100%;  " src="{{ asset('customImages/Macbook Pro.svg') }}" alt="about us image">
                 </div>
             </div>
         </div>
@@ -276,7 +276,7 @@ Software development company helping businesses and individuals take advantage o
 <section class="container-fluid mission" style="margin-top: 10%">
     <div class="row justify-content-center alignt-items-center mission-wrapper" style="padding-left: 9%; padding-right: 9%;">
         <div class="col-md-5">
-            <img class="img-fluid section4-img" src="{{ asset('customImages/Image.svg') }}">
+            <img class="img-fluid section4-img" src="{{ asset('customImages/Image.svg') }}" alt="mission and vision image">
         </div>
         <div class="col-md-7" style="margin-top: 5%">
             <h1 class="mission-titles px-2" style="font-weight: 700;font-size: 35px;line-height: 42px;color: #040856;">Our Mission</h1>
@@ -351,12 +351,12 @@ Software development company helping businesses and individuals take advantage o
             </p>
         </div>
         <div class="brand-logo d-flex flex-row flex-wrap justify-content-evenly">
-            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_107/v1660507527/YOUHI_Brand_Manual_4_1.svg">
-            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_141/v1660507975/Layer_1.svg">
+            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_107/v1660507527/YOUHI_Brand_Manual_4_1.svg" alt="brands that trust us image "/>
+            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_141/v1660507975/Layer_1.svg" alt="brands that trust us image "/>
 
             <div class="bottom-logo">
-                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_98/v1660508122/Layer_3.svg">
-                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_108/v1660508646/Fore_1_2x_1.svg">
+                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_98/v1660508122/Layer_3.svg" alt="brands that trust us image ">
+                <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_108/v1660508646/Fore_1_2x_1.svg" alt="brands that trust us image ">
             </div>
         </div>
     </div>
@@ -381,7 +381,7 @@ Software development company helping businesses and individuals take advantage o
                 <div class="reviews-card">
 
                     <div class="d-flex flex-row quote-icon-wrapper">
-                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
+                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}" alt="review section image">
                     </div>
 
                     <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
@@ -398,7 +398,7 @@ Software development company helping businesses and individuals take advantage o
                             </p>
                         </div>
                         <div>
-                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem">
+                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem" alt="avatar image /">
                             <p class="mobile-text">
                                 Tosin Adebayo
                             </p>
@@ -416,7 +416,7 @@ Software development company helping businesses and individuals take advantage o
                 <div class="reviews-card">
 
                     <div class="d-flex flex-row quote-icon-wrapper">
-                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
+                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}" alt="laptop image">
                     </div>
 
                     <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
@@ -434,7 +434,7 @@ Software development company helping businesses and individuals take advantage o
                         </div>
 
                         <div>
-                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem">
+                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem" alt="avatar image">
                             <p class="mobile-text">
                                 Mr. Peterson </p>
                         </div>
@@ -450,7 +450,7 @@ Software development company helping businesses and individuals take advantage o
                 <div class="reviews-card">
 
                     <div class="d-flex flex-row quote-icon-wrapper">
-                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}">
+                        <img class="img-fluid" id="laptop" src="{{ asset('customImages/icomoon-free_quotes-left.svg') }}" alt="review image">
                     </div>
 
                     <div class="d-flex flex-flow flex-wrap justify-content-center align-items-center card-content">
@@ -468,7 +468,7 @@ Software development company helping businesses and individuals take advantage o
                         </div>
 
                         <div>
-                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem">
+                            <img class="img-fluid" src="https://res.cloudinary.com/peterdbrainy/image/upload/c_scale,q_auto:good,w_86/v1660541967/unsplash_-QJvYDTCwAg.svg" style="margin-top: -.5rem" alt="avatar image">
                             <p class="mobile-text">
                                 Tolu Adebayo </p>
                         </div>
@@ -482,10 +482,10 @@ Software development company helping businesses and individuals take advantage o
             <!-- Left and right controls/icons -->
             <button class="carousel-control-prev" type="button" data-bs-target="#demoTwo" data-bs-slide="prev">
                 <!-- <span class="carousel-control-prev-icon" style="color: blue;"></span> -->
-                <img class="img-fluid" src="{{ asset('customImages/Vector.svg') }}">
+                <img class="img-fluid" src="{{ asset('customImages/Vector.svg') }}" alt="left control image">
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#demoTwo" data-bs-slide="next">
-                <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}">
+                <img class="img-fluid" src="{{ asset('customImages/Vector (1).svg') }}" alt="Right control image">
                 <!-- <span class="carousel-control-next-icon"></span> -->
             </button>
         </div>
@@ -553,21 +553,21 @@ Software development company helping businesses and individuals take advantage o
                                 hours.</p>
                 </div>
                 <div class="pt-3 mx-5">
-                    <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="">
+                    <p><img class=info_arch1 src="{{ asset('customImages/Phone Icon.svg') }}" alt="phone icon image">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">+234-807-266-3033, +234-912-207-4233</a>
                     </p>
-                    <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="">
+                    <p class="pt-3"><img id=info_arch2 src="{{ asset('customImages/Envelope Icon.svg') }}" alt="image icon">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">info@archwaretechgroup.com</a>
                     </p>
-                    <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="">
+                    <p class="pt-3"><img id=info_arch3 src="{{ asset('customImages/Map Marker Icon.svg') }}" alt="address icon">
                         <a style="font-weight: 400;font-size: 14px;color: #FFFFFF;">3, Ayanboye Street, Anthony
                             Village, Lagos</a>
                     </p>
                     <p>
-                    <p class="pt-4"><img class="px-2" src="{{ asset('customImages/White.svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (1).svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (2).svg') }}">
-                        <img class="px-2" src="{{ asset('customImages/White (3).svg') }}">
+                    <p class="pt-4"><img class="px-2" src="{{ asset('customImages/White.svg') }}" alt="social icon"/>
+                        <img class="px-2" src="{{ asset('customImages/White (1).svg') }}" alt="social icon"/>
+                        <img class="px-2" src="{{ asset('customImages/White (2).svg') }}" alt="social icon"/>
+                        <img class="px-2" src="{{ asset('customImages/White (3).svg') }}" alt="social icon"/>
                     </p>
                 </div>
             </div>
@@ -577,7 +577,212 @@ Software development company helping businesses and individuals take advantage o
     </div>
     <!-- END OF CONTACT US SECTION -->
 </section>
-</div>
+
+{{-- FAQ SECTION --}}
+<section class="container" id="faq" style="margin-bottom: 9%">
+    <div class="text-center justify-content-center title-style">
+        <h1 class="fw-bold archware_h1 reviews-heading">Frequently Asked Questions</h1>
+        <hr class="container archware_header_underline" />
+    </div>
+    <div class="accordion mt-5" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Where is Archware Tech located?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Archware Tech is the closest software development company in your area.
+                 This is due to the fact that we live in a global village and that it is our 
+                 goal to completely inundate Africa with technological solutions.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How often should I revamp my website?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                Redesigning your website once every two to three years is generally a good idea.
+                 The reason for this is simple: chances are good that your website is out-of-date if it has been up for three years—a lifetime in the digital world.
+
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                How long will it take to get a modern website design?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                You also have to consider how long your site will take to plan out and design.
+                 In our experience, building a website usually takes anywhere between two to four months
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Why am I finding it difficult to optimise my website and how can you help?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                A page one position in the Google search results is like gold dust.
+                 Not so long ago, it was relatively easy to achieve. These days, it’s a 
+                 lot more challenging, and getting it wrong can affect your reputation. Thankfully, we have all the SEO tools and know-how to maximise your chances and some happy customers to vouch for us.
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                Do you redesign existing websites?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                We certainly can do it! It’s important to redesign websites that are no longer producing 
+                the expected results. This could be due to varying problems and software changes. 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                How much does a website cost?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                The age-old question! It completely depends on what you need, but you can rest 
+                assured we deliver the best possible value for money and it won’t break the bank. Why not ask for a quote? 
+                There’s no obligation and we won’t sulk if you say "no"!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                What if I want to get trained as a software developer?
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                As part of our endeavours to empower the youths of Africa through education, 
+                we are developing a learning management system 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                Do you work internationally?
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Of course! The advent of online conference tools such as Zoom, Google Meet,
+                 and Skype, just to name a few, makes working with businesses anywhere in the world straightforward.
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingNine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+            Should I create a mobile or a web app?
+          </button>
+        </h2>
+        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Mobile apps are more expensive but can provide you with many more data-collecting and 
+            monetisation capabilities than web applications. Progressive Web Apps are a good compromise between mobile and web apps. However, keep in mind that you might require both mobile and web apps at some point, 
+            and we are here for you when that time comes.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTen">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+            What is your process for product design?
+          </button>
+        </h2>
+        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            During the product design phase, we focus on understanding your idea and
+             how it can be effectively realised. We begin with strategy sessions that help 
+             us find out what your needs and expectations are. We also prepare market and competition analyses as well as point you towards the best solutions.
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEleven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+            What are the advantages of outsourcing your project to us?
+          </button>
+        </h2>
+        <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            1. More time to stay focused on the development of your business  
+               By outsourcing your projects to us, you'll free up enough time to concentrate on expanding your business while we handle things in the most effective manner possible for your company and without stressing you in the process. 
+            
+            2.cHigh Professional Development Team  
+            You can rely on having access to highly skilled IT professionals when working with our development team. For your project, we will only deploy those engineers who meet your project requirements. 
+            
+            3. The product-oriented approach in software development 
+            We put your business objectives and how our digital solutions will help you achieve them at the forefront of our efforts as we provide our software development services. 
+            
+            4. Cost Efficient Solution 
+            If you choose to outsource your project to Archware, you only pay for the software development services we offer. You are not required to cover any recruiting fees or extra expenses for team support.
+            
+            5. Control Over Your IT Costs
+            Your operating costs will be lower as a result of outsourcing your IT projects because you have complete control over your IT expenses. We will establish a fixed price for our service to make it easier for you to allocate money properly.            
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwelve">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+            What technologies does the Archware team use in software development?
+          </button>
+        </h2>
+        <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Our team includes only high-experienced professionals who have experience in different software development fields:
+
+            Ruby on Rails
+            PHP
+            Node.js
+            C# 
+            JavaScript
+            AngularJS to Angular 6
+            React JS
+            Bootstrap
+            HTML5, CSS3
+            Web API Services
+            Swift
+            Laravel
+            Kotlin
+            Java
+            React Native
+            So, hiring our experts with expertise in that field will be your best bet if you want to incorporate some modern 
+            technologies into your project and make it appear current.            
+
+          </div>
+        </div>
+      </div>
+</section>
+{{-- </div> --}}
 
 <script type="text/javascript">
     const counters = document.querySelectorAll('.incrementTimer');
@@ -599,12 +804,23 @@ Software development company helping businesses and individuals take advantage o
         animate();
     });
 
+    // Hide and show a loader logic
+    const loaderContainer = document.querySelector('.loader-container');
 
+    const displayLoading = () => {
+    loaderContainer.style.display = 'block';
+    };
+
+    const hideLoading = () => {
+        loaderContainer.style.display = 'none';
+    };
 
     document.getElementById('sendData').addEventListener('submit', handleSumbit);
 
     function handleSumbit(event) {
         event.preventDefault();
+        displayLoading();
+
 
         // Get all the input field and store them in their unique variable each
         let firstname = document.getElementById('Firstname').value;
@@ -642,6 +858,8 @@ Software development company helping businesses and individuals take advantage o
             .then(handleErrors)
             .then(response => {
                 console.log("ok")
+            hideLoading();
+
                 Swal.fire({
                     icon: 'success',
                     title: 'Message sent, We will get back shortly!',
@@ -653,6 +871,7 @@ Software development company helping businesses and individuals take advantage o
                 res.reset();
             })
             .catch(error => {
+            hideLoading();
                 console.log(error, 'wrong')
                 Swal.fire({
                     icon: 'error',
