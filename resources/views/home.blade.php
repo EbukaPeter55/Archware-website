@@ -253,14 +253,14 @@
                 <div class="about-left-child about-us-flex">
                     <h1 class="mt-3 " style="font-weight: 700; font-size: 3.125rem; line-height: 61px;color: #FFFFFF;">About Us</h1>
                     <p class="section3-text2">
-                        Archware Technologies is a renowned technologies solutions company that delivers innovative, customized and scalable
+                        Archware Technologies is a renowned technologies company that delivers innovative, customized and scalable
                         digital solutions to individuals and organizations across multiple industries and platforms.
                         As a groundbreaking and reliable tech company for top-tier and emerging businesses, we provide critical support through
                         innovative technology offerings that propel our clients’ businesses on a continuous growth trajectory.
-                        Our team of software engineers, data scientists, designers, and product managers aggregate decades of industry experience
-                        and focus extensively on developing scalable and world-class software that provides end-to-end solutions for our clients.
-                        At Archware Technologies, Innovation, efficiency, and sustainability are at the building blocks of our projects. For this,
-                        we earned the trust of our clients as a dependable ally.
+                        Our team (software engineers, data scientists, designers, and product managers) aggregates decades of industry experience
+                        and focuses extensively on developing scalable and world-class software that provides end-to-end solutions for our clients.
+                        At Archware Technologies, innovation, efficiency, ease of use, and sustainability are the building blocks of our solutions.
+                        For these, we earned the trust of our clients as a dependable ally.
                     </p>
                 </div>
                 <div class="" style="width: 45%; height: auto; margin-right: -15rem">
@@ -594,7 +594,7 @@
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 Archware Tech is the closest software development company in your area.
-                 This is due to the fact that we live in a global village and that it is our 
+                 This is due to the fact that we live in a global village and that it is our
                  goal to completely inundate Africa with technological solutions.
             </div>
           </div>
@@ -635,7 +635,7 @@
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 A page one position in the Google search results is like gold dust.
-                 Not so long ago, it was relatively easy to achieve. These days, it’s a 
+                 Not so long ago, it was relatively easy to achieve. These days, it’s a
                  lot more challenging, and getting it wrong can affect your reputation. Thankfully, we have all the SEO tools and know-how to maximise your chances and some happy customers to vouch for us.
 
               </div>
@@ -649,8 +649,8 @@
             </h2>
             <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                We certainly can do it! It’s important to redesign websites that are no longer producing 
-                the expected results. This could be due to varying problems and software changes. 
+                We certainly can do it! It’s important to redesign websites that are no longer producing
+                the expected results. This could be due to varying problems and software changes.
               </div>
             </div>
           </div>
@@ -662,8 +662,8 @@
             </h2>
             <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                The age-old question! It completely depends on what you need, but you can rest 
-                assured we deliver the best possible value for money and it won’t break the bank. Why not ask for a quote? 
+                The age-old question! It completely depends on what you need, but you can rest
+                assured we deliver the best possible value for money and it won’t break the bank. Why not ask for a quote?
                 There’s no obligation and we won’t sulk if you say "no"!
               </div>
             </div>
@@ -676,8 +676,8 @@
             </h2>
             <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                As part of our endeavours to empower the youths of Africa through education, 
-                we are developing a learning management system 
+                As part of our endeavours to empower the youths of Africa through education,
+                we are developing a learning management system
               </div>
             </div>
           </div>
@@ -703,8 +703,8 @@
         </h2>
         <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            Mobile apps are more expensive but can provide you with many more data-collecting and 
-            monetisation capabilities than web applications. Progressive Web Apps are a good compromise between mobile and web apps. However, keep in mind that you might require both mobile and web apps at some point, 
+            Mobile apps are more expensive but can provide you with many more data-collecting and
+            monetisation capabilities than web applications. Progressive Web Apps are a good compromise between mobile and web apps. However, keep in mind that you might require both mobile and web apps at some point,
             and we are here for you when that time comes.
           </div>
         </div>
@@ -718,7 +718,7 @@
         <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
           <div class="accordion-body">
             During the product design phase, we focus on understanding your idea and
-             how it can be effectively realised. We begin with strategy sessions that help 
+             how it can be effectively realised. We begin with strategy sessions that help
              us find out what your needs and expectations are. We also prepare market and competition analyses as well as point you towards the best solutions.
 
           </div>
@@ -732,20 +732,20 @@
         </h2>
         <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            1. More time to stay focused on the development of your business  
-               By outsourcing your projects to us, you'll free up enough time to concentrate on expanding your business while we handle things in the most effective manner possible for your company and without stressing you in the process. 
-            
-            2.cHigh Professional Development Team  
-            You can rely on having access to highly skilled IT professionals when working with our development team. For your project, we will only deploy those engineers who meet your project requirements. 
-            
-            3. The product-oriented approach in software development 
-            We put your business objectives and how our digital solutions will help you achieve them at the forefront of our efforts as we provide our software development services. 
-            
-            4. Cost Efficient Solution 
+            1. More time to stay focused on the development of your business
+               By outsourcing your projects to us, you'll free up enough time to concentrate on expanding your business while we handle things in the most effective manner possible for your company and without stressing you in the process.
+
+            2.cHigh Professional Development Team
+            You can rely on having access to highly skilled IT professionals when working with our development team. For your project, we will only deploy those engineers who meet your project requirements.
+
+            3. The product-oriented approach in software development
+            We put your business objectives and how our digital solutions will help you achieve them at the forefront of our efforts as we provide our software development services.
+
+            4. Cost Efficient Solution
             If you choose to outsource your project to Archware, you only pay for the software development services we offer. You are not required to cover any recruiting fees or extra expenses for team support.
-            
+
             5. Control Over Your IT Costs
-            Your operating costs will be lower as a result of outsourcing your IT projects because you have complete control over your IT expenses. We will establish a fixed price for our service to make it easier for you to allocate money properly.            
+            Your operating costs will be lower as a result of outsourcing your IT projects because you have complete control over your IT expenses. We will establish a fixed price for our service to make it easier for you to allocate money properly.
 
           </div>
         </div>
@@ -763,7 +763,7 @@
             Ruby on Rails
             PHP
             Node.js
-            C# 
+            C#
             JavaScript
             AngularJS to Angular 6
             React JS
@@ -775,8 +775,8 @@
             Kotlin
             Java
             React Native
-            So, hiring our experts with expertise in that field will be your best bet if you want to incorporate some modern 
-            technologies into your project and make it appear current.            
+            So, hiring our experts with expertise in that field will be your best bet if you want to incorporate some modern
+            technologies into your project and make it appear current.
 
           </div>
         </div>

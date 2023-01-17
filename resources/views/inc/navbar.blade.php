@@ -239,7 +239,7 @@
             const logoManipulation = document.querySelector('.light-logo');
             const normalLogo = document.querySelector('.colored-logo');
             const navLinks = document.querySelectorAll('.nav-link');
-            const navDrop = document.querySelector('.nav-drop');
+            // const navDrop = document.querySelector('.nav-drop');
             const normalButton = document.querySelector('#normal-button');
             const changedButton = document.querySelector('#changed-button');
 
@@ -252,14 +252,14 @@
                 // console.log(nav);
                 nav.classList.add('nav-link-text');
             })
-            navDrop.classList.add('nav-link-text');
+            // navDrop.classList.add('nav-link-text');
 
             logoManipulation.style.display = 'block';
             normalLogo.style.display = 'none'
 
         } else {
             const navLinks = document.querySelectorAll('.nav-link');
-            const navDrop = document.querySelector('.nav-drop');
+            // const navDrop = document.querySelector('.nav-drop');
             const normalButton = document.querySelector('#normal-button');
             const changedButton = document.querySelector('#changed-button');
             getNav.classList.remove('navbar-trigger');
