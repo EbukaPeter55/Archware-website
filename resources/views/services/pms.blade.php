@@ -108,7 +108,7 @@
                     <p class="py-2 archware-card-paragraph-padding text-align-left-body"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
                         We assist businesses in strengthening their internal operations and overall performance by spotting new possibilities and 
-                        enhancing output, service quality, and customer loyalty. We help you define the right project in response to your company’s vision.Project management Outsourcing
+                        enhancing output, service quality, and customer loyalty. We help you define the right project in response to your company’s vision and also handle your Project management Outsourcing
                     </p>
                 </div>
             </div>

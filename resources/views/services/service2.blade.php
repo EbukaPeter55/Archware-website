@@ -11,11 +11,11 @@
             class="container mt-5 d-flex flex-flow flex-wrap justify-content-center align-items-center block-display-tab section-top">
             <div class="archware-content-text archwarejo-width-bottom-head pt-2">
                 <h2 style="font-weight: 700; font-size: 50px; line-height: 58px; color: #ffffff;" class="text-title-mobile">
-                    Website Design and development
+                    Website Design and Development
                 </h2>
                 <p class="pt-3 text-body-mobile archware-text-justify"
                     style="font-style: normal;font-weight: 400;font-size: 18px;line-height: 155%;color:#ffffff;">
-                    Appealing web design, development, and value added tools for better ROI.
+                    Appealing web design, development with value added tools for better ROI.
                 </p>
             </div>
             <div class="archwarejo-width-top-head">
@@ -39,7 +39,7 @@
             <p>We offer 360 degrees solutions to web development as a one-stop provider of innovative web
                 solutions. Every website designed and built by our team of professional web designers comes 
                 with a full content management system so that you can update your website when necessary. 
-                With our web development services, businesses of all sizes can get better returns from online 
+                With our web development services, businesses of all types and sizes can get better returns from online 
                 activities.
             </p>
         </div>
@@ -177,7 +177,7 @@
                     </h2>
                     <p class="py-2 archware-card-paragraph-padding text-align-left-body"
                         style="font-weight: 400;font-size: 17px;line-height: 28px;text-align: center;color: #0D2158;mix-blend-mode: normal;opacity: 0.6;">
-                        By combining the leading edge technologies, we develop B2B and B2C portals and connect your
+                        By combining the leading edge technologies, we develop B2B and B2C portals and connect you with your
                         manufacturers, wholesalers, distributors, and end-users. With these highly scalable portal solutions, we will assist 
                         you in strengthening your customer relationships and streamlining operational efficiency.
                     </p>
