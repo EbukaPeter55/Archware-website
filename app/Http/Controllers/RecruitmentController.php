@@ -118,43 +118,91 @@ class RecruitmentController extends Controller
 
     public function storeRecruit(Request $request)
     {
+
+        /*
+        $validateUser = Validator::make(
+            $request->all(),
+            [
+                'name'                      => 'required|string',
+                'post_applied'              => 'required|string',
+                'nationality'               => 'required|string',
+                'qualification'             => 'required|string',
+                'major_in'                  => 'required|string',
+                'school_name'               => 'required|string',
+                'date_graduated'            => 'required|date_format:Y-m-d',
+                'saudi_council_question'    => 'required|in:yes,no,na',
+                'sce_number'                => 'string|nullable',
+                'sce_validity_date'         => 'date_format:Y-m-d|nullable',
+                'certificate_training'      => 'required|max:5000|mimes:doc,pdf,docx',
+                'work_experience_yrs'       => 'required|numeric',
+                'field_experience_yrs'      => 'required|numeric',
+                'qc_inspection_experience'  => 'required|in:yes,no,na',
+                'aramco_qa_qc_approval'     => 'required|in:yes,no,na',
+                'aramcosap_no_or_id'        => 'string|nullable',
+                'english_skills'            => 'required|string',
+                'current_salary'            => 'required|string',
+                'expected_salary'           => 'required|string',
+                'id_no'                     => 'required|string',
+                'transferrable_iqama'       => 'required|in:yes,no,na',
+                'driving_license'           => 'required|in:yes,no',
+                'dob'                       => 'required|date_format:Y-m-d',
+                'country'                   => 'required|string',
+                'city'                      => 'required|string',
+                'notice_period'             => 'required|string',
+                'contact_no'                => 'string|nullable',
+                'whatsapp_or_imo'           => 'string|nullable',
+                'skype_id'                  => 'string|nullable',
+                'email'                     => 'required|email',
+            ]
+        );
+
+        if ($validateUser->fails()) {
+            return response()->json([
+                'status' => false,
+                'message' => 'validation error',
+                'errors' => $validateUser->errors()
+            ], 400);
+        }
+        */
+
         $this->validate(
             $request,
             [
-                'name' => 'required|string',
-                'post_applied' => 'required|string',
-                'nationality' => 'required|string',
-                'qualification' => 'required|string',
-                'major_in' => 'required|string',
-                'school_name' => 'required|string',
-                'date_graduated' => 'required|date_format:Y-m-d',
-                'saudi_council_question' => 'required|in:yes,no,na',
-                'sce_number' => 'string|nullable',
-                'sce_validity_date' => 'date_format:Y-m-d|nullable',
-                'certificate_training' => 'required|max:5000|mimes:doc,pdf,docx',
-                // 'certificate_training' => 'required|mimes:pdf,docx,doc',
-                // 'certificate_training' => 'required',
-                'work_experience_yrs' => 'required|numeric',
-                'field_experience_yrs' => 'required|numeric',
-                'qc_inspection_experience' => 'required|in:yes,no,na',
-                'aramco_qa_qc_approval' => 'required|in:yes,no,na',
-                'aramcosap_no_or_id' => 'string|nullable',
-                'english_skills' => 'required|string',
-                'current_salary' => 'required|string',
-                'expected_salary' => 'required|string',
-                'id_no' => 'required|string',
-                'transferrable_iqama' => 'required|in:yes,no,na',
-                'driving_license' => 'required|in:yes,no',
-                'dob' => 'required|date_format:Y-m-d',
-                'country' => 'required|string',
-                'city' => 'required|string',
-                'notice_period' => 'required|string',
-                'contact_no' => 'string|nullable',
-                'whatsapp_or_imo' => 'string|nullable',
-                'skype_id' => 'string|nullable',
-                'email' => 'required|email',
+                'name'                      => 'required|string',
+                'post_applied'              => 'required|string',
+                'nationality'               => 'required|string',
+                'qualification'             => 'required|string',
+                'major_in'                  => 'required|string',
+                'school_name'               => 'required|string',
+                'date_graduated'            => 'required|date_format:Y-m-d',
+                'saudi_council_question'    => 'required|in:yes,no,na',
+                'sce_number'                => 'string|nullable',
+                'sce_validity_date'         => 'date_format:Y-m-d|nullable',
+                'certificate_training'      => 'required|max:5000|mimes:doc,pdf,docx',
+                'work_experience_yrs'       => 'required|numeric',
+                'field_experience_yrs'      => 'required|numeric',
+                'qc_inspection_experience'  => 'required|in:yes,no,na',
+                'aramco_qa_qc_approval'     => 'required|in:yes,no,na',
+                'aramcosap_no_or_id'        => 'string|nullable',
+                'english_skills'            => 'required|string',
+                'current_salary'            => 'required|string',
+                'expected_salary'           => 'required|string',
+                'id_no'                     => 'required|string',
+                'transferrable_iqama'       => 'required|in:yes,no,na',
+                'driving_license'           => 'required|in:yes,no',
+                'dob'                       => 'required|date_format:Y-m-d',
+                'country'                   => 'required|string',
+                'city'                      => 'required|string',
+                'notice_period'             => 'required|string',
+                'contact_no'                => 'string|nullable',
+                'whatsapp_or_imo'           => 'string|nullable',
+                'skype_id'                  => 'string|nullable',
+                'email'                     => 'required|email',
+                'credential'                => 'nullable|max:5000|mimes:doc,pdf,docx',
+                'resume'                    => 'required|max:5000|mimes:doc,pdf,docx',
             ]
         );
+
 
         if ($request->hasFile('certificate_training')) {
             $fileNameWithExt    = $request->file('certificate_training')->getClientOriginalName();
@@ -164,6 +212,15 @@ class RecruitmentController extends Controller
             Storage::put('public/certificate_training/' . $certificate_training, $certificate_training);
         }
 
+        if ($request->hasFile('resume')) {
+            $fileNameWithExt    = $request->file('resume')->getClientOriginalName();
+            $filename           = pathinfo($fileNameWithExt, PATHINFO_FILENAME);
+            $extension          = $request->file('resume')->getClientOriginalExtension();
+            $resume             = 'resume_' . $filename . '_' . time() . '.' . $extension;
+            Storage::put('public/resume/' . $resume, $resume);
+        }
+
+        /*
         ModelsRecruitment::create([
             'name' => $request->name,
             'post_applied' => $request->post_applied,
@@ -196,7 +253,73 @@ class RecruitmentController extends Controller
             'skype_id' => $request->skype_id ? $request->skype_id : null,
             'email' => $request->email,
         ]);
+        */
 
+        $recruitment                            = new ModelsRecruitment();
+        $recruitment->name                      = $request->name;
+        $recruitment->post_applied              = $request->post_applied;
+        $recruitment->nationality               = $request->nationality;
+        $recruitment->qualification             = $request->qualification;
+        $recruitment->major_in                  = $request->major_in;
+        $recruitment->school_name               = $request->school_name;
+        $recruitment->date_graduated            = $request->date_graduated;
+        $recruitment->saudi_council_question    = $request->saudi_council_question;
+        $recruitment->sce_number                = $request->sce_number ? $request->sce_number : null;
+        $recruitment->sce_validity_date         = $request->sce_validity_date ? $request->sce_validity_date : null;
+        $recruitment->certificate_training      = $certificate_training;
+        $recruitment->resume                    = $resume;
+        $recruitment->work_experience_yrs       = $request->work_experience_yrs;
+        $recruitment->field_experience_yrs      = $request->field_experience_yrs;
+        $recruitment->qc_inspection_experience  = $request->qc_inspection_experience;
+        $recruitment->aramco_qa_qc_approval     = $request->aramco_qa_qc_approval;
+        $recruitment->aramcosap_no_or_id        = $request->aramcosap_no_or_id ? $request->aramcosap_no_or_id : null;
+        $recruitment->english_skills            = $request->english_skills;
+        $recruitment->current_salary            = $request->current_salary;
+        $recruitment->expected_salary           = $request->expected_salary;
+        $recruitment->id_no                     = $request->id_no;
+        $recruitment->transferrable_iqama       = $request->transferrable_iqama;
+        $recruitment->driving_license           = $request->driving_license;
+        $recruitment->dob                       = $request->dob;
+        $recruitment->country                   = $request->country;
+        $recruitment->city                      = $request->city;
+        $recruitment->notice_period             = $request->notice_period;
+        $recruitment->contact_no                = $request->contact_no ? $request->contact_no : null;
+        $recruitment->whatsapp_or_imo           = $request->whatsapp_or_imo ? $request->whatsapp_or_imo : null;
+        $recruitment->skype_id                  = $request->skype_id ? $request->skype_id : null;
+        $recruitment->email                     = $request->email;
+        $recruitment->save();
+
+        try {
+            if ($request->hasFile('credential')) {
+                $file_credential = $request->file('credential');
+                foreach ($file_credential as $key => $value) {
+                    $fileNameWithExt        = $value->getClientOriginalName();
+                    $filename               = pathinfo($fileNameWithExt, PATHINFO_FILENAME);
+                    $extension              = $value->getClientOriginalExtension();
+                    $credentialdirectory    = 'filecredential_' . $key . $filename . '_' . time() . '.' . $extension;
+                    Storage::put('public/credential/' . $credentialdirectory, $credentialdirectory);
+
+                    $recruitment->credentials()->create([
+                        'recruitment_id' => $recruitment->id,
+                        'credential' => $credentialdirectory,
+                    ]);
+                }
+            }
+
+        } catch (Exception $e) {
+            $recruitment->delete();
+            // return response()->json([
+            //     'status' => FALSE,
+            //     'message' => 'An error occured: Failed to submit',
+            //     'errors' => $e->getMessage()
+            // ], 500);
+            return back()->with('error', 'An error occured: Failed to submit');
+        }
+
+        // return response()->json([
+        //     'status' => TRUE,
+        //     'message' => 'Submitted! We\'ll get back to you soon.',
+        // ], 200);
         return back()->with('success', 'Submitted! We\'ll get back to you soon.');
     }
 }

@@ -26,6 +26,7 @@ class CreateRecruitmentsTable extends Migration
             $table->string('sce_number')->nullable();
             $table->date('sce_validity_date')->nullable();
             $table->string('certificate_training');
+            $table->string('resume');
             $table->integer('work_experience_yrs')->unsigned();
             $table->integer('field_experience_yrs')->unsigned();
             $table->enum('qc_inspection_experience', ['yes', 'no', 'na']);
