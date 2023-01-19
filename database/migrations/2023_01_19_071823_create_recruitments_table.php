@@ -30,6 +30,7 @@ class CreateRecruitmentsTable extends Migration
             $table->integer('work_experience_yrs')->unsigned();
             $table->integer('field_experience_yrs')->unsigned();
             $table->enum('qc_inspection_experience', ['yes', 'no', 'na']);
+            $table->integer('qc_inspection_experience_count')->unsigned()->nullable();
             $table->enum('aramco_qa_qc_approval', ['yes', 'no', 'na']);
             $table->string('aramcosap_no_or_id')->nullable();
             $table->string('english_skills');
