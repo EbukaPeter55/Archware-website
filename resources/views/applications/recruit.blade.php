@@ -229,10 +229,17 @@
                             @enderror
                         </div>
                         <div class="col-sm-6">
-                            <input type="text"
-                                class="form-control @error('notice_period') border border-danger @enderror"
-                                id="notice_period" placeholder="Notice Period / Availability to Join"
-                                name="notice_period" required>
+                            <select name="notice_period" id="notice_period" class="form-control
+                            @error('notice_period') border border-danger @enderror">
+                                <option value="1 week">1 week</option>
+                                <option value="2 weeks">2 weeks</option>
+                                <option value="3 weeks">3 weeks</option>
+                                <option value="4 weeks">4 weeks</option>
+                                <option value="5 weeks">5 weeks</option>
+                                <option value="6 weeks">6 weeks</option>
+                                <option value="7 weeks">7 weeks</option>
+                                <option value="8 weeks">8 weeks</option>
+                            </select>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Notice Period / Availability to Join
                             </label>
@@ -309,12 +316,12 @@
                             @enderror
                         </div>
                         <div class="col-sm-6 dri-license">
-                            <input type="date" class="form-control @error('dob') border border-danger @enderror"
-                                id="dob" placeholder="Enter expiring date (Day-Month-Year)" name="dob" required>
+                            <input type="date" class="form-control @error('do') border border-danger @enderror"
+                                id="do" placeholder="Enter expiring date (Day-Month-Year)" name="do" required>
                             <label for="driving_license">
                                Enter driving license expiring date (Day-Month-Year)
                             </label>
-                            @error('dob')
+                            @error('do')
                                 <div class="text-danger error">
                                     {{ $message }}
                                 </div>
@@ -511,15 +518,15 @@
                     <div class="form-group row pt-4">
                         <div class="col-sm-4">
                             <input type="file"
-                                class="form-control @error('certificate_training') border border-danger @enderror"
-                                id="certificate_training" name="certificate_training" required>
+                                class="form-control @error('credential[0]') border border-danger @enderror"
+                                id="credential[0]" name="credential[0]" required>
                             <label for="inputContactNumber">Certifications & Training's (If Available)</label>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 e.g. AWS, CSWIP 3.1, CSWIP 3.2, NACE Level II, CSWIP-BGAS 2, API-510, API-570, API-650, API-
                                 653, ASNT Level II in (UT, RT, PT, MT, VT), QMS Lead Auditor (ISO 9001:2008), QMS Auditor
                                 (ISO 9001:2008), BICSI, etc.
                             </label>
-                            @error('certificate_training')
+                            @error('credential[0]')
                                 <div class="text-danger error">
                                     {{ $message }}
                                 </div>
@@ -527,9 +534,9 @@
                         </div>
                         <div class="col-sm-4">
                             <input type="file"
-                                class="form-control @error('certificate_training') border border-danger @enderror"
-                                id="certificate_training" name="certificate_training" required>
-                            @error('certificate_training')
+                                class="form-control @error('credential[1]') border border-danger @enderror"
+                                id="credential[1]" name="credential[1]" required>
+                            @error('credential[1]')
                                 <div class="text-danger error">
                                     {{ $message }}
                                 </div>
@@ -537,9 +544,9 @@
                         </div>
                         <div class="col-sm-4">
                             <input type="file"
-                                class="form-control @error('certificate_training') border border-danger @enderror"
-                                id="certificate_training" name="certificate_training" required>
-                            @error('certificate_training')
+                                class="form-control @error('credential[2]') border border-danger @enderror"
+                                id="credential[2]" name="credential[2]" required>
+                            @error('credential[2]')
                                 <div class="text-danger error">
                                     {{ $message }}
                                 </div>
@@ -550,13 +557,13 @@
                     <div class="form-group row pt-4">
                         <div class="col-sm-12">
                             <input type="file"
-                                class="form-control @error('certificate_training') border border-danger @enderror"
-                                id="certificate_training" name="certificate_training" required>
+                                class="form-control @error('resume') border border-danger @enderror"
+                                id="resume" name="resume" required>
                             <label for="inputContactNumber">Resume/CV</label>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                kindly upload your most updated resume or curriculum vitae in (pdf or doc format)
                             </label>
-                            @error('certificate_training')
+                            @error('resume')
                                 <div class="text-danger error">
                                     {{ $message }}
                                 </div>
