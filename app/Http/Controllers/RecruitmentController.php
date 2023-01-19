@@ -118,7 +118,6 @@ class RecruitmentController extends Controller
 
     public function storeRecruit(Request $request)
     {
-        // dd('Here');
         $this->validate(
             $request,
             [
@@ -132,8 +131,9 @@ class RecruitmentController extends Controller
                 'saudi_council_question' => 'required|in:yes,no,na',
                 'sce_number' => 'string|nullable',
                 'sce_validity_date' => 'date_format:Y-m-d|nullable',
-                // 'certificate_training' => 'required|max:5000|mimes:doc,pdf,docx',
+                'certificate_training' => 'required|max:5000|mimes:doc,pdf,docx',
                 // 'certificate_training' => 'required|mimes:pdf,docx,doc',
+                // 'certificate_training' => 'required',
                 'work_experience_yrs' => 'required|numeric',
                 'field_experience_yrs' => 'required|numeric',
                 'qc_inspection_experience' => 'required|in:yes,no,na',
@@ -160,10 +160,8 @@ class RecruitmentController extends Controller
             $fileNameWithExt    = $request->file('certificate_training')->getClientOriginalName();
             $filename           = pathinfo($fileNameWithExt, PATHINFO_FILENAME);
             $extension          = $request->file('certificate_training')->getClientOriginalExtension();
-            $certificate_training     = 'certificate_training' . $filename . '_' . time() . '.' . $extension;
-            Storage::put('public/certificate_training/' . $certificate_training, $request->certificate_training);
-        } else {
-            $certificate_training = "certificate_training.pdf";
+            $certificate_training    = 'certificate_' . $filename . '_' . time() . '.' . $extension;
+            Storage::put('public/certificate_training/' . $certificate_training, $certificate_training);
         }
 
         ModelsRecruitment::create([
