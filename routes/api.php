@@ -23,3 +23,6 @@ Route::post('contactus/message', [App\Http\Controllers\ContactController::class,
 
 // Recruitment API
 Route::post('/recruit-store', [RecruitmentController::class, 'store'])->name('recruit.store');
+
+
+// Route::post('/store-recruit',   [RecruitmentController::class, 'storeRecruit'])->name('recruit.store.web');
