@@ -203,42 +203,6 @@
                         </div>
                     </div>
 
-                    <div class="form-group row pt-5">
-                        <div class="col-sm-6">
-                            <label for="drive">Driver's license</label>
-                            <label for="driving_license">
-                                Do you have Driving License? (GCC/ Saudi / International / Local (Home Country))
-                            </label>
-                            <div class="form-check">
-                                <input class="form-check-input yes-ch" type="radio" name="driving_license" id="yes"
-                                    value="yes" required>
-                                <label class="form-check-label" for="yes">Yes</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input no-ch" type="radio" name="driving_license" id="no"
-                                    value="no" required>
-                                <label class="form-check-label" for="no">No</label>
-                            </div>
-                            @error('driving_license')
-                                <div class="text-danger error">
-                                    {{ $message }}
-                                </div>
-                            @enderror
-                        </div>
-                        <div class="col-sm-6 dri-license">
-                            <input type="date" class="form-control @error('dob') border border-danger @enderror"
-                                id="dob" placeholder="Enter expiring date (Day-Month-Year)" name="dob" required>
-                            <label for="driving_license">
-                               Expiring date (Day-Month-Year)
-                            </label>
-                            @error('dob')
-                                <div class="text-danger error">
-                                    {{ $message }}
-                                </div>
-                            @enderror
-                        </div>
-                    </div>
-
                     <div class="form-group row pt-4">
                         <div class="col-sm-3">
                             <input type="text" class="form-control @error('country') border border-danger @enderror"
@@ -321,19 +285,56 @@
                             @enderror
                         </div>
                     </div>
+
+                    <div class="form-group row pt-5">
+                        <div class="col-sm-6">
+                            <label for="drive">Driver's license</label>
+                            <label for="driving_license">
+                                Do you have Driving License? (GCC/ Saudi / International / Local (Home Country))
+                            </label>
+                            <div class="form-check">
+                                <input class="form-check-input yes-ch" type="radio" name="driving_license" id="yes"
+                                    value="yes" required onclick="checkStatus()">
+                                <label class="form-check-label" for="yes">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input no-ch" type="radio" name="driving_license" id="no"
+                                    value="no" required onclick="negativeStatus()">
+                                <label class="form-check-label" for="no">No</label>
+                            </div>
+                            @error('driving_license')
+                                <div class="text-danger error">
+                                    {{ $message }}
+                                </div>
+                            @enderror
+                        </div>
+                        <div class="col-sm-6 dri-license">
+                            <input type="date" class="form-control @error('dob') border border-danger @enderror"
+                                id="dob" placeholder="Enter expiring date (Day-Month-Year)" name="dob" required>
+                            <label for="driving_license">
+                               Enter driving license expiring date (Day-Month-Year)
+                            </label>
+                            @error('dob')
+                                <div class="text-danger error">
+                                    {{ $message }}
+                                </div>
+                            @enderror
+                        </div>
+                    </div>
+
                     <div class="form-group row pt-4">
                         <div class="col-sm-6">
                             <label for="drive">Saudi Council of Engineers</label>
                             <label for="saudi_council_question">Are you registered in the Saudi Council of
                                 Engineers?</label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="saudi_council_question" id="yes"
-                                    value="yes" required>
+                                <input class="form-check-input saud-yes" type="radio" name="saudi_council_question" id="yes"
+                                    value="yes" required onclick="showSaudiField()">
                                 <label class="form-check-label" for="yes">Yes</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="saudi_council_question" id="no"
-                                    value="no" required>
+                                <input class="form-check-input saud-no" type="radio" name="saudi_council_question" id="no"
+                                    value="no" required onclick="hideSaudiField()">
                                 <label class="form-check-label" for="no">No</label>
                             </div>
                             <div class="form-check">
@@ -347,30 +348,36 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-3">
-                            <input type="text" class="form-control @error('sce_number') border border-danger @enderror"
-                                id="sce_number" placeholder="SCE number" name="sce_number">
-                            <label style="color: #819941; font-size: .7em; font-weight: 900;">
-                                Saudi Council of Engineers (SCE) certificate number
-                            </label>
-                            @error('sce_number')
-                                <div class="text-danger error">
-                                    {{ $message }}
+                        <div class="saudi-field col-sm-6">
+                            <div class="row">
+
+                                <div class="col-6">
+                                    <input type="text" class="form-control @error('sce_number') border border-danger @enderror"
+                                        id="sce_number" placeholder="SCE number" name="sce_number">
+                                    <label style="color: #819941; font-size: .7em; font-weight: 900;">
+                                        Saudi Council of Engineers (SCE) certificate number
+                                    </label>
+                                    @error('sce_number')
+                                        <div class="text-danger error">
+                                            {{ $message }}
+                                        </div>
+                                    @enderror
                                 </div>
-                            @enderror
-                        </div>
-                        <div class="col-sm-3">
-                            <input type="date"
-                                class="form-control @error('sce_validity_date') border border-danger @enderror"
-                                id="sce_validity_date" placeholder="Date of validity" name="sce_validity_date">
-                            <label style="color: #819941; font-size: .7em; font-weight: 900;">
-                                Saudi Council of Engineers (SCE) validity date
-                            </label>
-                            @error('sce_validity_date')
-                                <div class="text-danger error">
-                                    {{ $message }}
+                                <div class="col-6">
+                                    <input type="date"
+                                        class="form-control @error('sce_validity_date') border border-danger @enderror"
+                                        id="sce_validity_date" placeholder="Date of validity" name="sce_validity_date">
+                                    <label style="color: #819941; font-size: .7em; font-weight: 900;">
+                                        Saudi Council of Engineers (SCE) validity date
+                                    </label>
+                                    @error('sce_validity_date')
+                                        <div class="text-danger error">
+                                            {{ $message }}
+                                        </div>
+                                    @enderror
                                 </div>
-                            @enderror
+                            </div>
+
                         </div>
                     </div>
 
@@ -379,13 +386,13 @@
                             <label for="drive">Total QC or Inspection Experience</label>
                             <label for="qc_inspection_experience">Do you have total QC or Inspection Experience?</label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="qc_inspection_experience"
-                                    id="yes" value="yes" required>
+                                <input class="form-check-input qc-yes" type="radio" name="qc_inspection_experience"
+                                    id="yes" value="yes" required onclick="showQC()">
                                 <label class="form-check-label" for="yes">Yes</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="qc_inspection_experience"
-                                    id="no" value="no" required>
+                                <input class="form-check-input qc-no" type="radio" name="qc_inspection_experience"
+                                    id="no" value="no" required onclick="hideQC()">
                                 <label class="form-check-label" for="no">No</label>
                             </div>
                             <div class="form-check">
@@ -399,7 +406,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 qc-field">
                             <input type="text"
                                 class="form-control @error('aramcosap_no_or_id') border border-danger @enderror"
                                 id="aramcosap_no_or_id" placeholder="Total QC number" name="aramcosap_no_or_id">
@@ -423,13 +430,13 @@
                                 Approval - Other Client (OIL & GAS)?
                             </label>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="aramco_qa_qc_approval"
-                                    id="yes" value="yes" required>
+                                <input class="form-check-input armaco-yes" type="radio" name="aramco_qa_qc_approval"
+                                    id="yes" value="yes" required onclick="showArmaco()">
                                 <label class="form-check-label" for="yes">Yes</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="aramco_qa_qc_approval"
-                                    id="no" value="no" required>
+                                <input class="form-check-input armaco-no" type="radio" name="aramco_qa_qc_approval"
+                                    id="no" value="no" required onclick="hideArmaco()">
                                 <label class="form-check-label" for="no">No</label>
                             </div>
                             <div class="form-check">
@@ -443,7 +450,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 armaco-field">
                             <input type="text"
                                 class="form-control @error('aramcosap_no_or_id') border border-danger @enderror"
                                 id="aramcosap_no_or_id" placeholder="ARAMCO SAP No. or ID" name="aramcosap_no_or_id">
@@ -574,15 +581,71 @@
         </div>
     </div>
     <script type="text/javascript">
-    let drivLicense = document.querySelector('.dri-license');
-        let checkInput = document.getElementById('yes');
+        let drivLicense = document.querySelector('.dri-license');
 
-    // Toggle driving license field
-    const checkDriveLicence = () =>{
-        if(document.getElementById('yes').checked){
-            alert('yes is checked');
+       const checkStatus = () => {
+        let checkInput = document.getElementById('yes');
+        if(checkInput.checked === true){
+            drivLicense.style.display = 'block';
+        }else {
+            drivLicense.style.display = 'none';
+        }
+
+       }
+
+       const negativeStatus = () =>{
+        let checkNot = document.getElementById('no');
+        if(checkNot.checked === true){
+            drivLicense.style.display = 'none';
+        }else {
+            drivLicense.style.display = 'block';
+        }
+        
+       }
+    // Toggle Saudi field
+    let saudiFie = document.querySelector('.saudi-field');
+
+    const showSaudiField = () =>{
+        let saudYes = document.querySelector('.saud-yes');
+        if(saudYes.checked === true){
+        saudiFie.style.display = 'block'
         }
     }
-    checkDriveLicence();
+    const hideSaudiField = () =>{
+        let saudNo = document.querySelector('.saud-no');
+        if(saudNo.checked === true){
+        saudiFie.style.display = 'none'
+        }
+    }
+
+    // Toggle QC or inspection experience
+    let qcField = document.querySelector('.qc-field');
+    const showQC = () =>{
+        let qcYes = document.querySelector('.qc-yes');
+        if(qcYes.checked === true){
+        qcField.style.display = 'block'
+        }
+    }
+    const hideQC = () =>{
+        let qcNo = document.querySelector('.qc-no');
+        if(qcNo.checked === true){
+        qcField.style.display = 'none'
+        }
+    }
+   
+    // Toggle Saudi Aramco field
+    let aramcoField = document.querySelector('.armaco-field');
+    const showArmaco = () =>{
+        let aramcoYes = document.querySelector('.armaco-yes');
+        if(aramcoYes.checked === true){
+        aramcoField.style.display = 'block'
+        }
+    }
+    const hideArmaco = () =>{
+        let aramcoNo = document.querySelector('.armaco-no');
+        if(aramcoNo.checked === true){
+        aramcoField.style.display = 'none'
+    }
+    }
     </script>
 @endsection
