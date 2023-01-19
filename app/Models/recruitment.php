@@ -25,6 +25,7 @@ class recruitment extends Model
         'work_experience_yrs',
         'field_experience_yrs',
         'qc_inspection_experience',
+        'qc_inspection_experience_count',
         'aramco_qa_qc_approval',
         'aramcosap_no_or_id',
         'english_skills',

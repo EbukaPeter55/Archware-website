@@ -182,6 +182,7 @@ class RecruitmentController extends Controller
                 'work_experience_yrs'       => 'required|numeric',
                 'field_experience_yrs'      => 'required|numeric',
                 'qc_inspection_experience'  => 'required|in:yes,no,na',
+                'qc_inspection_experience_count' => 'required|numeric',
                 'aramco_qa_qc_approval'     => 'required|in:yes,no,na',
                 'aramcosap_no_or_id'        => 'string|nullable',
                 'english_skills'            => 'required|string',
@@ -271,6 +272,7 @@ class RecruitmentController extends Controller
         $recruitment->work_experience_yrs       = $request->work_experience_yrs;
         $recruitment->field_experience_yrs      = $request->field_experience_yrs;
         $recruitment->qc_inspection_experience  = $request->qc_inspection_experience;
+        $recruitment->qc_inspection_experience_count  = $request->qc_inspection_experience_count;
         $recruitment->aramco_qa_qc_approval     = $request->aramco_qa_qc_approval;
         $recruitment->aramcosap_no_or_id        = $request->aramcosap_no_or_id ? $request->aramcosap_no_or_id : null;
         $recruitment->english_skills            = $request->english_skills;
