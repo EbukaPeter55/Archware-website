@@ -20,7 +20,7 @@
                 </div>
                 <div class="pt-2 mb-3" style="width: 54px; height: 5px; background: #A6CE39; border-radius: 9000px;"></div>
 
-                <form action="{{ route('recruit.store.web') }}" method="post" enctype="mutipart/form-data" id="recruit">
+                <form action="{{ route('recruit.store.web') }}" method="post" enctype="multipart/form-data" id="recruit">
                     @csrf
 
                     <div class="form-group row pt-4">
@@ -167,7 +167,7 @@
                         <div class="col-sm-6">
                             <input type="file"
                                 class="form-control @error('certificate_training') border border-danger @enderror"
-                                id="name" name="certificate_training" required>
+                                id="certificate_training" name="certificate_training" required>
                             <label for="inputContactNumber">Certifications & Training's (If Available)</label>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 e.g. AWS, CSWIP 3.1, CSWIP 3.2, NACE Level II, CSWIP-BGAS 2, API-510, API-570, API-650, API-
