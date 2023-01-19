@@ -1412,6 +1412,20 @@ body {
 }
 
 
+/* RECRUITMENT STYLE */
+.dri-license{
+    display: none;
+}
 
+label[for="drive"]{
+   font-size: 1.2rem;
+   font-weight: bold; 
+}
 
+.saudi-field{
+    display: none;
+}
 
+.qc-field, .armaco-field{
+    display: none;
+}
