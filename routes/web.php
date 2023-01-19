@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\RecruitmentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -74,6 +75,14 @@ Route::get('/contacts', function () {
 Route::get('/join-us', function () {
     return view('joinus');
 });
+
+Route::get('/recruitment', function () {
+    return view('applications.recruit');
+})->name('recruit');
+
+Route::post('/store-recruit',   [RecruitmentController::class, 'storeRecruit'])->name('recruit.store.web');
+
+
 Route::get('/home-train', function () {
     return view('services.home-train');
 });

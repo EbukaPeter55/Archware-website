@@ -36,7 +36,7 @@
         Group forward and, by extension, our nation and continent. Collectively, we are responsible for living our 
         corporate values and ethics, being the bedrock of our organisation.<br>
         With impeccable employee development programs to support you through life’s transitions, we care for our
-        own like family. We also consider our employees as investments in a better society. We respect our ties with them and keep in touch as they traverse through life.
+        own as a family. We also consider our employees as investments for a better society. We respect our ties with them and keep in touch as they traverse through life.
         </div>
     </div>
 </section>

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Models\Application;
+use App\Models\recruitment as ModelsRecruitment;
 use App\Notifications\Recruitment;
 use App\Notifications\RecruitmentNotification;
 use Exception;
@@ -112,5 +113,90 @@ class RecruitmentController extends Controller
                 'error' => 'Error occured: ' . $e->getMessage(),
             ], 500);
         }
+    }
+
+
+    public function storeRecruit(Request $request)
+    {
+        $this->validate(
+            $request,
+            [
+                'name' => 'required|string',
+                'post_applied' => 'required|string',
+                'nationality' => 'required|string',
+                'qualification' => 'required|string',
+                'major_in' => 'required|string',
+                'school_name' => 'required|string',
+                'date_graduated' => 'required|date_format:Y-m-d',
+                'saudi_council_question' => 'required|in:yes,no,na',
+                'sce_number' => 'string|nullable',
+                'sce_validity_date' => 'date_format:Y-m-d|nullable',
+                'certificate_training' => 'required|max:5000|mimes:doc,pdf,docx',
+                // 'certificate_training' => 'required|mimes:pdf,docx,doc',
+                // 'certificate_training' => 'required',
+                'work_experience_yrs' => 'required|numeric',
+                'field_experience_yrs' => 'required|numeric',
+                'qc_inspection_experience' => 'required|in:yes,no,na',
+                'aramco_qa_qc_approval' => 'required|in:yes,no,na',
+                'aramcosap_no_or_id' => 'string|nullable',
+                'english_skills' => 'required|string',
+                'current_salary' => 'required|string',
+                'expected_salary' => 'required|string',
+                'id_no' => 'required|string',
+                'transferrable_iqama' => 'required|in:yes,no,na',
+                'driving_license' => 'required|in:yes,no',
+                'dob' => 'required|date_format:Y-m-d',
+                'country' => 'required|string',
+                'city' => 'required|string',
+                'notice_period' => 'required|string',
+                'contact_no' => 'string|nullable',
+                'whatsapp_or_imo' => 'string|nullable',
+                'skype_id' => 'string|nullable',
+                'email' => 'required|email',
+            ]
+        );
+
+        if ($request->hasFile('certificate_training')) {
+            $fileNameWithExt    = $request->file('certificate_training')->getClientOriginalName();
+            $filename           = pathinfo($fileNameWithExt, PATHINFO_FILENAME);
+            $extension          = $request->file('certificate_training')->getClientOriginalExtension();
+            $certificate_training    = 'certificate_' . $filename . '_' . time() . '.' . $extension;
+            Storage::put('public/certificate_training/' . $certificate_training, $certificate_training);
+        }
+
+        ModelsRecruitment::create([
+            'name' => $request->name,
+            'post_applied' => $request->post_applied,
+            'nationality' => $request->nationality,
+            'qualification' => $request->nationality,
+            'major_in' => $request->major_in,
+            'school_name' => $request->school_name,
+            'date_graduated' => $request->date_graduated,
+            'saudi_council_question' => $request->saudi_council_question,
+            'sce_number' => $request->sce_number ? $request->sce_number : null,
+            'sce_validity_date' => $request->sce_validity_date ? $request->sce_validity_date : null,
+            'certificate_training'  => $certificate_training,
+            'work_experience_yrs' => $request->work_experience_yrs,
+            'field_experience_yrs' => $request->field_experience_yrs,
+            'qc_inspection_experience' => $request->qc_inspection_experience,
+            'aramco_qa_qc_approval' => $request->aramco_qa_qc_approval,
+            'aramcosap_no_or_id' => $request->aramcosap_no_or_id ? $request->aramcosap_no_or_id : null,
+            'english_skills' => $request->english_skills,
+            'current_salary' => $request->current_salary,
+            'expected_salary' => $request->expected_salary,
+            'id_no' => $request->id_no,
+            'transferrable_iqama' => $request->transferrable_iqama,
+            'driving_license' => $request->driving_license,
+            'dob' => $request->dob,
+            'country' => $request->country,
+            'city' => $request->city,
+            'notice_period' => $request->notice_period,
+            'contact_no' => $request->contact_no ? $request->contact_no : null,
+            'whatsapp_or_imo' => $request->whatsapp_or_imo ? $request->whatsapp_or_imo : null,
+            'skype_id' => $request->skype_id ? $request->skype_id : null,
+            'email' => $request->email,
+        ]);
+
+        return back()->with('success', 'Submitted! We\'ll get back to you soon.');
     }
 }

@@ -24,6 +24,7 @@ return array(
     'App\\Models\\Contact' => $baseDir . '/app/Models/Contact.php',
     'App\\Models\\User' => $baseDir . '/app/Models/User.php',
     'App\\Notifications\\ContactMessage' => $baseDir . '/app/Notifications/ContactMessage.php',
+    'App\\Notifications\\Recruitment' => $baseDir . '/app/Notifications/Recruitment.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
     'App\\Providers\\BroadcastServiceProvider' => $baseDir . '/app/Providers/BroadcastServiceProvider.php',

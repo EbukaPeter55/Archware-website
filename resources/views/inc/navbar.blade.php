@@ -20,13 +20,13 @@
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/">Home</a>
                 </li>
-                {{-- <div class="dropdown" style="margin-top: .1rem">
+                <!-- {{-- <div class="dropdown" style="margin-top: .1rem">
                     <li class="btn btn-white archware-nav-title nav-drop dropdown-toggle" data-bs-toggle="dropdown">
                         Our Services
                     </li>
                     <ul class="dropdown-menu dropdown-style">
                         <li class="nav-item dropdown">
-                            <a class="dropdown-toggle dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="dropdown-toggle dropdown-item" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="multilevelDropdownMenu1">
                                 Software Development
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -63,15 +63,15 @@
                                     </a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> -->
                         <!--<li><a class="dropdown-item" href="#">Archware Training Institute</a></li>-->
-                        <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
+                <!-- <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
                         <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management
                                 System</a></li>
                         <li><a class="dropdown-item" href="/food-bank">Food Bank</a></li>
                         <li><a class="dropdown-item" href="/farm-management">Farm Management</a></li>
                     </ul>
-                </div> --}}
+                </div> --}}-->
 
                 {{-- Dropdown --}}
                 {{-- <div> --}}
@@ -100,7 +100,7 @@
                 {{-- </div> --}}
 
                 {{-- Dropdown mobile --}}
-                <div id="menu" class="u-list drop-wrapper e-drop-mobile" style="margin-top: .3rem;">
+                <!-- <div id="menu" class="u-list drop-wrapper e-drop-mobile" style="margin-top: .3rem;">
                     <li class="parent-nav l-list top-level-width"><a href="#">Our Services</a>
                         <ul class="child-nav u-list">
                                 <li class="l-list"><a href="/website-design-and-development"> Responsive web Development</a></li>
@@ -113,7 +113,7 @@
                                 <li class="l-list"><a href="/food-bank">Food Bank</a></li>
                                 <li class="l-list"><a href="/farm-management">Farm Management</a></li>
                         </ul></li>
-                    </div>
+                    </div> -->
                 {{-- End of dropdown --}}
                 <li class="nav-item e-about">
                     <a class="nav-link archware-nav-title" style="scroll-behavior: smooth;" href="/#aboutus">About
@@ -129,9 +129,11 @@
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/#faq">FAQ</a>
                 </li>
-                
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/join-us">Join Us</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link archware-nav-title" href="{{ route('recruit') }}">Recruitment</a>
                 </li>
 
             </ul>
@@ -155,7 +157,7 @@
         data-target="#navbar1">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbar1">
+    <!--<div class="collapse navbar-collapse" id="navbar1">
         <ul class="navbar-nav">
             <li class="nav-item dropdown">
                 <a href="#" id="menu" data-bs-toggle="dropdown" class="nav-link dropdown-toggle" data-display="static">Our Services</a>
@@ -168,7 +170,6 @@
                                 <ul class="dropdown-menu">
                                     <li class="dropdown-item">
                                         <a href="#">Responsive Website Design and Development</a>
-
                                     </li>
                                     <li class="dropdown-item">
                                         <a href="#">Website Redesign</a>
@@ -204,13 +205,14 @@
                 </ul>
             </li>
 
-    </div>
+    </div>-->
 </nav> --}}
+
+<!-- navbar -->
 
 
 <!-- THE SCRIPT TO CONTROL THE STATE OF THE NAVBAR -->
 <script type="text/javascript">
-
     // The code commented out is for the the navbar dropdown
     // $('.dropdown-submenu > a').on("click", function(e) {
     //     var submenu = $(this);
