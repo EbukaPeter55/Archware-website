@@ -21,6 +21,7 @@ class recruitment extends Model
         'sce_number',
         'sce_validity_date',
         'certificate_training',
+        'resume',
         'work_experience_yrs',
         'field_experience_yrs',
         'qc_inspection_experience',
@@ -41,4 +42,8 @@ class recruitment extends Model
         'skype_id',
         'email',
     ];
+
+    public function credentials() {
+        return $this->hasMany(Credential::class);
+    }
 }
