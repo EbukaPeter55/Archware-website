@@ -49,9 +49,9 @@
 
                         <ul class="list-unstyled mb-0">
                             <li class="pb-3"style="font-size:medium;">
-                                 Archware Technologies is a result-driven tech company established<br> 
-                                 to provide technological innovations that help improve the quality<br> 
-                                 of work and lives of people across several business sectors.                    
+                                 Archware Technologies is a result-driven tech company established<br>
+                                 to provide technological innovations that help improve the quality<br>
+                                 of work and lives of people across several business sectors.
                             </li>
                         </ul>
                         <section class="pb-3">
@@ -167,7 +167,7 @@
             </div>
 
             <hr>
-        
+
 
             <section class="container mt-5 p-4">
 
@@ -183,8 +183,8 @@
                         <ul class="list-unstyled mb-0">
                             <li class="pb-3 footer-aboutus foofoot"style="font-size:medium; width:527px">
                                  Archware Technologies is a result-driven tech <br> company  established
-                                 to provide technological <br> innovations that help improve the quality 
-                                 of <br> work and lives of people across several business sectors.                    
+                                 to provide technological <br> innovations that help improve the quality
+                                 of <br> work and lives of people across several business sectors.
                             </li>
                         </ul>
                         <section class="pb-3">
@@ -201,7 +201,7 @@
                         </section>
                     </div>
 
-                
+
                     <div class="pages col-lg-2 col-md-3" style="text-align: initial; flex-direction:row">
                         <h5 class="pb-3 fw-bold" style="font-size: 20px;">Pages</h5>
 
@@ -256,12 +256,12 @@
                 </div>
 
             </section>
-            
+
 
             <div class="text-center pb-5 pt-5" style="background-color: #1f3f95;color:#ffffff">
                 © Archware Technologies International Limited 2022. All Rights Reserved.
             </div>
-            
+
 
     </footer>
 

@@ -20,7 +20,7 @@
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/">Home</a>
                 </li>
-                {{-- <div class="dropdown" style="margin-top: .1rem">
+                <!-- {{-- <div class="dropdown" style="margin-top: .1rem">
                     <li class="btn btn-white archware-nav-title nav-drop dropdown-toggle" data-bs-toggle="dropdown">
                         Our Services
                     </li>
@@ -63,7 +63,7 @@
                                     </a>
                                 </li>
                             </ul>
-                        </li>
+                        </li> -->
                         <!--<li><a class="dropdown-item" href="#">Archware Training Institute</a></li>-->
                 <!-- <li><a class="dropdown-item" href="/project-management">Project Management System</a></li>
                         <li><a class="dropdown-item" href="/account-expense-system">Account & Expenses Management
@@ -71,7 +71,7 @@
                         <li><a class="dropdown-item" href="/food-bank">Food Bank</a></li>
                         <li><a class="dropdown-item" href="/farm-management">Farm Management</a></li>
                     </ul>
-                </div> --}}
+                </div> --}}-->
 
                 {{-- Dropdown --}}
                 {{-- <div> --}}
@@ -100,7 +100,7 @@
                 {{-- </div> --}}
 
                 {{-- Dropdown mobile --}}
-                <div id="menu" class="u-list drop-wrapper e-drop-mobile" style="margin-top: .3rem;">
+                <!-- <div id="menu" class="u-list drop-wrapper e-drop-mobile" style="margin-top: .3rem;">
                     <li class="parent-nav l-list top-level-width"><a href="#">Our Services</a>
                         <ul class="child-nav u-list">
                                 <li class="l-list"><a href="/website-design-and-development"> Responsive web Development</a></li>
@@ -113,7 +113,7 @@
                                 <li class="l-list"><a href="/food-bank">Food Bank</a></li>
                                 <li class="l-list"><a href="/farm-management">Farm Management</a></li>
                         </ul></li>
-                    </div>
+                    </div> -->
                 {{-- End of dropdown --}}
                 <li class="nav-item e-about">
                     <a class="nav-link archware-nav-title" style="scroll-behavior: smooth;" href="/#aboutus">About
@@ -241,7 +241,7 @@
             const logoManipulation = document.querySelector('.light-logo');
             const normalLogo = document.querySelector('.colored-logo');
             const navLinks = document.querySelectorAll('.nav-link');
-            const navDrop = document.querySelector('.nav-drop');
+            // const navDrop = document.querySelector('.nav-drop');
             const normalButton = document.querySelector('#normal-button');
             const changedButton = document.querySelector('#changed-button');
 
@@ -254,14 +254,14 @@
                 // console.log(nav);
                 nav.classList.add('nav-link-text');
             })
-            navDrop.classList.add('nav-link-text');
+            // navDrop.classList.add('nav-link-text');
 
             logoManipulation.style.display = 'block';
             normalLogo.style.display = 'none'
 
         } else {
             const navLinks = document.querySelectorAll('.nav-link');
-            const navDrop = document.querySelector('.nav-drop');
+            // const navDrop = document.querySelector('.nav-drop');
             const normalButton = document.querySelector('#normal-button');
             const changedButton = document.querySelector('#changed-button');
             getNav.classList.remove('navbar-trigger');
