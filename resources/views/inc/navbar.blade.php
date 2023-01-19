@@ -133,7 +133,7 @@
                     <a class="nav-link archware-nav-title" href="/join-us">Join Us</a>
                 </li>
                 <li class="nav-item px-3">
-                    <a class="nav-link archware-nav-title" href="{{ route('recruit') }}">Recruit</a>
+                    <a class="nav-link archware-nav-title" href="{{ route('recruit') }}">Recruitment</a>
                 </li>
 
             </ul>

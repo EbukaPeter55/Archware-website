@@ -76,7 +76,7 @@ Route::get('/join-us', function () {
     return view('joinus');
 });
 
-Route::get('/recruit', function () {
+Route::get('/recruitment', function () {
     return view('applications.recruit');
 })->name('recruit');
 
