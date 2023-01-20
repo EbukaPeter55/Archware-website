@@ -74,7 +74,9 @@
 
                     <div class="form-group row pt-4">
                         <div class="col-sm-6">
-                            <select class="form-control" name="major_in" id="major_in">
+                            <select class="@error('major_in') border border-danger @enderror form-select form-select-md mb-1" 
+                            name="major_in" id="major_in">
+                                <option value="">Select your major <i class="text-danger">*</i></option>
                                 <option value="Civil Engineering">Civil Engineering</option>
                                 <option value="Electrical Engineering">Electrical Engineering</option>
                                 <option value="Mechanical Engineering">Mechanical Engineering</option>
@@ -151,7 +153,7 @@
                         <div class="col-sm-6">
                             <input type="number" min="1" max="10"
                                 class="form-control @error('english_skills') border border-danger @enderror"
-                                id="english_skills" placeholder="English skills" name="english_skills" required>
+                                id="english_skills" placeholder="English skills (1 - 10)" name="english_skills" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Your English Language Skills Written and Spoken (Rate Your self) - 1 to 10 (10 is Excellent)
                             </label>
@@ -205,7 +207,7 @@
                     </div>
 
                     <div class="form-group row pt-4">
-                        <div class="col-sm-3">
+                        <div class="col-sm-6">
                             <input type="text" class="form-control @error('country') border border-danger @enderror"
                                 id="country" placeholder="Country" name="country" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
@@ -217,7 +219,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-6">
                             <input type="text" class="form-control @error('city') border border-danger @enderror"
                                 id="city" placeholder="City" name="city" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
@@ -229,10 +231,15 @@
                                 </div>
                             @enderror
                         </div>
+                
+                    </div>
+
+
+                    <div class="form-group row pt-4">
                         <div class="col-sm-6">
-                            <select name="notice_period" id="notice_period"
-                                class="form-control
-                            @error('notice_period') border border-danger @enderror">
+                            <select class="@error('notice_period') border border-danger @enderror form-select form-select-md mb-1" 
+                            name="notice_period" id="notice_period">
+                                <option value="">Select your notice period <i class="text-danger">*</i></option>
                                 <option value="1 week">1 week</option>
                                 <option value="2 weeks">2 weeks</option>
                                 <option value="3 weeks">3 weeks</option>
@@ -251,11 +258,7 @@
                                 </div>
                             @enderror
                         </div>
-                    </div>
-
-
-                    <div class="form-group row pt-4">
-                        <div class="col-sm-3">
+                        <div class="col-sm-6">
                             <input type="text"
                                 class="form-control @error('contact_no') border border-danger @enderror" id="contact_no"
                                 placeholder="Contact Number" name="contact_no">
@@ -265,7 +268,11 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-3">
+                   
+                    </div>
+
+                    <div class="form-group row pt-4">
+                        <div class="col-sm-6">
                             <input type="text"
                                 class="form-control @error('whatsapp_or_imo') border border-danger @enderror"
                                 id="whatsapp_or_imo" placeholder="WhatsApp & IMO No." name="whatsapp_or_imo">
@@ -275,7 +282,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-6">
                             <input type="text" class="form-control @error('skype_id') border border-danger @enderror"
                                 id="skype_id" placeholder="Skype ID" name="skype_id">
                             @error('skype_id')
@@ -284,7 +291,11 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-3">
+                    </div>
+
+
+                    <div class="form-group row pt-4">
+                        <div class="col-sm-12">
                             <input type="email" class="form-control @error('email') border border-danger @enderror"
                                 id="email" placeholder="Email" name="email" required>
                             @error('email')
@@ -294,11 +305,13 @@
                             @enderror
                         </div>
                     </div>
+                    
 
                     <div class="form-group row pt-5">
                         <div class="col-sm-6">
                             <label for="drive">Driver's license</label>
-                            <label for="driving_license">
+                            <hr class="recruit-line">
+                            <label for="driving_license second-label">
                                 Do you have Driving License? (GCC/ Saudi / International / Local (Home Country))
                             </label>
                             <div class="form-check">
@@ -317,12 +330,12 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6 dri-license">
-                            <input type="date" class="form-control @error('do') border border-danger @enderror"
-                                id="do" placeholder="Enter expiring date (Day-Month-Year)" name="do"
+                        <div class="col-sm-6 dri-license margin-optionalfield">
+                            <input type="text" class="form-control @error('do') border border-danger @enderror"
+                                id="do" placeholder="Enter the type of driving license" name="do"
                                 required>
                             <label for="driving_license">
-                                Enter driving license expiring date (Day-Month-Year)
+                                Enter the type of driving license
                             </label>
                             @error('do')
                                 <div class="text-danger error">
@@ -335,6 +348,7 @@
                     <div class="form-group row pt-4">
                         <div class="col-sm-6">
                             <label for="drive">Saudi Council of Engineers</label>
+                            <hr class="recruit-line">
                             <label for="saudi_council_question">Are you registered in the Saudi Council of
                                 Engineers?</label>
                             <div class="form-check">
@@ -348,8 +362,8 @@
                                 <label class="form-check-label" for="no">No</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="saudi_council_question"
-                                    id="na" value="na" required>
+                                <input class="form-check-input saud-notapp" type="radio" name="saudi_council_question"
+                                    id="na" value="na" required onclick="hideSaudiField()">
                                 <label class="form-check-label" for="na">Not Applicable (N/A)</label>
                             </div>
                             @error('saudi_council_question')
@@ -361,7 +375,7 @@
                         <div class="saudi-field col-sm-6">
                             <div class="row">
 
-                                <div class="col-6">
+                                <div class="col-6 margin-optionalfield">
                                     <input type="text"
                                         class="form-control @error('sce_number') border border-danger @enderror"
                                         id="sce_number" placeholder="SCE number" name="sce_number">
@@ -374,7 +388,7 @@
                                         </div>
                                     @enderror
                                 </div>
-                                <div class="col-6">
+                                <div class="col-6 margin-optionalfield">
                                     <input type="date"
                                         class="form-control @error('sce_validity_date') border border-danger @enderror"
                                         id="sce_validity_date" placeholder="Date of validity" name="sce_validity_date">
@@ -395,6 +409,7 @@
                     <div class="form-group row pt-5">
                         <div class="col-sm-6">
                             <label for="drive">Total QC or Inspection Experience</label>
+                            <hr class="recruit-line">
                             <label for="qc_inspection_experience">Do you have total QC or Inspection Experience?</label>
                             <div class="form-check">
                                 <input class="form-check-input qc-yes" type="radio" name="qc_inspection_experience"
@@ -407,8 +422,8 @@
                                 <label class="form-check-label" for="no">No</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="qc_inspection_experience"
-                                    id="na" value="na" required>
+                                <input class="form-check-input qc-not" type="radio" name="qc_inspection_experience"
+                                    id="na" value="na" required onclick="hideQC()">
                                 <label class="form-check-label" for="na">Not Applicable (N/A)</label>
                             </div>
                             @error('qc_inspection_experience')
@@ -417,7 +432,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6 qc-field">
+                        <div class="col-sm-6 qc-field margin-optionalfield">
                             <input type="text"
                                 class="form-control @error('aramcosap_no_or_id') border border-danger @enderror"
                                 id="aramcosap_no_or_id" placeholder="Total QC number" name="aramcosap_no_or_id">
@@ -436,6 +451,7 @@
                     <div class="form-group row pt-5">
                         <div class="col-sm-6">
                             <label for="drive">Saudi ARAMCO & QA/QC - Aramco Approval</label>
+                            <hr class="recruit-line">
                             <label for="aramco_qa_qc_approval">
                                 Do You have experience in Saudi ARAMCO & QA/QC - Aramco
                                 Approval - Other Client (OIL & GAS)?
@@ -451,8 +467,8 @@
                                 <label class="form-check-label" for="no">No</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="aramco_qa_qc_approval"
-                                    id="na" value="na" required>
+                                <input class="form-check-input armaco-not" type="radio" name="aramco_qa_qc_approval"
+                                    id="na" value="na" required onclick="hideArmaco()">
                                 <label class="form-check-label" for="na">Not Applicable (N/A)</label>
                             </div>
                             @error('aramco_qa_qc_approval')
@@ -461,7 +477,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6 armaco-field">
+                        <div class="col-sm-6 armaco-field margin-optionalfield">
                             <input type="text"
                                 class="form-control @error('aramcosap_no_or_id') border border-danger @enderror"
                                 id="aramcosap_no_or_id" placeholder="ARAMCO SAP No. or ID" name="aramcosap_no_or_id">
@@ -478,11 +494,38 @@
 
                     <div class="form-group row pt-5">
                         <div class="col-sm-6">
+                            <label for="drive">Transferable IQAMA</label>
+                            <hr class="recruit-line">
+                            <label for="transferrable_iqama">
+                                Do you have Transferable IQAMA? (For Expats who are currently working) & Put N/A if it's not
+                                applicable to you.
+                            </label>
+                            <div class="form-check">
+                                <input class="form-check-input qamaField" type="radio" name="transferrable_iqama" id="yes"
+                                    value="yes" required onclick="showQama()">
+                                <label class="form-check-label" for="yes">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input natField" type="radio" name="transferrable_iqama" id="no"
+                                    value="no" required onclick="showNatID()">
+                                <label class="form-check-label" for="no">No</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input noField" type="radio" name="transferrable_iqama" id="na"
+                                    value="na" required onclick="hideAllField()">
+                                <label class="form-check-label" for="na">Not Applicable (N/A)</label>
+                            </div>
+                            @error('transferrable_iqama')
+                                <div class="text-danger error">
+                                    {{ $message }}
+                                </div>
+                            @enderror
+                        </div>
+                        <div class="col-sm-6 iqama-field margin-optionalfield">
                             <input type="text" class="form-control @error('id_no') border border-danger @enderror"
-                                id="id_no" placeholder="ID No." name="id_no" required>
+                                id="id_no" placeholder="IQAMA number or National ID number." name="id_no" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
-                                National ID No. (for Saudi) or IQAMA No. (for Expat) who is currently working in Saudi and
-                                Passport No. for Expat who are NOT working in Saudi
+                                National ID No. (for Saudi) or IQAMA No. (for Expat) who is currently working in Saudi 
                             </label>
                             @error('id_no')
                                 <div class="text-danger error">
@@ -490,28 +533,13 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
-                            <label for="drive">Transferable IQAMA</label>
-                            <label for="transferrable_iqama">
-                                Do you have Transferable IQAMA? (For Expats who are currently working) & Put N/A if it's not
-                                applicable to you.
+                        <div class="col-sm-6 natid-field margin-optionalfield">
+                            <input type="text" class="form-control @error('id_no') border border-danger @enderror"
+                                id="id_no" placeholder="Passport number." name="id_no" required>
+                            <label style="color: #819941; font-size: .7em; font-weight: 900;">
+                                Passport No. for Expat who are NOT working in Saudi
                             </label>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="transferrable_iqama" id="yes"
-                                    value="yes" required>
-                                <label class="form-check-label" for="yes">Yes</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="transferrable_iqama" id="no"
-                                    value="no" required>
-                                <label class="form-check-label" for="no">No</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="transferrable_iqama" id="na"
-                                    value="na" required>
-                                <label class="form-check-label" for="na">Not Applicable (N/A)</label>
-                            </div>
-                            @error('transferrable_iqama')
+                            @error('id_no')
                                 <div class="text-danger error">
                                     {{ $message }}
                                 </div>
@@ -585,12 +613,14 @@
                         </div>
                     </div>
 
-                    <div class="container mt-2 sumitbtn">
+                    <div class="container mt-5 ">
                         <a class="py-3" style="text-align:center;">
-                            <button type="submit" class="small-mobile-long-button"
-                                style="display: flex;justify-content: center;
-                        align-items: center; gap: 4px;width: 440px;height: 52px;
+                            <button type="submit" class=""
+                                style="
                         border: none;
+                        text-decoration: none;
+                        padding: 1rem 5rem 1rem 5rem;
+                        margin-left: -1.4rem;
                         background: #1F3F95;border-radius: 8px; color:#FFFFFF">
                                 Submit
                             </button>
@@ -633,7 +663,8 @@
         }
         const hideSaudiField = () => {
             let saudNo = document.querySelector('.saud-no');
-            if (saudNo.checked === true) {
+            let saudNot = document.querySelector('.saud-notapp')
+            if (saudNo.checked === true || saudNot.checked === true) {
                 saudiFie.style.display = 'none'
             }
         }
@@ -648,7 +679,8 @@
         }
         const hideQC = () => {
             let qcNo = document.querySelector('.qc-no');
-            if (qcNo.checked === true) {
+            let qcNot = document.querySelector('.qc-not');
+            if (qcNo.checked === true || qcNot.checked === true) {
                 qcField.style.display = 'none'
             }
         }
@@ -663,8 +695,38 @@
         }
         const hideArmaco = () => {
             let aramcoNo = document.querySelector('.armaco-no');
-            if (aramcoNo.checked === true) {
+            let armacoNot = document.querySelector('.armaco-not');
+            if (aramcoNo.checked === true || armacoNot.checked === true) {
                 aramcoField.style.display = 'none'
+            }
+        }
+
+        // Toggle and hide qama and id field
+        let qaField = document.querySelector('.iqama-field');
+        let natIdField = document.querySelector('.natid-field');
+
+        const showQama = () => {
+            let qamaInput = document.querySelector('.qamaField');
+            if(qamaInput.checked === true){
+                qaField.style.display = 'block'
+                natIdField.style.display = 'none'
+            }
+
+        }
+
+        const showNatID = () => {
+            let natFieldInput = document.querySelector('.natField');
+            if(natFieldInput.checked === true){
+                natIdField.style.display = 'block'
+                qaField.style.display = 'none'
+            }
+        }
+
+        const hideAllField = () => {
+            let noFieldInput = document.querySelector('.noField');
+            if(noFieldInput.checked === true){
+                natIdField.style.display = 'none'
+                qaField.style.display = 'none'
             }
         }
     </script>

@@ -15,7 +15,7 @@
         </button>
 
         <div class="collapse nav-postion  navbar-collapse" id="navbarSupportedContent" style="margin-top: .5rem">
-            <ul class="navbar-nav me-auto nav-links-a" style="margin-left: 16%;">
+            <ul class="navbar-nav me-auto nav-links-a" style="margin-left: 8%;">
                 <!-- Remember to change the margin-left back to 8% when we want to host our team -->
                 <li class="nav-item px-3">
                     <a class="nav-link archware-nav-title" href="/">Home</a>
@@ -75,7 +75,7 @@
 
                 {{-- Dropdown --}}
                 {{-- <div> --}}
-                <div id="menu" class="u-list drop-wrapper e-drop-desktop" style="margin-top: .3rem;">
+                <div id="menu" class="u-list drop-wrapper e-drop-desktop" style="margin-top: .4rem; margin-left: -5.5rem">
                     <li class="parent-nav l-list top-level-width"><a href="#">Our Services</a>
                         <ul class="child-nav u-list">
                             <li class="parent-nav l-list"><a href="#">Software development <span class="expand">»</span></a>
