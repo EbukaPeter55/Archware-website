@@ -26,7 +26,7 @@
                     <div class="form-group row pt-4">
                         <div class="col-sm-6">
                             <input type="text" class="form-control @error('name') border border-danger @enderror"
-                                id="name" placeholder="Your name" name="name" value="{{ old('name') }}" required>
+                                id="name" placeholder="Your name" name="name" required>
                             @error('name')
                                 <div class="text-danger error">
                                     {{ $message }}
@@ -35,8 +35,7 @@
                         </div>
                         <div class="col-sm-6">
                             <input type="text" class="form-control @error('post_applied') border border-danger @enderror"
-                                id="post_applied" placeholder="Post Applied" name="post_applied"
-                                value="{{ old('post_applied') }}" required>
+                                id="post_applied" placeholder="Post Applied" name="post_applied" required>
                             @error('post_applied')
                                 <div class="text-danger error">
                                     {{ $message }}
@@ -47,8 +46,7 @@
                     <div class="form-group row pt-4">
                         <div class="col-sm-6">
                             <input type="text" class="form-control @error('nationality') border border-danger @enderror"
-                                id="nationality" placeholder="Nationality" name="nationality"
-                                value="{{ old('nationality') }}" required>
+                                id="nationality" placeholder="Nationality" name="nationality" required>
                             @error('nationality')
                                 <div class="text-danger error">
                                     {{ $message }}
@@ -76,8 +74,9 @@
 
                     <div class="form-group row pt-4">
                         <div class="col-sm-6">
-                            <select class="@error('major_in') border border-danger @enderror form-select form-select-md mb-1"
-                            name="major_in" id="major_in">
+                            <select
+                                class="@error('major_in') border border-danger @enderror form-select form-select-md mb-1"
+                                name="major_in" id="major_in">
                                 <option value="">Select your major <i class="text-danger">*</i></option>
                                 <option value="Civil Engineering">Civil Engineering</option>
                                 <option value="Electrical Engineering">Electrical Engineering</option>
@@ -96,8 +95,7 @@
                         </div>
                         <div class="col-sm-3">
                             <input type="text" class="form-control @error('school_name') border border-danger @enderror"
-                                id="school_name" placeholder="Name of Your School" name="school_name"
-                                value="{{ old('school_name') }}" required>
+                                id="school_name" placeholder="Name of Your School" name="school_name" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 (University/Institute)
                             </label>
@@ -110,8 +108,7 @@
                         <div class="col-sm-3">
                             <input type="date"
                                 class="form-control @error('date_graduated') border border-danger @enderror"
-                                id="date_graduated" placeholder="Date Graduated" name="date_graduated"
-                                value="{{ old('date_graduated') }}" required>
+                                id="date_graduated" placeholder="Date Graduated" name="date_graduated" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Date Graduated from (University/Institute)
                             </label>
@@ -127,7 +124,7 @@
                             <input type="number" min="1"
                                 class="form-control @error('work_experience_yrs') border border-danger @enderror"
                                 id="work_experience_yrs" placeholder="Years of Work Experience" name="work_experience_yrs"
-                                value="{{ old('work_experience_yrs') }}" required>
+                                required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Total Years of Work Experience
                             </label>
@@ -141,7 +138,7 @@
                             <input type="number" min="1"
                                 class="form-control @error('field_experience_yrs') border border-danger @enderror"
                                 id="field_experience_yrs" placeholder="Years of Relevant Experience"
-                                name="field_experience_yrs" value="{{ old('field_experience_yrs') }}" required>
+                                name="field_experience_yrs" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Total Years of Relevant Experience to the Applied Position
                             </label>
@@ -169,8 +166,7 @@
                         </div>
                         <div class="col-sm-6">
                             <input type="date" class="form-control @error('dob') border border-danger @enderror"
-                                id="dob" placeholder="Date Of Birth (Day-Month-Year)" name="dob"
-                                value="{{ old('dob') }}" required>
+                                id="dob" placeholder="Date Of Birth (Day-Month-Year)" name="dob" required>
                             <label for="driving_license">
                                 Date Of Birth (Day-Month-Year)
                             </label>
@@ -200,8 +196,8 @@
                         <div class="col-sm-6">
                             <input type="number"
                                 class="form-control @error('expected_salary') border border-danger @enderror"
-                                id="expected_salary" placeholder="Expected Salary" name="expected_salary" required
-                                min=0 oninput="validity.valid||(value='');">
+                                id="expected_salary" placeholder="Expected Salary" name="expected_salary" required min=0
+                                oninput="validity.valid||(value='');">
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Expected Salary (in SAR)
                             </label>
@@ -216,8 +212,7 @@
                     <div class="form-group row pt-4">
                         <div class="col-sm-6">
                             <input type="text" class="form-control @error('country') border border-danger @enderror"
-                                id="country" placeholder="Country" name="country" value="{{ old('country') }}"
-                                required>
+                                id="country" placeholder="Country" name="country" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 (Use your current location)
                             </label>
@@ -229,7 +224,7 @@
                         </div>
                         <div class="col-sm-6">
                             <input type="text" class="form-control @error('city') border border-danger @enderror"
-                                id="city" placeholder="City" name="city" value="{{ old('city') }}" required>
+                                id="city" placeholder="City" name="city" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 (Use your current location)
                             </label>
@@ -245,8 +240,9 @@
 
                     <div class="form-group row pt-4">
                         <div class="col-sm-6">
-                            <select class="@error('notice_period') border border-danger @enderror form-select form-select-md mb-1"
-                            name="notice_period" id="notice_period">
+                            <select
+                                class="@error('notice_period') border border-danger @enderror form-select form-select-md mb-1"
+                                name="notice_period" id="notice_period">
                                 <option value="">Select your notice period <i class="text-danger">*</i></option>
                                 <option value="1 week">1 week</option>
                                 <option value="2 weeks">2 weeks</option>
@@ -269,7 +265,7 @@
                         <div class="col-sm-6">
                             <input type="text"
                                 class="form-control @error('contact_no') border border-danger @enderror" id="contact_no"
-                                placeholder="Contact Number" name="contact_no" value="{{ old('contact_no') }}">
+                                placeholder="Contact Number" name="contact_no">
                             @error('contact_no')
                                 <div class="text-danger error">
                                     {{ $message }}
@@ -283,8 +279,7 @@
                         <div class="col-sm-6">
                             <input type="text"
                                 class="form-control @error('whatsapp_or_imo') border border-danger @enderror"
-                                id="whatsapp_or_imo" placeholder="WhatsApp & IMO No." name="whatsapp_or_imo"
-                                value="{{ old('whatsapp_or_imo') }}">
+                                id="whatsapp_or_imo" placeholder="WhatsApp & IMO No." name="whatsapp_or_imo">
                             @error('whatsapp_or_imo')
                                 <div class="text-danger error">
                                     {{ $message }}
@@ -293,7 +288,7 @@
                         </div>
                         <div class="col-sm-6">
                             <input type="text" class="form-control @error('skype_id') border border-danger @enderror"
-                                id="skype_id" placeholder="Skype ID" name="skype_id" value="{{ old('skype_id') }}">
+                                id="skype_id" placeholder="Skype ID" name="skype_id">
                             @error('skype_id')
                                 <div class="text-danger error">
                                     {{ $message }}
@@ -306,7 +301,7 @@
                     <div class="form-group row pt-4">
                         <div class="col-sm-12">
                             <input type="email" class="form-control @error('email') border border-danger @enderror"
-                                id="email" placeholder="Email" name="email" value="{{ old('email') }}" required>
+                                id="email" placeholder="Email" name="email" required>
                             @error('email')
                                 <div class="text-danger error">
                                     {{ $message }}
@@ -318,7 +313,7 @@
 
                     <div class="form-group row pt-5">
                         <label for="drive">Driver's license</label>
-                            <hr class="recruit-line">
+                        <hr class="recruit-line">
                         <div class="col-sm-6">
                             {{-- <label for="drive">Driver's license</label>
                             <hr class="recruit-line"> --}}
@@ -342,13 +337,19 @@
                             @enderror
                         </div>
                         <div class="col-sm-6 dri-license margin-optionalfield">
-                            <input type="text" class="form-control @error('do') border border-danger @enderror"
-                                id="do" placeholder="Enter the type of driving license" name="do"
-                                required>
+                            <select
+                            class="driv-type @error('do')  border border-danger @enderror form-select form-select-md mb-1"
+                            name="do" id="do" required>
+                            <option value="">Select the type of driving license <i class="text-danger">*</i></option>
+                                <option value="GCC">GCC</option>
+                                <option value="Saudi">Saudi</option>
+                                <option value="International">International</option>
+                                <option value="Local (Home Country)">Local (Home Country)</option>
+                            </select>
                             <label for="driving_license">
                                 Enter the type of driving license
                             </label>
-                            @error('license_number')
+                            @error('do')
                                 <div class="text-danger error">
                                     {{ $message }}
                                 </div>
@@ -358,7 +359,7 @@
 
                     <div class="form-group row pt-4">
                         <label for="drive">Saudi Council of Engineers</label>
-                            <hr class="recruit-line">
+                        <hr class="recruit-line">
                         <div class="col-sm-6">
                             <label for="saudi_council_question">Are you registered in the Saudi Council of
                                 Engineers?</label>
@@ -388,9 +389,8 @@
 
                                 <div class="col-6 margin-optionalfield">
                                     <input type="text"
-                                        class="form-control @error('sce_number') border border-danger @enderror"
-                                        id="sce_number" placeholder="SCE number" name="sce_number"
-                                        value="{{ old('sce_number') }}">
+                                        class="form-control saudiRequired @error('sce_number') border border-danger @enderror"
+                                        id="sce_number" placeholder="SCE number" name="sce_number">
                                     <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                         Saudi Council of Engineers (SCE) certificate number
                                     </label>
@@ -402,9 +402,8 @@
                                 </div>
                                 <div class="col-6 margin-optionalfield">
                                     <input type="date"
-                                        class="form-control @error('sce_validity_date') border border-danger @enderror"
-                                        id="sce_validity_date" placeholder="Date of validity" name="sce_validity_date"
-                                        value="{{ old('sce_validity_date') }}">
+                                        class="form-control cERequired @error('sce_validity_date') border border-danger @enderror"
+                                        id="sce_validity_date" placeholder="Date of validity" name="sce_validity_date">
                                     <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                         Saudi Council of Engineers (SCE) validity date
                                     </label>
@@ -421,7 +420,7 @@
 
                     <div class="form-group row pt-5">
                         <label for="drive">Total QC or Inspection Experience</label>
-                            <hr class="recruit-line">
+                        <hr class="recruit-line">
                         <div class="col-sm-6">
                             <label for="qc_inspection_experience">Do you have total QC or Inspection Experience?</label>
                             <div class="form-check">
@@ -447,14 +446,12 @@
                         </div>
                         <div class="col-sm-6 qc-field margin-optionalfield">
                             <input type="text"
-                                class="form-control @error('qc_inspection_experience_count') border border-danger @enderror"
-                                id="qc_inspection_experience_count" placeholder="Total QC number"
-                                name="qc_inspection_experience_count"
-                                value="{{ old('qc_inspection_experience_count') }}">
+                                class="form-control qcNumber @error('aramcosap_no_or_id') border border-danger @enderror"
+                                id="aramcosap_no_or_id" placeholder="Total QC number" name="aramcosap_no_or_id">
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 If you have a total QC or Inspection Experience, kindly mention your Total QC number.
                             </label>
-                            @error('qc_inspection_experience_count')
+                            @error('aramcosap_no_or_id')
                                 <div class="text-danger error">
                                     {{ $message }}
                                 </div>
@@ -494,9 +491,8 @@
                         </div>
                         <div class="col-sm-6 armaco-field margin-optionalfield">
                             <input type="text"
-                                class="form-control @error('aramcosap_no_or_id') border border-danger @enderror"
-                                id="aramcosap_no_or_id" placeholder="ARAMCO SAP No. or ID" name="aramcosap_no_or_id"
-                                value="{{ old('aramcosap_no_or_id') }}">
+                                class="form-control armAppr @error('aramcosap_no_or_id') border border-danger @enderror"
+                                id="aramcosap_no_or_id" placeholder="ARAMCO SAP No. or ID" name="aramcosap_no_or_id">
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 If you have an ARAMCO Approval, kindly mention your ARAMCO SAP No. or ID.
                             </label>
@@ -510,25 +506,25 @@
 
                     <div class="form-group row pt-5">
                         <label for="drive">Transferable IQAMA</label>
-                            <hr class="recruit-line">
+                        <hr class="recruit-line">
                         <div class="col-sm-6">
                             <label for="transferrable_iqama">
                                 Do you have Transferable IQAMA? (For Expats who are currently working) & Put N/A if it's not
                                 applicable to you.
                             </label>
                             <div class="form-check">
-                                <input class="form-check-input qamaField" type="radio" name="transferrable_iqama" id="yes"
-                                    value="yes" required onclick="showQama()">
+                                <input class="form-check-input qamaField" type="radio" name="transferrable_iqama"
+                                    id="yes" value="yes" required onclick="showQama()">
                                 <label class="form-check-label" for="yes">Yes</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input natField" type="radio" name="transferrable_iqama" id="no"
-                                    value="no" required onclick="showNatID()">
+                                <input class="form-check-input natField" type="radio" name="transferrable_iqama"
+                                    id="no" value="no" required onclick="showNatID()">
                                 <label class="form-check-label" for="no">No</label>
                             </div>
                             <div class="form-check">
-                                <input class="form-check-input noField" type="radio" name="transferrable_iqama" id="na"
-                                    value="na" required onclick="hideAllField()">
+                                <input class="form-check-input noField" type="radio" name="transferrable_iqama"
+                                    id="na" value="na" required onclick="hideAllField()">
                                 <label class="form-check-label" for="na">Not Applicable (N/A)</label>
                             </div>
                             @error('transferrable_iqama')
@@ -538,7 +534,8 @@
                             @enderror
                         </div>
                         <div class="col-sm-6 iqama-field margin-optionalfield">
-                            <input type="text" class="form-control @error('id_no') border border-danger @enderror"
+                            <input type="text"
+                                class="form-control nationalIqa @error('id_no') border border-danger @enderror"
                                 id="id_no" placeholder="IQAMA number or National ID number." name="id_no" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 National ID No. (for Saudi) or IQAMA No. (for Expat) who is currently working in Saudi
@@ -550,7 +547,8 @@
                             @enderror
                         </div>
                         <div class="col-sm-6 natid-field margin-optionalfield">
-                            <input type="text" class="form-control @error('id_passport') border border-danger @enderror"
+                            <input type="text"
+                                class="form-control natpassport @error('id_passport') border border-danger @enderror"
                                 id="id_passport" placeholder="Passport number." name="id_passport" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Passport No. for Expat who are NOT working in Saudi
@@ -567,8 +565,7 @@
                         <div class="col-sm-6">
                             <input type="file"
                                 class="form-control @error('certificate_training') border border-danger @enderror"
-                                id="certificate_training" name="certificate_training"
-                                required>
+                                id="certificate_training" name="certificate_training" required>
                             <label for="inputContactNumber">Certifications & Training's (If Available)</label>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 e.g. AWS, CSWIP 3.1, CSWIP 3.2, NACE Level II, CSWIP-BGAS 2, API-510, API-570, API-650, API-
@@ -650,7 +647,7 @@
     </div>
     <script type="text/javascript">
         let drivLicense = document.querySelector('.dri-license');
-
+        let drivInputField = document.querySelector('.driv-type');
         const checkStatus = () => {
             let checkInput = document.getElementById('yes');
             if (checkInput.checked === true) {
@@ -665,6 +662,8 @@
             let checkNot = document.getElementById('no');
             if (checkNot.checked === true) {
                 drivLicense.style.display = 'none';
+                drivInputField.removeAttribute('required')
+                console.log(drivInputField);
             } else {
                 drivLicense.style.display = 'block';
             }
@@ -672,6 +671,8 @@
         }
         // Toggle Saudi field
         let saudiFie = document.querySelector('.saudi-field');
+        let saudiRemoveRequired = document.querySelector('.saudiRequired');
+        let cERemoveRequired = document.querySelector('.cERequired');
 
         const showSaudiField = () => {
             let saudYes = document.querySelector('.saud-yes');
@@ -684,11 +685,16 @@
             let saudNot = document.querySelector('.saud-notapp')
             if (saudNo.checked === true || saudNot.checked === true) {
                 saudiFie.style.display = 'none'
+                saudiRemoveRequired.removeAttribute('required');
+                cERemoveRequired.removeAttribute('required');
+                console.log(cERemoveRequired);
             }
         }
 
         // Toggle QC or inspection experience
         let qcField = document.querySelector('.qc-field');
+        let qcRemoveRequired = document.querySelector('.qcNumber');
+
         const showQC = () => {
             let qcYes = document.querySelector('.qc-yes');
             if (qcYes.checked === true) {
@@ -700,6 +706,8 @@
             let qcNot = document.querySelector('.qc-not');
             if (qcNo.checked === true || qcNot.checked === true) {
                 qcField.style.display = 'none'
+                qcRemoveRequired.removeAttribute('required');
+                console.log(qcRemoveRequired);
             }
         }
 
@@ -722,29 +730,42 @@
         // Toggle and hide qama and id field
         let qaField = document.querySelector('.iqama-field');
         let natIdField = document.querySelector('.natid-field');
+        let natFieldInput = document.querySelector('.natField');
+        let removePassRequired = document.querySelector('.natpassport');
+        let noFieldInput = document.querySelector('.noField');
+        let removeIqamaRequired = document.querySelector('.nationalIqa');
+        console.log(removePassRequired);
 
         const showQama = () => {
             let qamaInput = document.querySelector('.qamaField');
-            if(qamaInput.checked === true){
+            if (qamaInput.checked === true) {
                 qaField.style.display = 'block'
                 natIdField.style.display = 'none'
+                removePassRequired.removeAttribute('required');
+                console.log(removePassRequired);
+
             }
 
         }
 
         const showNatID = () => {
-            let natFieldInput = document.querySelector('.natField');
-            if(natFieldInput.checked === true){
+
+            if (natFieldInput.checked === true) {
                 natIdField.style.display = 'block'
                 qaField.style.display = 'none'
+                removeIqamaRequired.removeAttribute('required');
+                console.log(removeIqamaRequired);
+
             }
         }
 
         const hideAllField = () => {
-            let noFieldInput = document.querySelector('.noField');
-            if(noFieldInput.checked === true){
+
+            if (noFieldInput.checked === true) {
                 natIdField.style.display = 'none'
                 qaField.style.display = 'none'
+                removeIqamaRequired.removeAttribute('required');
+                removePassRequired.removeAttribute('required');
             }
         }
     </script>
