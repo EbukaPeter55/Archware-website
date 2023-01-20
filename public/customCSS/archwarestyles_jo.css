@@ -277,7 +277,7 @@ ll
 }
 
 .margin-optionalfield{
-    margin-top: 3.9rem!important;
+    margin-top: .3rem!important;
 }
 
 .second-label{
@@ -285,5 +285,7 @@ ll
 }
 
 .recruit-line{
+    max-width: 98%;
+    margin-left: .8rem;
     margin-top: .5rem;
 }

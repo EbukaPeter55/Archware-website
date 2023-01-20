@@ -181,7 +181,8 @@
                         <div class="col-sm-6">
                             <input type="number"
                                 class="form-control @error('current_salary') border border-danger @enderror"
-                                id="current_salary" placeholder="Current/Last Salary" name="current_salary" required>
+                                id="current_salary" placeholder="Current/Last Salary" name="current_salary" required
+                                min=0 oninput="validity.valid||(value='');">
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Current/Last Salary (in SAR)
                             </label>
@@ -194,7 +195,8 @@
                         <div class="col-sm-6">
                             <input type="number"
                                 class="form-control @error('expected_salary') border border-danger @enderror"
-                                id="expected_salary" placeholder="Expected Salary" name="expected_salary" required>
+                                id="expected_salary" placeholder="Expected Salary" name="expected_salary" required
+                                min=0 oninput="validity.valid||(value='');">
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Expected Salary (in SAR)
                             </label>
@@ -308,11 +310,13 @@
                     
 
                     <div class="form-group row pt-5">
-                        <div class="col-sm-6">
-                            <label for="drive">Driver's license</label>
+                        <label for="drive">Driver's license</label>
                             <hr class="recruit-line">
+                        <div class="col-sm-6">
+                            {{-- <label for="drive">Driver's license</label>
+                            <hr class="recruit-line"> --}}
                             <label for="driving_license second-label">
-                                Do you have Driving License? (GCC/ Saudi / International / Local (Home Country))
+                                Do you have Driving License? (GCC/ Saudi / International<br> / Local (Home Country))
                             </label>
                             <div class="form-check">
                                 <input class="form-check-input yes-ch" type="radio" name="driving_license"
@@ -346,9 +350,9 @@
                     </div>
 
                     <div class="form-group row pt-4">
-                        <div class="col-sm-6">
-                            <label for="drive">Saudi Council of Engineers</label>
+                        <label for="drive">Saudi Council of Engineers</label>
                             <hr class="recruit-line">
+                        <div class="col-sm-6">
                             <label for="saudi_council_question">Are you registered in the Saudi Council of
                                 Engineers?</label>
                             <div class="form-check">
@@ -407,9 +411,9 @@
                     </div>
 
                     <div class="form-group row pt-5">
-                        <div class="col-sm-6">
-                            <label for="drive">Total QC or Inspection Experience</label>
+                        <label for="drive">Total QC or Inspection Experience</label>
                             <hr class="recruit-line">
+                        <div class="col-sm-6">
                             <label for="qc_inspection_experience">Do you have total QC or Inspection Experience?</label>
                             <div class="form-check">
                                 <input class="form-check-input qc-yes" type="radio" name="qc_inspection_experience"
@@ -449,9 +453,9 @@
                     </div>
 
                     <div class="form-group row pt-5">
+                        <label for="drive">Saudi ARAMCO & QA/QC - Aramco Approval</label>
+                        <hr class="recruit-line">
                         <div class="col-sm-6">
-                            <label for="drive">Saudi ARAMCO & QA/QC - Aramco Approval</label>
-                            <hr class="recruit-line">
                             <label for="aramco_qa_qc_approval">
                                 Do You have experience in Saudi ARAMCO & QA/QC - Aramco
                                 Approval - Other Client (OIL & GAS)?
@@ -493,9 +497,9 @@
                     </div>
 
                     <div class="form-group row pt-5">
-                        <div class="col-sm-6">
-                            <label for="drive">Transferable IQAMA</label>
+                        <label for="drive">Transferable IQAMA</label>
                             <hr class="recruit-line">
+                        <div class="col-sm-6">
                             <label for="transferrable_iqama">
                                 Do you have Transferable IQAMA? (For Expats who are currently working) & Put N/A if it's not
                                 applicable to you.
@@ -534,12 +538,12 @@
                             @enderror
                         </div>
                         <div class="col-sm-6 natid-field margin-optionalfield">
-                            <input type="text" class="form-control @error('id_no') border border-danger @enderror"
-                                id="id_no" placeholder="Passport number." name="id_no" required>
+                            <input type="text" class="form-control @error('id_passport') border border-danger @enderror"
+                                id="id_passport" placeholder="Passport number." name="id_passport" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Passport No. for Expat who are NOT working in Saudi
                             </label>
-                            @error('id_no')
+                            @error('id_passport')
                                 <div class="text-danger error">
                                     {{ $message }}
                                 </div>
