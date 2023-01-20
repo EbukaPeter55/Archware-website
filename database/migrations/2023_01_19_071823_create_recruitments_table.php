@@ -36,7 +36,8 @@ class CreateRecruitmentsTable extends Migration
             $table->string('english_skills');
             $table->string('current_salary');
             $table->string('expected_salary');
-            $table->string('id_no');
+            $table->string('id_no')->nullable();
+            $table->string('id_passport')->nullable();
             $table->enum('transferrable_iqama', ['yes', 'no', 'na']);
             $table->enum('driving_license', ['yes', 'no']);
             $table->date('dob');
