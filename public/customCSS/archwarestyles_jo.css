@@ -270,3 +270,22 @@ ll
     margin-left: auto;
     margin-right: 0;
 }
+
+
+.iqama-field, .natid-field{
+    display: none;
+}
+
+.margin-optionalfield{
+    margin-top: .3rem!important;
+}
+
+.second-label{
+    /* margin-top: -1.2rem!important; */
+}
+
+.recruit-line{
+    max-width: 98%;
+    margin-left: .8rem;
+    margin-top: .5rem;
+}
