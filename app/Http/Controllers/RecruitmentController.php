@@ -198,12 +198,11 @@ class RecruitmentController extends Controller
                 'contact_no'                => 'string|nullable',
                 'whatsapp_or_imo'           => 'string|nullable',
                 'skype_id'                  => 'string|nullable',
-                'email'                     => 'required|email',
-                'credential'                => 'nullable|max:5000|mimes:doc,pdf,docx',
+                'email'                     => 'required|email|unique:recruitments',
+                // 'credential'                => 'required|max:5000|mimes:doc,pdf,docx',
                 'resume'                    => 'required|max:5000|mimes:doc,pdf,docx',
             ]
         );
-
 
         if ($request->hasFile('certificate_training')) {
             $fileNameWithExt    = $request->file('certificate_training')->getClientOriginalName();
