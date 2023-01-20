@@ -199,8 +199,8 @@ class RecruitmentController extends Controller
                 'whatsapp_or_imo'           => 'string|nullable',
                 'skype_id'                  => 'string|nullable',
                 'email'                     => 'required|email',
-                'credential'                => 'nullable|max:5000|mimes:doc,pdf,docx',
-                'resume'                    => 'required|max:5000|mimes:doc,pdf,docx',
+                // 'credential'                => 'nullable|max:5000|mimes:doc,pdf,docx',
+                // 'resume'                    => 'required|max:5000|mimes:doc,pdf,docx',
             ]
         );
 
