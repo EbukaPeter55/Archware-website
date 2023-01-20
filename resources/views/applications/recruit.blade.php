@@ -76,7 +76,7 @@
 
                     <div class="form-group row pt-4">
                         <div class="col-sm-6">
-                            <select class="@error('major_in') border border-danger @enderror form-select form-select-md mb-1" 
+                            <select class="@error('major_in') border border-danger @enderror form-select form-select-md mb-1"
                             name="major_in" id="major_in">
                                 <option value="">Select your major <i class="text-danger">*</i></option>
                                 <option value="Civil Engineering">Civil Engineering</option>
@@ -157,12 +157,7 @@
                         <div class="col-sm-6">
                             <input type="number" min="1" max="10"
                                 class="form-control @error('english_skills') border border-danger @enderror"
-<<<<<<< HEAD
-                                id="english_skills" placeholder="English skills" name="english_skills"
-                                value="{{ old('english_skills') }}" required>
-=======
                                 id="english_skills" placeholder="English skills (1 - 10)" name="english_skills" required>
->>>>>>> 24892f602b693fa8d4aa5042414124a0b2e8f75e
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Your English Language Skills Written and Spoken (Rate Your self) - 1 to 10 (10 is Excellent)
                             </label>
@@ -191,13 +186,8 @@
                         <div class="col-sm-6">
                             <input type="number"
                                 class="form-control @error('current_salary') border border-danger @enderror"
-<<<<<<< HEAD
-                                id="current_salary" placeholder="Current/Last Salary" name="current_salary"
-                                value="{{ old('current_salary') }}" required>
-=======
                                 id="current_salary" placeholder="Current/Last Salary" name="current_salary" required
                                 min=0 oninput="validity.valid||(value='');">
->>>>>>> 24892f602b693fa8d4aa5042414124a0b2e8f75e
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Current/Last Salary (in SAR)
                             </label>
@@ -210,13 +200,8 @@
                         <div class="col-sm-6">
                             <input type="number"
                                 class="form-control @error('expected_salary') border border-danger @enderror"
-<<<<<<< HEAD
-                                id="expected_salary" placeholder="Expected Salary" name="expected_salary"
-                                value="{{ old('expected_salary') }}" required>
-=======
                                 id="expected_salary" placeholder="Expected Salary" name="expected_salary" required
                                 min=0 oninput="validity.valid||(value='');">
->>>>>>> 24892f602b693fa8d4aa5042414124a0b2e8f75e
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
                                 Expected Salary (in SAR)
                             </label>
@@ -254,13 +239,13 @@
                                 </div>
                             @enderror
                         </div>
-                
+
                     </div>
 
 
                     <div class="form-group row pt-4">
                         <div class="col-sm-6">
-                            <select class="@error('notice_period') border border-danger @enderror form-select form-select-md mb-1" 
+                            <select class="@error('notice_period') border border-danger @enderror form-select form-select-md mb-1"
                             name="notice_period" id="notice_period">
                                 <option value="">Select your notice period <i class="text-danger">*</i></option>
                                 <option value="1 week">1 week</option>
@@ -291,7 +276,7 @@
                                 </div>
                             @enderror
                         </div>
-                   
+
                     </div>
 
                     <div class="form-group row pt-4">
@@ -329,7 +314,7 @@
                             @enderror
                         </div>
                     </div>
-                    
+
 
                     <div class="form-group row pt-5">
                         <label for="drive">Driver's license</label>
@@ -356,18 +341,10 @@
                                 </div>
                             @enderror
                         </div>
-<<<<<<< HEAD
-                        <div class="col-sm-6 dri-license">
-                            <input type="date"
-                                class="form-control @error('license_number') border border-danger @enderror"
-                                id="license_number" placeholder="Enter expiring date (Day-Month-Year)"
-                                name="license_number" value="{{ old('license_number') }}" required>
-=======
                         <div class="col-sm-6 dri-license margin-optionalfield">
                             <input type="text" class="form-control @error('do') border border-danger @enderror"
                                 id="do" placeholder="Enter the type of driving license" name="do"
                                 required>
->>>>>>> 24892f602b693fa8d4aa5042414124a0b2e8f75e
                             <label for="driving_license">
                                 Enter the type of driving license
                             </label>
@@ -535,24 +512,6 @@
                         <label for="drive">Transferable IQAMA</label>
                             <hr class="recruit-line">
                         <div class="col-sm-6">
-<<<<<<< HEAD
-                            <input type="text" class="form-control @error('id_no') border border-danger @enderror"
-                                id="id_no" placeholder="ID No." name="id_no" value="{{ old('id_no') }}"
-                                required>
-                            <label style="color: #819941; font-size: .7em; font-weight: 900;">
-                                National ID No. (for Saudi) or IQAMA No. (for Expat) who is currently working in Saudi and
-                                Passport No. for Expat who are NOT working in Saudi
-                            </label>
-                            @error('id_no')
-                                <div class="text-danger error">
-                                    {{ $message }}
-                                </div>
-                            @enderror
-                        </div>
-                        <div class="col-sm-6">
-                            <label for="drive">Transferable IQAMA</label>
-=======
->>>>>>> 24892f602b693fa8d4aa5042414124a0b2e8f75e
                             <label for="transferrable_iqama">
                                 Do you have Transferable IQAMA? (For Expats who are currently working) & Put N/A if it's not
                                 applicable to you.
@@ -582,7 +541,7 @@
                             <input type="text" class="form-control @error('id_no') border border-danger @enderror"
                                 id="id_no" placeholder="IQAMA number or National ID number." name="id_no" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
-                                National ID No. (for Saudi) or IQAMA No. (for Expat) who is currently working in Saudi 
+                                National ID No. (for Saudi) or IQAMA No. (for Expat) who is currently working in Saudi
                             </label>
                             @error('id_no')
                                 <div class="text-danger error">

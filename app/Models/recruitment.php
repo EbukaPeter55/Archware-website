@@ -32,6 +32,7 @@ class recruitment extends Model
         'current_salary',
         'expected_salary',
         'id_no',
+        'id_passport',
         'transferrable_iqama',
         'driving_license',
         'dob',

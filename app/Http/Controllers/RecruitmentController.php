@@ -188,7 +188,8 @@ class RecruitmentController extends Controller
                 'english_skills'            => 'required|string',
                 'current_salary'            => 'required|string',
                 'expected_salary'           => 'required|string',
-                'id_no'                     => 'required|string',
+                'id_no'                     => 'string|nullable',
+                'id_passport'               => 'string|nullable',
                 'transferrable_iqama'       => 'required|in:yes,no,na',
                 'driving_license'           => 'required|in:yes,no',
                 'dob'                       => 'required|date_format:Y-m-d',
@@ -278,6 +279,7 @@ class RecruitmentController extends Controller
         $recruitment->current_salary            = $request->current_salary;
         $recruitment->expected_salary           = $request->expected_salary;
         $recruitment->id_no                     = $request->id_no;
+        $recruitment->id_passport               = $request->id_passport;
         $recruitment->transferrable_iqama       = $request->transferrable_iqama;
         $recruitment->driving_license           = $request->driving_license;
         $recruitment->dob                       = $request->dob;
