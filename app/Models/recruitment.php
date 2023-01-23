@@ -43,6 +43,7 @@ class recruitment extends Model
         'whatsapp_or_imo',
         'skype_id',
         'email',
+        'status',
     ];
 
     public function credentials() {

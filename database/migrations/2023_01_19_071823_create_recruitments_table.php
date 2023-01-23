@@ -40,6 +40,7 @@ class CreateRecruitmentsTable extends Migration
             $table->string('id_passport')->nullable();
             $table->enum('transferrable_iqama', ['yes', 'no', 'na']);
             $table->enum('driving_license', ['yes', 'no']);
+            $table->enum('status', ['short-listed', 'rejected', 'pending'])->default('pending')->nullable();
             $table->date('dob');
             $table->string('country');
             $table->string('city');
