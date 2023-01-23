@@ -199,7 +199,12 @@ ll
 
 }
 
+/* RECRUITMENT STYLES */
+
 @media (max-width: 414px) {
+    .same-line-input{
+        margin-top: 1.7rem;
+    }
 }
 
 .text-white-header {

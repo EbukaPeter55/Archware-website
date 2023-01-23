@@ -114,11 +114,19 @@ ul li a {
     
 }
 
-@media(max-width: 414px){
+@media(max-width: 820px){
     .dropdown-style{
         width: 100%!important;
     }
+    .drop-mobile{
+        margin-top: 2.6rem!important;
+    }
+    .e-about{
+        margin-top: 2.6rem!important;
+        margin-left: 1rem;
+    }
 }
+
 
 .web-dev-card{
    
