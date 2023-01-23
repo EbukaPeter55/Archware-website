@@ -75,8 +75,8 @@
 
                 {{-- Dropdown --}}
                 {{-- <div> --}}
-                <div id="menu" class="u-list drop-wrapper e-drop-desktop" style="margin-top: .4rem; margin-left: -5.5rem">
-                    <li class="parent-nav l-list top-level-width"><a href="#">Our Services</a>
+                <div id="menu" class="u-list drop-wrapper e-drop-desktop drop-mobile" style="margin-top: .4rem; margin-left: -5.5rem">
+                    <li class="parent-nav l-list top-level-width servic-mobile"><a href="#">Our Services</a>
                         <ul class="child-nav u-list">
                             <li class="parent-nav l-list"><a href="#">Software development <span class="expand">»</span></a>
                                 <ul class="child-nav u-list">
@@ -233,7 +233,7 @@
 
     const triggerNav = (event) => {
         // console.log(event);
-        if (window.scrollY >= 20) {
+        if (window.scrollY >= 5) {
             //    console.log('You have passed the nav bottom!')
             // console.log(event);
             getNav.classList.add('navbar-trigger');

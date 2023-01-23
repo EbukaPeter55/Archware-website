@@ -33,7 +33,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 same-line-input">
                             <input type="text" class="form-control @error('post_applied') border border-danger @enderror"
                                 id="post_applied" placeholder="Post Applied" name="post_applied" required>
                             @error('post_applied')
@@ -53,7 +53,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 same-line-input">
                             <select name="qualification" id="qualification"
                                 class="@error('qualification') border border-danger @enderror form-select form-select-md mb-1"
                                 required>
@@ -93,7 +93,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 same-line-input">
                             <input type="text" class="form-control @error('school_name') border border-danger @enderror"
                                 id="school_name" placeholder="Name of Your School" name="school_name" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
@@ -105,7 +105,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 same-line-input">
                             <input type="date"
                                 class="form-control @error('date_graduated') border border-danger @enderror"
                                 id="date_graduated" placeholder="Date Graduated" name="date_graduated" required>
@@ -134,7 +134,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 same-line-input">
                             <input type="number" min="1"
                                 class="form-control @error('field_experience_yrs') border border-danger @enderror"
                                 id="field_experience_yrs" placeholder="Years of Relevant Experience"
@@ -150,7 +150,7 @@
                         </div>
                     </div>
 
-                    <div class="form-group row pt-5">
+                    <div class="form-group row pt-4">
                         <div class="col-sm-6">
                             <input type="number" min="1" max="10"
                                 class="form-control @error('english_skills') border border-danger @enderror"
@@ -164,7 +164,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 same-line-input">
                             <input type="date" class="form-control @error('dob') border border-danger @enderror"
                                 id="dob" placeholder="Date Of Birth (Day-Month-Year)" name="dob" required>
                             <label for="driving_license">
@@ -178,7 +178,7 @@
                         </div>
                     </div>
 
-                    <div class="form-group row pt-5">
+                    <div class="form-group row pt-4">
                         <div class="col-sm-6">
                             <input type="number"
                                 class="form-control @error('current_salary') border border-danger @enderror"
@@ -193,7 +193,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 same-line-input">
                             <input type="number"
                                 class="form-control @error('expected_salary') border border-danger @enderror"
                                 id="expected_salary" placeholder="Expected Salary" name="expected_salary" required min=0
@@ -222,7 +222,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 same-line-input">
                             <input type="text" class="form-control @error('city') border border-danger @enderror"
                                 id="city" placeholder="City" name="city" required>
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
@@ -262,7 +262,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 same-line-input">
                             <input type="text"
                                 class="form-control @error('contact_no') border border-danger @enderror" id="contact_no"
                                 placeholder="Contact Number" name="contact_no">
@@ -286,7 +286,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 same-line-input">
                             <input type="text" class="form-control @error('skype_id') border border-danger @enderror"
                                 id="skype_id" placeholder="Skype ID" name="skype_id">
                             @error('skype_id')
@@ -311,7 +311,7 @@
                     </div>
 
 
-                    <div class="form-group row pt-5">
+                    <div class="form-group row pt-4">
                         <label for="drive">Driver's license</label>
                         <hr class="recruit-line">
                         <div class="col-sm-6">
@@ -418,11 +418,11 @@
                         </div>
                     </div>
 
-                    <div class="form-group row pt-5">
-                        <label for="drive">Total QC or Inspection Experience</label>
+                    <div class="form-group row pt-4">
+                        <label for="drive">QC or Inspection Experience</label>
                         <hr class="recruit-line">
                         <div class="col-sm-6">
-                            <label for="qc_inspection_experience">Do you have total QC or Inspection Experience?</label>
+                            <label for="qc_inspection_experience">Do you have QC or Inspection Experience?</label>
                             <div class="form-check">
                                 <input class="form-check-input qc-yes" type="radio" name="qc_inspection_experience"
                                     id="yes" value="yes" required onclick="showQC()">
@@ -445,11 +445,12 @@
                             @enderror
                         </div>
                         <div class="col-sm-6 qc-field margin-optionalfield">
-                            <input type="text"
+                            <input type="number"
                                 class="form-control qcNumber @error('aramcosap_no_or_id') border border-danger @enderror"
-                                id="aramcosap_no_or_id" placeholder="Total QC number" name="aramcosap_no_or_id">
+                                id="aramcosap_no_or_id" placeholder="Total QC number" name="aramcosap_no_or_id"
+                                min=0 oninput="validity.valid||(value='');">
                             <label style="color: #819941; font-size: .7em; font-weight: 900;">
-                                If you have a total QC or Inspection Experience, kindly mention your Total QC number.
+                                If you have a QC or Inspection Experience, kindly mention your QC number.
                             </label>
                             @error('aramcosap_no_or_id')
                                 <div class="text-danger error">
@@ -460,7 +461,7 @@
 
                     </div>
 
-                    <div class="form-group row pt-5">
+                    <div class="form-group row pt-4">
                         <label for="drive">Saudi ARAMCO & QA/QC - Aramco Approval</label>
                         <hr class="recruit-line">
                         <div class="col-sm-6">
@@ -504,7 +505,7 @@
                         </div>
                     </div>
 
-                    <div class="form-group row pt-5">
+                    <div class="form-group row pt-4">
                         <label for="drive">Transferable IQAMA</label>
                         <hr class="recruit-line">
                         <div class="col-sm-6">
@@ -561,7 +562,7 @@
                         </div>
                     </div>
 
-                    <div class="form-group row pt-5">
+                    <div class="form-group row pt-4">
                         <div class="col-sm-6">
                             <input type="file"
                                 class="form-control @error('certificate_training') border border-danger @enderror"
@@ -578,7 +579,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 same-line-input">
                             <input type="file" class="form-control @error('resume') border border-danger @enderror"
                                 id="resume" name="resume" required>
                             <label for="inputContactNumber">Resume/CV</label>
@@ -606,7 +607,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 same-line-input">
                             <input type="file"
                                 class="form-control @error('credential[1]') border border-danger @enderror"
                                 id="credential[1]" name="credential[1]">
@@ -616,7 +617,7 @@
                                 </div>
                             @enderror
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-sm-4 same-line-input">
                             <input type="file"
                                 class="form-control @error('credential[2]') border border-danger @enderror"
                                 id="credential[2]" name="credential[2]">
@@ -628,7 +629,7 @@
                         </div>
                     </div>
 
-                    <div class="container mt-5 ">
+                    <div class="container mt-5">
                         <a class="py-3" style="text-align:center;">
                             <button type="submit" class=""
                                 style="
