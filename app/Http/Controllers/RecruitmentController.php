@@ -9,6 +9,7 @@ use App\Notifications\Recruitment;
 use App\Notifications\RecruitmentNotification;
 use Exception;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Notification;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Validator;
@@ -79,8 +80,6 @@ class RecruitmentController extends Controller
                 $extension          = $request->file('resume_directory')->getClientOriginalExtension();
                 $resume_directory     = 'resume_' . $filename . '_' . time() . '.' . $extension;
                 Storage::put('public/resume/' . $resume_directory, $request->resume_directory);
-            } else {
-                $resume_directory = "noresume.pdf";
             }
 
             Application::create([
@@ -118,53 +117,6 @@ class RecruitmentController extends Controller
 
     public function storeRecruit(Request $request)
     {
-
-        /*
-        $validateUser = Validator::make(
-            $request->all(),
-            [
-                'name'                      => 'required|string',
-                'post_applied'              => 'required|string',
-                'nationality'               => 'required|string',
-                'qualification'             => 'required|string',
-                'major_in'                  => 'required|string',
-                'school_name'               => 'required|string',
-                'date_graduated'            => 'required|date_format:Y-m-d',
-                'saudi_council_question'    => 'required|in:yes,no,na',
-                'sce_number'                => 'string|nullable',
-                'sce_validity_date'         => 'date_format:Y-m-d|nullable',
-                'certificate_training'      => 'required|max:5000|mimes:doc,pdf,docx',
-                'work_experience_yrs'       => 'required|numeric',
-                'field_experience_yrs'      => 'required|numeric',
-                'qc_inspection_experience'  => 'required|in:yes,no,na',
-                'aramco_qa_qc_approval'     => 'required|in:yes,no,na',
-                'aramcosap_no_or_id'        => 'string|nullable',
-                'english_skills'            => 'required|string',
-                'current_salary'            => 'required|string',
-                'expected_salary'           => 'required|string',
-                'id_no'                     => 'required|string',
-                'transferrable_iqama'       => 'required|in:yes,no,na',
-                'driving_license'           => 'required|in:yes,no',
-                'dob'                       => 'required|date_format:Y-m-d',
-                'country'                   => 'required|string',
-                'city'                      => 'required|string',
-                'notice_period'             => 'required|string',
-                'contact_no'                => 'string|nullable',
-                'whatsapp_or_imo'           => 'string|nullable',
-                'skype_id'                  => 'string|nullable',
-                'email'                     => 'required|email',
-            ]
-        );
-
-        if ($validateUser->fails()) {
-            return response()->json([
-                'status' => false,
-                'message' => 'validation error',
-                'errors' => $validateUser->errors()
-            ], 400);
-        }
-        */
-
         $this->validate(
             $request,
             [
@@ -210,7 +162,7 @@ class RecruitmentController extends Controller
             $filename           = pathinfo($fileNameWithExt, PATHINFO_FILENAME);
             $extension          = $request->file('certificate_training')->getClientOriginalExtension();
             $certificate_training    = 'certificate_' . $filename . '_' . time() . '.' . $extension;
-            Storage::put('public/certificate_training/' . $certificate_training, $certificate_training);
+            Storage::put('public/certificate_training/' . $certificate_training, File::get($request->file('certificate_training')));
         }
 
         if ($request->hasFile('resume')) {
@@ -218,43 +170,10 @@ class RecruitmentController extends Controller
             $filename           = pathinfo($fileNameWithExt, PATHINFO_FILENAME);
             $extension          = $request->file('resume')->getClientOriginalExtension();
             $resume             = 'resume_' . $filename . '_' . time() . '.' . $extension;
-            Storage::put('public/resume/' . $resume, $resume);
+            Storage::put('public/resume/' . $resume, File::get($request->file('resume')));
         }
 
-        /*
-        ModelsRecruitment::create([
-            'name' => $request->name,
-            'post_applied' => $request->post_applied,
-            'nationality' => $request->nationality,
-            'qualification' => $request->nationality,
-            'major_in' => $request->major_in,
-            'school_name' => $request->school_name,
-            'date_graduated' => $request->date_graduated,
-            'saudi_council_question' => $request->saudi_council_question,
-            'sce_number' => $request->sce_number ? $request->sce_number : null,
-            'sce_validity_date' => $request->sce_validity_date ? $request->sce_validity_date : null,
-            'certificate_training'  => $certificate_training,
-            'work_experience_yrs' => $request->work_experience_yrs,
-            'field_experience_yrs' => $request->field_experience_yrs,
-            'qc_inspection_experience' => $request->qc_inspection_experience,
-            'aramco_qa_qc_approval' => $request->aramco_qa_qc_approval,
-            'aramcosap_no_or_id' => $request->aramcosap_no_or_id ? $request->aramcosap_no_or_id : null,
-            'english_skills' => $request->english_skills,
-            'current_salary' => $request->current_salary,
-            'expected_salary' => $request->expected_salary,
-            'id_no' => $request->id_no,
-            'transferrable_iqama' => $request->transferrable_iqama,
-            'driving_license' => $request->driving_license,
-            'dob' => $request->dob,
-            'country' => $request->country,
-            'city' => $request->city,
-            'notice_period' => $request->notice_period,
-            'contact_no' => $request->contact_no ? $request->contact_no : null,
-            'whatsapp_or_imo' => $request->whatsapp_or_imo ? $request->whatsapp_or_imo : null,
-            'skype_id' => $request->skype_id ? $request->skype_id : null,
-            'email' => $request->email,
-        ]);
-        */
+        $url = config('app.url');
 
         $recruitment                            = new ModelsRecruitment();
         $recruitment->name                      = $request->name;
@@ -267,8 +186,8 @@ class RecruitmentController extends Controller
         $recruitment->saudi_council_question    = $request->saudi_council_question;
         $recruitment->sce_number                = $request->sce_number ? $request->sce_number : null;
         $recruitment->sce_validity_date         = $request->sce_validity_date ? $request->sce_validity_date : null;
-        $recruitment->certificate_training      = $certificate_training;
-        $recruitment->resume                    = $resume;
+        $recruitment->certificate_training      = $url.'/storage/certificate_training/'.$certificate_training;
+        $recruitment->resume                    = $url.'/storage/resume/'.$resume;
         $recruitment->work_experience_yrs       = $request->work_experience_yrs;
         $recruitment->field_experience_yrs      = $request->field_experience_yrs;
         $recruitment->qc_inspection_experience  = $request->qc_inspection_experience;
@@ -300,29 +219,20 @@ class RecruitmentController extends Controller
                     $filename               = pathinfo($fileNameWithExt, PATHINFO_FILENAME);
                     $extension              = $value->getClientOriginalExtension();
                     $credentialdirectory    = 'filecredential_' . $key . $filename . '_' . time() . '.' . $extension;
-                    Storage::put('public/credential/' . $credentialdirectory, $credentialdirectory);
+                    Storage::put('public/credential/' . $credentialdirectory, File::get($value));
 
                     $recruitment->credentials()->create([
                         'recruitment_id' => $recruitment->id,
-                        'credential' => $credentialdirectory,
+                        'credential' => $url.'/storage/credential/'.$credentialdirectory,
                     ]);
                 }
             }
 
         } catch (Exception $e) {
             $recruitment->delete();
-            // return response()->json([
-            //     'status' => FALSE,
-            //     'message' => 'An error occured: Failed to submit',
-            //     'errors' => $e->getMessage()
-            // ], 500);
             return back()->with('error', 'An error occured: Failed to submit');
         }
 
-        // return response()->json([
-        //     'status' => TRUE,
-        //     'message' => 'Submitted! We\'ll get back to you soon.',
-        // ], 200);
         return back()->with('success', 'Submitted! We\'ll get back to you soon.');
     }
 }
