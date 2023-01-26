@@ -144,6 +144,7 @@ class RecruitmentController extends Controller
                 'id_passport'               => 'string|nullable',
                 'transferrable_iqama'       => 'required|in:yes,no,na',
                 'driving_license'           => 'required|in:yes,no',
+                'driving_license_type'      => 'string|nullable',
                 'dob'                       => 'required|date_format:Y-m-d',
                 'country'                   => 'required|string',
                 'city'                      => 'required|string',
@@ -201,6 +202,7 @@ class RecruitmentController extends Controller
         $recruitment->id_passport               = $request->id_passport;
         $recruitment->transferrable_iqama       = $request->transferrable_iqama;
         $recruitment->driving_license           = $request->driving_license;
+        $recruitment->driving_license_type      = $request->driving_license_type;
         $recruitment->dob                       = $request->dob;
         $recruitment->country                   = $request->country;
         $recruitment->city                      = $request->city;
