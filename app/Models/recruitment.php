@@ -35,6 +35,7 @@ class recruitment extends Model
         'id_passport',
         'transferrable_iqama',
         'driving_license',
+        'driving_license_type',
         'dob',
         'country',
         'city',
