@@ -338,8 +338,8 @@
                         </div>
                         <div class="col-sm-6 dri-license margin-optionalfield">
                             <select
-                            class="driv-type @error('do')  border border-danger @enderror form-select form-select-md mb-1"
-                            name="do" id="do" required>
+                            class="driv-type @error('driving_license_type')  border border-danger @enderror form-select form-select-md mb-1"
+                            name="driving_license_type" id="driving_license_type" required>
                             <option value="">Select the type of driving license <i class="text-danger">*</i></option>
                                 <option value="GCC">GCC</option>
                                 <option value="Saudi">Saudi</option>
@@ -349,7 +349,7 @@
                             <label for="driving_license">
                                 Enter the type of driving license
                             </label>
-                            @error('do')
+                            @error('driving_license_type')
                                 <div class="text-danger error">
                                     {{ $message }}
                                 </div>
